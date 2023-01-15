@@ -1,0 +1,64 @@
+site_name: Synthesizer V Studio Unofficial User Manual
+site_url: https://manual.synthv.info/
+nav:
+  - Home: index.md
+  - Quickstart Guide:
+    - Workspace:
+      - Layout: quickstart/workspace.md
+      - Arrangement: quickstart/arrangement.md
+      - Piano Roll: quickstart/piano-roll.md
+      - Side Panels: quickstart/side-panels.md
+    - Singer Selection: quickstart/singer-selection.md
+    - Setting Up the Score: quickstart/setting-up-the-score.md
+    - Creating Notes: quickstart/creating-notes.md
+    - Editing Notes: quickstart/editing-notes.md
+    - Entering Lyrics: quickstart/entering-lyrics.md
+    - Playback: quickstart/playback.md
+    - Managing Tracks: quickstart/managing-tracks.md
+    - Saving the Audio: quickstart/saving-the-audio.md
+  - Intermediate and Advanced Usage:
+    - AI Functions:
+      - Auto Pitch Tuning: advanced/auto-pitch-tuning.md
+      - Instant Mode: advanced/instant-mode.md
+      - AI Retakes: advanced/ai-retakes.md
+    - Editing Phonemes: advanced/editing-phonemes.md
+    - User Dictionaries: advanced/user-dictionaries.md
+    - Note Properties:
+      - Pitch Transition and Vibrato: advanced/pitch-transition-and-vibrato.md
+      - Phoneme Timing: advanced/phoneme-timing.md
+      - Expression Groups: advanced/expression-groups.md
+    - Groups: advanced/groups.md
+    - Editing Parameters:
+      - Parameters Panel: advanced/parameters-panel.md
+      - Parameter Types: advanced/parameter-types.md
+      - Editing Parameters: advanced/editing-parameters.md
+    - Adding Instrumentals: advanced/adding-instrumentals.md
+    - Scripts: advanced/scripts.md
+    - License and Updates:
+      - License Management: advanced/license-management.md
+      - Software Updates: advanced/software-updates.md
+  - Contacting Support: support.md
+  - Contributions: contributions.md
+  - About: about.md
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.expand
+    - navigation.path
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+# extra:
+#   generator: false
+extra_css:
+  - stylesheets/theme.css
