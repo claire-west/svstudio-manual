@@ -4,7 +4,7 @@
 
 !!! info "Notice"
 
-    This website is a work in progress and may contain incomplete information.
+    This website is a work in progress and may contain incomplete information. The quickstart section is mostly complete, however many advanced features are not yet included.
 
 This website serves as an unofficial user manual for Synthesizer V Studio, since the [official manual](https://synthesizerv.com/manual/) by Dreamtonics refers to the legacy version of the software from 2018.
 
