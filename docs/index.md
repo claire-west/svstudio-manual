@@ -2,7 +2,7 @@
 
 <!-- ![Synthesizer V Logo](img/synthesizer-v.png) -->
 
-!!! info
+!!! info "Notice"
 
     This website is a work in progress and may contain incomplete information.
 
