@@ -1,4 +1,4 @@
-# Creating Notes
+# Adding Notes
 
 Note creation varies based on the selected tool. Generally, the pointer tool will be preferable for editing while the pencil tool is more suited to adding new notes. Ensure you are in Note Edit Mode before trying to add notes.
 

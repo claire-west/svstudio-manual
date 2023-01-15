@@ -11,7 +11,7 @@ nav:
       - Side Panels: workspace/side-panels.md
     - Singer Selection: quickstart/singer-selection.md
     - Setting Up the Score: quickstart/setting-up-the-score.md
-    - Creating Notes: quickstart/creating-notes.md
+    - Adding Notes: quickstart/creating-notes.md
     - Editing Notes: quickstart/editing-notes.md
     - Entering Lyrics: quickstart/entering-lyrics.md
     - Playback: quickstart/playback.md
@@ -38,7 +38,7 @@ nav:
   #     - License Management: advanced/license-management.md
   #     - Software Updates: advanced/software-updates.md
   - Other Topics:
-    - Getting Help: support.md
+    - Help & Support: support.md
     - About: about.md
 theme:
   name: material
