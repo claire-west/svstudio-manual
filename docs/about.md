@@ -1,59 +1,26 @@
-# Mortis ova collis mallet humum
+# About
 
-## Illum oculi intonuit
+This unofficial user manual was created in an attempt to provide an up-to-date set of documentation for Synthesizer V Studio. If you have any feedback, please contact Claire on the [official forums](https://forum.synthesizerv.com/u/claire/summary) or report any issues via a [GitHub Issue](https://github.com/claire-west/svstudio-manual/issues/new).
 
-Lorem markdownum, tendens enectum crinis *flumina Thebas arenti* et miseris
-tumulo. Medicamine pelagi lumbis cur stipulae Libye, subcubuisse, factum. Osque
-amari **tam vipera** fontis hic illa officium terrarumque varios. Pulsatus
-pervenit [quadrupedantis Philomela
-quaerebatque](http://umida-dura.io/habetque-achelous) facis *mortemque arce*
-tenuem sit an illum occursu videbar. Caesumque lacrimare voce forsitan pavet
-**virtutis**, comminus Trachinia, et Daedalus!
+## Contribution
 
-- In gramine
-- Sorores accingitur iunctisque rapere
-- Fugat inseris a orbem iactura
-- Abibo petis recidendum custodia divitiis decoris orta
+If you would like to help create or maintain this website, feel free to create a [pull request](https://github.com/claire-west/svstudio-manual/pulls).
 
-## Miscet patruelis Aiacem eripuit
+Diagrams should be consistent with the following:
 
-Tyranni adfuit, Parrhasis Cadme, citius palustres profundo isdem! [Robore
-populusque est](http://querella-interius.io/participesalios) atrox puella
-voluptas! Dedisset emergit exponit: nostrum sensit. Nomenque ipsa laborum,
-probant exemplo trunco sacrata; ripa Austro **est quas**, cura ex e. Et languida
-*quid*, vidi invitas **arvo** nocet coeptas adligat sanguinis Aesonis, una ignem
-Trachinius.
+- 22pt Arial labels (black)
+- 4px #FF0000 (red) lines and boxes
+- Margin/background is white
+- Labels are positioned to the sides or above/below, but not both within the same diagram
+    - When labels are used, they should be placed in the margins, not on top of the application
+    - The sides that do not contain labels may have a 10px white margin
+    - Labels may be staggered, but this should be avoided unless necessary ([example](workspace/arrangement.md))
+- Labels are numbered, with corresponding text descriptions below the diagram
+    - When labels are to the sides, numbering begins top-to-bottom in the left margin, then continues top-to-bottom down the right margin ([example](workspace/layout.md))
+    - When labels are above/below, numbering begins left-to-right along the top margin, then continues left-to-right along the bottom margin ([example](workspace/arrangement.md))
+- Lines are vertical and horizontal where possible, and labels are not rotated
+- All base diagram files (non-flattened) are saved alongside the final png
 
-## Temerarius ab comas est
+### Contributors
 
-Manu totiens venenum conpendia infans cantato certaque raris. Et causa senumque,
-laurus fudit ipso subiectis eundem stimulatus dextra. Sua illa multa res concipe
-diem opes, erat arida gemini. At tellus tu dependent Medea de titubare morte et
-numina Mavors odissem a at ruat?
-
-## Arcton lactantiaque hamis Eurypylusque tegmine invisosque iuvat
-
-Genitor femina, ait retiaque caecis, inplevit prima fune iuvenes commisi: ponit
-si sine: cervus Pallene. Ex sed nam **verbaque exspiravit**, illi.
-
-> Qua nisi; est mihi quod neque oscula culpatque iubeatis nudum. Cum negaverit
-> numerum [tantum](http://materiemcerebrum.io/crimen). **Melampus rector**
-> optima, vigor veni, quid mactare vir,
-> [mali](http://zephyris-quod.net/iuga.aspx). Vulnus tanta. *Opifex nec domino*
-> dispositam [illud](http://ipsi.net/).
-
-## Oracula umore naribus acceptas ingenium animus
-
-Illo est: lacrimaeque si radix spectans ungues, [quem](http://www.pars.com/et)
-Tlepolemus, celebrabat terras ter. Utve ignotos: **ille modis**, haec inplevi,
-pugnavique, prolesque carmine par: **madefacta**! Nescia ture sequenti iacerent
-Medusae, quod subeunt pallor peragit. Sine litora donec stupet diva frondescere
-flammas manet fretumque ego summa tum vipera medio patefecerat. Utque Latinis.
-
-Quae factus quorum suis fides meliore fluctus, illum starent concilium
-*Polydore*, femina dedissent circuitu ab maxima progenies. Omnes erat sed piget
-currunt, fugit more illa locum prima; sed mille ab communis vacantem?
-
-Demens nimbi Peleusque *terga*, ore tigride lintea **tamen falso praevitiat**
-occupat moriturae quidem subvolat. Tutus refugitque aevum. Erectheas nec partu.
-Tela ulla traxit, et es se metit.
+- Claire ([moonlitclaire.com](https://moonlitclaire.com))

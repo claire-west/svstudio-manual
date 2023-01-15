@@ -1,13 +1,14 @@
 site_name: Synthesizer V Studio Unofficial User Manual
 site_url: https://manual.synthv.info/
+site_description: The unofficial user manual for SynthV Studio
 nav:
   - Home: index.md
   - Quickstart Guide:
     - Workspace:
-      - Layout: quickstart/workspace.md
-      - Arrangement: quickstart/arrangement.md
-      - Piano Roll: quickstart/piano-roll.md
-      - Side Panels: quickstart/side-panels.md
+      - Layout: workspace/layout.md
+      - Arrangement: workspace/arrangement.md
+      - Piano Roll: workspace/piano-roll.md
+      - Side Panels: workspace/side-panels.md
     - Singer Selection: quickstart/singer-selection.md
     - Setting Up the Score: quickstart/setting-up-the-score.md
     - Creating Notes: quickstart/creating-notes.md
@@ -18,28 +19,27 @@ nav:
     - Saving the Audio: quickstart/saving-the-audio.md
   - Intermediate and Advanced Usage:
     - AI Functions:
-      - Auto Pitch Tuning: advanced/auto-pitch-tuning.md
-      - Instant Mode: advanced/instant-mode.md
-      - AI Retakes: advanced/ai-retakes.md
-    - Editing Phonemes: advanced/editing-phonemes.md
-    - User Dictionaries: advanced/user-dictionaries.md
+      - Auto Pitch Tuning: ai-functions/auto-pitch-tuning.md
+      - Instant Mode: ai-functions/instant-mode.md
+      - AI Retakes: ai-functions/ai-retakes.md
     - Note Properties:
-      - Pitch Transition and Vibrato: advanced/pitch-transition-and-vibrato.md
-      - Phoneme Timing: advanced/phoneme-timing.md
-      - Expression Groups: advanced/expression-groups.md
+      - Pitch Transition and Vibrato: note-properties/pitch-transition-and-vibrato.md
+      - Editing Phonemes: note-properties/editing-phonemes.md
+      - Phoneme Timing: note-properties/phoneme-timing.md
+      - Expression Groups: note-properties/expression-groups.md
+    - User Dictionaries: advanced/user-dictionaries.md
     - Groups: advanced/groups.md
     - Editing Parameters:
-      - Parameters Panel: advanced/parameters-panel.md
-      - Parameter Types: advanced/parameter-types.md
-      - Editing Parameters: advanced/editing-parameters.md
-    - Adding Instrumentals: advanced/adding-instrumentals.md
+      - Parameters Panel: parameters/parameters-panel.md
+      - Parameter Types: parameters/parameter-types.md
+      - Editing Parameters: parameters/editing-parameters.md
     - Scripts: advanced/scripts.md
     - License and Updates:
       - License Management: advanced/license-management.md
       - Software Updates: advanced/software-updates.md
-  - Contacting Support: support.md
-  - Contributions: contributions.md
-  - About: about.md
+  - Other Topics:
+    - Getting Help: support.md
+    - About: about.md
 theme:
   name: material
   features:
@@ -58,7 +58,18 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-# extra:
-#   generator: false
 extra_css:
   - stylesheets/theme.css
+plugins:
+  - search:
+      lang: en
+  - social:
+      cards_color:
+        fill: "#2A2A2A"
+        text: "#7DB235"
+  - glightbox
+  - git-revision-date
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
