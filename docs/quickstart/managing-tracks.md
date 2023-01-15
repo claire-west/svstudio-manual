@@ -22,3 +22,7 @@ There are multiple ways to add a new track:
 Right click on a track to duplicate or delete it.
 
 ![Create a Track](/img/quickstart/duplicate-track.png)
+
+Notes from other tracks will be shown on the current track as colored lines. This can be disabled with the "Show Melody from Other Tracks" option in the "View" menu at the top of the application window.
+
+![Create a Track](/img/quickstart/show-other-tracks.png)

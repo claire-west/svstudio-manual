@@ -25,3 +25,25 @@ Diagrams should be consistent with the following:
 ### Contributors
 
 - Claire ([moonlitclaire.com](https://moonlitclaire.com))
+
+## To-do List
+
+- AI Functions
+    - Auto Pitch Tuning
+    - Instant Mode
+    - AI Retakes
+- Note Properties
+    - Pitch Transition and Vibrato
+    - Editing Phonemes
+    - Phoneme Timing
+    - Expression Groups
+- User Dictionaries
+- Groups
+- Editing Parameters
+    - Parameters Panel
+    - Parameter Types
+    - Editing Parameters
+- Scripts
+- License and Updates:
+    - License Management
+    - Software Updates
