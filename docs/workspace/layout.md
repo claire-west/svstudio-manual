@@ -17,13 +17,13 @@ A panel for viewing and modifying [parameter curves](../../parameters/parameters
 Buttons for opening the various [side panels](side-panels.md).
 
 ### Workspace Navigation
-Aside from using the scrollbars on the bottom and left borders, you can conveniently navigate in all directions using mouse wheel + key combinations.
+Aside from using the scrollbars on the bottom and left borders, you can conveniently navigate in all directions using ++"modifier key"+mouse-wheel++ combinations.
 
 |Shortcut|Description|
 |---|---|
-|Mousewheel|Vertical scroll|
-|SHIFT + Mousewheel|Horizontal scroll|
-|CTRL + Mousewheel|Horizontal zoom (mouse-centered)|
+|++mouse-wheel++|Vertical scroll|
+|++shift+mouse-wheel++|Horizontal scroll|
+|++ctrl+mouse-wheel++|Horizontal zoom (mouse-centered)|
 
 At the time of writing there is no support for vertical zoom.
 

@@ -5,12 +5,12 @@ Note creation varies based on the selected tool. Generally, the pointer tool wil
 ![Piano Roll Tools](/img/quickstart/piano-roll-tools.png)
 
 ### Pointer Tool
-With the pointer tool (ALT + 1) selected, double click (without releasing the left button after the second click) and drag in the piano roll to create a note of the desired length.
+With the pointer tool (++alt+1++) selected, double click (without releasing the left button after the second click) and drag in the piano roll to create a note of the desired length.
 
 ![Adding Notes With the Pointer Tool](/img/quickstart/add-note-pointer.png)
 
 ### Pencil Tool
 
-With the pencil tool (ALT + 2) selected, drag anywhere in the note area to create a note of the desired length.
+With the pencil tool (++alt+2++) selected, drag anywhere in the note area to create a note of the desired length.
 
 ![Adding Notes With the Pencil Tool](/img/quickstart/add-note-pencil.png)

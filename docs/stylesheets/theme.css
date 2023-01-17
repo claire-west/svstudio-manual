@@ -2,3 +2,13 @@
   --md-primary-fg-color: #7db235;
   --md-accent-fg-color: #85BC38;
 }
+
+.keys {
+  padding-left: 0.12em;
+  padding-right: 0.12em;
+}
+
+.keys .key-mouse-wheel:before {
+  content: "🖱";
+  padding-right: 0.4em
+}
