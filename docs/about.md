@@ -13,7 +13,7 @@ Diagrams should be consistent with the following:
 - 4px #FF0000 (red) lines and boxes
 - White margin/background
 - Labels are positioned to the sides or above/below, but not both within the same diagram
-    - When labels are used, they should be placed in the margins, not on top of the application
+    - When labels are used, they should be placed in the margins, not overlaid on the application
     - The sides that do not contain labels may have a 10px white margin, but images with no labels at all should not have a margin
     - Labels may be staggered, but this should be avoided unless necessary ([example](workspace/arrangement.md))
 - Labels are numbered where appropriate, with corresponding text descriptions below the diagram
@@ -25,6 +25,7 @@ Diagrams should be consistent with the following:
 ### Contributors
 
 - Claire ([moonlitclaire.com](https://moonlitclaire.com))
+- Susko ([GitHub](https://github.com/Susko3))
 
 ## To-do List
 

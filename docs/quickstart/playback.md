@@ -16,7 +16,7 @@ The current playback position. The playhead can be moved by left clicking on the
 Enables or disables looping playback, and shows or hides the loop markers appropriately.
 
 ### 4. Transport Controls
-Controls for play, stop, record, skip to start, and skip to end.
+Controls for play, stop, skip to start, and skip to end.
 
 Playback can be triggered with spacebar. If playback is already in progress, spacebar will instead stop or pause the playback.
 

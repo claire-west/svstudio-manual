@@ -14,7 +14,7 @@ The main panel for note creation, editing, and pitch/timing visualization. Also 
 A panel for viewing and modifying [parameter curves](../../parameters/parameters-panel) to influence vocal behavior over time.
 
 ### 4. Side Menu
-Buttons for opening the various [side panels](../side-panels.md).
+Buttons for opening the various [side panels](side-panels.md).
 
 ### Workspace Navigation
 Aside from using the scrollbars on the bottom and left borders, you can conveniently navigate in all directions using mouse wheel + key combinations.
