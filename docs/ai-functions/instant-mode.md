@@ -1,0 +1,42 @@
+# Instant Mode
+
+While Instant Mode is active, auto pitch tuning will be executed on the notes as you work. This uses AI-generated pitch deviations to create realistic transitions, sustains, and vibrato.
+
+## Using Instant Mode
+
+Instant Mode affects the entire project, and behaves very similarly to auto pitch tuning, with some main exceptions:
+
+- Expressiveness is determined by the slider in the AI Retakes panel. This can be adjusted for all notes, or only selected notes.
+- Pitch deviations do not appear in the parameters panel. This keeps the automatic pitch deviations separate from your manual ones.
+
+Instant Mode can be enabled with the button in the upper right corner of the Piano Roll.
+
+!!! info
+
+    The pitch deviations introduced by Instant Mode are context-specific.
+
+    A note's "context" is based on its pitch, duration, phonemes, as well as those same properties of the notes before and after it. If any of these things change the pitch deviations for the note will be recalculated.
+
+![Instant Mode options](/img/ai-functions/instant-mode.png)
+
+Enabling Instant Mode also allows the use of pitch [AI Retakes](ai-retakes.md).
+
+!!! note
+
+    Enabling Instant Mode will reduce the vibrato depth slider of all notes to zero, such that the expression-based vibrato will not interfere with the AI-generated pitch deviations.
+
+    ![Vibrato Depth Set to Zero](/img/ai-functions/instant-mode-vibrato-depth.png)
+
+## Disabling Instant Mode
+
+Clicking the Instant Mode button while enabled will disable Instant Mode for the entire project.
+
+When this occurs, all generated pitch deviations (including the currently-selected AI Retakes) will be persisted to the parameters panel. These pitch deviations will be combined with any manually-created curves already present in the parameters panel to produce a resultant pitch line that is consistent with the behavior prior to disabling Instant Mode.
+
+After disabling Instant Mode you will no longer be able to choose different AI Retakes and the pitch deviations will no longer be recalculated if a note's context changes.
+
+![Instant Mode options](/img/ai-functions/instant-mode-disabled.png)
+
+## Video Demonstration
+<iframe hidden /><!-- weird iframe fix -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Yb8m_HmBEt4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

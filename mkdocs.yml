@@ -17,11 +17,11 @@ nav:
     - Playback: quickstart/playback.md
     - Managing Tracks: quickstart/managing-tracks.md
     - Saving the Audio: quickstart/saving-the-audio.md
-  # - Intermediate and Advanced Usage:
-  #   - AI Functions:
+  - Intermediate and Advanced Usage:
+    - AI Functions:
   #     - Auto Pitch Tuning: ai-functions/auto-pitch-tuning.md
-  #     - Instant Mode: ai-functions/instant-mode.md
-  #     - AI Retakes: ai-functions/ai-retakes.md
+      - Instant Mode: ai-functions/instant-mode.md
+      - AI Retakes: ai-functions/ai-retakes.md
   #   - Note Properties:
   #     - Pitch Transition and Vibrato: note-properties/pitch-transition-and-vibrato.md
   #     - Editing Phonemes: note-properties/editing-phonemes.md
