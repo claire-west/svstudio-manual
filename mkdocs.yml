@@ -1,6 +1,7 @@
 site_name: Synthesizer V Studio Unofficial User Manual
 site_url: https://manual.synthv.info/
 site_description: The unofficial user manual for SynthV Studio
+repo_url: https://github.com/claire-west/svstudio-manual
 nav:
   - Home: index.md
   - Quickstart Guide:
@@ -18,16 +19,16 @@ nav:
     - Managing Tracks: quickstart/managing-tracks.md
     - Saving the Audio: quickstart/saving-the-audio.md
   - Intermediate and Advanced Usage:
-    - AI Functions:
-  #     - Auto Pitch Tuning: ai-functions/auto-pitch-tuning.md
-      - Instant Mode: ai-functions/instant-mode.md
-      - AI Retakes: ai-functions/ai-retakes.md
   #   - Note Properties:
   #     - Pitch Transition and Vibrato: note-properties/pitch-transition-and-vibrato.md
   #     - Editing Phonemes: note-properties/editing-phonemes.md
   #     - Phoneme Timing: note-properties/phoneme-timing.md
   #     - Expression Groups: note-properties/expression-groups.md
   #   - User Dictionaries: advanced/user-dictionaries.md
+    - AI Functions:
+  #     - Auto Pitch Tuning: ai-functions/auto-pitch-tuning.md
+      - Instant Mode: ai-functions/instant-mode.md
+      - AI Retakes: ai-functions/ai-retakes.md
   #   - Groups: advanced/groups.md
   #   - Editing Parameters:
   #     - Parameters Panel: parameters/parameters-panel.md
@@ -69,7 +70,9 @@ plugins:
         fill: "#2A2A2A"
         text: "#7DB235"
   - glightbox
-  - git-revision-date
+  - git-revision-date-localized:
+      type: timeago
+      enable_creation_date: true
 markdown_extensions:
   - admonition
   - pymdownx.details
