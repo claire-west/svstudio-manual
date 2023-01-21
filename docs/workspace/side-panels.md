@@ -44,7 +44,7 @@ Side panels can be detached by dragging their header.
 
 Each section within a side panel can be collapsed or expanded by clicking on its heading.
 
-<video width="480" height="360" controls>
+<video width="360" height="480" controls>
     <source src="/img/workspace/side-panel-section-collapse.mp4" type="video/mp4">
     Collapsing and expanding panel sections
 </video>

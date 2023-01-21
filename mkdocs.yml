@@ -18,22 +18,22 @@ nav:
     - Playback: quickstart/playback.md
     - Managing Tracks: quickstart/managing-tracks.md
     - Saving the Audio: quickstart/saving-the-audio.md
-  - Intermediate and Advanced Usage:
-  #   - Note Properties:
-  #     - Pitch Transition and Vibrato: note-properties/pitch-transition-and-vibrato.md
-  #     - Editing Phonemes: note-properties/editing-phonemes.md
-  #     - Phoneme Timing: note-properties/phoneme-timing.md
-  #     - Expression Groups: note-properties/expression-groups.md
+  - Note Properties:
+    - Pitch Transition and Vibrato: note-properties/pitch-transition-and-vibrato.md
+    # - Editing Phonemes: note-properties/editing-phonemes.md
+    - Note and Phoneme Timing: note-properties/note-and-phoneme-timing.md
+    - Alternate Phonemes and Phoneme Strength: note-properties/alternate-phonemes.md
+    - Expression Groups: note-properties/expression-groups.md
+  - AI Functions:
+    # - Auto Pitch Tuning: ai-functions/auto-pitch-tuning.md
+    - Instant Mode: ai-functions/instant-mode.md
+    - AI Retakes: ai-functions/ai-retakes.md
+  # - Parameters:
+  #   - Parameters Panel: parameters/parameters-panel.md
+  #   - Editing Parameters: parameters/editing-parameters.md
+  # - Intermediate and Advanced Usage:
   #   - User Dictionaries: advanced/user-dictionaries.md
-    - AI Functions:
-  #     - Auto Pitch Tuning: ai-functions/auto-pitch-tuning.md
-      - Instant Mode: ai-functions/instant-mode.md
-      - AI Retakes: ai-functions/ai-retakes.md
   #   - Groups: advanced/groups.md
-  #   - Editing Parameters:
-  #     - Parameters Panel: parameters/parameters-panel.md
-  #     - Parameter Types: parameters/parameter-types.md
-  #     - Editing Parameters: parameters/editing-parameters.md
   #   - Scripts: advanced/scripts.md
   #   - License and Updates:
   #     - License Management: advanced/license-management.md
@@ -75,6 +75,7 @@ plugins:
       enable_creation_date: true
 markdown_extensions:
   - admonition
+  - md_in_html
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.keys:

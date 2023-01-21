@@ -1,13 +1,13 @@
 # Instant Mode
 
-While Instant Mode is active, auto pitch tuning will be executed on the notes as you work. This uses AI-generated pitch deviations to create realistic transitions, sustains, and vibrato.
+While Instant Mode is active, [Auto Pitch Tuning](auto-pitch-tuning.md) will be executed on the notes as you work. This uses AI-generated pitch deviations to create realistic transitions, sustains, and vibrato.
 
 ## Using Instant Mode
 
 Instant Mode affects the entire project, and behaves very similarly to auto pitch tuning, with some main exceptions:
 
-- Expressiveness is determined by the slider in the AI Retakes panel. This can be adjusted for all notes, or only selected notes.
 - Pitch deviations do not appear in the parameters panel. This keeps the automatic pitch deviations separate from your manual ones.
+- Expressiveness is determined by the slider in the [AI Retakes](ai-retakes.md) panel (Pro edition only). This can be adjusted for all notes, or only selected notes.
 
 Instant Mode can be enabled with the button in the upper right corner of the Piano Roll.
 
