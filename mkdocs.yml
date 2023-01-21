@@ -36,12 +36,14 @@ nav:
     - Batch Lyric Input: advanced/batch-lyrics.md
     - User Dictionaries: advanced/user-dictionaries.md
   #   - Groups: advanced/groups.md
+    - Note Ornamentation: advanced/note-ornamentation.md
+    - Note Detuning: advanced/note-detuning.md
   #   - Scripts: advanced/scripts.md
   #   - License and Updates:
   #     - License Management: advanced/license-management.md
   #     - Software Updates: advanced/software-updates.md
-  # - VSTi Plugin:
-  #   - Using Synthesizer V Studio as a Plugin: vsti/plugin.md
+  # - DAW Integration:
+  #   - VSTi/AU Plugin: vsti/plugin.md
   #   - Output Channels: vsti/output-channels.md
   - Other Topics:
     - Phoneme Reference: phonemes.md

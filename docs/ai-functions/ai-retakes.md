@@ -38,7 +38,11 @@ By selecting different takes from the list, you can see the pitch line change ac
 
     The pitch deviations introduced by Instant Mode are context-specific, and therefore so are the generated takes. It is recommended that you ensure all notes are correctly placed with the appropriate timings, and all adjacent breaths have been inserted before generating retakes.
 
-![Side-by-side of Different Takes](/img/ai-functions/retakes-side-by-side-crop.png)
+
+<figure markdown>
+  ![Side-by-side of Different Takes](/img/ai-functions/retakes-side-by-side-crop.png)
+  <figcaption>Comparing three different takes</figcaption>
+</figure>
 
 ## Timbre
 
