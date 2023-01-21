@@ -43,7 +43,7 @@ nav:
     - About: about.md
 theme:
   name: material
-  favicon: img/favicon.ico
+  favicon: img/icon.ico
   features:
     - navigation.instant
     - navigation.tracking

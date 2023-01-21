@@ -21,11 +21,15 @@ Instant Mode can be enabled with the button in the upper right corner of the Pia
 
 Enabling Instant Mode also allows the use of pitch [AI Retakes](ai-retakes.md).
 
-!!! note
+## Pre-existing Pitch Deviations and Vibrato
 
-    Enabling Instant Mode will reduce the vibrato depth slider of all notes to zero, such that the expression-based vibrato will not interfere with the AI-generated pitch deviations.
+Pre-existing pitch deviations entered via the parameters panel will not be overwritten by Instant Mode.
 
-    ![Vibrato Depth Set to Zero](/img/ai-functions/instant-mode-vibrato-depth.png)
+Any notes with an unmodified vibrato depth setting in the Note Properties panel will have their vibrato depth set to zero, such that the expression-based vibrato will not interfere with the AI-generated pitch deviations.
+
+If a note's vibrato depth slider has been manually set, it will not be overwritten.
+
+![Vibrato Depth Set to Zero](/img/ai-functions/instant-mode-vibrato-depth.png)
 
 ## Disabling Instant Mode
 
