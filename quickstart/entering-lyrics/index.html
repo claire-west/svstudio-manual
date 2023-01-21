@@ -258,6 +258,11 @@
     3. Legato
   </a>
 </li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#adding-breaths">
+    Adding Breaths
+  </a>
+</li>
 </ul>
 </nav>
 </li>
@@ -294,6 +299,11 @@
 <li class="md-nav__item">
 <a class="md-nav__link" href="../../note-properties/pitch-transition-and-vibrato/">
         Pitch Transition and Vibrato
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../note-properties/editing-phonemes/">
+        Editing Phonemes
       </a>
 </li>
 <li class="md-nav__item">
@@ -342,15 +352,45 @@
 <li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_5" id="__nav_5" type="checkbox"/>
 <label aria-expanded="false" class="md-nav__link" for="__nav_5" tabindex="0">
+          Intermediate and Advanced Usage
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Intermediate and Advanced Usage" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_5">
+<span class="md-nav__icon md-icon"></span>
+          Intermediate and Advanced Usage
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../advanced/batch-lyrics/">
+        Batch Lyric Input
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../advanced/user-dictionaries/">
+        User Dictionaries
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_6" id="__nav_6" type="checkbox"/>
+<label aria-expanded="false" class="md-nav__link" for="__nav_6" tabindex="0">
           Other Topics
           <span class="md-nav__icon md-icon"></span>
 </label>
 <nav aria-label="Other Topics" class="md-nav" data-md-level="1">
-<label class="md-nav__title" for="__nav_5">
+<label class="md-nav__title" for="__nav_6">
 <span class="md-nav__icon md-icon"></span>
           Other Topics
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../phonemes/">
+        Phoneme Reference
+      </a>
+</li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="../../support/">
         Help &amp; Support
@@ -393,6 +433,11 @@
     3. Legato
   </a>
 </li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#adding-breaths">
+    Adding Breaths
+  </a>
+</li>
 </ul>
 </nav>
 </div>
@@ -409,6 +454,9 @@
 <p>Use the plus sign (+) to distribute a multi-syllable word across multiple notes.</p>
 <h3 id="3-legato">3. Legato</h3>
 <p>Use the minus sign (-) to continue the last sung vowel into the following note.</p>
+<h2 id="adding-breaths">Adding Breaths</h2>
+<p>Breath notes can be added by entering <code>br</code> as the note's lyric (AI singers only).</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="/img/quickstart/breath-note.png"><img alt="A Breath Note" src="/img/quickstart/breath-note.png"/></a></p>
 <hr/>
 <p><a href="https://github.com/claire-west/svstudio-manual/issues/new?template=report-a-problem.md&amp;title=[Page: Entering Lyrics]">Report an Issue</a></p>
 <hr/>
@@ -416,7 +464,7 @@
 <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-01-21T20:35:42+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-01-21</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-01-21T22:25:36+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-01-21</span>
 <br/>
         Created:
         <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-01-15T22:46:25+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-01-15</span>
@@ -424,6 +472,7 @@
 </div>
 </article>
 </div>
+<script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
 </div>
 </main>
 <footer class="md-footer">
@@ -444,7 +493,7 @@
 <div class="md-dialog" data-md-component="dialog">
 <div class="md-dialog__inner md-typeset"></div>
 </div>
-<script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tracking", "navigation.expand", "navigation.path"], "search": "../../assets/javascripts/workers/search.e5c33ebb.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+<script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tracking", "navigation.expand", "navigation.path", "content.tabs.link"], "search": "../../assets/javascripts/workers/search.e5c33ebb.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
 <script src="../../assets/javascripts/bundle.51d95adb.min.js"></script>
 <script src="../../js/timeago.min.js"></script>
 <script src="../../js/timeago_mkdocs_material.js"></script>

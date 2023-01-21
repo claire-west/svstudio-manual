@@ -11,7 +11,22 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://manual.synthv.info/phonemes/</loc>
+         <lastmod>2023-01-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://manual.synthv.info/support/</loc>
+         <lastmod>2023-01-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://manual.synthv.info/advanced/batch-lyrics/</loc>
+         <lastmod>2023-01-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://manual.synthv.info/advanced/user-dictionaries/</loc>
          <lastmod>2023-01-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -32,6 +47,11 @@
     </url>
     <url>
          <loc>https://manual.synthv.info/note-properties/alternate-phonemes/</loc>
+         <lastmod>2023-01-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://manual.synthv.info/note-properties/editing-phonemes/</loc>
          <lastmod>2023-01-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
