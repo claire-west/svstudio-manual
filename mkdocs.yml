@@ -20,7 +20,7 @@ nav:
     - Saving the Audio: quickstart/saving-the-audio.md
   - Note Properties:
     - Pitch Transition and Vibrato: note-properties/pitch-transition-and-vibrato.md
-    # - Editing Phonemes: note-properties/editing-phonemes.md
+    - Editing Phonemes: note-properties/editing-phonemes.md
     - Note and Phoneme Timing: note-properties/note-and-phoneme-timing.md
     - Alternate Phonemes and Phoneme Strength: note-properties/alternate-phonemes.md
     - Expression Groups: note-properties/expression-groups.md
@@ -33,8 +33,9 @@ nav:
   # - Parameters:
   #   - Parameters Panel: parameters/parameters-panel.md
   #   - Editing Parameters: parameters/editing-parameters.md
-  # - Intermediate and Advanced Usage:
-  #   - User Dictionaries: advanced/user-dictionaries.md
+  - Intermediate and Advanced Usage:
+    - Batch Lyric Input: advanced/batch-lyrics.md
+    - User Dictionaries: advanced/user-dictionaries.md
   #   - Groups: advanced/groups.md
   #   - Scripts: advanced/scripts.md
   #   - License and Updates:
@@ -44,6 +45,7 @@ nav:
   #   - Using Synthesizer V Studio as a Plugin: vsti/plugin.md
   #   - Output Channels: vsti/output-channels.md
   - Other Topics:
+    - Phoneme Reference: phonemes.md
     - Help & Support: support.md
     - About: about.md
 theme:
@@ -54,6 +56,7 @@ theme:
     - navigation.tracking
     - navigation.expand
     - navigation.path
+    - content.tabs.link
   palette:
     # Palette toggle for light mode
     - scheme: default
@@ -86,3 +89,5 @@ markdown_extensions:
   - pymdownx.keys:
       key_map:
         mouse-wheel: "Mouse wheel"
+  - pymdownx.tabbed:
+      alternate_style: true
