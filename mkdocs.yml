@@ -25,11 +25,10 @@ nav:
     - Alternate Phonemes and Phoneme Strength: note-properties/alternate-phonemes.md
     - Expression Groups: note-properties/expression-groups.md
   - AI Functions:
-    # - Auto Pitch Tuning: ai-functions/auto-pitch-tuning.md
+    - Auto Pitch Tuning: ai-functions/auto-pitch-tuning.md
     - Instant Mode: ai-functions/instant-mode.md
     - AI Retakes: ai-functions/ai-retakes.md
     # - Vocal Modes: ai-functions/vocal-modes.md
-    # - Cross-lingual Synthesis: ai-functions/cross-lingual-synthesis.md
   # - Parameters:
   #   - Parameters Panel: parameters/parameters-panel.md
   #   - Editing Parameters: parameters/editing-parameters.md
