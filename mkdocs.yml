@@ -28,7 +28,7 @@ nav:
     - Auto Pitch Tuning: ai-functions/auto-pitch-tuning.md
     - Instant Mode: ai-functions/instant-mode.md
     - AI Retakes: ai-functions/ai-retakes.md
-    # - Vocal Modes: ai-functions/vocal-modes.md
+    - Vocal Modes: ai-functions/vocal-modes.md
   # - Parameters:
   #   - Parameters Panel: parameters/parameters-panel.md
   #   - Editing Parameters: parameters/editing-parameters.md
