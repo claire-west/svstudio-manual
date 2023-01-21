@@ -39,7 +39,13 @@ When this occurs, all generated pitch deviations (including the currently-select
 
 After disabling Instant Mode you will no longer be able to choose different AI Retakes and the pitch deviations will no longer be recalculated if a note's context changes.
 
-![Instant Mode options](/img/ai-functions/instant-mode-disabled.png)
+![Instant Mode Disabled](/img/ai-functions/instant-mode-disabled.png)
+
+## Default Instant Mode Setting
+
+Instant Mode will be enabled for new projects by default. To create new projects with Instant Mode disabled, uncheck "Enable instant mode by default" in the Settings panel.
+
+![Default Instant Mode Setting](/img/ai-functions/instant-mode-default.png)
 
 ## Video Demonstration
 <iframe hidden /><!-- weird iframe fix -->

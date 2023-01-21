@@ -27,6 +27,10 @@ Aside from using the scrollbars on the bottom and left borders, you can convenie
 
 At the time of writing there is no support for vertical zoom.
 
+The modifier key used for each of these functions can be customized in the Settings panel.
+
+![Changing the Naviation Controls](/img/workspace/navigation-settings.png)
+
 ---
 
 [Report an Issue](https://github.com/claire-west/svstudio-manual/issues/new)

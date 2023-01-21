@@ -30,3 +30,21 @@ License management and software update controls.
 
 ### 8. Settings
 Application settings and keyboard shortcuts.
+
+## Detaching Side Panels
+
+Side panels can be detached by dragging their header.
+
+<video width="480" height="360" controls>
+    <source src="/img/workspace/side-panel-detach.mp4" type="video/mp4">
+    Detaching a side panel
+</video>
+
+## Collapsing Panel Headings
+
+Each section within a side panel can be collapsed or expanded by clicking on its heading.
+
+<video width="480" height="360" controls>
+    <source src="/img/workspace/side-panel-section-collapse.mp4" type="video/mp4">
+    Collapsing and expanding panel sections
+</video>
