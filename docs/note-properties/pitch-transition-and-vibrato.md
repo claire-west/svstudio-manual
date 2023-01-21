@@ -25,3 +25,7 @@ The default values of the transition and vibrato sliders are determined by their
 **Frequency** - How fast the vibrato oscillates (cycles per second).
 
 **Jitter** - How much natural pitch fluctuation is added to the pitch curve (non-AI singers only).
+
+---
+
+[Report an Issue](https://github.com/claire-west/svstudio-manual/issues/new?template=report-a-problem.md&title=[Page: Transition and Vibrato])

@@ -59,3 +59,7 @@ When no notes are selected, this slider will affect the default expressiveness v
 ## Video Demonstration
 <iframe hidden /><!-- weird iframe fix -->
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VyvXI3jEyRo" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
+---
+
+[Report an Issue](https://github.com/claire-west/svstudio-manual/issues/new?template=report-a-problem.md&title=[Page: AI Retakes])

@@ -22,3 +22,7 @@ Measure (bar) numbers, as well as time signature and tempo (BPM) markers.
 
 ### 7. Instrumental Waveform Preview
 A preview of the instrumental waveform to assist with synchronization and timing.
+
+---
+
+[Report an Issue](https://github.com/claire-west/svstudio-manual/issues/new?template=report-a-problem.md&title=[Page: Arrangement])

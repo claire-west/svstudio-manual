@@ -52,3 +52,7 @@ If using AI Retakes, indicates which take is being used for the note.
 
 ### 6. Waveform Preview and Phoneme Timing
 A preview of the waveform for the note, as well as timing indicators for the individual phonemes associated with it.
+
+---
+
+[Report an Issue](https://github.com/claire-west/svstudio-manual/issues/new?template=report-a-problem.md&title=[Page: Piano Roll])

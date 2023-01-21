@@ -48,3 +48,7 @@ Each section within a side panel can be collapsed or expanded by clicking on its
     <source src="/img/workspace/side-panel-section-collapse.mp4" type="video/mp4">
     Collapsing and expanding panel sections
 </video>
+
+---
+
+[Report an Issue](https://github.com/claire-west/svstudio-manual/issues/new?template=report-a-problem.md&title=[Page: Side Panels])

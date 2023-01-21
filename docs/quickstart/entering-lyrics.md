@@ -12,3 +12,7 @@ Use the plus sign (+) to distribute a multi-syllable word across multiple notes.
 
 ### 3. Legato
 Use the minus sign (-) to continue the last sung vowel into the following note.
+
+---
+
+[Report an Issue](https://github.com/claire-west/svstudio-manual/issues/new?template=report-a-problem.md&title=[Page: Entering Lyrics])

@@ -38,3 +38,7 @@ When enabled (light) uses "pause" behavior, where the playhead will remain at th
     Enables or disables a metronome to be played during MIDI recording.
 
     Normally the metronome sound will only play during MIDI recording, but it can be made audible during regular playback with the "Disable metronome during playback" option in the Settings panel.
+
+---
+
+[Report an Issue](https://github.com/claire-west/svstudio-manual/issues/new?template=report-a-problem.md&title=[Page: Playback])

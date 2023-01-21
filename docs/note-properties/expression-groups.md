@@ -16,3 +16,7 @@ By default the most appropriate sample will be selected for each note, but you c
 When an expression group is selected for a note, it will be indicated below the note in the piano roll.
 
 ![Maki's Expression Groups](/img/note-properties/expression-groups-maki.png)
+
+---
+
+[Report an Issue](https://github.com/claire-west/svstudio-manual/issues/new?template=report-a-problem.md&title=[Page: Expression Groups])

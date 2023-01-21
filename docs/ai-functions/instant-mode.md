@@ -50,3 +50,7 @@ Instant Mode will be enabled for new projects by default. To create new projects
 ## Video Demonstration
 <iframe hidden /><!-- weird iframe fix -->
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Yb8m_HmBEt4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+---
+
+[Report an Issue](https://github.com/claire-west/svstudio-manual/issues/new?template=report-a-problem.md&title=[Page: Instant Mode])

@@ -15,3 +15,7 @@ The note offset slider will move the beginning of the selected note(s) earlier o
 Default phoneme timing is determined based on the phoneme's type (vowel, stop, fricative, etc). The timing distribution of phonemes within a note (and relative to its neighbors) can be modified between 20% and 180% of this default.
 
 ![Phoneme Timing Side-by-side](/img/note-properties/phoneme-timing-crop.png)
+
+---
+
+[Report an Issue](https://github.com/claire-west/svstudio-manual/issues/new?template=report-a-problem.md&title=[Page: Phoneme Timing])

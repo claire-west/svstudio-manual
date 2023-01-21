@@ -5,3 +5,7 @@ For questions about operation of the software, use the search tool at the top of
 If you experience issues with a purchase, contact Dreamtonics at [support@dreamtonics.com](mailto:support@dreamtonics.com).
 
 Dreamtonics is located in Japan (UTC+9) and offers support in Japanese, English, and Mandarin Chinese.
+
+---
+
+[Report an Issue](https://github.com/claire-west/svstudio-manual/issues/new?template=report-a-problem.md&title=[Page: Support])

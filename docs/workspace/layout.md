@@ -17,7 +17,7 @@ A panel for viewing and modifying [parameter curves](../../parameters/parameters
 Buttons for opening the various [side panels](side-panels.md).
 
 ### Workspace Navigation
-Aside from using the scrollbars on the bottom and left borders, you can conveniently navigate in all directions using ++"modifier key"+mouse-wheel++ combinations.
+Aside from using the scrollbars on the bottom and right borders, you can conveniently navigate in all directions using ++"modifier key"+mouse-wheel++ combinations.
 
 |Shortcut|Description|
 |---|---|
@@ -33,4 +33,4 @@ The modifier key used for each of these functions can be customized in the Setti
 
 ---
 
-[Report an Issue](https://github.com/claire-west/svstudio-manual/issues/new)
+[Report an Issue](https://github.com/claire-west/svstudio-manual/issues/new?template=report-a-problem.md&title=[Page: Workspace])

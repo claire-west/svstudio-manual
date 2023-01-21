@@ -14,3 +14,7 @@ With the pointer tool (++alt+1++) selected, double click (without releasing the 
 With the pencil tool (++alt+2++) selected, drag anywhere in the note area to create a note of the desired length.
 
 ![Adding Notes With the Pencil Tool](/img/quickstart/add-note-pencil.png)
+
+---
+
+[Report an Issue](https://github.com/claire-west/svstudio-manual/issues/new?template=report-a-problem.md&title=[Page: Creating Notes])

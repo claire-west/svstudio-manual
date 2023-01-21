@@ -14,10 +14,10 @@ For official instructional content for SynthV Studio, check the Dreamtonics [vid
 
 ---
 
-Additional guides and resources can be found on [synthv.info](https://synthv.info/).
+Additional unofficial guides and resources can be found on [synthv.info](https://synthv.info/).
 
 This website is not affiliated with Dreamtonics.
 
 ---
 
-[Report an Issue](https://github.com/claire-west/svstudio-manual/issues/new)
+[Report an Issue](https://github.com/claire-west/svstudio-manual/issues/new?template=report-a-problem.md&title=[Page: Home])

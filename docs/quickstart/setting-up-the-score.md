@@ -13,3 +13,7 @@ To modify a marker, double click on it. To delete a marker (not including marker
 New markers can be added by right clicking along the time axis.
 
 ![Add Time Change](/img/quickstart/time-axis-add-marker.png)
+
+---
+
+[Report an Issue](https://github.com/claire-west/svstudio-manual/issues/new?template=report-a-problem.md&title=[Page: Setting up the Score])

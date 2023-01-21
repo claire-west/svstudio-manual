@@ -29,3 +29,7 @@ To change a note's duration, click and hold on the head or tail (left or right e
     <source src="/img/quickstart/note-resize.mp4" type="video/mp4">
     Resizing a Note
 </video>
+
+---
+
+[Report an Issue](https://github.com/claire-west/svstudio-manual/issues/new?template=report-a-problem.md&title=[Page: Editing Notes])

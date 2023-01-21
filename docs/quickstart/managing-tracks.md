@@ -26,3 +26,7 @@ Right click on a track to duplicate or delete it.
 Notes from other tracks will be shown in the piano roll as colored lines. This can be disabled with the "Show Melody from Other Tracks" option in the "View" menu at the top of the application window.
 
 ![Create a Track](/img/quickstart/show-other-tracks.png)
+
+---
+
+[Report an Issue](https://github.com/claire-west/svstudio-manual/issues/new?template=report-a-problem.md&title=[Page: Managing Tracks])

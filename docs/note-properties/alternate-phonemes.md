@@ -13,3 +13,7 @@ When an alternate phoneme is selected, a different articulation or pronunciation
 Phoneme strength will modify the dynamics and emphasis of individual phonemes within a note.
 
 ![Phoneme Strength](/img/note-properties/phoneme-strength.png)
+
+---
+
+[Report an Issue](https://github.com/claire-west/svstudio-manual/issues/new?template=report-a-problem.md&title=[Page: Alternate Phonemes])
