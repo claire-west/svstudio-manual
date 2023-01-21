@@ -21,7 +21,32 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://manual.synthv.info/ai-functions/auto-pitch-tuning/</loc>
+         <lastmod>2023-01-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://manual.synthv.info/ai-functions/instant-mode/</loc>
+         <lastmod>2023-01-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://manual.synthv.info/note-properties/alternate-phonemes/</loc>
+         <lastmod>2023-01-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://manual.synthv.info/note-properties/expression-groups/</loc>
+         <lastmod>2023-01-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://manual.synthv.info/note-properties/note-and-phoneme-timing/</loc>
+         <lastmod>2023-01-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://manual.synthv.info/note-properties/pitch-transition-and-vibrato/</loc>
          <lastmod>2023-01-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
