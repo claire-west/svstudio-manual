@@ -30,22 +30,6 @@ Diagrams should be consistent with the following:
 - Claire ([moonlitclaire.com](https://moonlitclaire.com))
 - Susko ([GitHub](https://github.com/Susko3))
 
-## To-do List
+## To-do
 
-- AI Functions
-    - Auto Pitch Tuning
-- Note Properties
-    - Pitch Transition and Vibrato
-    - Editing Phonemes
-    - Phoneme Timing
-    - Expression Groups
-- User Dictionaries
-- Groups
-- Editing Parameters
-    - Parameters Panel
-    - Parameter Types
-    - Editing Parameters
-- Scripts
-- License and Updates:
-    - License Management
-    - Software Updates
+See the commented navigation items in [mkdocs.yml](https://github.com/claire-west/svstudio-manual/blob/main/mkdocs.yml) for a list of unimplemented pages.

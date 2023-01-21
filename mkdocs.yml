@@ -28,6 +28,8 @@ nav:
     # - Auto Pitch Tuning: ai-functions/auto-pitch-tuning.md
     - Instant Mode: ai-functions/instant-mode.md
     - AI Retakes: ai-functions/ai-retakes.md
+    # - Vocal Modes: ai-functions/vocal-modes.md
+    # - Cross-lingual Synthesis: ai-functions/cross-lingual-synthesis.md
   # - Parameters:
   #   - Parameters Panel: parameters/parameters-panel.md
   #   - Editing Parameters: parameters/editing-parameters.md
@@ -38,6 +40,9 @@ nav:
   #   - License and Updates:
   #     - License Management: advanced/license-management.md
   #     - Software Updates: advanced/software-updates.md
+  # - VSTi Plugin:
+  #   - Using Synthesizer V Studio as a Plugin: vsti/plugin.md
+  #   - Output Channels: vsti/output-channels.md
   - Other Topics:
     - Help & Support: support.md
     - About: about.md
