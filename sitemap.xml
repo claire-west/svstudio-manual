@@ -11,6 +11,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://manual.synthv.info/faq/</loc>
+         <lastmod>2023-01-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://manual.synthv.info/phonemes/</loc>
          <lastmod>2023-01-22</lastmod>
          <changefreq>daily</changefreq>
