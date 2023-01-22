@@ -3,6 +3,11 @@
   --md-accent-fg-color: #85BC38;
 }
 
+/* hide github button in mobile navbar */
+.md-nav__source {
+    display: none;
+}
+
 .keys {
   padding-left: 0.12em;
   padding-right: 0.12em;
