@@ -48,6 +48,7 @@ nav:
   #     - License Management: advanced/license-management.md
   #     - Software Updates: advanced/software-updates.md
   - Other Topics:
+    - FAQs: faq.md
     - Phoneme Reference: phonemes.md
     - Help & Support: support.md
     - About: about.md
@@ -100,13 +101,11 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/claire-west/svstudio-manual
+      name: This Website on GitHub
   consent:
     title: Cookie consent
     description: >-
-      We use cookies to recognize your repeated visits and preferences, as well
-      as to measure the effectiveness of our documentation and whether users
-      find what they're searching for. With your consent, you're helping us to
-      make our documentation better.
+      We use cookies to recognize repeated visits and preferences, as well as to measure traffic to each page and collect feedback with the "Was this page helpful?" buttons on each page. With your consent, you are helping us to make this documentation better.
   analytics:
     provider: google
     property: !ENV GOOGLE_ANALYTICS_KEY

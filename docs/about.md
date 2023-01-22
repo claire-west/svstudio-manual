@@ -1,3 +1,8 @@
+---
+hide:
+  - feedback
+---
+
 # About
 
 This unofficial user manual was created in an attempt to provide an up-to-date set of documentation for Synthesizer V Studio. Please provide any feedback via the thread on the [official forums](https://forum.synthesizerv.com/t/topic/7524) or report any problems via a [GitHub Issue](https://github.com/claire-west/svstudio-manual/issues/new).
