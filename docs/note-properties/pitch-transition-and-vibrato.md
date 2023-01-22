@@ -20,11 +20,14 @@ The default values of the transition and vibrato sliders are determined by their
 </figure>
 
 ### Other Vibrato Properties
-**Phase** - The phase of the sine-wave-like vibrato at its beginning, relative to a full cycle.
+**Phase**
+: The phase of the sine-wave-like vibrato at its beginning, relative to a full cycle.
 
-**Frequency** - How fast the vibrato oscillates (cycles per second).
+**Frequency**
+: How fast the vibrato oscillates (cycles per second).
 
-**Jitter** - How much natural pitch fluctuation is added to the pitch curve (non-AI singers only).
+**Jitter**
+: How much natural pitch fluctuation is added to the pitch curve (non-AI singers only).
 
 ---
 

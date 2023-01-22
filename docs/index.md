@@ -4,7 +4,7 @@
 
 !!! info "Notice"
 
-    This website is a work in progress and may contain incomplete information. The quickstart section is mostly complete, however many advanced features are not yet included.
+    This website is a work in progress. Some advanced features are not yet included.
 
 Synthesizer V Studio is a singing synthesizer released in July 2020, with AI synthesis functions added in December of 2020.
 

@@ -24,27 +24,30 @@ nav:
     - Note and Phoneme Timing: note-properties/note-and-phoneme-timing.md
     - Alternate Phonemes and Phoneme Strength: note-properties/alternate-phonemes.md
     - Expression Groups: note-properties/expression-groups.md
+  - Parameters:
+    - Parameters Panel: parameters/parameters-panel.md
+    - Editing Parameters: parameters/editing-parameters.md
+    # - Direct Pitch Editing: parameters/direct-pitch-editing.md
   - AI Functions:
     - Auto Pitch Tuning: ai-functions/auto-pitch-tuning.md
     - Instant Mode: ai-functions/instant-mode.md
     - AI Retakes: ai-functions/ai-retakes.md
     - Vocal Modes: ai-functions/vocal-modes.md
-  # - Parameters:
-  #   - Parameters Panel: parameters/parameters-panel.md
-  #   - Editing Parameters: parameters/editing-parameters.md
   - Intermediate and Advanced Usage:
-    - Batch Lyric Input: advanced/batch-lyrics.md
     - User Dictionaries: advanced/user-dictionaries.md
   #   - Groups: advanced/groups.md
-    - Note Ornamentation: advanced/note-ornamentation.md
-    - Note Detuning: advanced/note-detuning.md
   #   - Scripts: advanced/scripts.md
   #   - License and Updates:
   #     - License Management: advanced/license-management.md
   #     - Software Updates: advanced/software-updates.md
+    - MIDI Controller Support: advanced/midi-controller.md
   # - DAW Integration:
   #   - VSTi/AU Plugin: vsti/plugin.md
   #   - Output Channels: vsti/output-channels.md
+    - Miscellaneous Features:
+      - Batch Lyric Input: advanced/batch-lyrics.md
+      - Note Ornamentation: advanced/note-ornamentation.md
+      - Note Detuning: advanced/note-detuning.md
   - Other Topics:
     - Phoneme Reference: phonemes.md
     - Help & Support: support.md
@@ -84,6 +87,7 @@ plugins:
       enable_creation_date: true
 markdown_extensions:
   - admonition
+  - def_list
   - md_in_html
   - pymdownx.details
   - pymdownx.superfences

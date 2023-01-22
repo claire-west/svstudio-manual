@@ -30,6 +30,16 @@ To change a note's duration, click and hold on the head or tail (left or right e
     Resizing a Note
 </video>
 
+### Overlapping Notes
+
+Output cannot be synthesized for notes that overlap. Overlapping notes will be disabled and will not produce any sound.
+
+![Overlapping Notes](/img/quickstart/overlapping-notes.png)
+
+Resize the notes so that they do not overlap, and synthesized output will be restored. The end of one note should meet with the start of the next note, unless there is intended to be silence between them.
+
+![Overlapping Notes](/img/quickstart/overlapping-notes-fixed.png)
+
 ---
 
 [Report an Issue](https://github.com/claire-west/svstudio-manual/issues/new?template=report-a-problem.md&title=[Page: Editing Notes])
