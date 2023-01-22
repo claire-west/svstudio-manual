@@ -1,4 +1,5 @@
 ---
+title: Welcome to Synthesizer V
 hide:
   - feedback
 ---
