@@ -2,7 +2,7 @@
 
 The [Pitch Deviation](editing-parameters.md) parameter can be edited directly in the Piano Roll.
 
-While the parameter normally allows drawing curves that are added to the base pitch line, editing directly in the piano roll lets you modify the actual pitch values instead of just the additive layer.
+While modifying pitch deviation via the parameters panel normally allows drawing curves that are added to the base pitch line, editing directly in the piano roll lets you modify the actual pitch values instead of just the additive layer.
 
 ## Modifying the Pitch Line
 

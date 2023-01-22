@@ -111,7 +111,7 @@ The third and final type will produce the smoothest curve connecting each node.
 
 Additional options for parameter editing can be found in the "Editor" seciton of the Settings panel.
 
-![Add a Node](/img/parameters/parameter-options.png)
+![Parameter Options](/img/parameters/parameter-options.png)
 
 Hide points in freehand mode
 : When the pencil tool is selected, will not display dots for each individual node.
