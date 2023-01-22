@@ -61,7 +61,6 @@ theme:
     - navigation.path
     - navigation.top
     - content.tabs.link
-    - toc.follow
   palette:
     # Palette toggle for light mode
     - scheme: default
