@@ -2,6 +2,8 @@
 
 Many different panels can be accessed from the menu at the side of the application window. This panel can be moved to either the left or right side of the layout by clicking and dragging the logo at the top.
 
+The side panels can also be opened from the "View" menu at the top of the application.
+
 ![Each Icon in the Side Menu](/img/workspace/side-panel.png)
 
 ### 1. Voice

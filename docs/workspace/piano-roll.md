@@ -1,5 +1,7 @@
 # The Piano Roll
 
+## Piano Roll Toolbar
+
 ![The Piano Roll](/img/workspace/piano-roll-controls.png)
 
 ### 1. Tool Selection
@@ -12,7 +14,7 @@ Toggles the visibility of various elements of the piano roll:
 - Actual pitch (non-AI singers only)
 - Waveform preview
 - Phoneme timing
-- Retake Indicator
+- Retake indicators
 
 ### 3. Transport Controls
 When the piano roll is focused by user input, the [transport controls](../quickstart/playback.md) will be displayed.
@@ -29,7 +31,8 @@ Sets the grid snap interval for the piano roll.
 ### 7. Instant Mode Toggle
 Enables or disables [Instant Mode](../ai-functions/instant-mode.md), which applies AI-generated pitch deviations to the notes as changes are made.
 
-<br>
+## Piano Roll Main Window
+
 ![The Piano Roll](/img/workspace/piano-roll.png)
 
 ### 1. Notes
@@ -48,7 +51,9 @@ The exact pitch that the synthesis engine will attempt to match when rendering a
 When using a non-AI singer, a blue line will closely follow the target pitch line. This represents the actual rendered pitch of the synthesized vocals.
 
 ### 5. Retake Indicator
-If using AI Retakes, indicates which take is being used for the note.
+!!! note "Pro Feature - AI Retakes"
+
+    If using AI Retakes, indicates which take is being used for the note.
 
 ### 6. Waveform Preview and Phoneme Timing
 A preview of the waveform for the note, as well as timing indicators for the individual phonemes associated with it.

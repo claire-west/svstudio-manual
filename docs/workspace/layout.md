@@ -16,7 +16,7 @@ A panel for viewing and modifying [parameter curves](../../parameters/parameters
 ### 4. Side Menu
 Buttons for opening the various [side panels](side-panels.md).
 
-### Workspace Navigation
+## Workspace Navigation
 Aside from using the scrollbars on the bottom and right borders, you can conveniently navigate in all directions using ++"modifier key"+mouse-wheel++ combinations.
 
 |Shortcut|Description|

@@ -1,6 +1,6 @@
 # Editing Notes
 
-### Selecting Notes
+## Selecting Notes
 
 Notes can be selected by clicking on them. To select multiple notes at once, use the pointer tool to drag a bounding box around them.
 
@@ -14,7 +14,7 @@ Multiple notes can also be selected or deselected by clicking on them individual
 
 A continuous sequence of notes can be selected by clicking the first note, holding ++shift++, and clicking the last note.
 
-### Modifying Notes
+## Modifying Notes
 
 Notes can be moved by clicking and dragging them. If multiple notes are selected, the entire selection will be moved.
 
@@ -30,15 +30,34 @@ To change a note's duration, click and hold on the head or tail (left or right e
     Resizing a Note
 </video>
 
-### Overlapping Notes
+## Overlapping Notes
 
 Output cannot be synthesized for notes that overlap. Overlapping notes will be disabled and will not produce any sound.
 
 ![Overlapping Notes](/img/quickstart/overlapping-notes.png)
 
-Resize the notes so that they do not overlap, and synthesized output will be restored. The end of one note should meet with the start of the next note, unless there is intended to be silence between them.
+Resize the notes so that they do not overlap, and synthesized output will be restored.
 
 ![Overlapping Notes](/img/quickstart/overlapping-notes-fixed.png)
+
+## Short Silences
+
+The end of one note should generally meet with the start of the next note unless there is intended to be silence between them.
+
+If there is a small gap between two notes (1/16 quarter or smaller) a `sil` (silence) indicator will be displayed.
+
+![Overlapping Notes](/img/quickstart/sil.png)
+
+Clicking the `sil` indicator will close the gap between the notes.
+
+<video width="360" height="480" controls>
+    <source src="/img/quickstart/sil-click.mp4" type="video/mp4">
+    Closing a Short Silence
+</video>
+
+Short silences can also be removed from many notes at once via the "Modify" top menu.
+
+![Remove Short Silences](/img/quickstart/remove-short-silences.png)
 
 ---
 

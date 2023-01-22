@@ -99,6 +99,9 @@ markdown_extensions:
       alternate_style: true
 extra:
   social:
+    - icon: fontawesome/regular/comments
+      link: https://forum.synthesizerv.com/t/topic/7524
+      name: Discuss This Website on the Official Forums
     - icon: fontawesome/brands/github
       link: https://github.com/claire-west/svstudio-manual
       name: This Website on GitHub
