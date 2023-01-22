@@ -5,7 +5,7 @@ Parameters offer detailed manual control over various aspects of a vocal sequenc
 ## Parameter Types
 
 **Pitch Deviation**
-: A layer of pitch shifts added to the base pitch curve.
+: A layer of pitch shifts added to the base pitch curve. 100 cents is equivalent to 1 semitone.
 
 **Vibrato Envelope**
 : Amplitude modulation of expression-based vibrato.
@@ -50,7 +50,7 @@ Rather than a base value set in the Voice panel, the curve modifies the vibrato 
 
 All parameter curves are composed of nodes and the interpolated lines joining them.
 
-The pointer tool can add and move nodes, and is suited to creating smooth curves and making adjustments to existing curves.
+The pointer tool (++alt+1++) can add and move nodes, and is suited to creating smooth curves and making adjustments to existing curves.
 
 Double click to add a node.
 
@@ -77,7 +77,7 @@ Modifier keys can be held to change the behavior of dragging point(s) with the m
 
 ### Pencil Tool (freehand)
 
-The pencil tool allows you to draw the curve directly by clicking and holding down the left mouse button as you draw with the cursor.
+The pencil tool (++alt+2++) allows you to draw the curve directly by clicking and holding down the left mouse button as you draw with the cursor.
 
 This can be used to customize a note transition, draw unique vibrato, or introduce all sorts of pitch deviations to mimic the desired singing style.
 
@@ -95,7 +95,9 @@ Holding right click will instead clear any curves along the area the moust passe
 
 ### Line Tool
 
-The line tool will introduce two points, one at each end of the line drawn with the mouse.
+The line tool (++alt+3++) will introduce two points, one at each end of the line drawn with the mouse.
+
+If either end of the drawn line is in proximity to an existing node, the existing node will be moved to the spot where the line began or ended.
 
 <video width="360" height="480" controls>
     <source src="/img/parameters/line-draw.mp4" type="video/mp4">
