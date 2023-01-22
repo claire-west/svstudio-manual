@@ -31,6 +31,16 @@ Select different behaviors for interpolating the curve between nodes.
 ### 9. Swap Primary and Secondary
 Swap the primary (editing) and secondary (display) parameters.
 
+## Multiple Parameter Panels
+
+Additional parameter panels can be added to the workspace with the three-bars icon in the upper right of the Piano Roll.
+
+![Add Parameter Panel](/img/parameters/add-parameter-panel.png)
+
+Unneeded parameter panels can also be removed by clicking the ✖ icon on the far right side.
+
+![Multiple Parameter Panels](/img/parameters/multiple-parameter-panels.png)
+
 ---
 
 [Report an Issue](https://github.com/claire-west/svstudio-manual/issues/new?template=report-a-problem.md&title=[Page: Parameters Panel])

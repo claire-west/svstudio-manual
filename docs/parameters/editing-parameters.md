@@ -65,6 +65,16 @@ The pointer tool can also select nodes and move them, just like with notes in th
     Moving Nodes
 </video>
 
+#### Node Movement Modifiers
+
+Modifier keys can be held to change the behavior of dragging point(s) with the mouse.
+
+|Held Modifier|Behavior|
+|---|---|
+|++shift++|Vertical movement only|
+|++ctrl++|Horizontal movement only|
+|++shift+ctrl++|Fine control with no snapping to zero|
+
 ### Pencil Tool (freehand)
 
 The pencil tool allows you to draw the curve directly by clicking and holding down the left mouse button as you draw with the cursor.
@@ -96,11 +106,11 @@ The line tool will introduce two points, one at each end of the line drawn with 
 
 The curve type setting changes how the curves between nodes are interpolated.
 
-The first setting will draw straight lines between the points.
+The first setting (Linear) will draw straight lines between the points.
 
-The second will ensure a horizontal line on either side of a node before curving toward the neighboring nodes.
+The second (Cosine) will ensure a horizontal line on either side of a node before curving toward the neighboring nodes.
 
-The third and final type will produce the smoothest curve connecting each node.
+The third and final type (Adaptive Spline) will produce the smoothest curve connecting each node.
 
 <figure markdown>
   ![Add a Node](/img/parameters/curve-types-crop.png)

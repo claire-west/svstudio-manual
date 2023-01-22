@@ -30,6 +30,16 @@ To change a note's duration, click and hold on the head or tail (left or right e
     Resizing a Note
 </video>
 
+### Note Movement Modifiers
+
+Modifier keys can be held to change the behavior of dragging note(s) with the mouse.
+
+|Held Modifier|Behavior|
+|---|---|
+|++shift++|Vertical movement only|
+|++ctrl++|Horizontal movement only|
+|++ctrl+alt++|Do not snap to grid|
+
 ## Overlapping Notes
 
 Output cannot be synthesized for notes that overlap. Overlapping notes will be disabled and will not produce any sound.
