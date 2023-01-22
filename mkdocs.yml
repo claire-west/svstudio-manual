@@ -27,7 +27,7 @@ nav:
   - Parameters:
     - Parameters Panel: parameters/parameters-panel.md
     - Editing Parameters: parameters/editing-parameters.md
-    # - Direct Pitch Editing: parameters/direct-pitch-editing.md
+    - Direct Pitch Editing: parameters/direct-pitch-editing.md
   - AI Functions:
     - Auto Pitch Tuning: ai-functions/auto-pitch-tuning.md
     - Instant Mode: ai-functions/instant-mode.md

@@ -128,9 +128,9 @@ Snap points to zero
 
 ### Simplify Parameters
 
-This option can be found under the "Modify" top menu.
+The Simplify Parameters option can be found under the "Modify" top menu.
 
-Reduces the number of nodes in a selection to smooth a curve, at the cost of precision. The resulting curve may not match the original exactly.
+This function reduces the number of nodes in a selection to smooth a curve, at the cost of precision. The resulting curve may not match the original exactly.
 
 <video width="360" height="480" controls>
     <source src="/img/parameters/simplify-parameter-curve.mp4" type="video/mp4">
