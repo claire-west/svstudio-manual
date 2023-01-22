@@ -6,6 +6,8 @@ on:
       - main
 permissions:
   contents: write
+env:
+  GOOGLE_ANALYTICS_KEY: ${{ secrets.GOOGLE_ANALYTICS_KEY }}
 jobs:
   deploy:
     runs-on: ubuntu-latest

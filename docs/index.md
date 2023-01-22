@@ -1,3 +1,8 @@
+---
+hide:
+  - feedback
+---
+
 # Synthesizer V Studio
 
 <!-- ![Synthesizer V Logo](img/synthesizer-v.png) -->
