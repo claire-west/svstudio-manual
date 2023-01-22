@@ -26,6 +26,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://manual.synthv.info/advanced/groups/</loc>
+         <lastmod>2023-01-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://manual.synthv.info/advanced/midi-controller/</loc>
          <lastmod>2023-01-22</lastmod>
          <changefreq>daily</changefreq>
@@ -37,6 +42,11 @@
     </url>
     <url>
          <loc>https://manual.synthv.info/advanced/note-ornamentation/</loc>
+         <lastmod>2023-01-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://manual.synthv.info/advanced/scripting/</loc>
          <lastmod>2023-01-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -62,6 +72,11 @@
     </url>
     <url>
          <loc>https://manual.synthv.info/ai-functions/vocal-modes/</loc>
+         <lastmod>2023-01-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://manual.synthv.info/daw-integration/plugin/</loc>
          <lastmod>2023-01-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
