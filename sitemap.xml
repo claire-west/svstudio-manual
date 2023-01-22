@@ -26,6 +26,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://manual.synthv.info/advanced/midi-controller/</loc>
+         <lastmod>2023-01-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://manual.synthv.info/advanced/note-detuning/</loc>
          <lastmod>2023-01-22</lastmod>
          <changefreq>daily</changefreq>
@@ -82,6 +87,21 @@
     </url>
     <url>
          <loc>https://manual.synthv.info/note-properties/pitch-transition-and-vibrato/</loc>
+         <lastmod>2023-01-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://manual.synthv.info/parameters/direct-pitch-editing/</loc>
+         <lastmod>2023-01-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://manual.synthv.info/parameters/editing-parameters/</loc>
+         <lastmod>2023-01-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://manual.synthv.info/parameters/parameters-panel/</loc>
          <lastmod>2023-01-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
