@@ -30,10 +30,6 @@ Diagrams should be consistent with the following:
 - Claire ([moonlitclaire.com](https://moonlitclaire.com))
 - Susko ([GitHub](https://github.com/Susko3))
 
-## To-do
-
-See the commented navigation items in [mkdocs.yml](https://github.com/claire-west/svstudio-manual/blob/main/mkdocs.yml) for a list of unimplemented pages.
-
 ---
 
 [Report an Issue](https://github.com/claire-west/svstudio-manual/issues/new?template=report-a-problem.md&title=[Page: About])
