@@ -7,6 +7,8 @@
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
 <meta content="The unofficial user manual for SynthV Studio" name="description"/>
 <link href="https://manual.synthv.info/parameters/direct-pitch-editing/" rel="canonical"/>
+<link href="../editing-parameters/" rel="prev"/>
+<link href="../../ai-functions/auto-pitch-tuning/" rel="next"/>
 <link href="../../img/icon.ico" rel="icon"/>
 <meta content="mkdocs-1.4.2, mkdocs-material-9.0.6" name="generator"/>
 <title>Direct Pitch Editing - Synthesizer V Studio Unofficial User Manual</title>
@@ -289,9 +291,9 @@
 </ul>
 </nav>
 </li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_4" id="__nav_4" type="checkbox"/>
-<label aria-expanded="false" class="md-nav__link" for="__nav_4" tabindex="0">
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" id="__nav_4" type="checkbox"/>
+<label aria-expanded="true" class="md-nav__link" for="__nav_4" tabindex="0">
           Parameters
           <span class="md-nav__icon md-icon"></span>
 </label>
@@ -310,6 +312,38 @@
 <a class="md-nav__link" href="../editing-parameters/">
         Editing Parameters
       </a>
+</li>
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+          Direct Pitch Editing
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
+        Direct Pitch Editing
+      </a>
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#modifying-the-pitch-line">
+    Modifying the Pitch Line
+  </a>
+<nav aria-label="Modifying the Pitch Line" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#simplify-parameters">
+    Simplify Parameters
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
 </li>
 </ul>
 </nav>
@@ -443,6 +477,26 @@
 <div class="md-sidebar__scrollwrap">
 <div class="md-sidebar__inner">
 <nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#modifying-the-pitch-line">
+    Modifying the Pitch Line
+  </a>
+<nav aria-label="Modifying the Pitch Line" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#simplify-parameters">
+    Simplify Parameters
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
 </nav>
 </div>
 </div>
@@ -450,6 +504,25 @@
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
 <h1 id="direct-pitch-editing">Direct Pitch Editing</h1>
+<p>The <a href="../editing-parameters/">Pitch Deviation</a> parameter can be edited directly in the Piano Roll.</p>
+<p>While the parameter normally allows drawing curves that are added to the base pitch line, editing directly in the piano roll lets you modify the actual pitch values instead of just the additive layer.</p>
+<h2 id="modifying-the-pitch-line">Modifying the Pitch Line</h2>
+<p>Select Pitch Edit mode from the top of the Piano Roll.</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="/img/parameters/pitch-edit-mode.png"><img alt="Pitch Edit Mode" src="/img/parameters/pitch-edit-mode.png"/></a></p>
+<p>The pencil tool can be used to draw pitch deviations directly on the piano roll.</p>
+<video controls="" height="360" width="480">
+<source src="/img/parameters/direct-freehand.mp4" type="video/mp4"/>
+    Drawing on the Piano Roll
+</video>
+<p>Selecting the pointer tool allows creating and dragging of nodes, just like in the parameters panel.</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="/img/parameters/pointer-tool-piano-roll.png"><img alt="Pitch Edit Mode with Pointer Tool" src="/img/parameters/pointer-tool-piano-roll.png"/></a></p>
+<h3 id="simplify-parameters">Simplify Parameters</h3>
+<p>The Simplify Parameters option can be found under the "Modify" top menu.</p>
+<p>This function reduces the number of nodes in a selection to smooth a curve, at the cost of precision. The resulting curve may not match the original exactly.</p>
+<video controls="" height="360" width="480">
+<source src="/img/parameters/simplify-parameter-piano-roll.mp4" type="video/mp4"/>
+    Simplifying a Parameter Curve
+</video>
 <hr/>
 <p><a href="https://github.com/claire-west/svstudio-manual/issues/new?template=report-a-problem.md&amp;title=[Page: Direct Pitch Editing]">Report an Issue</a></p>
 <hr/>
@@ -457,7 +530,7 @@
 <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-01-22T03:23:01+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-01-22</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-01-22T03:39:30+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-01-22</span>
 <br/>
         Created:
         <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-01-22T03:23:01+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-01-22</span>
