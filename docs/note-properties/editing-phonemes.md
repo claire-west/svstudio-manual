@@ -17,7 +17,7 @@ A full list of phonemes for each language can be found on the [Phoneme Reference
 ## Changing a Note's Phonemes
 Phonemes are displayed above a note, as well as in the Note Properties panel when the note is selected.
 
-If the text above the note is white, this means the phoneme sequence for the note is automatically being converted from the lyric entered inside the note.
+If the text above the note is white, this means the phoneme sequence for the note is automatically being converted from the lyric entered inside the note (either from the active [dictionary](../advanced/user-dictionaries.md) or by default phoneme conversion).
 
 ![Phonemes for a Note](/img/note-properties/phonemes.png)
 

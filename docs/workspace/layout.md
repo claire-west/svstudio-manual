@@ -31,6 +31,13 @@ The modifier key used for each of these functions can be customized in the Setti
 
 ![Changing the Naviation Controls](/img/workspace/navigation-settings.png)
 
+## The Status Bar
+If the "Show status bar" option is enabled in the Settings panel, a status bar will be visible at the bottom of the application window.
+
+The status bar shows contextual information depending on the current mouse cursor position.
+
+![The Status Bar](/img/workspace/status-bar.png)
+
 ---
 
 [Report an Issue](https://github.com/claire-west/svstudio-manual/issues/new?template=report-a-problem.md&title=[Page: Workspace])

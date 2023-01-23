@@ -1,6 +1,8 @@
 # Singer Selection
 
-By default no singer will be selected for new tracks. Select a singer from the dropdown in the arrangement panel.
+By default no singer will be selected for new tracks.
+
+Select a singer from the dropdown in the arrangement panel.
 
 ![The Singer Dropdown](/img/quickstart/singer-dropdown-arrangement.png)
 

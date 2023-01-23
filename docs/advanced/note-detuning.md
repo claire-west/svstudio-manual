@@ -4,7 +4,7 @@
 
     This feature requires Synthesizer V Studio Pro.
 
-Notes can be detuned in increments of 25 cents by dragging them while holding ++ctrl++ and ++shift++.
+Notes can be detuned in increments of 25 cents by dragging them while holding both ++ctrl+shift++.
 
 <video width="480" height="360" controls>
     <source src="/img/advanced/note-detuning.mp4" type="video/mp4">

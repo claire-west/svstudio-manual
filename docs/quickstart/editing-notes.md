@@ -1,8 +1,14 @@
 # Editing Notes
 
+Note editing varies based on the selected tool. Ensure you are in Note Edit Mode before trying to modify notes.
+
+![Piano Roll Tools](/img/quickstart/piano-roll-tools.png)
+
 ## Selecting Notes
 
-Notes can be selected by clicking on them. To select multiple notes at once, use the pointer tool to drag a bounding box around them.
+Notes can be selected by clicking on them.
+
+To select multiple notes at once, use the pointer tool (++alt+1++) to drag a bounding box around them.
 
 Select all notes in the current track or group with ++ctrl+a++.
 
@@ -13,6 +19,8 @@ Select all notes in the current track or group with ++ctrl+a++.
 Multiple notes can also be selected or deselected by clicking on them individually while holding ++ctrl++.
 
 A continuous sequence of notes can be selected by clicking the first note, holding ++shift++, and clicking the last note.
+
+You can also use bounding box selection with the pencil tool (++alt+2++) by double clicking (without releasing the left button after the second click) and dragging with the mouse, similar to how [new notes](creating-notes.md#pointer-tool) are added with the pointer tool.
 
 ## Modifying Notes
 

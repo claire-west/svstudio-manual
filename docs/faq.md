@@ -24,6 +24,7 @@ Lite voice databases are lower quality versions of paid products, which are avai
 - No cross-lingual support
 - Reduced vocal range
 - Lower quality output (more noise/artifacts)
+    - Lite voice databases are restricted to the "Prefer Speed" render mode in the Voice panel
 
 Lite voice databases are subject to the following terms:
 

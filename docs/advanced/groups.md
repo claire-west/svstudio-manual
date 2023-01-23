@@ -12,7 +12,7 @@ Once a group has been created, it will be indicated in the Arrangement panel, li
 
 ![Group](/img/advanced/groups.png)
 
-## Managing Groups
+### Managing Groups
 
 Groups can be renamed in the Library panel by double-clicking their name, and can be reordered by dragging the green handle to their left.
 
@@ -33,15 +33,19 @@ Even if a group is not present in the arrangement, it will still remain in the L
 
 ![Deleting an Unused Group](/img/advanced/unused-group.png)
 
-## Modifying a Group
+### Modifying a Group
 
 To modify the contents of a group, double-click one of the notes or select the start marker at the bottom of the piano roll.
 
 The area outside the group will be darkened to indicate you are editing the group's contents instead of the track it is part of.
 
-A group can have different voice settings from its parent track. This includes base parameter values, vocal modes, and even a different singer.
+A group can have different voice settings (in the Voice panel) from its parent track. This includes base parameter values, vocal modes, and even a different singer. If these values are not set they will be inherited from the parent track.
 
 ![Entering a Group](/img/advanced/group-entered.png)
+
+You can also navigate between groups by right clicking on unoccupied space in the piano roll.
+
+![Navigating Groups by Right Click](/img/advanced/group-enter-rightclick.png)
 
 ## Multiple Instances
 
@@ -65,6 +69,8 @@ Once the instance has been dissociated, it will be an instance of a new, separat
     Modifying a Group
 </video>
 
+Group instances are treated as separate vocal lines, and therefore do not smoothly transition between one another even when directly adjacent to notes from another group or the parent track.
+
 ## Pitch Offset
 
 If your song has a key change but multiple phrases before and after that point are otherwise identical, you can add a pitch offset to individual instances of the group.
@@ -75,6 +81,25 @@ Without entering the group to edit its contents, click and drag the group up or 
     <source src="/img/advanced/group-pitch-offset.mp4" type="video/mp4">
     Adding a Pitch Offset to a Group
 </video>
+
+## Overlapping Groups
+
+Group instances do not interact with the contents of other groups present in the track, or with the contents of the parent track.
+
+Unlike overlapping notes, groups that overlap can produce output simultaneously because their synthesized output is calculated separately.
+
+![Overlapping Groups](/img/advanced/overlapping-groups.png)
+
+### Inherited Parameters
+
+The main exception to the above rule is that group instances will inherit any parameter curves from the underlying parent track.
+
+These inherited parameters will only apply to the group instance at the same point on the time axis and will have no effect on instances of the same group elsewhere in the track or project.
+
+<figure markdown>
+  ![Inherited Pitch Deviation](/img/advanced/inherited-parameters.png)
+  <figcaption>Pitch deviation outside the group affecting one instance's notes.</figcaption>
+</figure>
 
 ---
 

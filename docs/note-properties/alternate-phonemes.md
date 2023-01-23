@@ -1,5 +1,9 @@
 # Alternate Phonemes and Phoneme Strength
 
+!!! note "Pro Feature"
+
+    The features described below require Synthesizer V Studio Pro.
+
 Alternate Phonemes and Phoneme Strength are found in the "Timing and Phonemes" section of the Note Properties panel and can be used to customize each individual sound.
 
 ## Alternate Phonemes
@@ -10,7 +14,7 @@ When an alternate phoneme is selected, a different articulation or pronunciation
 
 ## Phoneme Strength
 
-Phoneme strength will modify the dynamics and emphasis of individual phonemes within a note.
+Phoneme strength (AI voice databases only) will modify the dynamics and emphasis of individual phonemes within a note.
 
 ![Phoneme Strength](/img/note-properties/phoneme-strength.png)
 
