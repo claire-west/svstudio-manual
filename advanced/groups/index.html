@@ -400,7 +400,8 @@
 <a class="md-nav__link" href="#grouping-notes">
     Grouping Notes
   </a>
-</li>
+<nav aria-label="Grouping Notes" class="md-nav">
+<ul class="md-nav__list">
 <li class="md-nav__item">
 <a class="md-nav__link" href="#managing-groups">
     Managing Groups
@@ -411,6 +412,9 @@
     Modifying a Group
   </a>
 </li>
+</ul>
+</nav>
+</li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="#multiple-instances">
     Multiple Instances
@@ -420,6 +424,20 @@
 <a class="md-nav__link" href="#pitch-offset">
     Pitch Offset
   </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#overlapping-groups">
+    Overlapping Groups
+  </a>
+<nav aria-label="Overlapping Groups" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#inherited-parameters">
+    Inherited Parameters
+  </a>
+</li>
+</ul>
+</nav>
 </li>
 </ul>
 </nav>
@@ -505,7 +523,8 @@
 <a class="md-nav__link" href="#grouping-notes">
     Grouping Notes
   </a>
-</li>
+<nav aria-label="Grouping Notes" class="md-nav">
+<ul class="md-nav__list">
 <li class="md-nav__item">
 <a class="md-nav__link" href="#managing-groups">
     Managing Groups
@@ -516,6 +535,9 @@
     Modifying a Group
   </a>
 </li>
+</ul>
+</nav>
+</li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="#multiple-instances">
     Multiple Instances
@@ -525,6 +547,20 @@
 <a class="md-nav__link" href="#pitch-offset">
     Pitch Offset
   </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#overlapping-groups">
+    Overlapping Groups
+  </a>
+<nav aria-label="Overlapping Groups" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#inherited-parameters">
+    Inherited Parameters
+  </a>
+</li>
+</ul>
+</nav>
 </li>
 </ul>
 </nav>
@@ -540,7 +576,7 @@
 <p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="/img/advanced/merge-into-group.png"><img alt="Merge Into Group" src="/img/advanced/merge-into-group.png"/></a></p>
 <p>Once a group has been created, it will be indicated in the Arrangement panel, listed in the Library panel, and have a start marker at the bottom of the Piano Roll.</p>
 <p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="/img/advanced/groups.png"><img alt="Group" src="/img/advanced/groups.png"/></a></p>
-<h2 id="managing-groups">Managing Groups</h2>
+<h3 id="managing-groups">Managing Groups</h3>
 <p>Groups can be renamed in the Library panel by double-clicking their name, and can be reordered by dragging the green handle to their left.</p>
 <p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="/img/advanced/group-rename.png"><img alt="Renaming a Group" src="/img/advanced/group-rename.png"/></a></p>
 <p>A group can be dragged to any point in the Arrangement.</p>
@@ -552,11 +588,13 @@
 <p>To remove a group from the arrangement, select it and press <span class="keys"><kbd class="key-delete">Del</kbd></span>, or delete it from the right click menu.</p>
 <p>Even if a group is not present in the arrangement, it will still remain in the Library. To delete a group entirely, right click it and select "Delete Group".</p>
 <p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="/img/advanced/unused-group.png"><img alt="Deleting an Unused Group" src="/img/advanced/unused-group.png"/></a></p>
-<h2 id="modifying-a-group">Modifying a Group</h2>
+<h3 id="modifying-a-group">Modifying a Group</h3>
 <p>To modify the contents of a group, double-click one of the notes or select the start marker at the bottom of the piano roll.</p>
 <p>The area outside the group will be darkened to indicate you are editing the group's contents instead of the track it is part of.</p>
-<p>A group can have different voice settings from its parent track. This includes base parameter values, vocal modes, and even a different singer.</p>
+<p>A group can have different voice settings (in the Voice panel) from its parent track. This includes base parameter values, vocal modes, and even a different singer. If these values are not set they will be inherited from the parent track.</p>
 <p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="/img/advanced/group-entered.png"><img alt="Entering a Group" src="/img/advanced/group-entered.png"/></a></p>
+<p>You can also navigate between groups by right clicking on unoccupied space in the piano roll.</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="/img/advanced/group-enter-rightclick.png"><img alt="Navigating Groups by Right Click" src="/img/advanced/group-enter-rightclick.png"/></a></p>
 <h2 id="multiple-instances">Multiple Instances</h2>
 <p>The same group can exist at multiple points within the arrangement. Each time a group is present is called an "instance" of that group, and all instances be listed in the Library panel along with the measures they start in.</p>
 <p>Group instances remain linked so that changes to one will affect all the others. This includes changes to the notes as well as parameter curves.</p>
@@ -571,6 +609,7 @@
 <source src="/img/advanced/modify-group.mp4" type="video/mp4"/>
     Modifying a Group
 </video>
+<p>Group instances are treated as separate vocal lines, and therefore do not smoothly transition between one another even when directly adjacent to notes from another group or the parent track.</p>
 <h2 id="pitch-offset">Pitch Offset</h2>
 <p>If your song has a key change but multiple phrases before and after that point are otherwise identical, you can add a pitch offset to individual instances of the group.</p>
 <p>Without entering the group to edit its contents, click and drag the group up or down. The instance will remain linked to the group it is a part of, but will be a certain pitch higher or lower than the other instances.</p>
@@ -578,6 +617,18 @@
 <source src="/img/advanced/group-pitch-offset.mp4" type="video/mp4"/>
     Adding a Pitch Offset to a Group
 </video>
+<h2 id="overlapping-groups">Overlapping Groups</h2>
+<p>Group instances do not interact with the contents of other groups present in the track, or with the contents of the parent track.</p>
+<p>Unlike overlapping notes, groups that overlap can produce output simultaneously because their synthesized output is calculated separately.</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="/img/advanced/overlapping-groups.png"><img alt="Overlapping Groups" src="/img/advanced/overlapping-groups.png"/></a></p>
+<h3 id="inherited-parameters">Inherited Parameters</h3>
+<p>The main exception to the above rule is that group instances will inherit any parameter curves from the underlying parent track.</p>
+<p>These inherited parameters will only apply to the group instance at the same point on the time axis and will have no effect on instances of the same group elsewhere in the track or project.</p>
+<figure>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="/img/advanced/inherited-parameters.png"><img alt="Inherited Pitch Deviation" src="/img/advanced/inherited-parameters.png"/></a>
+</p>
+<figcaption>Pitch deviation outside the group affecting one instance's notes.</figcaption>
+</figure>
 <hr/>
 <p><a href="https://github.com/claire-west/svstudio-manual/issues/new?template=report-a-problem.md&amp;title=[Page: Groups]">Report an Issue</a></p>
 <hr/>
@@ -585,7 +636,7 @@
 <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-01-22T05:05:05+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-01-22</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-01-23T01:44:22+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-01-23</span>
 <br/>
         Created:
         <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-01-22T05:05:05+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-01-22</span>
