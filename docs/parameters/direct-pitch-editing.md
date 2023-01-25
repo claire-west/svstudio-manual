@@ -17,7 +17,7 @@ The pencil tool can be used to draw pitch deviations directly on the piano roll.
     Drawing on the Piano Roll
 </video>
 
-Selecting the pointer tool allows creating and dragging of nodes, just like in the parameters panel.
+Selecting the pointer tool allows creating and dragging of points, just like in the parameters panel.
 
 ![Pitch Edit Mode with Pointer Tool](/img/parameters/pointer-tool-piano-roll.png)
 
@@ -25,7 +25,7 @@ Selecting the pointer tool allows creating and dragging of nodes, just like in t
 
 The Simplify Parameters option can be found under the "Modify" top menu.
 
-This function reduces the number of nodes in a selection to smooth a curve, at the cost of precision. The resulting curve may not match the original exactly.
+This function reduces the number of points in a selection to smooth a curve, at the cost of precision. The resulting curve may not match the original exactly.
 
 <video width="480" height="360" controls>
     <source src="/img/parameters/simplify-parameter-piano-roll.mp4" type="video/mp4">

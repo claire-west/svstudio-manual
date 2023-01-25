@@ -13,23 +13,23 @@ Multiplies the window range by 2 or 4 times. Only applies to Pitch Deviation and
 
 Disabled is the most "zoomed in", while 4x is the largest multiplier of the visible range, and is therefore more "zoomed out".
 
-### 4. Primary Parameter
-The current parameter being edited.
+### 4. Editing Parameter
+The current parameter being edited in the foreground of the parameters panel.
 
-### 5. Secondary Parameter
-A parameter to display for reference behind the current primary parameter.
+### 5. Display Parameter
+A parameter to display for reference behind the current editing parameter.
 
-### 6. Secondary Parameter Curve
-The curve associated with the selected secondary (display) parameter.
+### 6. Display Parameter Curve
+The curve associated with the selected display (background) parameter.
 
-### 7. Primary Parameter Curve
-The curve associated with the selected primary (editing) parameter.
+### 7. Editing Parameter Curve
+The curve associated with the selected editing (foreground) parameter.
 
 ### 8. Curve Type
-Select different behaviors for interpolating the curve between nodes.
+Select different behaviors for interpolating the curve between points.
 
-### 9. Swap Primary and Secondary
-Swap the primary (editing) and secondary (display) parameters.
+### 9. Swap Editing and Display
+Swap the editing (foreground) and display (background) parameters.
 
 ## Multiple Parameter Panels
 

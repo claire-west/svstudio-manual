@@ -42,30 +42,30 @@ The Vibrato Envelope parameter affects the amplitude (depth) of expression-based
 
 Rather than a base value set in the Voice panel, the curve modifies the vibrato depth setting of the note as defined in the Note Properties panel.
 
-![Add a Node](/img/parameters/vibrato-envelope.png)
+![Vibrato Envelope](/img/parameters/vibrato-envelope.png)
 
 ## Editing Parameter Curves
 
-### Pointer Tool (node-based)
+### Pointer Tool (point-based)
 
-All parameter curves are composed of nodes and the interpolated lines joining them.
+All parameter curves are composed of points (sometimes referred to as "nodes") and the interpolated lines joining them.
 
-The pointer tool (++alt+1++) can add and move nodes, and is suited to creating smooth curves and making adjustments to existing curves.
+The pointer tool (++alt+1++) can add and move points, and is suited to creating smooth curves and making adjustments to existing curves.
 
-Double click to add a node.
+Double click to add a point.
 
-![Add a Node](/img/parameters/place-node.png)
+![Add a Point](/img/parameters/place-point.png)
 
-![Add a Node](/img/parameters/place-node-2.png)
+![Add a Point](/img/parameters/place-point-2.png)
 
-The pointer tool can also select nodes and move them, just like with notes in the piano roll.
+The pointer tool can also select points and move them, just like with notes in the piano roll.
 
 <video width="360" height="480" controls>
-    <source src="/img/parameters/move-nodes.mp4" type="video/mp4">
-    Moving Nodes
+    <source src="/img/parameters/move-points.mp4" type="video/mp4">
+    Moving Points
 </video>
 
-#### Node Movement Modifiers
+#### Point Movement Modifiers
 
 Modifier keys can be held to change the behavior of dragging point(s) with the mouse.
 
@@ -97,7 +97,7 @@ Holding right click will instead clear any curves along the area the moust passe
 
 The line tool (++alt+3++) will introduce two points, one at each end of the line drawn with the mouse.
 
-If either end of the drawn line is in proximity to an existing node, the existing node will be moved to the spot where the line began or ended.
+If either end of the drawn line is in proximity to an existing point, the existing point will be moved to the spot where the line began or ended.
 
 <video width="360" height="480" controls>
     <source src="/img/parameters/line-draw.mp4" type="video/mp4">
@@ -106,16 +106,16 @@ If either end of the drawn line is in proximity to an existing node, the existin
 
 ### Curve Types
 
-The curve type setting changes how the curves between nodes are interpolated.
+The curve type setting changes how the curves between points are interpolated.
 
 The first setting (Linear) will draw straight lines between the points.
 
-The second (Cosine) will ensure a horizontal line on either side of a node before curving toward the neighboring nodes.
+The second (Cosine) will ensure a horizontal line on either side of a point before curving toward the neighboring points.
 
-The third and final type (Adaptive Spline) will produce the smoothest curve connecting each node.
+The third and final type (Adaptive Spline) will produce the smoothest curve connecting each point.
 
 <figure markdown>
-  ![Add a Node](/img/parameters/curve-types-crop.png)
+  ![Add a Point](/img/parameters/curve-types-crop.png)
   <figcaption>A comparison of interpolation types</figcaption>
 </figure>
 
@@ -126,23 +126,23 @@ Additional options for parameter editing can be found in the "Editor" seciton of
 ![Parameter Options](/img/parameters/parameter-options.png)
 
 Hide points in freehand mode
-: When the pencil tool is selected, will not display dots for each individual node.
+: When the pencil tool is selected, will not display dots for each individual point.
 
 Auto-insert anchor points
-: If a node is placed within the duration of a note and no nearby nodes are present, anchor nodes will be placed before and after the note.
+: If a point is placed within the duration of a note and no nearby points are present, anchor points will be placed before and after the note.
 
 Simplify freehand drawn curves
-: Automatically simplify curves drawn with the pencil tool. This will reduce the number of nodes and may improve performance, but also may cause the final curves to not follow the freehand line precisely.
+: Automatically simplify curves drawn with the pencil tool. This will reduce the number of points and may improve performance, but also may cause the final curves to not follow the freehand line precisely.
 
 Snap points to zero
-: May need to be disabled if moving nodes to precise values near zero.
+: May need to be disabled if moving points to precise values near zero.
 
 
 ### Simplify Parameters
 
 The Simplify Parameters option can be found under the "Modify" top menu.
 
-This function reduces the number of nodes in a selection to smooth a curve, at the cost of precision. The resulting curve may not match the original exactly.
+This function reduces the number of points in a selection to smooth a curve, at the cost of precision. The resulting curve may not match the original exactly.
 
 <video width="360" height="480" controls>
     <source src="/img/parameters/simplify-parameter-curve.mp4" type="video/mp4">

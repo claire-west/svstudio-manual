@@ -6,11 +6,7 @@ hide:
 
 # Synthesizer V Studio
 
-<!-- ![Synthesizer V Logo](img/synthesizer-v.png) -->
-
-!!! info "Notice"
-
-    This website is a work in progress. Some sections may be incomplete.
+<!-- ![Synthesizer V Logo](/img/synthesizer-v.png) -->
 
 Synthesizer V Studio is a singing synthesizer released in July 2020, with AI synthesis functions added in December of 2020.
 
