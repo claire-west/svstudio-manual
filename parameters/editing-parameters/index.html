@@ -352,14 +352,14 @@
 <nav aria-label="Editing Parameter Curves" class="md-nav">
 <ul class="md-nav__list">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#pointer-tool-node-based">
-    Pointer Tool (node-based)
+<a class="md-nav__link" href="#pointer-tool-point-based">
+    Pointer Tool (point-based)
   </a>
-<nav aria-label="Pointer Tool (node-based)" class="md-nav">
+<nav aria-label="Pointer Tool (point-based)" class="md-nav">
 <ul class="md-nav__list">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#node-movement-modifiers">
-    Node Movement Modifiers
+<a class="md-nav__link" href="#point-movement-modifiers">
+    Point Movement Modifiers
   </a>
 </li>
 </ul>
@@ -573,14 +573,14 @@
 <nav aria-label="Editing Parameter Curves" class="md-nav">
 <ul class="md-nav__list">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#pointer-tool-node-based">
-    Pointer Tool (node-based)
+<a class="md-nav__link" href="#pointer-tool-point-based">
+    Pointer Tool (point-based)
   </a>
-<nav aria-label="Pointer Tool (node-based)" class="md-nav">
+<nav aria-label="Pointer Tool (point-based)" class="md-nav">
 <ul class="md-nav__list">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#node-movement-modifiers">
-    Node Movement Modifiers
+<a class="md-nav__link" href="#point-movement-modifiers">
+    Point Movement Modifiers
   </a>
 </li>
 </ul>
@@ -655,20 +655,20 @@
 <h3 id="vibrato-envelope">Vibrato Envelope</h3>
 <p>The Vibrato Envelope parameter affects the amplitude (depth) of expression-based vibrato in its duration.</p>
 <p>Rather than a base value set in the Voice panel, the curve modifies the vibrato depth setting of the note as defined in the Note Properties panel.</p>
-<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="/img/parameters/vibrato-envelope.png"><img alt="Add a Node" src="/img/parameters/vibrato-envelope.png"/></a></p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="/img/parameters/vibrato-envelope.png"><img alt="Vibrato Envelope" src="/img/parameters/vibrato-envelope.png"/></a></p>
 <h2 id="editing-parameter-curves">Editing Parameter Curves</h2>
-<h3 id="pointer-tool-node-based">Pointer Tool (node-based)</h3>
-<p>All parameter curves are composed of nodes and the interpolated lines joining them.</p>
-<p>The pointer tool (<span class="keys"><kbd class="key-alt">Alt</kbd><span>+</span><kbd class="key-1">1</kbd></span>) can add and move nodes, and is suited to creating smooth curves and making adjustments to existing curves.</p>
-<p>Double click to add a node.</p>
-<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="/img/parameters/place-node.png"><img alt="Add a Node" src="/img/parameters/place-node.png"/></a></p>
-<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="/img/parameters/place-node-2.png"><img alt="Add a Node" src="/img/parameters/place-node-2.png"/></a></p>
-<p>The pointer tool can also select nodes and move them, just like with notes in the piano roll.</p>
+<h3 id="pointer-tool-point-based">Pointer Tool (point-based)</h3>
+<p>All parameter curves are composed of points (sometimes referred to as "nodes") and the interpolated lines joining them.</p>
+<p>The pointer tool (<span class="keys"><kbd class="key-alt">Alt</kbd><span>+</span><kbd class="key-1">1</kbd></span>) can add and move points, and is suited to creating smooth curves and making adjustments to existing curves.</p>
+<p>Double click to add a point.</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="/img/parameters/place-point.png"><img alt="Add a Point" src="/img/parameters/place-point.png"/></a></p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="/img/parameters/place-point-2.png"><img alt="Add a Point" src="/img/parameters/place-point-2.png"/></a></p>
+<p>The pointer tool can also select points and move them, just like with notes in the piano roll.</p>
 <video controls="" height="480" width="360">
-<source src="/img/parameters/move-nodes.mp4" type="video/mp4"/>
-    Moving Nodes
+<source src="/img/parameters/move-points.mp4" type="video/mp4"/>
+    Moving Points
 </video>
-<h4 id="node-movement-modifiers">Node Movement Modifiers</h4>
+<h4 id="point-movement-modifiers">Point Movement Modifiers</h4>
 <p>Modifier keys can be held to change the behavior of dragging point(s) with the mouse.</p>
 <table>
 <thead>
@@ -706,18 +706,18 @@
 </video>
 <h3 id="line-tool">Line Tool</h3>
 <p>The line tool (<span class="keys"><kbd class="key-alt">Alt</kbd><span>+</span><kbd class="key-3">3</kbd></span>) will introduce two points, one at each end of the line drawn with the mouse.</p>
-<p>If either end of the drawn line is in proximity to an existing node, the existing node will be moved to the spot where the line began or ended.</p>
+<p>If either end of the drawn line is in proximity to an existing point, the existing point will be moved to the spot where the line began or ended.</p>
 <video controls="" height="480" width="360">
 <source src="/img/parameters/line-draw.mp4" type="video/mp4"/>
     Using the Line Tool
 </video>
 <h3 id="curve-types">Curve Types</h3>
-<p>The curve type setting changes how the curves between nodes are interpolated.</p>
+<p>The curve type setting changes how the curves between points are interpolated.</p>
 <p>The first setting (Linear) will draw straight lines between the points.</p>
-<p>The second (Cosine) will ensure a horizontal line on either side of a node before curving toward the neighboring nodes.</p>
-<p>The third and final type (Adaptive Spline) will produce the smoothest curve connecting each node.</p>
+<p>The second (Cosine) will ensure a horizontal line on either side of a point before curving toward the neighboring points.</p>
+<p>The third and final type (Adaptive Spline) will produce the smoothest curve connecting each point.</p>
 <figure>
-<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="/img/parameters/curve-types-crop.png"><img alt="Add a Node" src="/img/parameters/curve-types-crop.png"/></a>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="/img/parameters/curve-types-crop.png"><img alt="Add a Point" src="/img/parameters/curve-types-crop.png"/></a>
 </p>
 <figcaption>A comparison of interpolation types</figcaption>
 </figure>
@@ -726,17 +726,17 @@
 <p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="/img/parameters/parameter-options.png"><img alt="Parameter Options" src="/img/parameters/parameter-options.png"/></a></p>
 <dl>
 <dt>Hide points in freehand mode</dt>
-<dd>When the pencil tool is selected, will not display dots for each individual node.</dd>
+<dd>When the pencil tool is selected, will not display dots for each individual point.</dd>
 <dt>Auto-insert anchor points</dt>
-<dd>If a node is placed within the duration of a note and no nearby nodes are present, anchor nodes will be placed before and after the note.</dd>
+<dd>If a point is placed within the duration of a note and no nearby points are present, anchor points will be placed before and after the note.</dd>
 <dt>Simplify freehand drawn curves</dt>
-<dd>Automatically simplify curves drawn with the pencil tool. This will reduce the number of nodes and may improve performance, but also may cause the final curves to not follow the freehand line precisely.</dd>
+<dd>Automatically simplify curves drawn with the pencil tool. This will reduce the number of points and may improve performance, but also may cause the final curves to not follow the freehand line precisely.</dd>
 <dt>Snap points to zero</dt>
-<dd>May need to be disabled if moving nodes to precise values near zero.</dd>
+<dd>May need to be disabled if moving points to precise values near zero.</dd>
 </dl>
 <h3 id="simplify-parameters">Simplify Parameters</h3>
 <p>The Simplify Parameters option can be found under the "Modify" top menu.</p>
-<p>This function reduces the number of nodes in a selection to smooth a curve, at the cost of precision. The resulting curve may not match the original exactly.</p>
+<p>This function reduces the number of points in a selection to smooth a curve, at the cost of precision. The resulting curve may not match the original exactly.</p>
 <video controls="" height="480" width="360">
 <source src="/img/parameters/simplify-parameter-curve.mp4" type="video/mp4"/>
     Simplifying a Parameter Curve
@@ -748,7 +748,7 @@
 <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-01-22T23:48:36+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-01-22</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-01-25T17:52:42+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-01-25</span>
 <br/>
         Created:
         <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-01-22T03:23:01+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-01-22</span>
