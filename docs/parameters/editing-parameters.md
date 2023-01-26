@@ -79,14 +79,14 @@ Modifier keys can be held to change the behavior of dragging point(s) with the m
 
 The pencil tool (++alt+2++) allows you to draw the curve directly by clicking and holding down the left mouse button as you draw with the cursor.
 
-This can be used to customize a note transition, draw unique vibrato, or introduce all sorts of pitch deviations to mimic the desired singing style.
+This can be used to customize a note transition, draw unique vibrato, or introduce a variety of pitch deviations to achieve your desired singing style.
 
 <video width="360" height="480" controls>
     <source src="/img/parameters/freehand-draw.mp4" type="video/mp4">
     Drawing Parameters
 </video>
 
-Holding right click will instead clear any curves along the area the moust passes over.
+Holding right click will instead clear any curves along the area the mouse passes over.
 
 <video width="360" height="480" controls>
     <source src="/img/parameters/freehand-clear.mp4" type="video/mp4">
