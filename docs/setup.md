@@ -97,3 +97,7 @@ To deactivate a product select it in the "License and Updates" panel and click t
     Ensure that all voice databases are deactivated before deactivating or uninstalling Synthesizer V Studio. If you proceed with the uninstallation while activated voices remain on the system, you can recover the licensing status for the voices by reinstalling and reactivating Synthesizer V Studio.
 
 ![Deactivate](/img/deactivate.png)
+
+---
+
+[Report an Issue](https://github.com/claire-west/svstudio-manual/issues/new?template=report-a-problem.md&title=[Page: Setup])
