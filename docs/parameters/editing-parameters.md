@@ -126,7 +126,7 @@ Additional options for parameter editing can be found in the "Editor" seciton of
 ![Parameter Options](/img/parameters/parameter-options.png)
 
 Hide points in freehand mode
-: When the pencil tool is selected, will not display dots for each individual point.
+: When the pencil tool is selected, the dots for each individual point will be hidden.
 
 Auto-insert anchor points
 : If a point is placed within the duration of a note and no nearby points are present, anchor points will be placed before and after the note.

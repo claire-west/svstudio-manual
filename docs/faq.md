@@ -36,6 +36,12 @@ Lite voice databases are subject to the following terms:
 ### The original manual has a page for "Glottal Effects", why can't I find anything about that here?
 Glottal effects have not yet been implemented for Synthesizer V Studio.
 
+### Why are the vibrato sliders doing nothing?
+
+Certain automated processes such as [Auto Pitch Tuning](ai-functions/auto-pitch-tuning.md) and [Instant Mode](ai-functions/instant-mode.md) will set the vibrato depth for each note to zero. Notes with manual settings will not be changed, but those which have had their depth set to zero will no longer inherit that value from the defaults in the Voice panel.
+
+Ensure the note you are modifying does not have a vibrato depth of zero in the Note Properties panel, and that the start of the vibrato does not occur after the note's duration.
+
 ---
 
 [Report an Issue](https://github.com/claire-west/svstudio-manual/issues/new?template=report-a-problem.md&title=[Page: FAQ])

@@ -7,6 +7,7 @@ copyright: <a href="#__consent">Change cookie settings</a>
 nav:
   - Home: index.md
   - Quickstart Guide:
+    - Setup and Activation: setup.md
     - Workspace:
       - Layout: workspace/layout.md
       - Arrangement: workspace/arrangement.md
@@ -105,6 +106,9 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/claire-west/svstudio-manual
       name: This Website on GitHub
+    - icon: simple/kofi
+      link: https://ko-fi.com/claaaire
+      name: Support This Project
   consent:
     title: Cookie consent
     description: >-

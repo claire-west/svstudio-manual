@@ -8,7 +8,13 @@ The default values of the transition and vibrato sliders are determined by their
 
 !!! note
 
-    The vibrato created using these sliders produces a simple expression-based pattern. Other methods of creating vibrato such as [Auto Pitch Tuning](../ai-functions/auto-pitch-tuning.md) will create more complex vibrato patterns without using these settings.
+    The vibrato created using these sliders produces a simple expression-based pattern. Other methods of creating vibrato such as [Auto Pitch Tuning](../ai-functions/auto-pitch-tuning.md) and [Instant Mode](../ai-functions/instant-mode.md) will create more complex vibrato patterns without using these settings, and those patterns will not be affected by the vibrato sliders.
+
+!!! warning
+
+    Executing [Auto Pitch Tuning](../ai-functions/auto-pitch-tuning.md) or enabling [Instant Mode](../ai-functions/instant-mode.md) will set the vibrato depth of all notes to zero, except for notes which have already had their vibrato depth set manually in the Note Properties panel. Once this has happened the vibrato depth will no longer be inherited from the default set in the Voice panel.
+
+    To continue using the vibrato sliders, increase the vibrato depth in the Note Properties panel for the relevant notes.
 
 ![Transition and Vibrato Sliders](/img/note-properties/pitch-transition-and-vibrato-sliders.png)
 

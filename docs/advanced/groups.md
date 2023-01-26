@@ -49,7 +49,7 @@ You can also navigate between groups by right clicking on unoccupied space in th
 
 ## Multiple Instances
 
-The same group can exist at multiple points within the arrangement. Each time a group is present is called an "instance" of that group, and all instances be listed in the Library panel along with the measures they start in.
+The same group can exist at multiple points within the arrangement. Each time a group is present is called an "instance" of that group, and all instances are listed in the Library panel along with the respective measures they start in.
 
 Group instances remain linked so that changes to one will affect all the others. This includes changes to the notes as well as parameter curves.
 
