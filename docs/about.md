@@ -5,9 +5,11 @@ hide:
 
 # About
 
-This unofficial user manual was created in an attempt to provide an up-to-date set of documentation for Synthesizer V Studio. Please provide any feedback via the thread on the [official forums](https://forum.synthesizerv.com/t/topic/7524) or report any problems via a [GitHub Issue](https://github.com/claire-west/svstudio-manual/issues/new).
+This unofficial user manual was created to provide an up-to-date set of documentation for Synthesizer V Studio. It was created voluntarily and without compensation by users of the software and is not affiliated with or officially endorsed by Dreamtonics.
 
-## Contribution
+Please provide any feedback via the thread on the [official forums](https://forum.synthesizerv.com/t/topic/7524) or report any problems via a [GitHub Issue](https://github.com/claire-west/svstudio-manual/issues/new).
+
+## Content Contribution
 
 If you would like to help improve or maintain this website, feel free to create a [pull request](https://github.com/claire-west/svstudio-manual/pulls).
 
@@ -38,6 +40,12 @@ If you would like to help improve or maintain this website, feel free to create 
 
 - Claire ([moonlitclaire.com](https://moonlitclaire.com))
 - Susko ([GitHub](https://github.com/Susko3))
+
+## Support The Project
+
+The only monetary expense related to this project is $25/year for the domain name. Both this user manual and [the main site](https://synthv.info) are hosted at no cost using GitHub Pages.
+
+If you would like to help cover the cost of the domain or just show appreciation for the time dedicated to the writing and upkeep of the information presented here, you can do so on [Ko-fi](https://ko-fi.com/claaaire).
 
 ---
 

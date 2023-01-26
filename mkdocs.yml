@@ -45,9 +45,6 @@ nav:
     - MIDI Controller Support: advanced/midi-controller.md
     - VSTi/AU Plugin: daw-integration/plugin.md
     - Scripting: advanced/scripting.md
-  #   - License and Updates:
-  #     - License Management: advanced/license-management.md
-  #     - Software Updates: advanced/software-updates.md
   - Other Topics:
     - FAQs: faq.md
     - Phoneme Reference: phonemes.md
