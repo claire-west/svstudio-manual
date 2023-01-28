@@ -31,6 +31,11 @@ Sets the grid snap interval for the piano roll.
 ### 7. Instant Mode Toggle
 Enables or disables [Instant Mode](../ai-functions/instant-mode.md), which applies AI-generated pitch deviations to the notes as changes are made.
 
+### Tool/Mode Link
+The chain-link icon can be toggled on to toggle both the selected tool and current editing mode when either option is changed.
+
+![Tool/Mode Link](/img/workspace/tool-mode-link.png)
+
 ## Piano Roll Main Window
 
 ![The Piano Roll](/img/workspace/piano-roll.png)
