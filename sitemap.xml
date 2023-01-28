@@ -61,7 +61,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://manual.synthv.info/advanced/settings/</loc>
+         <loc>https://manual.synthv.info/advanced/side-panels/</loc>
+         <lastmod>2023-01-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://manual.synthv.info/advanced/top-menus/</loc>
          <lastmod>2023-01-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
