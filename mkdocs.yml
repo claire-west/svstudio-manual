@@ -44,7 +44,8 @@ nav:
     - Note Detuning: advanced/note-detuning.md
     - MIDI Controller Support: advanced/midi-controller.md
     - VSTi/AU Plugin: daw-integration/plugin.md
-    - The Side Panels in Detail: advanced/settings.md
+    - The Top Menus in Detail: advanced/top-menus.md
+    - The Side Panels in Detail: advanced/side-panels.md
     - Scripting: advanced/scripting.md
   - Other Topics:
     - FAQs: faq.md

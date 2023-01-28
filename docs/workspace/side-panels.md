@@ -55,7 +55,7 @@ Each section within a side panel can be collapsed or expanded by clicking on its
 
 ## The Side Panels in Detail
 
-For a detailed look at the options within each side panel, see [The Side Panels in Detail](../advanced/settings.md).
+For a detailed look at the options within each side panel, see [The Side Panels in Detail](../advanced/side-panels.md).
 
 ---
 

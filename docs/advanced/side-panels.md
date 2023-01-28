@@ -26,7 +26,7 @@ This page covers any information about the side panels that does not fit on a di
 See [Vocal Modes](../ai-functions/vocal-modes.md)
 
 ### Parameters
-See [Editing Parameters](../parameters/editing-parameters.md#base-values)
+See [Editing Parameters → Base Values](../parameters/editing-parameters.md#base-values)
 
 ### Tuning
 Pitch Shift
@@ -160,7 +160,7 @@ When used as a plugin, indicates how the output channels will be sent to the DAW
 : See [Editing Parameters → Additional Functions](../parameters/editing-parameters.md#additional-functions)
 
 ### Recording
-See [MIDI Controller Support → Recording Options](../midi-controller.md#recording-options)
+See [MIDI Controller Support → Recording Options](midi-controller.md#recording-options)
 
 ### Rendering
 **Background Threads**
@@ -180,4 +180,4 @@ Allows a hotkey to be assigned to any option accessible via the top menus, or a 
 
 ---
 
-[Report an Issue](https://github.com/claire-west/svstudio-manual/issues/new?template=report-a-problem.md&title=[Page: Settings])
+[Report an Issue](https://github.com/claire-west/svstudio-manual/issues/new?template=report-a-problem.md&title=[Page: Side Panels in Detail])
