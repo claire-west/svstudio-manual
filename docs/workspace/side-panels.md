@@ -4,6 +4,8 @@ Many different panels can be accessed from the menu at the side of the applicati
 
 The side panels can also be opened from the "View" menu at the top of the application.
 
+## The Side Menu
+
 ![Each Icon in the Side Menu](/img/workspace/side-panel.png)
 
 ### 1. Voice
@@ -50,6 +52,10 @@ Each section within a side panel can be collapsed or expanded by clicking on its
     <source src="/img/workspace/side-panel-section-collapse.mp4" type="video/mp4">
     Collapsing and expanding panel sections
 </video>
+
+## The Side Panels in Detail
+
+For a detailed look at the options within each side panel, see [The Side Panels in Detail](../advanced/settings.md).
 
 ---
 
