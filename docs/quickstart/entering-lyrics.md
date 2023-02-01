@@ -19,7 +19,7 @@ Breath notes can be added by entering `br` as the note's lyric (AI singers only)
 ![A Breath Note](/img/quickstart/breath-note.png)
 
 ## Adding Glottal Stops
-Glottal stops can be added between notes by prefixing the following lyric with a single quite (`'`). A note containing just a single quote can be used to add a glottal stop at the end of a phrase.
+Glottal stops can be added between notes by prefixing the following lyric with a single quote (`'`). A note containing just a single quote can be used to add a glottal stop at the end of a phrase.
 
 ![Glottal Stops](/img/quickstart/glottal-stop.png)
 
