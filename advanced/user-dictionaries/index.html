@@ -415,6 +415,11 @@
 </ul>
 </nav>
 </li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#dictionaries-and-cross-lingual-synthesis">
+    Dictionaries and Cross-lingual Synthesis
+  </a>
+</li>
 </ul>
 </nav>
 </li>
@@ -529,6 +534,11 @@
 </ul>
 </nav>
 </li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#dictionaries-and-cross-lingual-synthesis">
+    Dictionaries and Cross-lingual Synthesis
+  </a>
+</li>
 </ul>
 </nav>
 </div>
@@ -538,20 +548,32 @@
 <article class="md-content__inner md-typeset">
 <h1 id="user-dictionaries">User Dictionaries</h1>
 <p>Dictionaries can be used to customize word-to-phoneme conversion.</p>
-<p>When a note's lyric is being converted to phonemes, it will first check for an entry in the currently selected dictionary. If there is no custom entry or no dictionary is selected, the default conversion will be used. This can be useful if the same word appears many times in a project and you want all instances of that word to use a modifies phoneme sequence.</p>
+<p>When a note's lyric is being converted to phonemes, it will first check for an entry in the currently selected dictionary. If there is no custom entry or no dictionary is selected, the default conversion will be used. This can be useful if the same word appears many times in a project and you want all instances of that word to use a modified phoneme sequence.</p>
 <p>The Dictionary panel can be accessed from the side menu.</p>
 <p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="/img/advanced/dictionary-panel.png"><img alt="The Dictionary Panel" src="/img/advanced/dictionary-panel.png"/></a></p>
 <h2 id="creating-a-dictionary">Creating a Dictionary</h2>
 <p>To create a dictionary, open the Dictionary panel and click "New".</p>
+<p>Each track/group can have a different active dictionary.</p>
 <p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="/img/advanced/dictionary-new.png"><img alt="Creating a Dictionary" src="/img/advanced/dictionary-new.png"/></a></p>
 <h2 id="adding-dictionary-entries">Adding Dictionary Entries</h2>
-<p>Add dictionaries by entering the word and the desired phoneme sequence to be used.</p>
+<p>Add dictionary entries by entering the word and the desired phoneme sequence to be used.</p>
 <p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="/img/advanced/dictionary-new-entry.png"><img alt="Adding a Dictionary Entry" src="/img/advanced/dictionary-new-entry.png"/></a></p>
-<p>Once a word is present in the active dictionary, all instances of that word in the track/group will use the new phoneme sequence, unless their phonemes have been set manually. Notice that the phoneme text above the note is white to indicate that it is based on lyric-to-phoneme conversion rather than manual entry.</p>
+<p>Once a word is present in the active dictionary, all instances of that word in the track/group will use the new phoneme sequence unless their phonemes have been set manually.</p>
+<p>Notice that the phoneme text above the note is white to indicate that it is based on lyric-to-phoneme conversion rather than manual entry.</p>
 <p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="/img/advanced/dictionary-conversion.png"><img alt="Dictionary Phoneme Conversion" src="/img/advanced/dictionary-conversion.png"/></a></p>
 <h3 id="removing-dictionary-entries">Removing Dictionary Entries</h3>
 <p>To remove a dictionary entry, select it from the list and select "Remove".</p>
 <p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="/img/advanced/dictionary-remove.png"><img alt="Dictionary Phoneme Conversion" src="/img/advanced/dictionary-remove.png"/></a></p>
+<h2 id="dictionaries-and-cross-lingual-synthesis">Dictionaries and Cross-lingual Synthesis</h2>
+<div class="admonition note">
+<p class="admonition-title">Pro Feature</p>
+<p>Cross-lingual Synthesis requires Synthesizer V Studio Pro.</p>
+</div>
+<p>The dictionary list will always be loaded based on the current voice database's native language, even if that does not match the current language selected for cross-lingual synthesis.</p>
+<p>For example, to use an English dictionary with a native-Japanese voice database you would first need to move or copy the dictionary file into the <code>dicts/japanese-romaji</code> folder, even though the phoneme notation being used via cross-lingual synthesis is arpabet.</p>
+<p>The dictionaries folder is located in the same location as the <a href="">scripts</a> folder, and can therefore be located in the same manner by selecting "Open Scripts Folder" from the "Scripts" top menu.</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="/img/advanced/scripts-open-folder.png"><img alt="Scripts Folder" src="/img/advanced/scripts-open-folder.png"/></a></p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="/img/advanced/dicts-folder.png"><img alt="Dictionaries Folder" src="/img/advanced/dicts-folder.png"/></a></p>
 <hr/>
 <p><a href="https://github.com/claire-west/svstudio-manual/issues/new?template=report-a-problem.md&amp;title=[Page: User Dictionaries]">Report an Issue</a></p>
 <hr/>
@@ -559,7 +581,7 @@
 <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-01-21T22:25:36+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-01-21</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-02-02T18:01:30+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-02-02</span>
 <br/>
         Created:
         <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-01-21T22:25:36+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-01-21</span>

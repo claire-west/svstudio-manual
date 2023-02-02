@@ -551,16 +551,16 @@
 <h1 id="instant-mode">Instant Mode</h1>
 <p>While Instant Mode is active, <a href="../auto-pitch-tuning/">Auto Pitch Tuning</a> will be executed on the notes as you work. This uses AI-generated pitch deviations to create realistic transitions, sustains, and vibrato.</p>
 <h2 id="using-instant-mode">Using Instant Mode</h2>
-<p>Instant Mode affects the entire project, and behaves very similarly to auto pitch tuning, with some main exceptions:</p>
+<p>Instant Mode affects the entire project and behaves very similarly to auto pitch tuning, with some main exceptions:</p>
 <ul>
-<li>Pitch deviations do not appear in the parameters panel. This keeps the automatic pitch deviations separate from your manual ones.</li>
+<li>Pitch deviations introduced by Instant Mode do not appear in the parameters panel. This keeps the automatic pitch deviations separate from your manual ones.</li>
 <li>Expressiveness is determined by the slider in the <a href="../ai-retakes/">AI Retakes</a> panel (Pro edition only). This can be adjusted for all notes, or only selected notes.</li>
 </ul>
 <p>Instant Mode can be enabled with the button in the upper right corner of the Piano Roll.</p>
 <div class="admonition info">
 <p class="admonition-title">Info</p>
 <p>The pitch deviations introduced by Instant Mode are context-specific.</p>
-<p>A note's "context" is based on its pitch, duration, phonemes, as well as those same properties of the notes before and after it. If any of these things change the pitch deviations for the note will be recalculated.</p>
+<p>A note's "context" is based on its pitch, duration, and phonemes, as well as those same properties of the notes before and after it. If any of these things change the pitch deviations for the note will be recalculated.</p>
 </div>
 <p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="/img/ai-functions/instant-mode.png"><img alt="Instant Mode options" src="/img/ai-functions/instant-mode.png"/></a></p>
 <p>Enabling Instant Mode also allows the use of pitch <a href="../ai-retakes/">AI Retakes</a>.</p>
@@ -570,8 +570,8 @@
 <p>If a note's vibrato depth slider has been manually set, it will not be overwritten.</p>
 <p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="/img/ai-functions/instant-mode-vibrato-depth.png"><img alt="Vibrato Depth Set to Zero" src="/img/ai-functions/instant-mode-vibrato-depth.png"/></a></p>
 <h2 id="disabling-instant-mode">Disabling Instant Mode</h2>
-<p>Clicking the Instant Mode button while enabled will disable Instant Mode for the entire project.</p>
-<p>When this occurs, all generated pitch deviations (including the currently-selected AI Retakes) will be persisted to the parameters panel. These pitch deviations will be combined with any manually-created curves already present in the parameters panel to produce a resultant pitch line that is consistent with the behavior prior to disabling Instant Mode.</p>
+<p>Clicking the Instant Mode button while it is enabled will disable Instant Mode for the entire project.</p>
+<p>When this occurs, all generated pitch deviations (including the currently-selected AI Retakes) will be persisted to the parameters panel. These pitch deviations will be combined with any manually-created curves already present in the parameters panel to produce a resultant pitch line that is the same as before disabling Instant Mode.</p>
 <p>After disabling Instant Mode you will no longer be able to choose different AI Retakes and the pitch deviations will no longer be recalculated if a note's context changes.</p>
 <p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="/img/ai-functions/instant-mode-disabled.png"><img alt="Instant Mode Disabled" src="/img/ai-functions/instant-mode-disabled.png"/></a></p>
 <h2 id="default-instant-mode-setting">Default Instant Mode Setting</h2>
@@ -587,7 +587,7 @@
 <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-01-21T23:59:47+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-01-21</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-02-02T18:01:30+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-02-02</span>
 <br/>
         Created:
         <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-01-20T01:38:38+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-01-20</span>
