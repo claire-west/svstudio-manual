@@ -4,7 +4,7 @@
 
     The features described below require Synthesizer V Studio Pro.
 
-Using a MIDI controller, you can record melodies to the piano roll in real-time.
+You can record melodies to the piano roll in real-time using a MIDI controller.
 
 ## Setup
 Select your MIDI controller in the "Audio" section of the Settings panel.

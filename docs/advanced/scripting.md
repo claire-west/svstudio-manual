@@ -4,7 +4,7 @@
 
     The features described below require Synthesizer V Studio Pro.
 
-Synthesizer V Studio Pro supports scripting. Users can augment the features of the editor with their own scripts.
+Synthesizer V Studio Pro supports scripting with JavaScript and LUA. Users can augment the features of the editor with their own scripts.
 
 ## Using Scripts
 

@@ -12,8 +12,6 @@ To select multiple notes at once, use the pointer tool (++alt+1++) to drag a bou
 
 Select all notes in the current track or group with ++ctrl+a++.
 
-![Piano Roll Tools](/img/quickstart/piano-roll-tools.png)
-
 ![Selecting Multiple Notes](/img/quickstart/pencil-bounding-box.png)
 
 Multiple notes can also be selected or deselected by clicking on them individually while holding ++ctrl++.

@@ -121,7 +121,7 @@ The third and final type (Adaptive Spline) will produce the smoothest curve conn
 
 ## Additional Functions
 
-Additional options for parameter editing can be found in the "Editor" seciton of the Settings panel.
+Additional options for parameter editing can be found in the "Editor" section of the Settings panel.
 
 ![Parameter Options](/img/parameters/parameter-options.png)
 

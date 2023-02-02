@@ -32,7 +32,7 @@ To generate new takes, select one or more notes and click "Generate Take" from t
 
 Pitch retakes will produce varying pitch curves, and can be used to fine tune note transitions and vibrato.
 
-By selecting different takes from the list, you can see the pitch line change according to the selection.
+By selecting different takes from the list you can see the pitch line change according to the selection.
 
 !!! note
 

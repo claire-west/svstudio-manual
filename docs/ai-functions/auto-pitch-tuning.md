@@ -12,10 +12,10 @@ Executing auto pitch tuning will add pitch deviations to the parameters panel fo
 
 The pitch deviations introduced by Auto Pitch Tuning are context-specific.
 
-A note's "context" is based on its pitch, duration, phonemes, as well as those same properties of the notes before and after it. If any of these things change, the results of auto pitch tuning will be different.
+A note's "context" is based on its pitch, duration, and phonemes, as well as those same properties of the notes before and after it. If any of these things change, the results of auto pitch tuning will be different.
 
 ### Expressiveness
-The expressiveness slider determines how drastic the pitch deviations are, and how far they deviate from the notes.
+The expressiveness slider determines how drastic the pitch deviations are and how far they deviate from the notes.
 
 <figure markdown>
   ![Expressiveness Side-by-side](/img/ai-functions/auto-pitch-tuning-expressiveness-crop.png)

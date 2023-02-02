@@ -69,7 +69,7 @@ Once the instance has been dissociated, it will be an instance of a new, separat
     Modifying a Group
 </video>
 
-Group instances are treated as separate vocal lines, and therefore do not smoothly transition between one another even when directly adjacent to notes from another group or the parent track.
+Group instances are treated as separate phrases and therefore do not smoothly transition between one another, even when directly adjacent to notes from another group or the parent track.
 
 ## Pitch Offset
 
@@ -77,7 +77,7 @@ If your song has a key change but multiple phrases before and after that point a
 
 Without entering the group to edit its contents, click and drag the group up or down. The instance will remain linked to the group it is a part of, but will be a certain pitch higher or lower than the other instances.
 
-<video width="480" height="360" controls>
+<video width="640" height="480" controls>
     <source src="/img/advanced/group-pitch-offset.mp4" type="video/mp4">
     Adding a Pitch Offset to a Group
 </video>
@@ -86,7 +86,7 @@ Without entering the group to edit its contents, click and drag the group up or 
 
 Group instances do not interact with the contents of other groups present in the track, or with the contents of the parent track.
 
-Unlike overlapping notes, groups that overlap can produce output simultaneously because their synthesized output is calculated separately.
+Unlike overlapping notes, groups that overlap can produce output simultaneously because they are treated as separate phrases and their synthesized output is calculated separately.
 
 ![Overlapping Groups](/img/advanced/overlapping-groups.png)
 
