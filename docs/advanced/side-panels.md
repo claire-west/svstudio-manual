@@ -73,10 +73,10 @@ See [Pitch Transition and Vibrato](../note-properties/pitch-transition-and-vibra
 : See [Editing Phonemes](../note-properties/editing-phonemes.md)
 
 **Duration**
-: See [Note and Phoneme Timing → Phoneme Timing](../note-properties/note-and-phoneme-timing.md#phoneme-timing) for the sliders, or [Alternate Phonemes and Phoneme Strength](../note-properties/alternate-phonemes-and-phoneme-strength.md) for the buttons to the right of the sliders.
+: See [Note and Phoneme Timing → Phoneme Timing](../note-properties/note-and-phoneme-timing.md#phoneme-timing) for the sliders, or [Alternate Phonemes and Phoneme Strength](../note-properties/alternate-phonemes.md) for the buttons to the right of the sliders.
 
 **Strength**
-: See [Alternate Phonemes and Phoneme Strength → Phoneme Strength](../note-properties/alternate-phonemes-and-phoneme-strength.md#phoneme-strength)
+: See [Alternate Phonemes and Phoneme Strength → Phoneme Strength](../note-properties/alternate-phonemes.md#phoneme-strength)
 
 ### Expression Group
 See [Expression Groups](../note-properties/expression-groups.md)
