@@ -13,6 +13,22 @@ Use the plus sign (`+`) to distribute a multi-syllable word across multiple note
 ### 3. Legato
 Use the minus sign (`-`) to continue the last sung vowel into the following note.
 
+## Combining Syllable Breaks and Legato
+Multi-syllable words and melismas may require a combination of syllable breaks (`+`) and legato (`-`).
+
+In this example the word "amazing" has its three syllables extended across six notes.
+
+|Note|Lyric/Symbol|Syllable|
+|---|---|---|
+|1|amazing|First|
+|2|`-` (minus)|First (continued)|
+|3|`+` (plus)|Second|
+|4|`+` (plus)|Third|
+|5|`-` (minus)|Third (continued)|
+|6|`-` (minus)|Third (continued)|
+
+![Multi-syllable Lyrics](/img/quickstart/multi-syllable-lyrics.png)
+
 ## Adding Breaths
 Breath notes can be added by entering `br` as the note's lyric (AI singers only).
 
