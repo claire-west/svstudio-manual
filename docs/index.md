@@ -22,4 +22,9 @@ This website is not affiliated with Dreamtonics.
 
 ---
 
+**Latest Update** (<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="{{ git.date.isoformat() }}" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">{{ git.date.strftime("%Y-%M-%d") }}</span>)
+: {{ git.message }} (GitHub: [{{ git.short_commit }}](https://github.com/claire-west/svstudio-manual/commit/{{ git.short_commit }}))
+
+---
+
 [Report an Issue](https://github.com/claire-west/svstudio-manual/issues/new?template=report-a-problem.md&title=[Page: Home])

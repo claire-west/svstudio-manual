@@ -19,5 +19,5 @@ jobs:
         with:
           python-version: 3.x
       - run: sudo apt-get install libcairo2-dev libfreetype6-dev libffi-dev libjpeg-dev libpng-dev libz-dev
-      - run: pip install mkdocs mkdocs-material mkdocs-material-extensions pip install mkdocs-git-revision-date-localized-plugin mkdocs-glightbox pillow cairosvg
+      - run: pip install mkdocs mkdocs-material mkdocs-material-extensions pip install mkdocs-git-revision-date-localized-plugin mkdocs-glightbox mkdocs-macros-plugin pillow cairosvg
       - run: mkdocs gh-deploy --force
