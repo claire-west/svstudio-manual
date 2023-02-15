@@ -11,7 +11,7 @@
 <link href="../parameters-panel/" rel="prev"/>
 <link href="../direct-pitch-editing/" rel="next"/>
 <link href="../../img/icon.ico" rel="icon"/>
-<meta content="mkdocs-1.4.2, mkdocs-material-9.0.11" name="generator"/>
+<meta content="mkdocs-1.4.2, mkdocs-material-9.0.12" name="generator"/>
 <title>Editing Parameters - Synthesizer V Studio Unofficial User Manual</title>
 <link href="../../assets/stylesheets/main.0d440cfe.min.css" rel="stylesheet"/>
 <link href="../../assets/stylesheets/palette.2505c338.min.css" rel="stylesheet"/>
@@ -647,7 +647,7 @@
 <dt><strong>Pitch Deviation</strong></dt>
 <dd>A layer of pitch shifts added to the base pitch curve. 100 cents is equivalent to 1 semitone.</dd>
 <dt><strong>Vibrato Envelope</strong></dt>
-<dd>Amplitude modulation of expression-based vibrato.</dd>
+<dd>Amplitude modulation of <a href="../../note-properties/pitch-transition-and-vibrato/">expression-based vibrato</a>.</dd>
 <dt><strong>Loudness</strong></dt>
 <dd>Vocal effort/dynamics.</dd>
 <dt><strong>Tension</strong></dt>
@@ -670,6 +670,10 @@
 <h3 id="vibrato-envelope">Vibrato Envelope</h3>
 <p>The Vibrato Envelope parameter affects the amplitude (depth) of expression-based vibrato in its duration.</p>
 <p>Rather than a base value set in the Voice panel, the curve modifies the vibrato depth setting of the note as defined in the Note Properties panel.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The Vibrato Envelope parameter only applies a multiplier to the vibrato depth value for the note(s) as defined by the slider in the Note Properties panel. It has no effect on any other pitch deviations introduced in the parameters panel or by Instant Mode.</p>
+</div>
 <p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="/img/parameters/vibrato-envelope.png"><img alt="Vibrato Envelope" src="/img/parameters/vibrato-envelope.png"/></a></p>
 <h2 id="editing-parameter-curves">Editing Parameter Curves</h2>
 <h3 id="pointer-tool-point-based">Pointer Tool (point-based)</h3>
@@ -763,7 +767,7 @@
 <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-02-02T18:01:30+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-02-02</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-02-15T13:51:47+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-02-15</span>
 <br/>
         Created:
         <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-01-22T03:23:01+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-01-22</span>
@@ -877,7 +881,7 @@
 </div>
 <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout(function(){document.querySelector("[data-md-component=consent]").hidden=!1},250);var action,form=document.forms.consent;for(action of["submit","reset"])form.addEventListener(action,function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map(function(e){return[e,!0]}))),location.hash="",location.reload()})</script>
 <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tracking", "navigation.expand", "navigation.path", "navigation.top", "content.tabs.link"], "search": "../../assets/javascripts/workers/search.db81ec45.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
-<script src="../../assets/javascripts/bundle.6df46069.min.js"></script>
+<script src="../../assets/javascripts/bundle.4b2c34cd.min.js"></script>
 <script src="../../js/timeago.min.js"></script>
 <script src="../../js/timeago_mkdocs_material.js"></script>
 <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>

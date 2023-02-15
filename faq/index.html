@@ -11,7 +11,7 @@
 <link href="../advanced/scripting/" rel="prev"/>
 <link href="../phonemes/" rel="next"/>
 <link href="../img/icon.ico" rel="icon"/>
-<meta content="mkdocs-1.4.2, mkdocs-material-9.0.11" name="generator"/>
+<meta content="mkdocs-1.4.2, mkdocs-material-9.0.12" name="generator"/>
 <title>FAQs - Synthesizer V Studio Unofficial User Manual</title>
 <link href="../assets/stylesheets/main.0d440cfe.min.css" rel="stylesheet"/>
 <link href="../assets/stylesheets/palette.2505c338.min.css" rel="stylesheet"/>
@@ -591,6 +591,7 @@
 <h3 id="why-are-the-vibrato-sliders-doing-nothing">Why are the vibrato sliders doing nothing?</h3>
 <p>Certain automated processes such as <a href="../ai-functions/auto-pitch-tuning/">Auto Pitch Tuning</a> and <a href="../ai-functions/instant-mode/">Instant Mode</a> will set the vibrato depth for each note to zero. Notes with manual settings will not be changed, but those which have had their depth set to zero will no longer inherit that value from the defaults in the Voice panel.</p>
 <p>Ensure the note you are modifying does not have a vibrato depth of zero in the Note Properties panel, and that the start of the vibrato does not occur after the note's duration.</p>
+<p>If the vibrato depth for the notes is set to zero the <a href="../parameters/editing-parameters/#vibrato-envelope">Vibrato Envelope</a> parameter will also have no effect, since it is applying a multiplier to the depth value (which is zero).</p>
 <h3 id="the-keyboard-combinations-arent-working-on-mac-why">The keyboard combinations aren't working on Mac, why?</h3>
 <p>Mac has a slightly different keyboard layout than other devices. Generally where you see <span class="keys"><kbd class="key-control">Ctrl</kbd></span> Mac users will want to press <span class="keys"><kbd class="key-command">Cmd</kbd></span> instead, and where you see <span class="keys"><kbd class="key-alt">Alt</kbd></span> it's usually <span class="keys"><kbd class="key-option">Option</kbd></span> on Mac.</p>
 <hr/>
@@ -600,7 +601,7 @@
 <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-01-29T14:43:40+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-01-29</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-02-15T13:51:47+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-02-15</span>
 <br/>
         Created:
         <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-01-22T18:33:26+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-01-22</span>
@@ -714,7 +715,7 @@
 </div>
 <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout(function(){document.querySelector("[data-md-component=consent]").hidden=!1},250);var action,form=document.forms.consent;for(action of["submit","reset"])form.addEventListener(action,function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map(function(e){return[e,!0]}))),location.hash="",location.reload()})</script>
 <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.tracking", "navigation.expand", "navigation.path", "navigation.top", "content.tabs.link"], "search": "../assets/javascripts/workers/search.db81ec45.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
-<script src="../assets/javascripts/bundle.6df46069.min.js"></script>
+<script src="../assets/javascripts/bundle.4b2c34cd.min.js"></script>
 <script src="../js/timeago.min.js"></script>
 <script src="../js/timeago_mkdocs_material.js"></script>
 <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
