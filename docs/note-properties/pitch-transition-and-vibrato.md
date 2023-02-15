@@ -8,7 +8,7 @@ The default values of the transition and vibrato sliders are determined by their
 
 !!! note
 
-    The vibrato created using these sliders produces a simple expression-based pattern. Other methods of creating vibrato such as [Auto Pitch Tuning](../ai-functions/auto-pitch-tuning.md) and [Instant Mode](../ai-functions/instant-mode.md) will create more complex vibrato patterns without using these settings, and those patterns will not be affected by the vibrato sliders.
+    The vibrato created using these sliders produces a simple expression-based pattern. Other methods of creating vibrato such as [Auto Pitch Tuning](../ai-functions/auto-pitch-tuning.md) and [Instant Mode](../ai-functions/instant-mode.md) will create more complex vibrato patterns without using these settings, and those patterns will not be affected by the vibrato sliders or the [Vibrato Envelope](../parameters/editing-parameters.md#vibrato-envelope) parameter.
 
 !!! warning
 

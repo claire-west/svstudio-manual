@@ -8,7 +8,7 @@ Parameters offer detailed manual control over various aspects of a vocal sequenc
 : A layer of pitch shifts added to the base pitch curve. 100 cents is equivalent to 1 semitone.
 
 **Vibrato Envelope**
-: Amplitude modulation of expression-based vibrato.
+: Amplitude modulation of [expression-based vibrato](../note-properties/pitch-transition-and-vibrato.md).
 
 **Loudness**
 : Vocal effort/dynamics.
@@ -41,6 +41,10 @@ The base value of most parameters can be set in the Voice panel. The curves in t
 The Vibrato Envelope parameter affects the amplitude (depth) of expression-based vibrato in its duration.
 
 Rather than a base value set in the Voice panel, the curve modifies the vibrato depth setting of the note as defined in the Note Properties panel.
+
+!!! note
+
+    The Vibrato Envelope parameter only applies a multiplier to the vibrato depth value for the note(s) as defined by the slider in the Note Properties panel. It has no effect on any other pitch deviations introduced in the parameters panel or by Instant Mode.
 
 ![Vibrato Envelope](/img/parameters/vibrato-envelope.png)
 
