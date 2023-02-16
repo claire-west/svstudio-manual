@@ -42,6 +42,8 @@ Certain automated processes such as [Auto Pitch Tuning](ai-functions/auto-pitch-
 
 Ensure the note you are modifying does not have a vibrato depth of zero in the Note Properties panel, and that the start of the vibrato does not occur after the note's duration.
 
+If the vibrato depth for the notes is set to zero the [Vibrato Envelope](parameters/editing-parameters.md#vibrato-envelope) parameter will also have no effect, since it is applying a multiplier to the depth value (which is zero).
+
 ### The keyboard combinations aren't working on Mac, why?
 
 Mac has a slightly different keyboard layout than other devices. Generally where you see ++ctrl++ Mac users will want to press ++cmd++ instead, and where you see ++alt++ it's usually ++opt++ on Mac.
