@@ -9,7 +9,7 @@ The minimum and maximum range indicators for the currently selected parameter.
 Swap between the pointer, pencil, and line tools.
 
 ### 3. Zoom
-Multiplies the window range by 2 or 4 times. Only applies to Pitch Deviation and Loudness.
+Multiplies the window range by 2 or 4 times. Not all parameters can be zoomed.
 
 Disabled is the most "zoomed in", while 4x is the largest multiplier of the visible range, and is therefore more "zoomed out".
 

@@ -30,6 +30,12 @@ Parameters offer detailed manual control over various aspects of a vocal sequenc
 
 !!! note "Pro Feature - Tone Shift is only available in Synthesizer V Studio Pro."
 
+**Vocal Modes** (AI voice databases only)
+: Modifies the [vocal mode](../ai-functions/vocal-modes.md) settings for the voice.
+: Each AI voice database has different vocal modes, and each vocal mode can be selected as a parameter and will have its own associated parameter curve.
+
+!!! note "Pro Feature - Vocal Modes are only available in Synthesizer V Studio Pro."
+
 ## Base Values
 
 The base value of most parameters can be set in the Voice panel. The curves in the parameters panel will modify the value from this base setting.
@@ -48,7 +54,23 @@ Rather than a base value set in the Voice panel, the curve modifies the vibrato 
 
 ![Vibrato Envelope](/img/parameters/vibrato-envelope.png)
 
+### Base Value Indicator
+
+When the base value is set for the parameter currently being edited, a green horizontal line will indicate the the base value relative to the default (indicated by the light grey horizontal line).
+
+![Parameters Base Value](/img/parameters/parameter-base-value.png)
+
 ## Editing Parameter Curves
+
+### Selecting a Parameter
+
+Clicking on the current editing parameter label will open the parameter selection dropdown.
+
+The currently selected parameter will be indicated with a checkmark, and any parameters with associated curves will be indicated in green.
+
+Select a parameter or [vocal mode](../ai-functions/vocal-modes.md) to set it as the current editing parameter.
+
+![Parameter Selection](/img/parameters/parameter-selection.png)
 
 ### Pointer Tool (point-based)
 
@@ -122,6 +144,19 @@ The third and final type (Adaptive Spline) will produce the smoothest curve conn
   ![Add a Point](/img/parameters/curve-types-crop.png)
   <figcaption>A comparison of interpolation types</figcaption>
 </figure>
+
+### Automation Indicator
+
+Any parameters that have curves associated with them will have an automation indicator in the Voice panel as a reminder that the parameter is being modified from its base value.
+
+![Automation Indicator](/img/parameters/automation-indicator.png)
+
+The actual value of a parameter (the base value plus the parameter curve) will be displyed on the slider in the Voice panel based on the current playhead position, and will reflect the real-time value of the parameter during playback.
+
+<video width="300" height="360" controls>
+    <source src="/img/parameters/parameter-live-visualizer.mp4" type="video/mp4">
+    Live visualization of parameter values
+</video>
 
 ## Additional Functions
 

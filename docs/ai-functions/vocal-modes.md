@@ -13,6 +13,12 @@ The slider for each vocal mode can be set to values from 0% to 150%.
 
 ![SOLARIA Vocal Modes](/img/ai-functions/vocal-modes.png)
 
+## Modifying Vocal Modes Over Time
+
+Vocal Modes can be selected in the [parameters panel](../parameters/editing-parameters.md). The vocal mode setting will deviate from the base value set in the Voice panel based on the parameter curve.
+
+![Vocal Modes as Parameters](/img/ai-functions/vocal-modes-as-parameters.png)
+
 ## Video Demonstration
 <iframe hidden /><!-- weird iframe fix -->
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Yb8m_HmBEt4" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
