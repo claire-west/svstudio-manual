@@ -347,6 +347,11 @@
     Vibrato Envelope
   </a>
 </li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#base-value-indicator">
+    Base Value Indicator
+  </a>
+</li>
 </ul>
 </nav>
 </li>
@@ -356,6 +361,11 @@
   </a>
 <nav aria-label="Editing Parameter Curves" class="md-nav">
 <ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#selecting-a-parameter">
+    Selecting a Parameter
+  </a>
+</li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="#pointer-tool-point-based">
     Pointer Tool (point-based)
@@ -383,6 +393,11 @@
 <li class="md-nav__item">
 <a class="md-nav__link" href="#curve-types">
     Curve Types
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#automation-indicator">
+    Automation Indicator
   </a>
 </li>
 </ul>
@@ -578,6 +593,11 @@
     Vibrato Envelope
   </a>
 </li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#base-value-indicator">
+    Base Value Indicator
+  </a>
+</li>
 </ul>
 </nav>
 </li>
@@ -587,6 +607,11 @@
   </a>
 <nav aria-label="Editing Parameter Curves" class="md-nav">
 <ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#selecting-a-parameter">
+    Selecting a Parameter
+  </a>
+</li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="#pointer-tool-point-based">
     Pointer Tool (point-based)
@@ -614,6 +639,11 @@
 <li class="md-nav__item">
 <a class="md-nav__link" href="#curve-types">
     Curve Types
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#automation-indicator">
+    Automation Indicator
   </a>
 </li>
 </ul>
@@ -664,6 +694,14 @@
 <div class="admonition note">
 <p class="admonition-title">Pro Feature - Tone Shift is only available in Synthesizer V Studio Pro.</p>
 </div>
+<dl>
+<dt><strong>Vocal Modes</strong> (AI voice databases only)</dt>
+<dd>Modifies the <a href="../../ai-functions/vocal-modes/">vocal mode</a> settings for the voice.</dd>
+<dd>Each AI voice database has different vocal modes, and each vocal mode can be selected as a parameter and will have its own associated parameter curve.</dd>
+</dl>
+<div class="admonition note">
+<p class="admonition-title">Pro Feature - Vocal Modes are only available in Synthesizer V Studio Pro.</p>
+</div>
 <h2 id="base-values">Base Values</h2>
 <p>The base value of most parameters can be set in the Voice panel. The curves in the parameters panel will modify the value from this base setting.</p>
 <p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="/img/parameters/voice-parameters.png"><img alt="Base Parameter Sliders" src="/img/parameters/voice-parameters.png"/></a></p>
@@ -675,7 +713,15 @@
 <p>The Vibrato Envelope parameter only applies a multiplier to the vibrato depth value for the note(s) as defined by the slider in the Note Properties panel. It has no effect on any other pitch deviations introduced in the parameters panel or by Instant Mode.</p>
 </div>
 <p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="/img/parameters/vibrato-envelope.png"><img alt="Vibrato Envelope" src="/img/parameters/vibrato-envelope.png"/></a></p>
+<h3 id="base-value-indicator">Base Value Indicator</h3>
+<p>When the base value is set for the parameter currently being edited, a green horizontal line will indicate the the base value relative to the default (indicated by the light grey horizontal line).</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="/img/parameters/parameter-base-value.png"><img alt="Parameters Base Value" src="/img/parameters/parameter-base-value.png"/></a></p>
 <h2 id="editing-parameter-curves">Editing Parameter Curves</h2>
+<h3 id="selecting-a-parameter">Selecting a Parameter</h3>
+<p>Clicking on the current editing parameter label will open the parameter selection dropdown.</p>
+<p>The currently selected parameter will be indicated with a checkmark, and any parameters with associated curves will be indicated in green.</p>
+<p>Select a parameter or <a href="../../ai-functions/vocal-modes/">vocal mode</a> to set it as the current editing parameter.</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="/img/parameters/parameter-selection.png"><img alt="Parameter Selection" src="/img/parameters/parameter-selection.png"/></a></p>
 <h3 id="pointer-tool-point-based">Pointer Tool (point-based)</h3>
 <p>All parameter curves are composed of points (sometimes referred to as "nodes") and the interpolated lines joining them.</p>
 <p>The pointer tool (<span class="keys"><kbd class="key-alt">Alt</kbd><span>+</span><kbd class="key-1">1</kbd></span>) can add and move points, and is suited to creating smooth curves and making adjustments to existing curves.</p>
@@ -740,6 +786,14 @@
 </p>
 <figcaption>A comparison of interpolation types</figcaption>
 </figure>
+<h3 id="automation-indicator">Automation Indicator</h3>
+<p>Any parameters that have curves associated with them will have an automation indicator in the Voice panel as a reminder that the parameter is being modified from its base value.</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="/img/parameters/automation-indicator.png"><img alt="Automation Indicator" src="/img/parameters/automation-indicator.png"/></a></p>
+<p>The actual value of a parameter (the base value plus the parameter curve) will be displyed on the slider in the Voice panel based on the current playhead position, and will reflect the real-time value of the parameter during playback.</p>
+<video controls="" height="360" width="300">
+<source src="/img/parameters/parameter-live-visualizer.mp4" type="video/mp4"/>
+    Live visualization of parameter values
+</video>
 <h2 id="additional-functions">Additional Functions</h2>
 <p>Additional options for parameter editing can be found in the "Editor" section of the Settings panel.</p>
 <p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="/img/parameters/parameter-options.png"><img alt="Parameter Options" src="/img/parameters/parameter-options.png"/></a></p>
@@ -767,7 +821,7 @@
 <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-02-15T13:51:47+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-02-15</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-02-16T13:42:46+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-02-16</span>
 <br/>
         Created:
         <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-01-22T03:23:01+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-01-22</span>
