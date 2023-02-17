@@ -160,9 +160,36 @@
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item md-nav__item--active">
 <input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+          Home
+          <span class="md-nav__icon md-icon"></span>
+</label>
 <a class="md-nav__link md-nav__link--active" href=".">
         Home
       </a>
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#navigating-this-website">
+    Navigating This Website
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#using-the-search-function">
+    Using the Search Function
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#latest-update-2023-02-17">
+    Latest Update (2023-02-17)
+  </a>
+</li>
+</ul>
+</nav>
 </li>
 <li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_2" type="checkbox"/>
@@ -473,6 +500,27 @@
 <div class="md-sidebar__scrollwrap">
 <div class="md-sidebar__inner">
 <nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#navigating-this-website">
+    Navigating This Website
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#using-the-search-function">
+    Using the Search Function
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#latest-update-2023-02-17">
+    Latest Update (2023-02-17)
+  </a>
+</li>
+</ul>
 </nav>
 </div>
 </div>
@@ -488,20 +536,24 @@
 <p>Additional unofficial guides and resources can be found on <a href="https://synthv.info/">synthv.info</a>.</p>
 <p>This website is not affiliated with Dreamtonics.</p>
 <hr/>
-<dl>
-<dt><strong>Latest Update</strong> (<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-02-16T08:42:46-05:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-42-16</span>)</dt>
-<dd>Added 1.8.1 features (vocal mode automation, parameter visualization) (#4)</dd>
-</dl>
+<h2 id="navigating-this-website">Navigating This Website</h2>
+<p>The user manual is separated into sections in order of complexity.</p>
+<p>New users should start by reading the <a href="workspace/layout/">Quickstart</a> section in order before moving on to the more advanced topics.</p>
+<p>Desktop users can navigate using the menu to the left, and mobile users can tap the three-lines icon in the top left corner to open the navigation menu.</p>
+<figure>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="/img/nav-mobile.png"><img alt="Accessing the navigation menu on mobile" src="/img/nav-mobile.png"/></a>
+</p>
+<figcaption>Accessing the navigation menu on mobile</figcaption>
+</figure>
+<h2 id="using-the-search-function">Using the Search Function</h2>
+<p>If you are looking for information about a specific feature, the search function will often offer the fastest way to find that information.</p>
+<p>Click on the "Search" text box in the top right of the page (or tap the magnifying glass icon on mobile) and type a keyword.</p>
+<p>In some situations you will want to surround your search term in double quotes in order to prioritize results matching the exact phrase instead of just the individual words.</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="/img/nav-search.png"><img alt="Using the Search Function" src="/img/nav-search.png"/></a></p>
+<h2 id="latest-update-2023-02-17">Latest Update <small>(<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-02-17T11:55:56-05:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-02-17</span>)</small></h2>
+<p><a href="https://github.com/claire-west/svstudio-manual/commit/eb84751"><span class="twemoji"><svg viewbox="0 0 496 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg></span> eb84751</a> · Improve home page</p>
 <ul>
-<li>
-<p>Add vocal mode automation and new parameter visualization</p>
-</li>
-<li>
-<p>Screenshots for new features</p>
-</li>
-<li>
-<p>Reword parameter zoom (GitHub: <a href="https://github.com/claire-west/svstudio-manual/commit/bfdfc4a">bfdfc4a</a>)</p>
-</li>
+<li>1.8.1 features were already added in the previous update</li>
 </ul>
 <hr/>
 <p><a href="https://github.com/claire-west/svstudio-manual/issues/new?template=report-a-problem.md&amp;title=[Page: Home]">Report an Issue</a></p>
@@ -510,7 +562,7 @@
 <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-02-08T17:31:36+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-02-08</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-02-17T16:55:56+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-02-17</span>
 <br/>
         Created:
         <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-01-15T02:30:29+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-01-15</span>
