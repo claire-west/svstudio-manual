@@ -12,6 +12,10 @@ If the "Pattern Fill" option is selected and there are more notes selected than 
 
 ![Pattern Fill Across Six Notes](/img/quickstart/lyric-pattern-fill-2.png)
 
+## Video Demonstration
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Gj7UipbHBdw?start=100" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
 ---
 
 [Report an Issue](https://github.com/claire-west/svstudio-manual/issues/new?template=report-a-problem.md&title=[Page: Batch Lyric Input])

@@ -13,7 +13,7 @@ The main panel for note creation, editing, and pitch/timing visualization. Also 
 ### 3. Parameters
 A panel for viewing and modifying [parameter curves](../../parameters/parameters-panel) to influence vocal behavior over time.
 
-### 4. Side Menu
+### 4. Launch Bar
 Buttons for opening the various [side panels](side-panels.md).
 
 ## Workspace Navigation
@@ -37,6 +37,10 @@ If the "Show status bar" option is enabled in the Settings panel, a status bar w
 The status bar shows contextual information depending on the current mouse cursor position.
 
 ![The Status Bar](/img/workspace/status-bar.png)
+
+## Video Demonstration
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/5f50-Ircdvs" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 
 ---
 

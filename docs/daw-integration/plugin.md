@@ -42,6 +42,10 @@ Track Combined
 Track Aspiration Isolated
 : Two output channels are used for each track, one for the main output and the other for the isolated aspiration.
 
+## Video Demonstration
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/jMm7piaJ0ss" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
 ---
 
 [Report an Issue](https://github.com/claire-west/svstudio-manual/issues/new?template=report-a-problem.md&title=[Page: DAW Integration])

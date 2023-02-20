@@ -4,7 +4,7 @@ Dictionaries can be used to customize word-to-phoneme conversion.
 
 When a note's lyric is being converted to phonemes, it will first check for an entry in the currently selected dictionary. If there is no custom entry or no dictionary is selected, the default conversion will be used. This can be useful if the same word appears many times in a project and you want all instances of that word to use a modified phoneme sequence.
 
-The Dictionary panel can be accessed from the side menu.
+The Dictionary panel can be accessed from the launch bar.
 
 ![The Dictionary Panel](/img/advanced/dictionary-panel.png)
 

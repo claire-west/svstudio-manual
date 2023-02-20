@@ -4,7 +4,7 @@
 
     The features described below require Synthesizer V Studio Pro.
 
-AI Retakes can be accessed via the [side menu](../workspace/side-panels.md), and allow you to cycle through multiple different generated results for the specified note(s).
+AI Retakes can be accessed via the [launch bar](../workspace/side-panels.md), and allow you to cycle through multiple different generated results for the specified note(s).
 
 ## Managing Takes
 
@@ -61,8 +61,8 @@ When no notes are selected, this slider will affect the default expressiveness v
 ![Side-by-side of Expressiveness Values](/img/ai-functions/retakes-expressiveness-crop.png)
 
 ## Video Demonstration
-<iframe hidden /><!-- weird iframe fix -->
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VyvXI3jEyRo" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/VyvXI3jEyRo" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 
 ---
 

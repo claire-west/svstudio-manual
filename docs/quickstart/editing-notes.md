@@ -75,6 +75,10 @@ Short silences can also be removed from many notes at once via the "Modify" top 
 
 ![Remove Short Silences](/img/quickstart/remove-short-silences.png)
 
+## Video Demonstration
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/_s1gITI3vbA" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
 ---
 
 [Report an Issue](https://github.com/claire-west/svstudio-manual/issues/new?template=report-a-problem.md&title=[Page: Editing Notes])

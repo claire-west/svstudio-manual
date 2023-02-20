@@ -32,6 +32,10 @@ This function reduces the number of points in a selection to smooth a curve, at 
     Simplifying a Parameter Curve
 </video>
 
+## Video Demonstration
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/KwIWwpoxTiY" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
 ---
 
 [Report an Issue](https://github.com/claire-west/svstudio-manual/issues/new?template=report-a-problem.md&title=[Page: Direct Pitch Editing])

@@ -39,6 +39,10 @@ Glottal stops can be added between notes by prefixing the following lyric with a
 
 ![Glottal Stops](/img/quickstart/glottal-stop.png)
 
+## Video Demonstration
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Gj7UipbHBdw" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
 ---
 
 [Report an Issue](https://github.com/claire-west/svstudio-manual/issues/new?template=report-a-problem.md&title=[Page: Entering Lyrics])

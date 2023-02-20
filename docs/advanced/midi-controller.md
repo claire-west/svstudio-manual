@@ -47,8 +47,8 @@ The Settings panel has some additional settings for MIDI recording, such as whet
 If your MIDI controller has playback controls, these can be used to navigate the piano roll and trigger playback within Synthesizer V Studio.
 
 ## Video Demonstration
-<iframe hidden /><!-- weird iframe fix -->
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KxwLaLn4zbY" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/KxwLaLn4zbY" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 
 ---
 

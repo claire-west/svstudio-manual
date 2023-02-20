@@ -4,9 +4,9 @@ Many different panels can be accessed from the menu at the side of the applicati
 
 The side panels can also be opened from the "View" menu at the top of the application.
 
-## The Side Menu
+## The Launch Bar
 
-![Each Icon in the Side Menu](/img/workspace/side-panel.png)
+![Each Icon in the Launch Bar](/img/workspace/side-panel.png)
 
 ### 1. Voice
 General settings that apply to the entire track or group, such as which singer to use, which language to sing in, and default note settings.

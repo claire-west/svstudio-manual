@@ -101,6 +101,10 @@ These inherited parameters will only apply to the group instance at the same poi
   <figcaption>Pitch deviation outside the group affecting one instance's notes.</figcaption>
 </figure>
 
+## Video Demonstration
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/kIn3CRfI4xs" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
 ---
 
 [Report an Issue](https://github.com/claire-west/svstudio-manual/issues/new?template=report-a-problem.md&title=[Page: Groups])
