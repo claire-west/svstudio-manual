@@ -2,15 +2,15 @@
 
 Enter lyrics for multiple notes at once by selecting them and using the "Insert Lyrics..." option under the "Modify" top menu, or pressing ++ctrl+l++.
 
-![The Insert Lyrics Dialog](/img/quickstart/batch-lyrics.png)
+![The Insert Lyrics Dialog](../img/quickstart/batch-lyrics.png)
 
 In the case of Chinese and Japanese lyrics where words are not separated by a space, selecting "Separate into Characters" will distribute one character per note.
 
 If the "Pattern Fill" option is selected and there are more notes selected than words entered, the lyrics will be repeated.
 
-![Two Words with Pattern Fill](/img/quickstart/lyric-pattern-fill.png)
+![Two Words with Pattern Fill](../img/quickstart/lyric-pattern-fill.png)
 
-![Pattern Fill Across Six Notes](/img/quickstart/lyric-pattern-fill-2.png)
+![Pattern Fill Across Six Notes](../img/quickstart/lyric-pattern-fill-2.png)
 
 ## Video Demonstration
 

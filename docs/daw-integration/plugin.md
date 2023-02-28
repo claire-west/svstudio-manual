@@ -14,13 +14,13 @@ If "Save Inside Host" is selected, the Synthesizer V Studio project (SVP) file w
 
 To save an external SVP file separate from your DAW project, select "Save to External File" instead.
 
-![Save Inside Host option](/img/daw-integration/save-inside-host.png)
+![Save Inside Host option](../img/daw-integration/save-inside-host.png)
 
 ## Synchronize Tempo with Host
 
 An additional setting is added under the "Project" top menu.
 
-![Sync Tempo option](/img/daw-integration/sync-tempo.png)
+![Sync Tempo option](../img/daw-integration/sync-tempo.png)
 
 By selecting "Synchronize Tempo with Host", tempo markers will be added to the Synthesizer V Studio project matching those of the DAW's project.
 
@@ -28,7 +28,7 @@ By selecting "Synchronize Tempo with Host", tempo markers will be added to the S
 
 The output of Synthesizer V Studio can be routed to one or many channels based on the option chosen in the Settings Panel. This allows you to apply different effects to each track while using Synthesizer V Studio as a plugin.
 
-![Output Channels option](/img/daw-integration/output-channels.png)
+![Output Channels option](../img/daw-integration/output-channels.png)
 
 Master Combined
 : A single channel is used for all audio output.

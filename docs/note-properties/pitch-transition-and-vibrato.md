@@ -16,12 +16,12 @@ The default values of the transition and vibrato sliders are determined by their
 
     To continue using the vibrato sliders, increase the vibrato depth in the Note Properties panel for the relevant notes.
 
-![Transition and Vibrato Sliders](/img/note-properties/pitch-transition-and-vibrato-sliders.png)
+![Transition and Vibrato Sliders](../img/note-properties/pitch-transition-and-vibrato-sliders.png)
 
 ## Transition and Vibrato Visualized
 
 <figure markdown>
-  ![Visual Diagram of Each Slider](/img/note-properties/pitch-transition-and-vibrato-breakdown.png)
+  ![Visual Diagram of Each Slider](../img/note-properties/pitch-transition-and-vibrato-breakdown.png)
   <figcaption>Diagram from the legacy manual for Synthesizer V (2018)</figcaption>
 </figure>
 

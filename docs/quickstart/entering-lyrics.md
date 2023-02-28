@@ -1,6 +1,6 @@
 # Entering Lyrics
 
-![Note Lyrics and Special Symbols](/img/quickstart/note-lyrics.png)
+![Note Lyrics and Special Symbols](../img/quickstart/note-lyrics.png)
 
 ### 1. Lyric Entry
 Double click on a note to enter a lyric. Press ++enter++ or click outside the note to confirm, or press ++esc++ to cancel the change.
@@ -27,17 +27,17 @@ In this example the word "amazing" has its three syllables extended across six n
 |5|`-` (minus)|Third (continued)|
 |6|`-` (minus)|Third (continued)|
 
-![Multi-syllable Lyrics](/img/quickstart/multi-syllable-lyrics.png)
+![Multi-syllable Lyrics](../img/quickstart/multi-syllable-lyrics.png)
 
 ## Adding Breaths
 Breath notes can be added by entering `br` as the note's lyric (AI singers only).
 
-![A Breath Note](/img/quickstart/breath-note.png)
+![A Breath Note](../img/quickstart/breath-note.png)
 
 ## Adding Glottal Stops
 Glottal stops can be added between notes by prefixing the following lyric with a single quote (`'`). A note containing just a single quote can be used to add a glottal stop at the end of a phrase.
 
-![Glottal Stops](/img/quickstart/glottal-stop.png)
+![Glottal Stops](../img/quickstart/glottal-stop.png)
 
 ## Video Demonstration
 

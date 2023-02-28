@@ -1,13 +1,13 @@
 # Playback
 
-![Playback Controls](/img/quickstart/playback-controls.png)
+![Playback Controls](../img/quickstart/playback-controls.png)
 
 ### 1. Loop Marker
 When looping playback is enabled, two loop markers will be shown on the time axis indicating the start and end of the looping section.
 
 These loop markers can be dragged with the mouse or moved to any point on the time axis by right clicking. Creating a loop marker while looping is disabled will enable looping.
 
-![Moving Loop Markers](/img/quickstart/create-loop-marker.png)
+![Moving Loop Markers](../img/quickstart/create-loop-marker.png)
 
 ### 2. Playhead
 The current playback position. The playhead can be moved by left clicking on the time axis.

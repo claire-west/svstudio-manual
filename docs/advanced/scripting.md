@@ -12,7 +12,7 @@ Some scripts are included with Synthesizer V Studio Pro. These scripts can be ac
 
 Select a script from the dropdown to execute it.
 
-![Scripts Dropdown](/img/advanced/scripts.png)
+![Scripts Dropdown](../img/advanced/scripts.png)
 
 ### Adding New Scripts
 
@@ -20,13 +20,13 @@ Selecting "Open Scripts Folder" will open your operating system's file browser w
 
 Drag any new scripts into this "scripts" folder and then select "Rescan" or restart Synthesizer V Studio. The new scripts will now appear in the dropdown.
 
-![Scripts Folder](/img/advanced/scripts-open-folder.png)
+![Scripts Folder](../img/advanced/scripts-open-folder.png)
 
 ### Assigning Keybinds to Scripts
 
 Scripts can be assigned a hotkey from the Keybinds section at the bottom of the Settings panel.
 
-![Assigning Hotkeys to Scripts](/img/advanced/scripts-keybind.png)
+![Assigning Hotkeys to Scripts](../img/advanced/scripts-keybind.png)
 
 ## Creating Scripts
 

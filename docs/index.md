@@ -31,7 +31,7 @@ New users should start by reading the [Quickstart](workspace/layout.md) section 
 Desktop users can navigate using the menu to the left, and mobile users can tap the three-lines icon in the top left corner to open the navigation menu.
 
 <figure markdown>
-  ![Accessing the navigation menu on mobile](/img/nav-mobile.png)
+  ![Accessing the navigation menu on mobile](img/nav-mobile.png)
   <figcaption>Accessing the navigation menu on mobile</figcaption>
 </figure>
 
@@ -43,7 +43,7 @@ Click on the "Search" text box in the top right of the page (or tap the magnifyi
 
 In some situations you will want to surround your search term in double quotes in order to prioritize results matching the exact phrase instead of just the individual words.
 
-![Using the Search Function](/img/nav-search.png)
+![Using the Search Function](img/nav-search.png)
 
 ## Latest Update <small>(<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="{{ git.date.isoformat() }}" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">{{ git.date.strftime("%Y-%m-%d") }}</span>)</small>
 

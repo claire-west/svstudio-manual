@@ -6,7 +6,7 @@ The side panels can also be opened from the "View" menu at the top of the applic
 
 ## The Launch Bar
 
-![Each Icon in the Launch Bar](/img/workspace/side-panel.png)
+![Each Icon in the Launch Bar](../img/workspace/side-panel.png)
 
 ### 1. Voice
 General settings that apply to the entire track or group, such as which singer to use, which language to sing in, and default note settings.
@@ -39,19 +39,13 @@ Application settings and keyboard shortcuts.
 
 Side panels can be detached by dragging their header.
 
-<video width="480" height="360" controls>
-    <source src="/img/workspace/side-panel-detach.mp4" type="video/mp4">
-    Detaching a side panel
-</video>
+![type:video](../img/workspace/side-panel-detach.mp4)
 
 ## Collapsing Panel Headings
 
 Each section within a side panel can be collapsed or expanded by clicking on its heading.
 
-<video width="360" height="480" controls>
-    <source src="/img/workspace/side-panel-section-collapse.mp4" type="video/mp4">
-    Collapsing and expanding panel sections
-</video>
+![type:video](../img/workspace/side-panel-section-collapse.mp4)
 
 ## The Side Panels in Detail
 

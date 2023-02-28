@@ -1,0 +1,5 @@
+INHERIT: mkdocs.yml
+
+theme:
+  palette:
+    scheme: default

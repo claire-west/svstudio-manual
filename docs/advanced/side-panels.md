@@ -12,7 +12,7 @@ This page covers any information about the side panels that does not fit on a di
 **Load/Save Presets**
 : Allows saving the current Voice panel settings as a preset. This includes Vocal Modes, default parameter values, and default transition/vibrato settings.
 : Voice presets are specific to the voice database, so to use a preset for a different singer you must first select the original singer the preset was saved for, load the preset, and then switch to the desired other singer.
-: ![Voice Presets](/img/advanced/save-voice-preset.png)
+: ![Voice Presets](../img/advanced/save-voice-preset.png)
 
 ### Language
 

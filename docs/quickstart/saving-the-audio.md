@@ -10,7 +10,7 @@ Some additional format settings are also available, such as bit depth and sample
 
     Synthesizer V Studio Pro can isolate and export separate files for the vocal aspiration, allowing aspiration to be mixed differently in your DAW.
 
-![Create a Track](/img/quickstart/render.png)
+![Create a Track](../img/quickstart/render.png)
 
 ## Video Demonstration
 

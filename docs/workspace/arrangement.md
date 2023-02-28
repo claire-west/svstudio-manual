@@ -1,6 +1,6 @@
 # The Arrangement Panel
 
-![The Arrangement Panel](/img/workspace/arrangement.png)
+![The Arrangement Panel](../img/workspace/arrangement.png)
 
 ### 1. Track Type
 Indicates whether the track contains vocals or instrumentals, and functions as a handle for drag-and-drop reordering with the mouse.

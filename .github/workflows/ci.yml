@@ -2,7 +2,6 @@ name: ci
 on:
   push:
     branches:
-      - master
       - main
 permissions:
   contents: write
@@ -19,5 +18,25 @@ jobs:
         with:
           python-version: 3.x
       - run: sudo apt-get install libcairo2-dev libfreetype6-dev libffi-dev libjpeg-dev libpng-dev libz-dev
-      - run: pip install mkdocs mkdocs-material mkdocs-material-extensions pip install mkdocs-git-revision-date-localized-plugin mkdocs-glightbox mkdocs-macros-plugin pillow cairosvg
-      - run: mkdocs gh-deploy --force
+      - run: pip install mkdocs mkdocs-material mkdocs-material-extensions pip install mkdocs-git-revision-date-localized-plugin mkdocs-glightbox mkdocs-macros-plugin mkdocs-video pillow cairosvg
+      - name: deploy-pages
+        run: mkdocs gh-deploy --force
+      - name: build-offline-light
+        env:
+          OFFLINE: true
+        run: mkdocs build -f offline-light.yml -d offline-light
+      - run: cd offline-light && zip -r -q ../synthv-unofficial-user-manual-light.zip * -x google*.html CNAME sitemap*
+      - name: build-offline-dark
+        env:
+          OFFLINE: true
+        run: mkdocs build -f offline-dark.yml -d offline-dark
+      - run: cd offline-dark && zip -r -q ../synthv-unofficial-user-manual-dark.zip * -x google*.html CNAME sitemap*
+      - uses: "marvinpinto/action-automatic-releases@latest"
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          automatic_release_tag: "latest"
+          prerelease: false
+          title: "Offline Version"
+          files: |
+            synthv-unofficial-user-manual-light.zip
+            synthv-unofficial-user-manual-dark.zip

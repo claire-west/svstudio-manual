@@ -40,7 +40,7 @@ Parameters offer detailed manual control over various aspects of a vocal sequenc
 
 The base value of most parameters can be set in the Voice panel. The curves in the parameters panel will modify the value from this base setting.
 
-![Base Parameter Sliders](/img/parameters/voice-parameters.png)
+![Base Parameter Sliders](../img/parameters/voice-parameters.png)
 
 ### Vibrato Envelope
 
@@ -52,13 +52,13 @@ Rather than a base value set in the Voice panel, the curve modifies the vibrato 
 
     The Vibrato Envelope parameter only applies a multiplier to the vibrato depth value for the note(s) as defined by the slider in the Note Properties panel. It has no effect on any other pitch deviations introduced in the parameters panel or by Instant Mode.
 
-![Vibrato Envelope](/img/parameters/vibrato-envelope.png)
+![Vibrato Envelope](../img/parameters/vibrato-envelope.png)
 
 ### Base Value Indicator
 
 When the base value is set for the parameter currently being edited, a green horizontal line will indicate the the base value relative to the default (indicated by the light grey horizontal line).
 
-![Parameters Base Value](/img/parameters/parameter-base-value.png)
+![Parameters Base Value](../img/parameters/parameter-base-value.png)
 
 ## Editing Parameter Curves
 
@@ -70,7 +70,7 @@ The currently selected parameter will be indicated with a checkmark, and any par
 
 Select a parameter or [vocal mode](../ai-functions/vocal-modes.md) to set it as the current editing parameter.
 
-![Parameter Selection](/img/parameters/parameter-selection.png)
+![Parameter Selection](../img/parameters/parameter-selection.png)
 
 ### Pointer Tool (point-based)
 
@@ -80,16 +80,13 @@ The pointer tool (++alt+1++) can add and move points, and is suited to creating 
 
 Double click to add a point.
 
-![Add a Point](/img/parameters/place-point.png)
+![Add a Point](../img/parameters/place-point.png)
 
-![Add a Point](/img/parameters/place-point-2.png)
+![Add a Point](../img/parameters/place-point-2.png)
 
 The pointer tool can also select points and move them, just like with notes in the piano roll.
 
-<video width="360" height="480" controls>
-    <source src="/img/parameters/move-points.mp4" type="video/mp4">
-    Moving Points
-</video>
+![type:video](../img/parameters/move-points.mp4)
 
 #### Point Movement Modifiers
 
@@ -107,17 +104,11 @@ The pencil tool (++alt+2++) allows you to draw the curve directly by clicking an
 
 This can be used to customize a note transition, draw unique vibrato, or introduce a variety of pitch deviations to achieve your desired singing style.
 
-<video width="360" height="480" controls>
-    <source src="/img/parameters/freehand-draw.mp4" type="video/mp4">
-    Drawing Parameters
-</video>
+![type:video](../img/parameters/freehand-draw.mp4)
 
 Holding right click will instead clear any curves along the area the mouse passes over.
 
-<video width="360" height="480" controls>
-    <source src="/img/parameters/freehand-clear.mp4" type="video/mp4">
-    Clearing Parameters
-</video>
+![type:video](../img/parameters/freehand-clear.mp4)
 
 ### Line Tool
 
@@ -125,10 +116,7 @@ The line tool (++alt+3++) will introduce two points, one at each end of the line
 
 If either end of the drawn line is in proximity to an existing point, the existing point will be moved to the spot where the line began or ended.
 
-<video width="360" height="480" controls>
-    <source src="/img/parameters/line-draw.mp4" type="video/mp4">
-    Using the Line Tool
-</video>
+![type:video](../img/parameters/line-draw.mp4)
 
 ### Curve Types
 
@@ -141,7 +129,7 @@ The second (Cosine) will ensure a horizontal line on either side of a point befo
 The third and final type (Adaptive Spline) will produce the smoothest curve connecting each point.
 
 <figure markdown>
-  ![Add a Point](/img/parameters/curve-types-crop.png)
+  ![Add a Point](../img/parameters/curve-types-crop.png)
   <figcaption>A comparison of interpolation types</figcaption>
 </figure>
 
@@ -149,20 +137,17 @@ The third and final type (Adaptive Spline) will produce the smoothest curve conn
 
 Any parameters that have curves associated with them will have an automation indicator in the Voice panel as a reminder that the parameter is being modified from its base value.
 
-![Automation Indicator](/img/parameters/automation-indicator.png)
+![Automation Indicator](../img/parameters/automation-indicator.png)
 
 The actual value of a parameter (the base value plus the parameter curve) will be displyed on the slider in the Voice panel based on the current playhead position, and will reflect the real-time value of the parameter during playback.
 
-<video width="300" height="360" controls>
-    <source src="/img/parameters/parameter-live-visualizer.mp4" type="video/mp4">
-    Live visualization of parameter values
-</video>
+![type:video](../img/parameters/parameter-live-visualizer.mp4)
 
 ## Additional Functions
 
 Additional options for parameter editing can be found in the "Editor" section of the Settings panel.
 
-![Parameter Options](/img/parameters/parameter-options.png)
+![Parameter Options](../img/parameters/parameter-options.png)
 
 Hide points in freehand mode
 : When the pencil tool is selected, the dots for each individual point will be hidden.
@@ -183,10 +168,7 @@ The Simplify Parameters option can be found under the "Modify" top menu.
 
 This function reduces the number of points in a selection to smooth a curve, at the cost of precision. The resulting curve may not match the original exactly.
 
-<video width="360" height="480" controls>
-    <source src="/img/parameters/simplify-parameter-curve.mp4" type="video/mp4">
-    Simplifying a Parameter Curve
-</video>
+![type:video](../img/parameters/simplify-parameter-curve.mp4)
 
 ## Video Demonstration
 

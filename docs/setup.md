@@ -14,7 +14,7 @@ If installing the Pro edition you will be prompted for your product activation c
 
 Once you have successfully installed the software (and activated it, if necessary) you will be presented with the following application window.
 
-![Synthesizer V Studio](/img/synthv-studio.png)
+![Synthesizer V Studio](img/synthv-studio.png)
 
 ### Installing a Voice Database
 
@@ -24,7 +24,7 @@ If installing a paid voice database product, you will be prompted for your produ
 
 Once you have successfully installed a voice database (and activated it, if necessary) it will be listed in the singer selection dropdown.
 
-![Singer Selection Dropdown](/img/quickstart/singer-dropdown-arrangement.png)
+![Singer Selection Dropdown](img/quickstart/singer-dropdown-arrangement.png)
 
 ## Installation (Linux)
 
@@ -60,7 +60,7 @@ If installing the Pro edition you will be prompted for your product activation c
 
 Once you have successfully installed the software (and activated it, if necessary) you will be presented with the following application window.
 
-![Synthesizer V Studio](/img/synthv-studio.png)
+![Synthesizer V Studio](img/synthv-studio.png)
 
 ### Installing a Voice Database
 
@@ -74,17 +74,17 @@ If installing a paid voice database product, you will be prompted for your produ
 
 Once you have successfully installed a voice database (and activated it, if necessary) it will be listed in the singer selection dropdown.
 
-![Singer Selection Dropdown](/img/quickstart/singer-dropdown-arrangement.png)
+![Singer Selection Dropdown](img/quickstart/singer-dropdown-arrangement.png)
 
 ## Updating the Software
 
 Open the License and Updates panel and click "Check for Updates" to search for updates.
 
-![Check for Updates](/img/check-for-updates.png)
+![Check for Updates](img/check-for-updates.png)
 
 When an available update is shown under the product name, select the product and click the "Update" button below the list. The software will begin to download the update package and you will be guided through the installation process.
 
-![Update Available](/img/update.png)
+![Update Available](img/update.png)
 
 ## Deactivating a Product
 
@@ -96,7 +96,7 @@ To deactivate a product select it in the "License and Updates" panel and click t
 
     Ensure that all voice databases are deactivated before deactivating or uninstalling Synthesizer V Studio. If you proceed with the uninstallation while activated voices remain on the system, you can recover the licensing status for the voices by reinstalling and reactivating Synthesizer V Studio.
 
-![Deactivate](/img/deactivate.png)
+![Deactivate](img/deactivate.png)
 
 ---
 

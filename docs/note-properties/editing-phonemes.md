@@ -19,7 +19,7 @@ Phonemes are displayed above a note, as well as in the Note Properties panel whe
 
 If the text above the note is white, this means the phoneme sequence for the note is automatically being converted from the lyric entered inside the note (either from the active [dictionary](../advanced/user-dictionaries.md) or by default phoneme conversion).
 
-![Phonemes for a Note](/img/note-properties/phonemes.png)
+![Phonemes for a Note](../img/note-properties/phonemes.png)
 
 There are times where the default pronunciation does not match your song. For example, `hh ax l ow` and `hh eh l ow` are both common pronunciations for the word "hello" depending on the speaker's accent.
 
@@ -27,23 +27,23 @@ Double click on the phoneme text above a note to enter a modified phoneme sequen
 
 Pressing ++tab++ will confirm the change and advance to the next note, while ++ctrl+tab++ will move to the previous note.
 
-![Editing a Note's Phonemes](/img/note-properties/phoneme-editing.png)
+![Editing a Note's Phonemes](../img/note-properties/phoneme-editing.png)
 
 You can also use the text input in the Note Properties panel instead of double-clicking above the note.
 
-![Editing a Note's Phonemes](/img/note-properties/phoneme-editing-2.png)
+![Editing a Note's Phonemes](../img/note-properties/phoneme-editing-2.png)
 
 After manually modifying the phoneme sequence the text above the note will be green instead of white. When a note's phonemes have been entered manually in this way, the lyric inside the note will have no effect on the synthesized output.
 
-![A Note With Modified Phonemes](/img/note-properties/phoneme-edited.png)
+![A Note With Modified Phonemes](../img/note-properties/phoneme-edited.png)
 
 To revert the phoneme sequence to the automatic lyric-based conversion, set the phoneme sequence to an empty value.
 
-![Reseting a Note's Phonemes](/img/note-properties/phoneme-reset.png)
+![Reseting a Note's Phonemes](../img/note-properties/phoneme-reset.png)
 
 A phoneme sequence can also be entered within a note by prefixing it with a `.` character.
 
-![Phonemes in the Note Body](/img/note-properties/phonemes-in-note.png)
+![Phonemes in the Note Body](../img/note-properties/phonemes-in-note.png)
 
 ## Custom Lyric-to-Phoneme Conversion
 If there are many instances of the same word in your project, you may want to override the default phoneme conversion for all instances of that lyric. This can be accomplished by creating a [User Dictionary](../advanced/user-dictionaries.md).
@@ -58,7 +58,7 @@ Cross-lingual synthesis allows AI voice databases to access the phoneme lists fo
 
 Language settings can be found under the Voice and Note Properties panel, for the track/group and individual notes respectively.
 
-![Cross-lingual Settings](/img/ai-functions/cross-lingual.png)
+![Cross-lingual Settings](../img/ai-functions/cross-lingual.png)
 
 ---
 

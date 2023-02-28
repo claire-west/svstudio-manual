@@ -2,7 +2,7 @@
 
 Shown below is the workspace for a typical project with an instrumental track.
 
-![A High-level Overview of the Application GUI](/img/workspace/workspace.png)
+![A High-level Overview of the Application GUI](../img/workspace/workspace.png)
 
 ### 1. Arrangement
 Displays vocal and instrumental tracks with basic mixer controls, time axis information, and an overview of track contents. Also displays transport/playback controls when focused by user input.
@@ -29,14 +29,14 @@ At the time of writing there is no support for vertical zoom.
 
 The modifier key used for each of these functions can be customized in the Settings panel.
 
-![Changing the Naviation Controls](/img/workspace/navigation-settings.png)
+![Changing the Naviation Controls](../img/workspace/navigation-settings.png)
 
 ## The Status Bar
 If the "Show status bar" option is enabled in the Settings panel, a status bar will be visible at the bottom of the application window.
 
 The status bar shows contextual information depending on the current mouse cursor position.
 
-![The Status Bar](/img/workspace/status-bar.png)
+![The Status Bar](../img/workspace/status-bar.png)
 
 ## Video Demonstration
 

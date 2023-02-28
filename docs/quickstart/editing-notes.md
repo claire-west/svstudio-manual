@@ -2,7 +2,7 @@
 
 Note editing varies based on the selected tool. Ensure you are in Note Edit Mode before trying to modify notes.
 
-![Piano Roll Tools](/img/quickstart/piano-roll-tools.png)
+![Piano Roll Tools](../img/quickstart/piano-roll-tools.png)
 
 ## Selecting Notes
 
@@ -12,7 +12,7 @@ To select multiple notes at once, use the pointer tool (++alt+1++) to drag a bou
 
 Select all notes in the current track or group with ++ctrl+a++.
 
-![Selecting Multiple Notes](/img/quickstart/pencil-bounding-box.png)
+![Selecting Multiple Notes](../img/quickstart/pencil-bounding-box.png)
 
 Multiple notes can also be selected or deselected by clicking on them individually while holding ++ctrl++.
 
@@ -24,17 +24,11 @@ You can also use bounding box selection with the pencil tool (++alt+2++) by doub
 
 Notes can be moved by clicking and dragging them. If multiple notes are selected, the entire selection will be moved.
 
-<video width="480" height="360" controls>
-    <source src="/img/quickstart/note-move.mp4" type="video/mp4">
-    Moving Notes
-</video>
+![type:video](../img/quickstart/note-move.mp4)
 
 To change a note's duration, click and hold on the head or tail (left or right edge of the note) and drag to the desired length.
 
-<video width="480" height="360" controls>
-    <source src="/img/quickstart/note-resize.mp4" type="video/mp4">
-    Resizing a Note
-</video>
+![type:video](../img/quickstart/note-resize.mp4)
 
 ### Note Movement Modifiers
 
@@ -50,11 +44,11 @@ Modifier keys can be held to change the behavior of dragging note(s) with the mo
 
 Output cannot be synthesized for notes that overlap. Overlapping notes will be disabled and will not produce any sound.
 
-![Overlapping Notes](/img/quickstart/overlapping-notes.png)
+![Overlapping Notes](../img/quickstart/overlapping-notes.png)
 
 Resize the notes so that they do not overlap, and synthesized output will be restored.
 
-![Overlapping Notes](/img/quickstart/overlapping-notes-fixed.png)
+![Overlapping Notes](../img/quickstart/overlapping-notes-fixed.png)
 
 ## Short Silences
 
@@ -62,18 +56,15 @@ The end of one note should generally meet with the start of the next note unless
 
 If there is a small gap between two notes (1/16 quarter or smaller) a `sil` (silence) indicator will be displayed.
 
-![Overlapping Notes](/img/quickstart/sil.png)
+![Overlapping Notes](../img/quickstart/sil.png)
 
 Clicking the `sil` indicator will close the gap between the notes.
 
-<video width="360" height="480" controls>
-    <source src="/img/quickstart/sil-click.mp4" type="video/mp4">
-    Closing a Short Silence
-</video>
+![type:video](../img/quickstart/sil-click.mp4)
 
 Short silences can also be removed from many notes at once via the "Modify" top menu.
 
-![Remove Short Silences](/img/quickstart/remove-short-silences.png)
+![Remove Short Silences](../img/quickstart/remove-short-silences.png)
 
 ## Video Demonstration
 

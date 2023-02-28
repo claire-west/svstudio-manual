@@ -1,6 +1,6 @@
 # The Parameters Panel
 
-![Parameters Panel](/img/parameters/parameters-panel.png)
+![Parameters Panel](../img/parameters/parameters-panel.png)
 
 ### 1. Window Range
 The minimum and maximum range indicators for the currently selected parameter.
@@ -35,11 +35,11 @@ Swap the editing (foreground) and display (background) parameters.
 
 Additional parameter panels can be added to the workspace with the three-bars icon in the upper right of the Piano Roll.
 
-![Add Parameter Panel](/img/parameters/add-parameter-panel.png)
+![Add Parameter Panel](../img/parameters/add-parameter-panel.png)
 
 Unneeded parameter panels can also be removed by clicking the ✖ icon on the far right side.
 
-![Multiple Parameter Panels](/img/parameters/multiple-parameter-panels.png)
+![Multiple Parameter Panels](../img/parameters/multiple-parameter-panels.png)
 
 ---
 

@@ -8,7 +8,7 @@ AI Retakes can be accessed via the [launch bar](../workspace/side-panels.md), an
 
 ## Managing Takes
 
-![AI Retake Controls](/img/ai-functions/retakes-controls.png)
+![AI Retake Controls](../img/ai-functions/retakes-controls.png)
 
 ### 1. New Take
 Generate new takes for the selected notes.
@@ -28,7 +28,7 @@ To generate new takes, select one or more notes and click "Generate Take" from t
 
 !!! info "Pitch retakes can only be generated while [Instant Mode](instant-mode.md) is enabled."
 
-![Generating New Takes](/img/ai-functions/retakes-new.png)
+![Generating New Takes](../img/ai-functions/retakes-new.png)
 
 Pitch retakes will produce varying pitch curves, and can be used to fine tune note transitions and vibrato.
 
@@ -40,7 +40,7 @@ By selecting different takes from the list you can see the pitch line change acc
 
 
 <figure markdown>
-  ![Side-by-side of Different Takes](/img/ai-functions/retakes-side-by-side-crop.png)
+  ![Side-by-side of Different Takes](../img/ai-functions/retakes-side-by-side-crop.png)
   <figcaption>Comparing three different takes</figcaption>
 </figure>
 
@@ -50,7 +50,7 @@ Timbre retakes can be generated in the same manner as pitch retakes, but do not 
 
 These takes will modify the dynamics of the selected notes, but will not change the pitch. This can be helpful for fine-tuning glottal sounds such as vocal fry, or adjusting the harshness of sibilant phonemes.
 
-![Timbre Retakes](/img/ai-functions/retakes-timbre.png)
+![Timbre Retakes](../img/ai-functions/retakes-timbre.png)
 
 ## Expressiveness
 
@@ -58,7 +58,7 @@ The expressiveness slider can be used to reduce the amplitude of pitch or timbre
 
 When no notes are selected, this slider will affect the default expressiveness value for all notes in the track or group that have not had their expressiveness values set individually.
 
-![Side-by-side of Expressiveness Values](/img/ai-functions/retakes-expressiveness-crop.png)
+![Side-by-side of Expressiveness Values](../img/ai-functions/retakes-expressiveness-crop.png)
 
 ## Video Demonstration
 

@@ -2,7 +2,7 @@
 
 ## Piano Roll Toolbar
 
-![The Piano Roll](/img/workspace/piano-roll-controls.png)
+![The Piano Roll](../img/workspace/piano-roll-controls.png)
 
 ### 1. Tool Selection
 Allows changing between the pointer and pencil tools. The pointer is suited to selecting and modifying notes, while the pencil allows for quicker note creation and freehand pitch drawing.
@@ -34,11 +34,11 @@ Enables or disables [Instant Mode](../ai-functions/instant-mode.md), which appli
 ### Tool/Mode Link
 The chain-link icon can be toggled on to toggle both the selected tool and current editing mode when either option is changed.
 
-![Tool/Mode Link](/img/workspace/tool-mode-link.png)
+![Tool/Mode Link](../img/workspace/tool-mode-link.png)
 
 ## Piano Roll Main Window
 
-![The Piano Roll](/img/workspace/piano-roll.png)
+![The Piano Roll](../img/workspace/piano-roll.png)
 
 ### 1. Notes
 Notes are displayed in the piano roll as green rectangles, with their vertical position (pitch) corresponding to the piano key on the left and their horizontal position (timing) corresponding to the time axis above.

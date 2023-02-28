@@ -19,21 +19,21 @@ There are multiple ways to add a new track:
 
     Using an instrumental file in mp3 format may result in desynchronized audio.
 
-![Create a Track](/img/quickstart/new-track.png)
+![Create a Track](../img/quickstart/new-track.png)
 
 Right click on a track to duplicate or delete it.
 
-![Create a Track](/img/quickstart/duplicate-track.png)
+![Create a Track](../img/quickstart/duplicate-track.png)
 
 Notes from other tracks will be shown in the piano roll as colored lines. This can be disabled with the "Show Melody from Other Tracks" option in the "View" menu at the top of the application window.
 
-![Create a Track](/img/quickstart/show-other-tracks.png)
+![Create a Track](../img/quickstart/show-other-tracks.png)
 
 ## Importing Tracks
 
 There are two options in the "File" menu at the top of the application that allow importing of tracks.
 
-![Import Options](/img/quickstart/import.png)
+![Import Options](../img/quickstart/import.png)
 
 "Import" will open the selected file as a new project in Synthesizer V Studio. "Import as Tracks" will create new tracks in the current project based on the selected file.
 

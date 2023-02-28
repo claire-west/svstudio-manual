@@ -17,7 +17,7 @@ Instant Mode can be enabled with the button in the upper right corner of the Pia
 
     A note's "context" is based on its pitch, duration, and phonemes, as well as those same properties of the notes before and after it. If any of these things change the pitch deviations for the note will be recalculated.
 
-![Instant Mode options](/img/ai-functions/instant-mode.png)
+![Instant Mode options](../img/ai-functions/instant-mode.png)
 
 Enabling Instant Mode also allows the use of pitch [AI Retakes](ai-retakes.md).
 
@@ -29,7 +29,7 @@ Any notes with an unmodified vibrato depth setting in the Note Properties panel 
 
 If a note's vibrato depth slider has been manually set, it will not be overwritten.
 
-![Vibrato Depth Set to Zero](/img/ai-functions/instant-mode-vibrato-depth.png)
+![Vibrato Depth Set to Zero](../img/ai-functions/instant-mode-vibrato-depth.png)
 
 ## Disabling Instant Mode
 
@@ -39,13 +39,13 @@ When this occurs, all generated pitch deviations (including the currently-select
 
 After disabling Instant Mode you will no longer be able to choose different AI Retakes and the pitch deviations will no longer be recalculated if a note's context changes.
 
-![Instant Mode Disabled](/img/ai-functions/instant-mode-disabled.png)
+![Instant Mode Disabled](../img/ai-functions/instant-mode-disabled.png)
 
 ## Default Instant Mode Setting
 
 Instant Mode will be enabled for new projects by default. To create new projects with Instant Mode disabled, uncheck "Enable instant mode by default" in the Settings panel.
 
-![Default Instant Mode Setting](/img/ai-functions/instant-mode-default.png)
+![Default Instant Mode Setting](../img/ai-functions/instant-mode-default.png)
 
 ## Video Demonstration
 
