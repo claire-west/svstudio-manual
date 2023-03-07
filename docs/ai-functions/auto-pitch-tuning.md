@@ -26,6 +26,29 @@ The expressiveness slider determines how drastic the pitch deviations are and ho
 
 The "Rerun with New Random Seed" option will generate a different pitch curve, even if the note's context has not changed. This can be used to cycle through different "takes".
 
+### Customized Style Sliders
+
+!!! note "Pro Feature - Auto Pitch Tuning (Customized Style) is only available in Synthesizer V Studio Pro."
+
+!!! warning "Speculative Information"
+
+    There is no clear guidance from Dreamtonics about this topic. The information below is based on user observation and may not be entirely accurate.
+
+#### Vibrato 1
+
+"Strong" settings will result in the AI engine being more "choosy" when applying AI-generated pitch deviations (both vibrato and overshoot). "Weak" settings will allow pitch deviations to be applied to more notes, more intensely.
+
+#### Vibrato 2
+
+Affects the intensity of AI-generated vibrato.
+
+#### Overshoot
+
+The overshoot slider affects the frequency and intensity of pitch deviations extending past the note.
+
+![Overshoot](../img/ai-functions/overshoot.png)
+
+
 ---
 
 [Report an Issue](https://github.com/claire-west/svstudio-manual/issues/new?template=report-a-problem.md&title=[Page: Auto Pitch Tuning])
