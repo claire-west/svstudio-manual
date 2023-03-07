@@ -26,7 +26,7 @@ Parameters offer detailed manual control over various aspects of a vocal sequenc
 : Formant shifting.
 
 **Tone Shift** (AI voice databases only)
-: Modifies the tone of the voice. Effects may vary with each voice database.
+: Modifies the tone of the voice without changing the pitch.
 
 !!! note "Pro Feature - Tone Shift is only available in Synthesizer V Studio Pro."
 
@@ -139,7 +139,7 @@ Any parameters that have curves associated with them will have an automation ind
 
 ![Automation Indicator](../img/parameters/automation-indicator.png)
 
-The actual value of a parameter (the base value plus the parameter curve) will be displyed on the slider in the Voice panel based on the current playhead position, and will reflect the real-time value of the parameter during playback.
+The actual value of a parameter (the base value plus the parameter curve) will be displayed on the slider in the Voice panel based on the current playhead position, and will reflect the real-time value of the parameter during playback.
 
 ![type:video](../img/parameters/parameter-live-visualizer.mp4)
 
