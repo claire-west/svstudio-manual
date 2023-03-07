@@ -7,35 +7,35 @@
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
 <meta content="The unofficial user manual for SynthV Studio" name="description"/>
 <meta content="Claire West" name="author"/>
-<link href="https://manual.synthv.info/faq/" rel="canonical"/>
-<link href="../advanced/scripting/" rel="prev"/>
-<link href="../phonemes/" rel="next"/>
-<link href="../img/icon.ico" rel="icon"/>
+<link href="https://manual.synthv.info/parameters/tone-shift/" rel="canonical"/>
+<link href="../direct-pitch-editing/" rel="prev"/>
+<link href="../../ai-functions/auto-pitch-tuning/" rel="next"/>
+<link href="../../img/icon.ico" rel="icon"/>
 <meta content="mkdocs-1.4.2, mkdocs-material-9.1.1" name="generator"/>
-<title>FAQs - Synthesizer V Studio Unofficial User Manual</title>
-<link href="../assets/stylesheets/main.402914a4.min.css" rel="stylesheet"/>
-<link href="../assets/stylesheets/palette.a0c5b2b5.min.css" rel="stylesheet"/>
+<title>Tone Shift - Synthesizer V Studio Unofficial User Manual</title>
+<link href="../../assets/stylesheets/main.402914a4.min.css" rel="stylesheet"/>
+<link href="../../assets/stylesheets/palette.a0c5b2b5.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
 <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
-<link href="../css/timeago.css" rel="stylesheet"/>
-<link href="../stylesheets/theme.css" rel="stylesheet"/>
-<script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+<link href="../../css/timeago.css" rel="stylesheet"/>
+<link href="../../stylesheets/theme.css" rel="stylesheet"/>
+<script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
 <script id="__analytics">function __md_analytics(){function n(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],n("js",new Date),n("config","G-0PEEE87FR1"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){this.value&&n("event","search",{search_term:this.value})}),document$.subscribe(function(){var a=document.forms.feedback;if(void 0!==a)for(var e of a.querySelectorAll("[type=submit]"))e.addEventListener("click",function(e){e.preventDefault();var t=document.location.pathname,e=this.getAttribute("data-md-value");n("event","feedback",{page:t,data:e}),a.firstElementChild.disabled=!0;e=a.querySelector(".md-feedback__note [data-md-value='"+e+"']");e&&(e.hidden=!1)}),a.hidden=!1}),location$.subscribe(function(e){n("config","G-0PEEE87FR1",{page_path:e.pathname})})});var e=document.createElement("script");e.async=!0,e.src="https://www.googletagmanager.com/gtag/js?id=G-0PEEE87FR1",document.getElementById("__analytics").insertAdjacentElement("afterEnd",e)}</script>
 <script>var consent;"undefined"==typeof __md_analytics||(consent=__md_get("__consent"))&&consent.analytics&&__md_analytics()</script>
 <meta content="website" property="og:type"/>
-<meta content="FAQs - Synthesizer V Studio Unofficial User Manual" property="og:title"/>
+<meta content="Tone Shift - Synthesizer V Studio Unofficial User Manual" property="og:title"/>
 <meta content="The unofficial user manual for SynthV Studio" property="og:description"/>
-<meta content="https://manual.synthv.info/assets/images/social/faq.png" property="og:image"/>
+<meta content="https://manual.synthv.info/assets/images/social/parameters/tone-shift.png" property="og:image"/>
 <meta content="image/png" property="og:image:type"/>
 <meta content="1200" property="og:image:width"/>
 <meta content="630" property="og:image:height"/>
-<meta content="https://manual.synthv.info/faq/" property="og:url"/>
+<meta content="https://manual.synthv.info/parameters/tone-shift/" property="og:url"/>
 <meta content="summary_large_image" name="twitter:card"/>
-<meta content="FAQs - Synthesizer V Studio Unofficial User Manual" name="twitter:title"/>
+<meta content="Tone Shift - Synthesizer V Studio Unofficial User Manual" name="twitter:title"/>
 <meta content="The unofficial user manual for SynthV Studio" name="twitter:description"/>
-<meta content="https://manual.synthv.info/assets/images/social/faq.png" name="twitter:image"/>
-<link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+<meta content="https://manual.synthv.info/assets/images/social/parameters/tone-shift.png" name="twitter:image"/>
+<link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
             html.glightbox-open { overflow: initial; height: 100%; }
             .gslide-title { margin-top: 0px; user-select: text; }
             .gslide-desc { color: #666; user-select: text; }
@@ -46,14 +46,14 @@
                 body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
                 body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
                 body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}
-                </style><script src="../assets/javascripts/glightbox.min.js"></script></head>
+                </style><script src="../../assets/javascripts/glightbox.min.js"></script></head>
 <body data-md-color-accent="" data-md-color-primary="" data-md-color-scheme="default" dir="ltr">
 <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
 <input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#frequently-asked-questions">
+<a class="md-skip" href="#tone-shift">
           Skip to content
         </a>
 </div>
@@ -61,7 +61,7 @@
 </div>
 <header class="md-header md-header--shadow" data-md-component="header">
 <nav aria-label="Header" class="md-header__inner md-grid">
-<a aria-label="Synthesizer V Studio Unofficial User Manual" class="md-header__button md-logo" data-md-component="logo" href=".." title="Synthesizer V Studio Unofficial User Manual">
+<a aria-label="Synthesizer V Studio Unofficial User Manual" class="md-header__button md-logo" data-md-component="logo" href="../.." title="Synthesizer V Studio Unofficial User Manual">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"></path></svg>
 </a>
 <label class="md-header__button md-icon" for="__drawer">
@@ -77,7 +77,7 @@
 <div class="md-header__topic" data-md-component="header-topic">
 <span class="md-ellipsis">
             
-              FAQs
+              Tone Shift
             
           </span>
 </div>
@@ -143,7 +143,7 @@
 <div class="md-sidebar__inner">
 <nav aria-label="Navigation" class="md-nav md-nav--primary" data-md-level="0">
 <label class="md-nav__title" for="__drawer">
-<a aria-label="Synthesizer V Studio Unofficial User Manual" class="md-nav__button md-logo" data-md-component="logo" href=".." title="Synthesizer V Studio Unofficial User Manual">
+<a aria-label="Synthesizer V Studio Unofficial User Manual" class="md-nav__button md-logo" data-md-component="logo" href="../.." title="Synthesizer V Studio Unofficial User Manual">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"></path></svg>
 </a>
     Synthesizer V Studio Unofficial User Manual
@@ -160,7 +160,7 @@
 </div>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="..">
+<a class="md-nav__link" href="../..">
         Home
       </a>
 </li>
@@ -177,7 +177,7 @@
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../setup/">
+<a class="md-nav__link" href="../../setup/">
         Setup and Activation
       </a>
 </li>
@@ -194,22 +194,22 @@
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../workspace/layout/">
+<a class="md-nav__link" href="../../workspace/layout/">
         Layout
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../workspace/arrangement/">
+<a class="md-nav__link" href="../../workspace/arrangement/">
         Arrangement
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../workspace/piano-roll/">
+<a class="md-nav__link" href="../../workspace/piano-roll/">
         Piano Roll
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../workspace/side-panels/">
+<a class="md-nav__link" href="../../workspace/side-panels/">
         Side Panels
       </a>
 </li>
@@ -217,42 +217,42 @@
 </nav>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../quickstart/singer-selection/">
+<a class="md-nav__link" href="../../quickstart/singer-selection/">
         Singer Selection
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../quickstart/setting-up-the-score/">
+<a class="md-nav__link" href="../../quickstart/setting-up-the-score/">
         Setting Up the Score
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../quickstart/creating-notes/">
+<a class="md-nav__link" href="../../quickstart/creating-notes/">
         Adding Notes
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../quickstart/editing-notes/">
+<a class="md-nav__link" href="../../quickstart/editing-notes/">
         Editing Notes
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../quickstart/entering-lyrics/">
+<a class="md-nav__link" href="../../quickstart/entering-lyrics/">
         Entering Lyrics
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../quickstart/playback/">
+<a class="md-nav__link" href="../../quickstart/playback/">
         Playback
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../quickstart/managing-tracks/">
+<a class="md-nav__link" href="../../quickstart/managing-tracks/">
         Managing Tracks
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../quickstart/saving-the-audio/">
+<a class="md-nav__link" href="../../quickstart/saving-the-audio/">
         Saving the Audio
       </a>
 </li>
@@ -272,62 +272,63 @@
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../note-properties/pitch-transition-and-vibrato/">
+<a class="md-nav__link" href="../../note-properties/pitch-transition-and-vibrato/">
         Pitch Transition and Vibrato
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../note-properties/editing-phonemes/">
+<a class="md-nav__link" href="../../note-properties/editing-phonemes/">
         Editing Phonemes
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../note-properties/note-and-phoneme-timing/">
+<a class="md-nav__link" href="../../note-properties/note-and-phoneme-timing/">
         Note and Phoneme Timing
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../note-properties/alternate-phonemes/">
+<a class="md-nav__link" href="../../note-properties/alternate-phonemes/">
         Alternate Phonemes and Phoneme Strength
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../note-properties/expression-groups/">
+<a class="md-nav__link" href="../../note-properties/expression-groups/">
         Expression Groups
       </a>
 </li>
 </ul>
 </nav>
 </li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_4" type="checkbox"/>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_4" type="checkbox"/>
 <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
           Parameters
           <span class="md-nav__icon md-icon"></span>
 </label>
-<nav aria-expanded="false" aria-labelledby="__nav_4_label" class="md-nav" data-md-level="1">
+<nav aria-expanded="true" aria-labelledby="__nav_4_label" class="md-nav" data-md-level="1">
 <label class="md-nav__title" for="__nav_4">
 <span class="md-nav__icon md-icon"></span>
           Parameters
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../parameters/parameters-panel/">
+<a class="md-nav__link" href="../parameters-panel/">
         Parameters Panel
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../parameters/editing-parameters/">
+<a class="md-nav__link" href="../editing-parameters/">
         Editing Parameters
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../parameters/direct-pitch-editing/">
+<a class="md-nav__link" href="../direct-pitch-editing/">
         Direct Pitch Editing
       </a>
 </li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../parameters/tone-shift/">
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
+<a class="md-nav__link md-nav__link--active" href="./">
         Tone Shift
       </a>
 </li>
@@ -347,22 +348,22 @@
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../ai-functions/auto-pitch-tuning/">
+<a class="md-nav__link" href="../../ai-functions/auto-pitch-tuning/">
         Auto Pitch Tuning
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../ai-functions/instant-mode/">
+<a class="md-nav__link" href="../../ai-functions/instant-mode/">
         Instant Mode
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../ai-functions/ai-retakes/">
+<a class="md-nav__link" href="../../ai-functions/ai-retakes/">
         AI Retakes
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../ai-functions/vocal-modes/">
+<a class="md-nav__link" href="../../ai-functions/vocal-modes/">
         Vocal Modes
       </a>
 </li>
@@ -382,153 +383,87 @@
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../advanced/batch-lyrics/">
+<a class="md-nav__link" href="../../advanced/batch-lyrics/">
         Batch Lyric Input
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../advanced/user-dictionaries/">
+<a class="md-nav__link" href="../../advanced/user-dictionaries/">
         User Dictionaries
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../advanced/groups/">
+<a class="md-nav__link" href="../../advanced/groups/">
         Groups
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../advanced/note-ornamentation/">
+<a class="md-nav__link" href="../../advanced/note-ornamentation/">
         Note Ornamentation
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../advanced/note-detuning/">
+<a class="md-nav__link" href="../../advanced/note-detuning/">
         Note Detuning
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../advanced/midi-controller/">
+<a class="md-nav__link" href="../../advanced/midi-controller/">
         MIDI Controller Support
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../daw-integration/plugin/">
+<a class="md-nav__link" href="../../daw-integration/plugin/">
         VSTi/AU Plugin
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../advanced/top-menus/">
+<a class="md-nav__link" href="../../advanced/top-menus/">
         The Top Menus in Detail
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../advanced/side-panels/">
+<a class="md-nav__link" href="../../advanced/side-panels/">
         The Side Panels in Detail
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../advanced/scripting/">
+<a class="md-nav__link" href="../../advanced/scripting/">
         Scripting
       </a>
 </li>
 </ul>
 </nav>
 </li>
-<li class="md-nav__item md-nav__item--active md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle" id="__nav_7" type="checkbox"/>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_7" type="checkbox"/>
 <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
           Other Topics
           <span class="md-nav__icon md-icon"></span>
 </label>
-<nav aria-expanded="true" aria-labelledby="__nav_7_label" class="md-nav" data-md-level="1">
+<nav aria-expanded="false" aria-labelledby="__nav_7_label" class="md-nav" data-md-level="1">
 <label class="md-nav__title" for="__nav_7">
 <span class="md-nav__icon md-icon"></span>
           Other Topics
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item md-nav__item--active">
-<input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
-<label class="md-nav__link md-nav__link--active" for="__toc">
-          FAQs
-          <span class="md-nav__icon md-icon"></span>
-</label>
-<a class="md-nav__link md-nav__link--active" href="./">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../faq/">
         FAQs
       </a>
-<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
-<label class="md-nav__title" for="__toc">
-<span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#about-synthesizer-v-studio">
-    About Synthesizer V Studio
-  </a>
-<nav aria-label="About Synthesizer V Studio" class="md-nav">
-<ul class="md-nav__list">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#can-i-use-synthesizer-v-studio-for-commercial-purposes">
-    Can I use Synthesizer V Studio for commercial purposes?
-  </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#what-is-the-difference-between-basic-and-pro">
-    What is the difference between "Basic" and "Pro"?
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#what-are-lite-voice-databases">
-    What are "Lite" voice databases?
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#why-are-the-vibrato-sliders-doing-nothing">
-    Why are the vibrato sliders doing nothing?
-  </a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#about-this-website">
-    About This Website
-  </a>
-<nav aria-label="About This Website" class="md-nav">
-<ul class="md-nav__list">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#the-original-manual-has-a-page-for-glottal-effects-why-cant-i-find-anything-about-that-here">
-    The original manual has a page for "Glottal Effects", why can't I find anything about that here?
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#the-keyboard-combinations-arent-working-on-mac-why">
-    The keyboard combinations aren't working on Mac, why?
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#how-can-i-access-the-manual-offline">
-    How can I access the manual offline?
-  </a>
-</li>
-</ul>
-</nav>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../phonemes/">
+<a class="md-nav__link" href="../../phonemes/">
         Phoneme Reference
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../support/">
+<a class="md-nav__link" href="../../support/">
         Help &amp; Support
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../about/">
+<a class="md-nav__link" href="../../about/">
         About
       </a>
 </li>
@@ -544,124 +479,38 @@
 <div class="md-sidebar__scrollwrap">
 <div class="md-sidebar__inner">
 <nav aria-label="Table of contents" class="md-nav md-nav--secondary">
-<label class="md-nav__title" for="__toc">
-<span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#about-synthesizer-v-studio">
-    About Synthesizer V Studio
-  </a>
-<nav aria-label="About Synthesizer V Studio" class="md-nav">
-<ul class="md-nav__list">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#can-i-use-synthesizer-v-studio-for-commercial-purposes">
-    Can I use Synthesizer V Studio for commercial purposes?
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#what-is-the-difference-between-basic-and-pro">
-    What is the difference between "Basic" and "Pro"?
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#what-are-lite-voice-databases">
-    What are "Lite" voice databases?
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#why-are-the-vibrato-sliders-doing-nothing">
-    Why are the vibrato sliders doing nothing?
-  </a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#about-this-website">
-    About This Website
-  </a>
-<nav aria-label="About This Website" class="md-nav">
-<ul class="md-nav__list">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#the-original-manual-has-a-page-for-glottal-effects-why-cant-i-find-anything-about-that-here">
-    The original manual has a page for "Glottal Effects", why can't I find anything about that here?
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#the-keyboard-combinations-arent-working-on-mac-why">
-    The keyboard combinations aren't working on Mac, why?
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#how-can-i-access-the-manual-offline">
-    How can I access the manual offline?
-  </a>
-</li>
-</ul>
-</nav>
-</li>
-</ul>
 </nav>
 </div>
 </div>
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
-<h1 id="frequently-asked-questions">Frequently Asked Questions</h1>
-<p>Below are common questions not answered elsewhere in the documentation.</p>
+<h1 id="tone-shift">Tone Shift</h1>
+<div class="admonition note">
+<p class="admonition-title">Pro Feature</p>
+<p>The features described below require Synthesizer V Studio Pro.</p>
+</div>
+<p>Tone Shift is a <a href="../editing-parameters/">parameter</a> that allows modifying the tone of a note without changing its pitch.</p>
+<p>The rendered output will have a tone as if the note were <code>x</code> cents different from the pitch line, where <code>x</code> is the value of the Tone Shift parameter at that point in time. Tone Shift is only applicable to AI voice databases.</p>
+<p>In the example below, the pitches of the notes are C4, E4, and F4, with tone shift settings aligned exactly with the notes. The first two notes are 400 cents apart, and the second two are 100 cents apart. To match this, the tone shift settings used are approximately +400 cents, 0, and -100 cents.</p>
+<p>During rendering, pitches of the notes are C4, E4, and F4 (as shown by the pitch line in the piano roll, with some minor variation due to vibrato), however the <i>tone</i> is calculated as if all three notes were E4 due to the tone shift values.</p>
+<p>This can help mitigate any tonal inconsistency (or introduce more) without modifying the pitch of the rendered output.</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>The effects of Tone Shift will vary based on the selected  voice database and pitch of the notes, because each vocalist's tone is different at different ranges.</p>
+</div>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../../img/parameters/tone-shift.png"><img alt="Tone Shift Example" src="../../img/parameters/tone-shift.png"/></a></p>
 <hr/>
-<h2 id="about-synthesizer-v-studio">About Synthesizer V Studio</h2>
-<h3 id="can-i-use-synthesizer-v-studio-for-commercial-purposes">Can I use Synthesizer V Studio for commercial purposes?</h3>
-<p>Yes, both the Basic and Pro editions can be used for commercial purposes with no limit on revenue.</p>
-<p>Each voice database has separate terms. You can find the license for each voice database in its installation directory.</p>
-<p>The terms for Dreamtonics voice databases can be found on the <a href="https://dreamtonics.com/en/terms/">Dreamtonics website</a>.</p>
-<h3 id="what-is-the-difference-between-basic-and-pro">What is the difference between "Basic" and "Pro"?</h3>
-<p>The Basic edition of Synthesizer V Studio has a limited feature set compared to the Pro edition. The list of features that are limited or unavailable in the Basic edition can be found on the store page for <a href="https://store.dreamtonics.com/product/editor-svstudio-pro/">Synthesizer V Studio Pro</a>.</p>
-<p>This documentation will indicate where the Pro edition is required to use a feature (such as on the <a href="../ai-functions/vocal-modes/">Vocal Modes</a> page).</p>
-<h3 id="what-are-lite-voice-databases">What are "Lite" voice databases?</h3>
-<p>Lite voice databases are lower quality versions of paid products, which are available for free but have limited functionality.</p>
-<ul>
-<li>No vocal mode support</li>
-<li>No cross-lingual support</li>
-<li>Reduced vocal range</li>
-<li>Lower quality output (more noise/artifacts)<ul>
-<li>Lite voice databases are restricted to the "Prefer Speed" render mode in the Voice panel</li>
-</ul>
-</li>
-</ul>
-<p>Lite voice databases are subject to the following terms:</p>
-<ul>
-<li>You may not use the Lite version for commercial purposes</li>
-<li>You may not publish your work using the Lite version on behalf of an organization</li>
-<li>If you wish to publish a work creating using the Lite version, you must clearly state the name of the voice database used and the fact that a Lite version is used</li>
-<li>You should acknowledge that the Lite version does not represent the quality of the full version of the same voice database. Dreamtonics makes no quality or quantity guarantee on the Lite version of a voice database.</li>
-</ul>
-<h3 id="why-are-the-vibrato-sliders-doing-nothing">Why are the vibrato sliders doing nothing?</h3>
-<p>Certain automated processes such as <a href="../ai-functions/auto-pitch-tuning/">Auto Pitch Tuning</a> and <a href="../ai-functions/instant-mode/">Instant Mode</a> will set the vibrato depth for each note to zero. Notes with manual settings will not be changed, but those which have had their depth set to zero will no longer inherit that value from the defaults in the Voice panel.</p>
-<p>Ensure the note you are modifying does not have a vibrato depth of zero in the Note Properties panel, and that the start of the vibrato does not occur after the note's duration.</p>
-<p>If the vibrato depth for the notes is set to zero the <a href="../parameters/editing-parameters/#vibrato-envelope">Vibrato Envelope</a> parameter will also have no effect, since it is applying a multiplier to the depth value (which is zero).</p>
-<h2 id="about-this-website">About This Website</h2>
-<h3 id="the-original-manual-has-a-page-for-glottal-effects-why-cant-i-find-anything-about-that-here">The original manual has a page for "Glottal Effects", why can't I find anything about that here?</h3>
-<p>Glottal effects have not yet been implemented for Synthesizer V Studio.</p>
-<h3 id="the-keyboard-combinations-arent-working-on-mac-why">The keyboard combinations aren't working on Mac, why?</h3>
-<p>Mac has a slightly different keyboard layout than other devices. Generally where you see <span class="keys"><kbd class="key-control">Ctrl</kbd></span> Mac users will want to press <span class="keys"><kbd class="key-command">Cmd</kbd></span> instead, and where you see <span class="keys"><kbd class="key-alt">Alt</kbd></span> it's usually <span class="keys"><kbd class="key-option">Option</kbd></span> on Mac.</p>
-<h3 id="how-can-i-access-the-manual-offline">How can I access the manual offline?</h3>
-<p>You can download an offline version of the manual by following the download link below. You must unzip the folder and then open the "index.html" file in your web browser.</p>
-<p>Keep in mind that unlike the online version, the offline manual will need to be redownloaded to see any updates or corrections. This can be done by extracting the latest zip download to the same location (overwriting the older files).</p>
-<p><a class="md-button" href="https://github.com/claire-west/svstudio-manual/releases/tag/latest">Download</a></p>
-<hr/>
-<p><a href="https://github.com/claire-west/svstudio-manual/issues/new?template=report-a-problem.md&amp;title=[Page: FAQ]">Report an Issue</a></p>
+<p><a href="https://github.com/claire-west/svstudio-manual/issues/new?template=report-a-problem.md&amp;title=[Page: Tone Shift]">Report an Issue</a></p>
 <hr/>
 <div class="md-source-file">
 <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-02-28T22:05:48+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-02-28</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-03-07T00:05:22+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-03-07</span>
 <br/>
         Created:
-        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-01-22T18:33:26+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-01-22</span>
+        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-03-07T00:05:22+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-03-07</span>
 </small>
 </div>
 <form class="md-feedback" hidden="" name="feedback">
@@ -771,9 +620,9 @@
 </aside>
 </div>
 <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout(function(){document.querySelector("[data-md-component=consent]").hidden=!1},250);var action,form=document.forms.consent;for(action of["submit","reset"])form.addEventListener(action,function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map(function(e){return[e,!0]}))),location.hash="",location.reload()})</script>
-<script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.tracking", "navigation.expand", "navigation.path", "navigation.top", "content.tabs.link"], "search": "../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
-<script src="../assets/javascripts/bundle.b78d2936.min.js"></script>
-<script src="../js/timeago.min.js"></script>
-<script src="../js/timeago_mkdocs_material.js"></script>
+<script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tracking", "navigation.expand", "navigation.path", "navigation.top", "content.tabs.link"], "search": "../../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+<script src="../../assets/javascripts/bundle.b78d2936.min.js"></script>
+<script src="../../js/timeago.min.js"></script>
+<script src="../../js/timeago_mkdocs_material.js"></script>
 <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
 </html>

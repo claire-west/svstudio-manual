@@ -8,12 +8,12 @@
 <meta content="The unofficial user manual for SynthV Studio" name="description"/>
 <meta content="Claire West" name="author"/>
 <link href="https://manual.synthv.info/ai-functions/auto-pitch-tuning/" rel="canonical"/>
-<link href="../../parameters/direct-pitch-editing/" rel="prev"/>
+<link href="../../parameters/tone-shift/" rel="prev"/>
 <link href="../instant-mode/" rel="next"/>
 <link href="../../img/icon.ico" rel="icon"/>
-<meta content="mkdocs-1.4.2, mkdocs-material-9.0.15" name="generator"/>
+<meta content="mkdocs-1.4.2, mkdocs-material-9.1.1" name="generator"/>
 <title>Auto Pitch Tuning - Synthesizer V Studio Unofficial User Manual</title>
-<link href="../../assets/stylesheets/main.113286f1.min.css" rel="stylesheet"/>
+<link href="../../assets/stylesheets/main.402914a4.min.css" rel="stylesheet"/>
 <link href="../../assets/stylesheets/palette.a0c5b2b5.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
@@ -59,7 +59,7 @@
 </div>
 <div data-md-component="announce">
 </div>
-<header class="md-header" data-md-component="header">
+<header class="md-header md-header--shadow" data-md-component="header">
 <nav aria-label="Header" class="md-header__inner md-grid">
 <a aria-label="Synthesizer V Studio Unofficial User Manual" class="md-header__button md-logo" data-md-component="logo" href="../.." title="Synthesizer V Studio Unofficial User Manual">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"></path></svg>
@@ -326,6 +326,11 @@
         Direct Pitch Editing
       </a>
 </li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../parameters/tone-shift/">
+        Tone Shift
+      </a>
+</li>
 </ul>
 </nav>
 </li>
@@ -371,6 +376,30 @@
 <a class="md-nav__link" href="#rerun-with-new-random-seed">
     Rerun with New Random Seed
   </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#customized-style-sliders">
+    Customized Style Sliders
+  </a>
+<nav aria-label="Customized Style Sliders" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#vibrato-1">
+    Vibrato 1
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#vibrato-2">
+    Vibrato 2
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#overshoot">
+    Overshoot
+  </a>
+</li>
+</ul>
+</nav>
 </li>
 </ul>
 </nav>
@@ -526,6 +555,30 @@
     Rerun with New Random Seed
   </a>
 </li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#customized-style-sliders">
+    Customized Style Sliders
+  </a>
+<nav aria-label="Customized Style Sliders" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#vibrato-1">
+    Vibrato 1
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#vibrato-2">
+    Vibrato 2
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#overshoot">
+    Overshoot
+  </a>
+</li>
+</ul>
+</nav>
+</li>
 </ul>
 </nav>
 </li>
@@ -553,6 +606,21 @@
 </figure>
 <h3 id="rerun-with-new-random-seed">Rerun with New Random Seed</h3>
 <p>The "Rerun with New Random Seed" option will generate a different pitch curve, even if the note's context has not changed. This can be used to cycle through different "takes".</p>
+<h3 id="customized-style-sliders">Customized Style Sliders</h3>
+<div class="admonition note">
+<p class="admonition-title">Pro Feature - Auto Pitch Tuning (Customized Style) is only available in Synthesizer V Studio Pro.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Speculative Information</p>
+<p>There is no clear guidance from Dreamtonics about this topic. The information below is based on user observation and may not be entirely accurate.</p>
+</div>
+<h4 id="vibrato-1">Vibrato 1</h4>
+<p>"Strong" settings will result in the AI engine being more "choosy" when applying AI-generated pitch deviations (both vibrato and overshoot). "Weak" settings will allow pitch deviations to be applied to more notes, more intensely.</p>
+<h4 id="vibrato-2">Vibrato 2</h4>
+<p>Affects the intensity of AI-generated vibrato.</p>
+<h4 id="overshoot">Overshoot</h4>
+<p>The overshoot slider affects the frequency and intensity of pitch deviations extending past the note.</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../../img/ai-functions/overshoot.png"><img alt="Overshoot" src="../../img/ai-functions/overshoot.png"/></a></p>
 <hr/>
 <p><a href="https://github.com/claire-west/svstudio-manual/issues/new?template=report-a-problem.md&amp;title=[Page: Auto Pitch Tuning]">Report an Issue</a></p>
 <hr/>
@@ -560,7 +628,7 @@
 <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-02-28T22:05:48+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-02-28</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-03-07T00:05:22+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-03-07</span>
 <br/>
         Created:
         <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-01-21T19:53:02+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-01-21</span>
@@ -674,7 +742,7 @@
 </div>
 <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout(function(){document.querySelector("[data-md-component=consent]").hidden=!1},250);var action,form=document.forms.consent;for(action of["submit","reset"])form.addEventListener(action,function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map(function(e){return[e,!0]}))),location.hash="",location.reload()})</script>
 <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tracking", "navigation.expand", "navigation.path", "navigation.top", "content.tabs.link"], "search": "../../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
-<script src="../../assets/javascripts/bundle.2a6f1dda.min.js"></script>
+<script src="../../assets/javascripts/bundle.b78d2936.min.js"></script>
 <script src="../../js/timeago.min.js"></script>
 <script src="../../js/timeago_mkdocs_material.js"></script>
 <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
