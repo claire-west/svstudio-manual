@@ -12,7 +12,7 @@ In the example below, the pitches of the notes are C4, E4, and F4, with tone shi
 
 During rendering, pitches of the notes are C4, E4, and F4 (as shown by the pitch line in the piano roll, with some minor variation due to vibrato), however the <i>tone</i> is calculated as if all three notes were E4 due to the tone shift values.
 
-This can help mitigate any tonal inconsistency (or introduce more) without modifying the pitch of the rendered output.
+This can help mitigate any tonal inconsistency (or introduce more tonal variation) without modifying the pitch of the rendered output.
 
 !!! info
 

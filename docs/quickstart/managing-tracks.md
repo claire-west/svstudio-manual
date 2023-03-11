@@ -41,6 +41,10 @@ You can use these functions to load a MIDI file containing the vocal melody for 
 
 Supported file types are MIDI, UST, VSQx, VPR, and CCS.
 
+## Video Demonstration
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/sz1TwwXmMJA" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
 ---
 
 [Report an Issue](https://github.com/claire-west/svstudio-manual/issues/new?template=report-a-problem.md&title=[Page: Managing Tracks])
