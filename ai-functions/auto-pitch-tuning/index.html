@@ -373,15 +373,23 @@
   </a>
 </li>
 <li class="md-nav__item">
+<a class="md-nav__link" href="#pitch-correction">
+    Pitch Correction
+  </a>
+</li>
+<li class="md-nav__item">
 <a class="md-nav__link" href="#rerun-with-new-random-seed">
     Rerun with New Random Seed
   </a>
 </li>
+</ul>
+</nav>
+</li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#customized-style-sliders">
-    Customized Style Sliders
+<a class="md-nav__link" href="#customized-style-options">
+    Customized Style Options
   </a>
-<nav aria-label="Customized Style Sliders" class="md-nav">
+<nav aria-label="Customized Style Options" class="md-nav">
 <ul class="md-nav__list">
 <li class="md-nav__item">
 <a class="md-nav__link" href="#vibrato-1">
@@ -397,9 +405,6 @@
 <a class="md-nav__link" href="#overshoot">
     Overshoot
   </a>
-</li>
-</ul>
-</nav>
 </li>
 </ul>
 </nav>
@@ -551,15 +556,23 @@
   </a>
 </li>
 <li class="md-nav__item">
+<a class="md-nav__link" href="#pitch-correction">
+    Pitch Correction
+  </a>
+</li>
+<li class="md-nav__item">
 <a class="md-nav__link" href="#rerun-with-new-random-seed">
     Rerun with New Random Seed
   </a>
 </li>
+</ul>
+</nav>
+</li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#customized-style-sliders">
-    Customized Style Sliders
+<a class="md-nav__link" href="#customized-style-options">
+    Customized Style Options
   </a>
-<nav aria-label="Customized Style Sliders" class="md-nav">
+<nav aria-label="Customized Style Options" class="md-nav">
 <ul class="md-nav__list">
 <li class="md-nav__item">
 <a class="md-nav__link" href="#vibrato-1">
@@ -575,9 +588,6 @@
 <a class="md-nav__link" href="#overshoot">
     Overshoot
   </a>
-</li>
-</ul>
-</nav>
 </li>
 </ul>
 </nav>
@@ -605,9 +615,21 @@
 </p>
 <figcaption>Expressiveness setting of 100 (left) and 25 (right)</figcaption>
 </figure>
+<h3 id="pitch-correction">Pitch Correction</h3>
+<p>The "Enable Pitch Correction" checkbox will attempt to prevent AI-generated improvisations from being generally flat or sharp relative to the notes in the piano roll.</p>
+<p>This feature calculates the average pitch over the duration of a note and shifts the entire curve for the note so that it closer matches the exact pitch indicated by the note's vertical position in the piano roll.</p>
+<p>In this example the note is somewhat sharp when Auto Pitch Tuning is executed without pitch correction. When re-run with the setting enabled, the note's pitch curve is shifted downward to be closer to the center of the note. The shape of the curve is not changed.</p>
+<figure>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../../img/ai-functions/pitch-correction.png"><img alt="Pitch Correction for a Note" src="../../img/ai-functions/pitch-correction.png"/></a>
+</p>
+<figcaption>Pitch correction off (left) and on (right)</figcaption>
+</figure>
+<p>It is important to note that these corrections are calculated for each note, not in a moment-to-moment manner. Notice how the pitch curves move up or down in segments that align with the notes in the piano roll.</p>
+<p>This video shows a comparison of the same sequence without (before) and with (after) pitch correction enabled.</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../../img/ai-functions/pitch-correction.mp4"><div class="video-container"><video controls="" style="width: initial; height: initial"><source src="../../img/ai-functions/pitch-correction.mp4" type="video/mp4"/></video></div></a></p>
 <h3 id="rerun-with-new-random-seed">Rerun with New Random Seed</h3>
 <p>The "Rerun with New Random Seed" option will generate a different pitch curve, even if the note's context has not changed. This can be used to cycle through different "takes".</p>
-<h3 id="customized-style-sliders">Customized Style Sliders</h3>
+<h2 id="customized-style-options">Customized Style Options</h2>
 <div class="admonition note">
 <p class="admonition-title">Pro Feature - Auto Pitch Tuning (Customized Style) is only available in Synthesizer V Studio Pro.</p>
 </div>
@@ -631,7 +653,7 @@
 <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-03-07T00:18:34+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-03-07</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-03-13T22:43:28+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-03-13</span>
 <br/>
         Created:
         <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-01-21T19:53:02+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-01-21</span>
