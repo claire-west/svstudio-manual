@@ -24,11 +24,30 @@ The expressiveness slider determines how drastic the pitch deviations are and ho
   <figcaption>Expressiveness setting of 100 (left) and 25 (right)</figcaption>
 </figure>
 
+### Pitch Correction
+
+The "Enable Pitch Correction" checkbox will attempt to prevent AI-generated improvisations from being generally flat or sharp relative to the notes in the piano roll.
+
+This feature calculates the average pitch over the duration of a note and shifts the entire curve for the note so that it closer matches the exact pitch indicated by the note's vertical position in the piano roll.
+
+In this example the note is somewhat sharp when Auto Pitch Tuning is executed without pitch correction. When re-run with the setting enabled, the note's pitch curve is shifted downward to be closer to the center of the note. The shape of the curve is not changed.
+
+<figure markdown>
+  ![Pitch Correction for a Note](../img/ai-functions/pitch-correction.png)
+  <figcaption>Pitch correction off (left) and on (right)</figcaption>
+</figure>
+
+It is important to note that these corrections are calculated for each note, not in a moment-to-moment manner. Notice how the pitch curves move up or down in segments that align with the notes in the piano roll.
+
+This video shows a comparison of the same sequence without (before) and with (after) pitch correction enabled.
+
+![type:video](../img/ai-functions/pitch-correction.mp4)
+
 ### Rerun with New Random Seed
 
 The "Rerun with New Random Seed" option will generate a different pitch curve, even if the note's context has not changed. This can be used to cycle through different "takes".
 
-### Customized Style Sliders
+## Customized Style Options
 
 !!! note "Pro Feature - Auto Pitch Tuning (Customized Style) is only available in Synthesizer V Studio Pro."
 
