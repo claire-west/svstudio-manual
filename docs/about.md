@@ -39,7 +39,8 @@ If you would like to help improve or maintain this website, feel free to create 
 ### Contributors
 
 - Claire ([moonlitclaire.com](https://moonlitclaire.com))
-- Susko ([GitHub](https://github.com/Susko3))
+- Susko ([GitHub](https://github.com/Susko3)) - formatting assistance
+- Jesse James - revised transition & vibrato visualization diagrams
 
 ## Support The Project
 
