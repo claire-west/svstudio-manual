@@ -28,18 +28,30 @@ Once you have successfully installed a voice database (and activated it, if nece
 
 ## Installation (Linux)
 
-Navigate to your desired install directory and unzip the downloaded archive. For example:
+Navigate to your desired install directory and unzip the downloaded archive. If you are extracting to a location outside your home directory (`~`), you may need to run `unzip` as root (ie with `sudo`) such as in this example where Synthesizer V Studio is being extracted to `/opt`:
 
 === "Pro Edition"
     ```
     cd /opt
-    unzip ~/Downloads/svstudio-pro-linux64.zip
+    sudo unzip ~/Downloads/svstudio-pro-linux64.zip
     ```
 
 === "Basic Edition"
     ```
     cd /opt
-    unzip ~/Downloads/svstudio-basic-linux64.zip
+    sudo unzip ~/Downloads/svstudio-basic-linux64.zip
+    ```
+
+If extracting to a location outside your home directory you may also need to modify the owner or permissions of the files. This example will work for most situations:
+
+=== "Pro Edition"
+    ```
+    sudo chown -R $(whoami):$(whoami) "Synthesizer V Studio Pro"
+    ```
+
+=== "Basic Edition"
+    ```
+    sudo chown -R $(whoami):$(whoami) "Synthesizer V Studio Basic"
     ```
 
 Launch the application by running the synthv-studio executable from the terminal.
