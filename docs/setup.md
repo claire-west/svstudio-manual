@@ -28,7 +28,7 @@ Once you have successfully installed a voice database (and activated it, if nece
 
 ## Installation (Linux)
 
-Navigate to your desired install directory and unzip the downloaded archive. If you are extracting to a location outside your home directory (`~`), you may need to run `unzip` as root (ie with `sudo`) such as in this example where SynthV Studio is being extracted to `/opt`:
+Navigate to your desired install directory and unzip the downloaded archive. If you are extracting to a location outside your home directory (`~`), you may need to run `unzip` as root (ie with `sudo`) such as in this example where Synthesizer V Studio is being extracted to `/opt`:
 
 === "Pro Edition"
     ```
