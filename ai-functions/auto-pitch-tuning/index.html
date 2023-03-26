@@ -11,9 +11,9 @@
 <link href="../../parameters/tone-shift/" rel="prev"/>
 <link href="../instant-mode/" rel="next"/>
 <link href="../../img/icon.ico" rel="icon"/>
-<meta content="mkdocs-1.4.2, mkdocs-material-9.1.3" name="generator"/>
+<meta content="mkdocs-1.4.2, mkdocs-material-9.1.4" name="generator"/>
 <title>Auto Pitch Tuning - Synthesizer V Studio Unofficial User Manual</title>
-<link href="../../assets/stylesheets/main.c4a75a56.min.css" rel="stylesheet"/>
+<link href="../../assets/stylesheets/main.240905d7.min.css" rel="stylesheet"/>
 <link href="../../assets/stylesheets/palette.a0c5b2b5.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
@@ -601,17 +601,17 @@
 <article class="md-content__inner md-typeset">
 <div><h1 id="auto-pitch-tuning">Auto Pitch Tuning</h1>
 <p>Auto pitch tuning is a function found under the "Auto-Process" top menu. The "(Customized Style)" option offers additional vibrato and overshoot sliders when using the Pro edition.</p>
-<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../../img/ai-functions/auto-pitch-tuning-option.png"><img alt="Auto-Process Menu" src="../../img/ai-functions/auto-pitch-tuning-option.png"/></a></p>
-<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../../img/ai-functions/auto-pitch-tuning-dialog.png"><img alt="Auto Pitch Tuning Dialog" src="../../img/ai-functions/auto-pitch-tuning-dialog.png"/></a></p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="../../img/ai-functions/auto-pitch-tuning-option.png"><img alt="Auto-Process Menu" src="../../img/ai-functions/auto-pitch-tuning-option.png"/></a></p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="../../img/ai-functions/auto-pitch-tuning-dialog.png"><img alt="Auto Pitch Tuning Dialog" src="../../img/ai-functions/auto-pitch-tuning-dialog.png"/></a></p>
 <h2 id="executing-auto-pitch-tuning">Executing Auto Pitch Tuning</h2>
 <p>Executing auto pitch tuning will add pitch deviations to the parameters panel for the currently-selected notes. These pitch deviations will be different based on the currently selected voice database, and are based on machine learning analysis of the original voice provider's singing style.</p>
-<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../../img/ai-functions/auto-pitch-tuning.png"><img alt="Auto Pitch Tuning" src="../../img/ai-functions/auto-pitch-tuning.png"/></a></p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="../../img/ai-functions/auto-pitch-tuning.png"><img alt="Auto Pitch Tuning" src="../../img/ai-functions/auto-pitch-tuning.png"/></a></p>
 <p>The pitch deviations introduced by Auto Pitch Tuning are context-specific.</p>
 <p>A note's "context" is based on its pitch, duration, and phonemes, as well as those same properties of the notes before and after it. If any of these things change, the results of auto pitch tuning will be different.</p>
 <h3 id="expressiveness">Expressiveness</h3>
 <p>The expressiveness slider determines how drastic the pitch deviations are and how far they deviate from the notes.</p>
 <figure>
-<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../../img/ai-functions/auto-pitch-tuning-expressiveness-crop.png"><img alt="Expressiveness Side-by-side" src="../../img/ai-functions/auto-pitch-tuning-expressiveness-crop.png"/></a>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="../../img/ai-functions/auto-pitch-tuning-expressiveness-crop.png"><img alt="Expressiveness Side-by-side" src="../../img/ai-functions/auto-pitch-tuning-expressiveness-crop.png"/></a>
 </p>
 <figcaption>Expressiveness setting of 100 (left) and 25 (right)</figcaption>
 </figure>
@@ -620,13 +620,13 @@
 <p>This feature calculates the average pitch over the duration of a note and shifts the entire curve for the note so that it closer matches the exact pitch indicated by the note's vertical position in the piano roll.</p>
 <p>In this example the note is somewhat sharp when Auto Pitch Tuning is executed without pitch correction. When re-run with the setting enabled, the note's pitch curve is shifted downward to be closer to the center of the note. The shape of the curve is not changed.</p>
 <figure>
-<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../../img/ai-functions/pitch-correction.png"><img alt="Pitch Correction for a Note" src="../../img/ai-functions/pitch-correction.png"/></a>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="../../img/ai-functions/pitch-correction.png"><img alt="Pitch Correction for a Note" src="../../img/ai-functions/pitch-correction.png"/></a>
 </p>
 <figcaption>Pitch correction off (left) and on (right)</figcaption>
 </figure>
 <p>It is important to note that these corrections are calculated for each note, not in a moment-to-moment manner. Notice how the pitch curves move up or down in segments that align with the notes in the piano roll.</p>
 <p>This video shows a comparison of the same sequence without (before) and with (after) pitch correction enabled.</p>
-<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../../img/ai-functions/pitch-correction.mp4"><div class="video-container"><video alt="type:video" controls="" style="width:initial;height:initial"><source src="../../img/ai-functions/pitch-correction.mp4" type="video/mp4"/></video></div></a></p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="../../img/ai-functions/pitch-correction.mp4"><div class="video-container"><video alt="type:video" controls="" style="width:initial;height:initial"><source src="../../img/ai-functions/pitch-correction.mp4" type="video/mp4"/></video></div></a></p>
 <h3 id="rerun-with-new-random-seed">Rerun with New Random Seed</h3>
 <p>The "Rerun with New Random Seed" option will generate a different pitch curve, even if the note's context has not changed. This can be used to cycle through different "takes".</p>
 <h2 id="customized-style-options">Customized Style Options</h2>
@@ -638,14 +638,14 @@
 <p>There is no clear guidance from Dreamtonics about this topic. The information below is based on user observation and may not be entirely accurate.</p>
 </div>
 <p>When executing the "Customized Style" version of Auto Pitch Tuning, additional sliders will be added to the dialog in addition to the usual expressiveness slider.</p>
-<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../../img/ai-functions/auto-pitch-tuning-customized-style.png"><img alt="Customized Style Dialog" src="../../img/ai-functions/auto-pitch-tuning-customized-style.png"/></a></p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="../../img/ai-functions/auto-pitch-tuning-customized-style.png"><img alt="Customized Style Dialog" src="../../img/ai-functions/auto-pitch-tuning-customized-style.png"/></a></p>
 <h4 id="vibrato-1">Vibrato 1</h4>
 <p>"Strong" settings will result in the AI engine being more "choosy" when applying AI-generated pitch deviations (both vibrato and overshoot). "Weak" settings will allow pitch deviations to be applied to more notes, more intensely.</p>
 <h4 id="vibrato-2">Vibrato 2</h4>
 <p>Affects the intensity of AI-generated vibrato.</p>
 <h4 id="overshoot">Overshoot</h4>
 <p>Affects the intensity of pitch deviations extending past the note before and after pitch transitions.</p>
-<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../../img/ai-functions/overshoot.png"><img alt="Overshoot" src="../../img/ai-functions/overshoot.png"/></a></p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="../../img/ai-functions/overshoot.png"><img alt="Overshoot" src="../../img/ai-functions/overshoot.png"/></a></p>
 <hr/>
 <p><a href="https://github.com/claire-west/svstudio-manual/issues/new?template=report-a-problem.md&amp;title=%5BPage:%20Auto%20Pitch%20Tuning%5D">Report an Issue</a></p></div>
 <hr/>
@@ -767,7 +767,7 @@
 </div>
 <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout(function(){document.querySelector("[data-md-component=consent]").hidden=!1},250);var action,form=document.forms.consent;for(action of["submit","reset"])form.addEventListener(action,function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map(function(e){return[e,!0]}))),location.hash="",location.reload()})</script>
 <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tracking", "navigation.expand", "navigation.path", "navigation.top", "content.tabs.link"], "search": "../../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
-<script src="../../assets/javascripts/bundle.efa0ade1.min.js"></script>
+<script src="../../assets/javascripts/bundle.19047be9.min.js"></script>
 <script src="../../js/timeago.min.js"></script>
 <script src="../../js/timeago_mkdocs_material.js"></script>
 <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>

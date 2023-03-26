@@ -11,9 +11,9 @@
 <link href=".." rel="prev"/>
 <link href="../workspace/layout/" rel="next"/>
 <link href="../img/icon.ico" rel="icon"/>
-<meta content="mkdocs-1.4.2, mkdocs-material-9.1.3" name="generator"/>
+<meta content="mkdocs-1.4.2, mkdocs-material-9.1.4" name="generator"/>
 <title>Setup and Activation - Synthesizer V Studio Unofficial User Manual</title>
-<link href="../assets/stylesheets/main.c4a75a56.min.css" rel="stylesheet"/>
+<link href="../assets/stylesheets/main.240905d7.min.css" rel="stylesheet"/>
 <link href="../assets/stylesheets/palette.a0c5b2b5.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
@@ -597,30 +597,43 @@
 <p>Execute the installer (.exe format on Windows, .pkg format on Mac) by double-clicking it, or by selecting it in your file browser and pressing <span class="keys"><kbd class="key-enter">Enter</kbd></span>. Follow the on-screen instructions.</p>
 <p>If installing the Pro edition you will be prompted for your product activation code upon launching the application.</p>
 <p>Once you have successfully installed the software (and activated it, if necessary) you will be presented with the following application window.</p>
-<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../img/synthv-studio.png"><img alt="Synthesizer V Studio" src="../img/synthv-studio.png"/></a></p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="../img/synthv-studio.png"><img alt="Synthesizer V Studio" src="../img/synthv-studio.png"/></a></p>
 <h3 id="installing-a-voice-database">Installing a Voice Database</h3>
 <p>To install a voice database, double-click the .svpk file or drag-and-drop it from your file browser into the Synthesizer V Studio window. A voice database installation dialog will be displayed. Follow the on-screen instructions.</p>
 <p>If installing a paid voice database product, you will be prompted for your product activation code.</p>
 <p>Once you have successfully installed a voice database (and activated it, if necessary) it will be listed in the singer selection dropdown.</p>
-<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../img/quickstart/singer-dropdown-arrangement.png"><img alt="Singer Selection Dropdown" src="../img/quickstart/singer-dropdown-arrangement.png"/></a></p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="../img/quickstart/singer-dropdown-arrangement.png"><img alt="Singer Selection Dropdown" src="../img/quickstart/singer-dropdown-arrangement.png"/></a></p>
 <h2 id="installation-linux">Installation (Linux)</h2>
-<p>Navigate to your desired install directory and unzip the downloaded archive. For example:</p>
+<p>Navigate to your desired install directory and unzip the downloaded archive. If you are extracting to a location outside your home directory (<code>~</code>), you may need to run <code>unzip</code> as root (ie with <code>sudo</code>) such as in this example where Synthesizer V Studio is being extracted to <code>/opt</code>:</p>
 <div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="" id="__tabbed_1_1" name="__tabbed_1" type="radio"/><input id="__tabbed_1_2" name="__tabbed_1" type="radio"/><div class="tabbed-labels"><label for="__tabbed_1_1">Pro Edition</label><label for="__tabbed_1_2">Basic Edition</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <div class="highlight"><pre><span></span><code>cd /opt
-unzip ~/Downloads/svstudio-pro-linux64.zip
+sudo unzip ~/Downloads/svstudio-pro-linux64.zip
 </code></pre></div>
 </div>
 <div class="tabbed-block">
 <div class="highlight"><pre><span></span><code>cd /opt
-unzip ~/Downloads/svstudio-basic-linux64.zip
+sudo unzip ~/Downloads/svstudio-basic-linux64.zip
+</code></pre></div>
+</div>
+</div>
+</div>
+<p>If extracting to a location outside your home directory you may also need to modify the owner or permissions of the files. This example will work for most situations:</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="" id="__tabbed_2_1" name="__tabbed_2" type="radio"/><input id="__tabbed_2_2" name="__tabbed_2" type="radio"/><div class="tabbed-labels"><label for="__tabbed_2_1">Pro Edition</label><label for="__tabbed_2_2">Basic Edition</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code>sudo chown -R $(whoami):$(whoami) "Synthesizer V Studio Pro"
+</code></pre></div>
+</div>
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code>sudo chown -R $(whoami):$(whoami) "Synthesizer V Studio Basic"
 </code></pre></div>
 </div>
 </div>
 </div>
 <p>Launch the application by running the synthv-studio executable from the terminal.</p>
-<div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="" id="__tabbed_2_1" name="__tabbed_2" type="radio"/><input id="__tabbed_2_2" name="__tabbed_2" type="radio"/><div class="tabbed-labels"><label for="__tabbed_2_1">Pro Edition</label><label for="__tabbed_2_2">Basic Edition</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="3:2"><input checked="" id="__tabbed_3_1" name="__tabbed_3" type="radio"/><input id="__tabbed_3_2" name="__tabbed_3" type="radio"/><div class="tabbed-labels"><label for="__tabbed_3_1">Pro Edition</label><label for="__tabbed_3_2">Basic Edition</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <div class="highlight"><pre><span></span><code>cd "Synthesizer V Studio Pro"
@@ -636,19 +649,19 @@ unzip ~/Downloads/svstudio-basic-linux64.zip
 </div>
 <p>If installing the Pro edition you will be prompted for your product activation code.</p>
 <p>Once you have successfully installed the software (and activated it, if necessary) you will be presented with the following application window.</p>
-<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../img/synthv-studio.png"><img alt="Synthesizer V Studio" src="../img/synthv-studio.png"/></a></p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="../img/synthv-studio.png"><img alt="Synthesizer V Studio" src="../img/synthv-studio.png"/></a></p>
 <h3 id="installing-a-voice-database_1">Installing a Voice Database</h3>
 <p>To install a voice database, run the synthv-studio executable from the terminal and provide the .svpk file as an argument. The exact file name will vary depending on the voice database you are installing.</p>
 <p><code>./synthv-studio ~/Downloads/saki-ai-lite-install-101.svpk</code></p>
 <p>The application will launch and a voice database installation dialog will be displayed. Follow the on-screen instructions.</p>
 <p>If installing a paid voice database product, you will be prompted for your product activation code.</p>
 <p>Once you have successfully installed a voice database (and activated it, if necessary) it will be listed in the singer selection dropdown.</p>
-<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../img/quickstart/singer-dropdown-arrangement.png"><img alt="Singer Selection Dropdown" src="../img/quickstart/singer-dropdown-arrangement.png"/></a></p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="../img/quickstart/singer-dropdown-arrangement.png"><img alt="Singer Selection Dropdown" src="../img/quickstart/singer-dropdown-arrangement.png"/></a></p>
 <h2 id="updating-the-software">Updating the Software</h2>
 <p>Open the License and Updates panel and click "Check for Updates" to search for updates.</p>
-<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../img/check-for-updates.png"><img alt="Check for Updates" src="../img/check-for-updates.png"/></a></p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="../img/check-for-updates.png"><img alt="Check for Updates" src="../img/check-for-updates.png"/></a></p>
 <p>When an available update is shown under the product name, select the product and click the "Update" button below the list. The software will begin to download the update package and you will be guided through the installation process.</p>
-<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../img/update.png"><img alt="Update Available" src="../img/update.png"/></a></p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="../img/update.png"><img alt="Update Available" src="../img/update.png"/></a></p>
 <h2 id="deactivating-a-product">Deactivating a Product</h2>
 <p>When you need to transfer your license to a new device, perform hardware/firmware upgrades, or reinstall your operating system, you must first revoke the license by deactivating the product.</p>
 <p>To deactivate a product select it in the "License and Updates" panel and click the "Deactivate" button below. The activation on the current device will be revoked, and can be safely reactivated on the new or upgraded device.</p>
@@ -656,7 +669,7 @@ unzip ~/Downloads/svstudio-basic-linux64.zip
 <p class="admonition-title">Note</p>
 <p>Ensure that all voice databases are deactivated before deactivating or uninstalling Synthesizer V Studio. If you proceed with the uninstallation while activated voices remain on the system, you can recover the licensing status for the voices by reinstalling and reactivating Synthesizer V Studio.</p>
 </div>
-<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../img/deactivate.png"><img alt="Deactivate" src="../img/deactivate.png"/></a></p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="../img/deactivate.png"><img alt="Deactivate" src="../img/deactivate.png"/></a></p>
 <hr/>
 <p><a href="https://github.com/claire-west/svstudio-manual/issues/new?template=report-a-problem.md&amp;title=%5BPage:%20Setup%5D">Report an Issue</a></p></div>
 <hr/>
@@ -664,7 +677,7 @@ unzip ~/Downloads/svstudio-basic-linux64.zip
 <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-02-28T22:05:48+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-02-28</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-03-26T20:53:14+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-03-26</span>
 <br/>
         Created:
         <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-01-26T17:56:34+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-01-26</span>
@@ -778,7 +791,7 @@ unzip ~/Downloads/svstudio-basic-linux64.zip
 </div>
 <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout(function(){document.querySelector("[data-md-component=consent]").hidden=!1},250);var action,form=document.forms.consent;for(action of["submit","reset"])form.addEventListener(action,function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map(function(e){return[e,!0]}))),location.hash="",location.reload()})</script>
 <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.tracking", "navigation.expand", "navigation.path", "navigation.top", "content.tabs.link"], "search": "../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
-<script src="../assets/javascripts/bundle.efa0ade1.min.js"></script>
+<script src="../assets/javascripts/bundle.19047be9.min.js"></script>
 <script src="../js/timeago.min.js"></script>
 <script src="../js/timeago_mkdocs_material.js"></script>
 <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
