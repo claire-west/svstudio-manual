@@ -6,6 +6,10 @@ Download links for Synthesizer V Studio Basic Edition and purchase links for the
 
 After purchasing the Pro edition your order confirmation email will include download instructions which may vary based on the vendor you purchased from.
 
+!!! warning
+
+    Always save your order confirmation emails and keep your product activation codes in a safe place. The vendor you purchase from will not always be able to help recover lost or compromised activation codes.
+
 ## Installation (Windows & Mac)
 
 Execute the installer (.exe format on Windows, .pkg format on Mac) by double-clicking it, or by selecting it in your file browser and pressing ++enter++. Follow the on-screen instructions.
@@ -20,7 +24,7 @@ Once you have successfully installed the software (and activated it, if necessar
 
 To install a voice database, double-click the .svpk file or drag-and-drop it from your file browser into the Synthesizer V Studio window. A voice database installation dialog will be displayed. Follow the on-screen instructions.
 
-If installing a paid voice database product, you will be prompted for your product activation code.
+If installing a paid voice database product you will be prompted for your product activation code.
 
 Once you have successfully installed a voice database (and activated it, if necessary) it will be listed in the singer selection dropdown.
 
@@ -42,7 +46,7 @@ Navigate to your desired install directory and unzip the downloaded archive. If 
     sudo unzip ~/Downloads/svstudio-basic-linux64.zip
     ```
 
-If extracting to a location outside your home directory you may also need to modify the owner or permissions of the files. This example will work for most situations:
+If extracting to a location outside your home directory you may also need to modify the ownership or permissions of the files. This example will work for most situations:
 
 === "Pro Edition"
     ```
@@ -82,7 +86,7 @@ To install a voice database, run the synthv-studio executable from the terminal 
 
 The application will launch and a voice database installation dialog will be displayed. Follow the on-screen instructions.
 
-If installing a paid voice database product, you will be prompted for your product activation code.
+If installing a paid voice database product you will be prompted for your product activation code.
 
 Once you have successfully installed a voice database (and activated it, if necessary) it will be listed in the singer selection dropdown.
 

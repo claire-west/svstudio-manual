@@ -18,7 +18,7 @@ jobs:
         with:
           python-version: 3.x
       - run: sudo apt-get install libcairo2-dev libfreetype6-dev libffi-dev libjpeg-dev libpng-dev libz-dev
-      - run: pip install mkdocs mkdocs-material mkdocs-material-extensions mkdocs-git-revision-date-localized-plugin mkdocs-glightbox mkdocs-macros-plugin mkdocs-video pillow cairosvg
+      - run: pip install mkdocs mkdocs-material mkdocs-material-extensions mkdocs-git-revision-date-localized-plugin mkdocs-glightbox mkdocs-macros-plugin mkdocs-video pillow cairosvg mkdocs-with-pdf
       - name: deploy-pages
         run: mkdocs gh-deploy --force
       - name: build-offline-light
@@ -31,6 +31,8 @@ jobs:
           OFFLINE: true
         run: mkdocs build -f offline-dark.yml -d offline-dark
       - run: cd offline-dark && zip -r -q ../synthv-unofficial-user-manual-dark.zip * -x google*.html CNAME sitemap*
+      - name: build-pdf-document
+        run: mkdocs build -f pdf.yml -d pdf
       - uses: "marvinpinto/action-automatic-releases@latest"
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
@@ -40,3 +42,4 @@ jobs:
           files: |
             synthv-unofficial-user-manual-light.zip
             synthv-unofficial-user-manual-dark.zip
+            synthv-unofficial-user-manual.pdf
