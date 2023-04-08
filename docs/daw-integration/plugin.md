@@ -6,6 +6,8 @@
 
 You can use Synthesizer V Studio Pro in a DAW (digital audio workstation) software as a VSTi or AudioUnit plugin.
 
+Refer to your DAW's user manual for instructions on adding a plugin to your DAW and routing plugin output.
+
 ## Project Saving
 
 When Synthesizer V Studio is used as an instrument in a DAW, an additional setting is added under the "File" top menu.
@@ -45,6 +47,12 @@ Track Aspiration Isolated
 ## Video Demonstration
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/jMm7piaJ0ss" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
+## Troubleshooting
+
+If you encounter technical issues with the plugin, try removing the software and reinstalling to the default installation directory.
+
+If the problems persist, search for similar issues on the [official forums](https://forum.synthesizerv.com/search) or contact [Dreamtonics support](support.md).
 
 ---
 

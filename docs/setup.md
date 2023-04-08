@@ -114,6 +114,12 @@ To deactivate a product select it in the "License and Updates" panel and click t
 
 ![Deactivate](img/deactivate.png)
 
+## Troubleshooting
+
+If you encounter technical issues with the software, try removing the software and reinstalling to the default installation directory. Windows users may need to run the installer as administrator, and Linux users should verify the file permissions of the Synthesizer V Studio directory.
+
+If the problems persist, search for similar issues on the [official forums](https://forum.synthesizerv.com/search) or contact [Dreamtonics support](support.md).
+
 ---
 
 [Report an Issue](https://github.com/claire-west/svstudio-manual/issues/new?template=report-a-problem.md&title=[Page: Setup])
