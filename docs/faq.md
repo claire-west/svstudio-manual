@@ -43,11 +43,15 @@ Ensure the note you are modifying does not have a vibrato depth of zero in the N
 
 If the vibrato depth for the notes is set to zero the [Vibrato Envelope](parameters/editing-parameters.md#vibrato-envelope) parameter will also have no effect, since it is applying a multiplier to the depth value (which is zero).
 
-## About This Website
+### Where is the "Track Manager"?
+
+The original version of Synthesizer V had a separate window for managing tracks. In Synthesizer V Studio, all [track management](quickstart/managing-tracks.md) is done via the Arrangement panel.
 
 ### The original manual has a page for "Glottal Effects", why can't I find anything about that here?
 
 Glottal effects have not yet been implemented for Synthesizer V Studio.
+
+## About This Website
 
 ### The keyboard combinations aren't working on Mac, why?
 
@@ -58,6 +62,8 @@ Mac has a slightly different keyboard layout than other devices. Generally where
 You can download an offline version of the manual by following the download link below. You must unzip the folder and then open the "index.html" file in your web browser.
 
 Keep in mind that unlike the online version, the offline manual will need to be redownloaded to see any updates or corrections. This can be done by extracting the latest zip download to the same location (overwriting the older files).
+
+A PDF version is also available, however due to the format it does not include video examples or have the benefit of an improved navigation/serach system.
 
 [Download](https://github.com/claire-west/svstudio-manual/releases/tag/latest){ .md-button }
 

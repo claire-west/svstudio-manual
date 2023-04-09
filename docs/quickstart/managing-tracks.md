@@ -21,6 +21,10 @@ There are multiple ways to add a new track:
 
 ![Create a Track](../img/quickstart/new-track.png)
 
+Double-click on a track's name to rename it.
+
+![type:video](../img/quickstart/track-rename.mp4)
+
 Right click on a track to duplicate or delete it.
 
 ![Create a Track](../img/quickstart/duplicate-track.png)
