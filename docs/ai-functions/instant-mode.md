@@ -6,6 +6,7 @@ While Instant Mode is active, [Auto Pitch Tuning](auto-pitch-tuning.md) will be 
 
 Instant Mode affects the entire project and behaves very similarly to auto pitch tuning, with some main exceptions:
 
+- Instant Mode is intended as a simplified workflow and does not provide the same level of customizability as Auto Pitch Tuning or manual pitch editing.
 - Pitch deviations introduced by Instant Mode do not appear in the parameters panel. This keeps the automatic pitch deviations separate from your manual ones.
 - Expressiveness is determined by the slider in the [AI Retakes](ai-retakes.md) panel (Pro edition only). This can be adjusted for all notes, or only selected notes.
 

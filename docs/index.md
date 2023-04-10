@@ -28,7 +28,7 @@ The user manual is separated into sections in order of complexity.
 
 New users should start by reading the [Quickstart](workspace/layout.md) section in order before moving on to the more advanced topics.
 
-Desktop users can navigate using the menu to the left, and mobile users can tap the three-lines icon in the top left corner to open the navigation menu.
+Desktop users can navigate using the menu to the left, and mobile users can tap the three-bars (:fontawesome-solid-bars:) icon in the top left corner to open the navigation menu.
 
 <figure markdown>
   ![Accessing the navigation menu on mobile](img/nav-mobile.png)
