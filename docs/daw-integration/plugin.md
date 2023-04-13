@@ -52,7 +52,7 @@ Track Aspiration Isolated
 
 If you encounter technical issues with the plugin, try removing the software and reinstalling to the default installation directory.
 
-If the problems persist, search for similar issues on the [official forums](https://forum.synthesizerv.com/search) or contact [Dreamtonics support](support.md).
+If the problems persist, search for similar issues on the [official forums](https://forum.synthesizerv.com/search) or contact [Dreamtonics support](../support.md).
 
 ---
 
