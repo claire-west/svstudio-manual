@@ -9,7 +9,7 @@
 <meta content="Claire West" name="author"/>
 <link href="https://manual.synthv.info/quickstart/entering-lyrics/" rel="canonical"/>
 <link href="../editing-notes/" rel="prev"/>
-<link href="../playback/" rel="next"/>
+<link href="../instant-mode/" rel="next"/>
 <link href="../../img/icon.ico" rel="icon"/>
 <meta content="mkdocs-1.4.2, mkdocs-material-9.1.6" name="generator"/>
 <title>Entering Lyrics - Synthesizer V Studio Unofficial User Manual</title>
@@ -181,40 +181,25 @@
         Setup and Activation
       </a>
 </li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_2_2" type="checkbox"/>
-<label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
-          Workspace
-          <span class="md-nav__icon md-icon"></span>
-</label>
-<nav aria-expanded="false" aria-labelledby="__nav_2_2_label" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_2_2">
-<span class="md-nav__icon md-icon"></span>
-          Workspace
-        </label>
-<ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
 <a class="md-nav__link" href="../../workspace/layout/">
-        Layout
+        The Workspace
       </a>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="../../workspace/arrangement/">
-        Arrangement
+        The Arrangement Panel
       </a>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="../../workspace/piano-roll/">
-        Piano Roll
+        The Piano Roll
       </a>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="../../workspace/side-panels/">
         Side Panels
       </a>
-</li>
-</ul>
-</nav>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="../singer-selection/">
@@ -282,26 +267,17 @@
   </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#instant-mode">
-    Instant Mode
-  </a>
-<nav aria-label="Instant Mode" class="md-nav">
-<ul class="md-nav__list">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#removing-instant-mode-from-an-existing-project">
-    Removing Instant Mode From an Existing Project
-  </a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item">
 <a class="md-nav__link" href="#video-demonstration">
     Video Demonstration
   </a>
 </li>
 </ul>
 </nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../instant-mode/">
+        Introduction to Instant Mode
+      </a>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="../playback/">
@@ -576,20 +552,6 @@
   </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#instant-mode">
-    Instant Mode
-  </a>
-<nav aria-label="Instant Mode" class="md-nav">
-<ul class="md-nav__list">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#removing-instant-mode-from-an-existing-project">
-    Removing Instant Mode From an Existing Project
-  </a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item">
 <a class="md-nav__link" href="#video-demonstration">
     Video Demonstration
   </a>
@@ -661,28 +623,6 @@
 <h2 id="adding-glottal-stops">Adding Glottal Stops</h2>
 <p>Glottal stops can be added between notes by prefixing the following lyric with a single quote (<code>'</code>). A note containing just a single quote can be used to add a glottal stop at the end of a phrase.</p>
 <p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="../../img/quickstart/glottal-stop.png"><img alt="Glottal Stops" src="../../img/quickstart/glottal-stop.png"/></a></p>
-<h2 id="instant-mode">Instant Mode</h2>
-<p>While adding and modifying notes you may notice that the pitch line does not follow the exact positions of the notes. This indicates that you have <a href="../../ai-functions/instant-mode/">Instant Mode</a> enabled for your project.</p>
-<p>Instant Mode will add AI-generated pitch deviations to your notes which are modeled to mimic human singing techniques.</p>
-<p>In some ways, Instant Mode is comparable to the preset libraries included with traditional software synthesizers and effects plugins; it offers a simplified workflow which can help inexperienced users get results quickly, and acts as a starting point for learning what realistic pitch curves might look and sound like.</p>
-<figure>
-<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="../../img/quickstart/instant-mode-without-and-with.png"><img alt="Without and With Instant Mode" src="../../img/quickstart/instant-mode-without-and-with.png"/></a>
-</p>
-<figcaption>The default pitch curve (left) and the same notes with Instant Mode enabled (right)</figcaption>
-</figure>
-<p>If you do not want to use the simplified workflow offered by Instant Mode, and prefer more manual control, you may wish to disable it with the button in the upper right corner of the piano roll.</p>
-<p>Instant Mode can be disabled by default for new projects by changing the "Enable instant mode by default" option in the Settings panel.</p>
-<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="../../img/quickstart/instant-mode-button.png"><img alt="Toggling Instant Mode" src="../../img/quickstart/instant-mode-button.png"/></a></p>
-<h3 id="removing-instant-mode-from-an-existing-project">Removing Instant Mode From an Existing Project</h3>
-<p>If you have already been working on your project, disabling Instant Mode will not remove all of the pitch changes it added.</p>
-<p>Disabling Instant Mode will stop it from generating new patterns, but existing patterns will be moved to the Parameters panel for manual editing. This topic will be discussed later in the user manual, but for now you can remove any remaining patterns with the following steps:</p>
-<ol>
-<li>Expand the Parameters panel, if it is not already open. If there is no Parameters panel below the piano roll, you can open a new one from the three-bars (<span class="twemoji"><svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M0 96c0-17.7 14.3-32 32-32h384c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zm0 160c0-17.7 14.3-32 32-32h384c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zm448 160c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32h384c17.7 0 32 14.3 32 32z"></path></svg></span>) button beside the Instant Mode button shown above.</li>
-<li>Ensure the "EDIT:" setting is set to "Pitch Deviation".</li>
-<li>Click within the Parameters panel and press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-a">A</kbd></span> to select all points.</li>
-<li>Press <span class="keys"><kbd class="key-delete">Del</kbd></span>.</li>
-</ol>
-<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="../../img/quickstart/delete-parameter-points.mp4"><div class="video-container"><video alt="type:video" controls="" style="width:initial;height:initial"><source src="../../img/quickstart/delete-parameter-points.mp4" type="video/mp4"/></video></div></a></p>
 <h2 id="video-demonstration">Video Demonstration</h2>
 <iframe allowfullscreen="" frameborder="0" height="315" src="https://www.youtube-nocookie.com/embed/Gj7UipbHBdw" title="YouTube video player" width="560"></iframe>
 <hr/>
@@ -692,7 +632,7 @@
 <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-04-10T22:33:21+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-04-10</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-04-13T12:57:14+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-04-13</span>
 <br/>
         Created:
         <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-01-15T22:46:25+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-01-15</span>
