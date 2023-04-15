@@ -24,7 +24,7 @@ An additional setting is added under the "Project" top menu.
 
 ![Sync Tempo option](../img/daw-integration/sync-tempo.png)
 
-By selecting "Synchronize Tempo with Host", tempo markers will be added to the Synthesizer V Studio project matching those of the DAW's project.
+By selecting "Synchronize Tempo with Host", tempo markers will be added to the Synthesizer V Studio project matching those of the DAW's project. Due to DAWs handling tempo changes in a variety of ways, this function may behave differently depending on the host software.
 
 ## Output Channels
 

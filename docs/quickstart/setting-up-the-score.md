@@ -14,6 +14,8 @@ New markers of either type can be added by right clicking along the time axis. T
 
 Tempo markers can only be created at quarter-measure intervals, and time signature changes can only occur at the start of a measure.
 
+!!! info "There is currently no support for gradual tempo changes."
+
 ![Add Time Change](../img/quickstart/time-axis-add-marker.png)
 
 ---
