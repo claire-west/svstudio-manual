@@ -52,7 +52,52 @@
     br   breath
     ```
 
-=== "Mandarin Chinese"
+=== "Japanese"
+
+    ```
+    a    vowel
+    i    vowel
+    u    vowel
+    e    vowel
+    o    vowel
+    N    vowel
+    cl   stop
+    t    stop
+    d    stop
+    s    fricative
+    sh   fricative
+    j    affricate
+    z    affricate
+    ts   affricate
+    k    stop
+    g    stop
+    h    aspirate
+    b    stop
+    p    stop
+    f    fricative
+    ch   affricate
+    ry   liquid
+    ky   stop
+    py   stop
+    dy   stop
+    ty   stop
+    ny   nasal
+    hy   aspirate
+    my   nasal
+    gy   stop
+    by   stop
+    n    nasal
+    m    nasal
+    r    liquid
+    w    semivowel
+    v    semivowel
+    y    semivowel
+    pau  silence
+    sil  silence
+    br   breath
+    ```
+
+=== "Mandarin"
 
     ```
     a    vowel
@@ -115,46 +160,51 @@
     br   breath
     ```
 
-=== "Japanese"
+=== "Cantonese"
 
     ```
-    a    vowel
-    i    vowel
-    u    vowel
-    e    vowel
-    o    vowel
-    N    vowel
-    cl   stop
-    t    stop
-    d    stop
-    s    fricative
-    sh   fricative
-    j    affricate
-    z    affricate
     ts   affricate
-    k    stop
-    g    stop
-    h    aspirate
-    b    stop
-    p    stop
+    tsh  affricate
     f    fricative
-    ch   affricate
-    ry   liquid
-    ky   stop
-    py   stop
-    dy   stop
-    ty   stop
-    ny   nasal
-    hy   aspirate
-    my   nasal
-    gy   stop
-    by   stop
-    n    nasal
+    h    fricative
+    s    fricative
+    l    liquid
     m    nasal
-    r    liquid
+    n    nasal
+    N    nasal
     w    semivowel
-    v    semivowel
-    y    semivowel
+    j    semivowel
+    p    stop
+    ph   stop
+    t    stop
+    th   stop
+    k    stop
+    kh   stop
+    kw   stop
+    kwh  stop
+    a    vowel
+    6    vowel
+    E    vowel
+    e    vowel
+    i    vowel
+    I    vowel
+    O    vowel
+    o    vowel
+    u    vowel
+    U    vowel
+    9    vowel
+    8    vowel
+    y    vowel
+    m=   vowel
+    N=   vowel
+    :i   coda
+    :u   coda
+    :m   coda
+    :n   coda
+    :N   coda
+    :p_} coda
+    :t_} coda
+    :k_} coda
     pau  silence
     sil  silence
     br   breath
