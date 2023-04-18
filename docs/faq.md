@@ -35,14 +35,6 @@ Lite voice databases are subject to the following terms:
 - If you wish to publish a work creating using the Lite version, you must clearly state the name of the voice database used and the fact that a Lite version is used
 - You should acknowledge that the Lite version does not represent the quality of the full version of the same voice database. Dreamtonics makes no quality or quantity guarantee on the Lite version of a voice database.
 
-### Why are the vibrato sliders doing nothing?
-
-Certain automated processes such as [Auto Pitch Tuning](ai-functions/auto-pitch-tuning.md) and [Instant Mode](ai-functions/instant-mode.md) will set the vibrato depth for each note to zero. Notes with manual settings will not be changed, but those which have had their depth set to zero will no longer inherit that value from the defaults in the Voice panel.
-
-Ensure the note you are modifying does not have a vibrato depth of zero in the Note Properties panel, and that the start of the vibrato does not occur after the note's duration.
-
-If the vibrato depth for the notes is set to zero the [Vibrato Envelope](parameters/editing-parameters.md#vibrato-envelope) parameter will also have no effect, since it is applying a multiplier to the depth value (which is zero).
-
 ### Where is the "Track Manager"?
 
 The original version of Synthesizer V had a separate window for managing tracks. In Synthesizer V Studio, all [track management](quickstart/managing-tracks.md) is done via the Arrangement panel.

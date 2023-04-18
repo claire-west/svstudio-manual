@@ -1,5 +1,9 @@
 # Instant Mode
 
+!!! danger "Outdated Information"
+
+    Instant Mode is no longer part of Synthesizer V Studio. Refer to [Pitch Mode: Sing](pitch-mode-sing.md) for the feature that replaced it in version 1.9.0.
+
 While Instant Mode is active, [Auto Pitch Tuning](auto-pitch-tuning.md) will be executed on the notes as you work. This uses AI-generated pitch deviations to create realistic transitions, sustains, and vibrato.
 
 ## Using Instant Mode

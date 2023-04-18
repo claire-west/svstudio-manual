@@ -26,7 +26,7 @@ Mark preferred takes.
 
 To generate new takes, select one or more notes and click "Generate Take" from the AI Retakes panel.
 
-!!! info "Pitch retakes can only be generated while [Instant Mode](instant-mode.md) is enabled."
+!!! info "Pitch retakes can only be generated for notes using "Sing" or "Rap" Pitch Modes."
 
 ![Generating New Takes](../img/ai-functions/retakes-new.png)
 
@@ -36,7 +36,7 @@ By selecting different takes from the list you can see the pitch line change acc
 
 !!! note
 
-    The pitch deviations introduced by Instant Mode are context-specific, and therefore so are the generated takes. It is recommended that you ensure all notes are correctly placed with the appropriate timings, and all adjacent breaths have been inserted before generating retakes.
+    The pitch deviations introduced by the "Sing" and "Rap" Pitch Modes are context-specific, and therefore so are the generated takes. It is recommended that you ensure all notes are correctly placed with the appropriate timings, and all adjacent breaths have been inserted before generating retakes.
 
 
 <figure markdown>
@@ -46,7 +46,7 @@ By selecting different takes from the list you can see the pitch line change acc
 
 ## Timbre
 
-Timbre retakes can be generated in the same manner as pitch retakes, but do not require Instant Mode to be enabled.
+Timbre retakes can be generated in the same manner as pitch retakes, but are also available in Manual Pitch Mode.
 
 These takes will modify the dynamics of the selected notes, but will not change the pitch. This can be helpful for fine-tuning glottal sounds such as vocal fry, or adjusting the harshness of sibilant phonemes.
 

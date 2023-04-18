@@ -44,13 +44,9 @@ The base value of most parameters can be set in the Voice panel. The curves in t
 
 ### Vibrato Envelope
 
-The Vibrato Envelope parameter affects the amplitude (depth) of expression-based vibrato in its duration.
+The Vibrato Envelope parameter affects the amplitude (depth) vibrato in its duration.
 
-Rather than a base value set in the Voice panel, the curve modifies the vibrato depth setting of the note as defined in the Note Properties panel.
-
-!!! note
-
-    The Vibrato Envelope parameter only applies a multiplier to the vibrato depth value for the note(s) as defined by the slider in the Note Properties panel. It has no effect on any other pitch deviations introduced in the parameters panel or by Instant Mode.
+Rather than a base value set in the Voice panel, the curve modifies the vibrato depth setting of the note as defined in the Note Properties panel when using Manual Pitch Mode, or the note's Vibrato Modulation setting when using "Sing" Pitch Mode.
 
 ![Vibrato Envelope](../img/parameters/vibrato-envelope.png)
 

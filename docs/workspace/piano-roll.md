@@ -41,7 +41,7 @@ The chain-link icon can be toggled on to toggle both the selected tool and curre
 ![The Piano Roll](../img/workspace/piano-roll.png)
 
 ### 1. Notes
-Notes are displayed in the piano roll as green rectangles, with their vertical position (pitch) corresponding to the piano key on the left and their horizontal position (timing) corresponding to the time axis above.
+Notes are displayed in the piano roll as colored rectangles, with their vertical position (pitch) corresponding to the piano key on the left and their horizontal position (timing) corresponding to the time axis above.
 
 ### 2. Phonemes
 Phonemes represent the actual sounds produced by a singer. Each lyric entered in a note will automatically be converted to phonemes.

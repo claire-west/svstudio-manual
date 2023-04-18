@@ -17,7 +17,7 @@ nav:
     - Adding Notes: quickstart/creating-notes.md
     - Editing Notes: quickstart/editing-notes.md
     - Entering Lyrics: quickstart/entering-lyrics.md
-    - Introduction to Instant Mode: quickstart/instant-mode.md
+    # - Introduction to Instant Mode: quickstart/instant-mode.md
     - Playback: quickstart/playback.md
     - Managing Tracks: quickstart/managing-tracks.md
     - Saving the Audio: quickstart/saving-the-audio.md
@@ -33,11 +33,14 @@ nav:
     - Direct Pitch Editing: parameters/direct-pitch-editing.md
     - Tone Shift: parameters/tone-shift.md
   - AI Functions:
-    - Auto Pitch Tuning: ai-functions/auto-pitch-tuning.md
-    - Instant Mode: ai-functions/instant-mode.md
+    - "Pitch Mode: Sing": advanced/pitch-mode-sing.md
+    - "Pitch Mode: Rap": advanced/pitch-mode-rap.md
+    # - Instant Mode: ai-functions/instant-mode.md
     - AI Retakes: ai-functions/ai-retakes.md
+    - Auto Pitch Tuning: ai-functions/auto-pitch-tuning.md
     - Vocal Modes: ai-functions/vocal-modes.md
   - Intermediate and Advanced Usage:
+    - Manual Pitch Mode: advanced/pitch-mode-manual.md
     - Batch Lyric Input: advanced/batch-lyrics.md
     - User Dictionaries: advanced/user-dictionaries.md
     - Groups: advanced/groups.md
@@ -81,6 +84,10 @@ extra_css:
 plugins:
   - search:
       lang: en
+  - exclude-search:
+      exclude:
+        - ai-functions/instant-mode.md
+        - quickstart/instant-mode.md
   - social:
       cards_color:
         fill: "#2A2A2A"

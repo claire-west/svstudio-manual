@@ -11,7 +11,7 @@ Each language has its own set of phonemes and notations.
 |English|Words|Modified Arpabet|
 |Japanese|Hiragana, Katakana, Romaji|Romaji-derived symbols|
 |Mandarin Chinese|Chinese characters (simplified/traditional), Pinyin|X-SAMPA|
-|Cantonese Chinese|Chinese characters (simplified/traditional), Pinyin|X-SAMPA|
+|Cantonese Chinese|Chinese characters (simplified/traditional), Jyutping|X-SAMPA|
 
 A full list of phonemes for each language can be found on the [Phoneme Reference](../phonemes.md) page, as well as in Synthesizer V Studio's installation directory.
 
@@ -42,7 +42,7 @@ To revert the phoneme sequence to the automatic lyric-based conversion, set the 
 
 ![Reseting a Note's Phonemes](../img/note-properties/phoneme-reset.png)
 
-A phoneme sequence can also be entered within a note by prefixing it with a `.` character.
+A phoneme sequence can also be entered within a note by prefixing it with a `.` character. This format is primarily used for backwards compatibility with .s5p project files, and it is recommended to enter phonemes above the note when using Synthesizer V Studio.
 
 ![Phonemes in the Note Body](../img/note-properties/phonemes-in-note.png)
 
