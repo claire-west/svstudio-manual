@@ -9,8 +9,9 @@ Each language has its own set of phonemes and notations.
 |Language|Lyrical Notation|Phonetic Notation|
 |---|---|---|
 |English|Words|Modified Arpabet|
-|Mandarin Chinese|Chinese characters (simplified/traditional), Pinyin|X-SAMPA|
 |Japanese|Hiragana, Katakana, Romaji|Romaji-derived symbols|
+|Mandarin Chinese|Chinese characters (simplified/traditional), Pinyin|X-SAMPA|
+|Cantonese Chinese|Chinese characters (simplified/traditional), Pinyin|X-SAMPA|
 
 A full list of phonemes for each language can be found on the [Phoneme Reference](../phonemes.md) page, as well as in Synthesizer V Studio's installation directory.
 
@@ -54,7 +55,7 @@ If there are many instances of the same word in your project, you may want to ov
 
     Cross-lingual Synthesis requires Synthesizer V Studio Pro.
 
-Cross-lingual synthesis allows AI voice databases to access the phoneme lists for English, Mandarin Chinese, and Japanese regardless of their default language. While AI voice databases still have a "native" language, this allows them to sing lyrics in other languages with near-fluency.
+Cross-lingual synthesis allows AI voice databases to access the phoneme lists for English, Japanese, Mandarin Chinese, and Cantonese Chinese regardless of their default language. While AI voice databases still have a "native" language, this allows them to sing lyrics in other languages with near-fluency.
 
 Language settings can be found under the Voice and Note Properties panel, for the track/group and individual notes respectively.
 
