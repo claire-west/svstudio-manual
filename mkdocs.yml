@@ -33,8 +33,8 @@ nav:
     - Direct Pitch Editing: parameters/direct-pitch-editing.md
     - Tone Shift: parameters/tone-shift.md
   - AI Functions:
-    - "Pitch Mode: Sing": advanced/pitch-mode-sing.md
-    - "Pitch Mode: Rap": advanced/pitch-mode-rap.md
+    - "Pitch Mode: Sing": ai-functions/pitch-mode-sing.md
+    - "Pitch Mode: Rap": ai-functions/pitch-mode-rap.md
     # - Instant Mode: ai-functions/instant-mode.md
     - AI Retakes: ai-functions/ai-retakes.md
     - Auto Pitch Tuning: ai-functions/auto-pitch-tuning.md

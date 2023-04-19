@@ -2,7 +2,7 @@
 
 Experienced users will often want the most manual control over the vocals, without influence from AI-generated behaviors.
 
-Notes with a Manual pitch mode are blue, and will have a flattened pitch line by default.
+Notes with a Manual pitch mode are blue in the Piano Roll and will have a flattened pitch line by default.
 
 ![Manual Pitch Mode setting](../img/advanced/pitch-mode-manual.png)
 
