@@ -1,12 +1,16 @@
 # Pitch Mode: Sing
 
-"Sing" Pitch Mode (formerly "Instant Mode" or "Simple Pitch Mode") will add AI-generated pitch deviations to your notes which are modeled to mimic human singing techniques.
+"Sing" Pitch Mode (formerly "Instant Mode" or "Simple Pitch Mode") will add AI-generated pitch deviations to your notes which are modeled to produce realistic transitions, sustains, and vibrato.
+
+Sing Mode is comparable to the preset libraries included with traditional software synthesizers and effects plugins; it can help new users get results quickly, acts as a starting point for further modification, and can help users learn what realistic pitch curves might look and sound like.
+
+Experienced users may prefer to use [Manual Pitch Mode](../advanced/pitch-mode-manual.md) for full control over the vocals.
 
 ## Enabling Sing Mode
 
 Sing mode can be enabled for notes from the Note Properties menu. Notes using Sing mode will be green in the Piano Roll.
 
-![Sing mode](../img/ai-functions/pitch-mode-sing.png)
+![Sing Mode](../img/ai-functions/pitch-mode-sing.png)
 
 !!! info
 
@@ -18,6 +22,10 @@ Enabling Sing mode also allows the use of pitch [AI Retakes](ai-retakes.md).
 
 ### Vibrato Modulation
 
+!!! note "Pro Feature"
+
+    The Vibrato Modulation setting is only available in Synthesizer V Studio Pro.
+
 The vibrato modulation setting affects the depth (amplitude) of the vibrato portion of the generated pitch deviations. This can be further modulated over the duration of the note using the [Vibrato Envelope](../parameters/editing-parameters.md#vibrato-envelope) parameter.
 
 The default value of the vibrato modulation slider is set in the Voice panel.
@@ -25,6 +33,10 @@ The default value of the vibrato modulation slider is set in the Voice panel.
 ![Sing Mode Default Settings](../img/ai-functions/sing-mode-defaults.png)
 
 ### Improvise Note Attack and Release
+
+!!! note "Pro Feature"
+
+    The Improvise Note Attack and Release setting is only available in Synthesizer V Studio Pro.
 
 If Improvise Note Attack and Release is enabled, Sing Mode will not only generate pitch transitions between notes, but also the initial attack and final release of a sequence, as well as the transitions to and from notes set to Manual Pitch Mode.
 

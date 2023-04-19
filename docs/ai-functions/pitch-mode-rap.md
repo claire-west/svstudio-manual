@@ -6,7 +6,7 @@
 
 Rap mode can be enabled for notes from the Note Properties menu. Notes using Rap mode will be red in the Piano Roll.
 
-![Rap mode](../img/ai-functions/pitch-mode-rap.png)
+![Rap Mode](../img/ai-functions/pitch-mode-rap.png)
 
 !!! info
 
@@ -15,6 +15,16 @@ Rap mode can be enabled for notes from the Note Properties menu. Notes using Rap
     A note's "context" is based on its pitch, duration, and phonemes, as well as those same properties of the notes before and after it. If any of these things change, the pitch deviations for the note will be recalculated.
 
 Enabling Rap Mode also allows the use of pitch [AI Retakes](ai-retakes.md).
+
+### Intonation
+
+
+### Tone
+
+
+## The Rap Intonation Parameter
+
+![Rap Intonation Parameter](../img/ai-functions/rap-intonation-parameter.png)
 
 ## Video Demonstration
 

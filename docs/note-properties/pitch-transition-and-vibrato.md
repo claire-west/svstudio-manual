@@ -12,7 +12,7 @@ The Pitch Mode setting has three options, which can be selected from the Note Pr
 : Gives full manual control over the pitch. Notes will have no pitch deviation by default, so it is up to the user to enter the desired patterns from scratch. [More about Manual Pitch Mode](../advanced/pitch-mode-manual.md).
 
 **Sing**
-: Adds AI-generated pitch deviations to your notes which are modeled to mimic human singing techniques. [More about Sing Pitch Mode](../ai-functions/pitch-mode-sing.md).
+: Adds AI-generated pitch deviations to your notes which are modeled to produce realistic transitions, sustains, and vibrato. [More about Sing Pitch Mode](../ai-functions/pitch-mode-sing.md).
 
 **Rap**
 : Adds AI-generated pitch deviations to your notes which are modeled to mimic human rap techniques, and allows the use of the Rap Intonation parameter. [More about Rap Pitch Mode](../ai-functions/pitch-mode-rap.md).

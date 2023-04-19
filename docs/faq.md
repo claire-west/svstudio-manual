@@ -35,6 +35,16 @@ Lite voice databases are subject to the following terms:
 - If you wish to publish a work creating using the Lite version, you must clearly state the name of the voice database used and the fact that a Lite version is used
 - You should acknowledge that the Lite version does not represent the quality of the full version of the same voice database. Dreamtonics makes no quality or quantity guarantee on the Lite version of a voice database.
 
+### What are "FLT" voice databases?
+"Feature-Limited Trial" voice databases are free versions of paid products with a limited set of features, however they are different from "lite" voice databases in that they do not have reduced output quality. FLT voice databases are primarily used as preview versions of in-development products (as opposed to "lite" voice databases which are restricted version of released products).
+
+- A maximum of one track for each FLT voice.
+- Export: output limited to the first 45 seconds.
+- AI Retakes: Pitch retakes only.
+- Vocal Mode and Cross-Lingual Synthesis: limited options.
+- Use in the standalone editor only.
+- Non-commercial usage only.
+
 ### Where is the "Track Manager"?
 
 The original version of Synthesizer V had a separate window for managing tracks. In Synthesizer V Studio, all [track management](quickstart/managing-tracks.md) is done via the Arrangement panel.
@@ -48,6 +58,10 @@ Glottal effects have not yet been implemented for Synthesizer V Studio.
 ### The keyboard combinations aren't working on Mac, why?
 
 Mac has a slightly different keyboard layout than other devices. Generally where you see ++ctrl++ Mac users will want to press ++cmd++ instead, and where you see ++alt++ it's usually ++opt++ on Mac.
+
+### Why do some examples show notes in Manual Pitch Mode that are green instead of blue?
+
+Pitch modes were handled differently prior to version 1.9.0, and at that point in time all notes were green. The examples in this manual will be gradually updated over time to reflect the new colors.
 
 ### How can I access the manual offline?
 

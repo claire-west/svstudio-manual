@@ -29,7 +29,7 @@ Toggles between note editing and pitch editing modes.
 Sets the grid snap interval for the piano roll.
 
 ### Tool/Mode Link
-The chain-link icon can be toggled on to toggle both the selected tool and current editing mode when either option is changed.
+The chain-link (:material-link:) icon can be toggled on to toggle both the selected tool and current editing mode when either option is changed.
 
 ![Tool/Mode Link](../img/workspace/tool-mode-link.png)
 

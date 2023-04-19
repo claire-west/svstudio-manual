@@ -2,7 +2,7 @@
 
 !!! danger "Outdated Information"
 
-    Instant Mode is no longer part of Synthesizer V Studio. Refer to [Pitch Mode: Sing](pitch-mode-sing.md) for the feature that replaced it in version 1.9.0.
+    Instant Mode is no longer part of Synthesizer V Studio. Refer to [Pitch Mode: Sing](../ai-functions/pitch-mode-sing.md) for the feature that replaced it in version 1.9.0.
 
 While adding and modifying notes you may notice that the pitch line does not follow the exact positions of the notes. This indicates that you have [Instant Mode](../ai-functions/instant-mode.md) enabled for your project.
 
