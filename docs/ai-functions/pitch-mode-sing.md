@@ -1,6 +1,6 @@
 # Pitch Mode: Sing
 
-"Sing" Pitch Mode will add AI-generated pitch deviations to your notes which are modeled to mimic human singing techniques.
+"Sing" Pitch Mode (formerly "Instant Mode" or "Simple Pitch Mode") will add AI-generated pitch deviations to your notes which are modeled to mimic human singing techniques.
 
 ## Enabling Sing Mode
 

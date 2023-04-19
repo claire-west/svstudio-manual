@@ -73,7 +73,7 @@ The vibrato sliders produce a simple expression-based pattern similar to a sine 
 
 !!! warning
 
-    Executing [Auto Pitch Tuning](../ai-functions/auto-pitch-tuning.md) or enabling [Instant Mode](../ai-functions/instant-mode.md) will set the vibrato depth of all notes to zero, except for notes which have already had their vibrato depth set manually in the Note Properties panel. Once this has happened the vibrato depth will no longer be inherited from the default set in the Voice panel.
+    Executing [Auto Pitch Tuning](../ai-functions/auto-pitch-tuning.md) will set the vibrato depth of all notes to zero, except for notes which have already had their vibrato depth set manually in the Note Properties panel. Once this has happened the vibrato depth will no longer be inherited from the default set in the Voice panel.
 
     To continue using the vibrato sliders, increase the vibrato depth in the Note Properties panel for the relevant notes.
 

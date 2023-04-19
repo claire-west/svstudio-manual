@@ -210,14 +210,6 @@
     br   breath
     ```
 
-=== "Cantonese Chinese"
-
-    ```
-    pau  silence
-    sil  silence
-    br   breath
-    ```
-
 ---
 
 [Report an Issue](https://github.com/claire-west/svstudio-manual/issues/new?template=report-a-problem.md&title=[Page: Phoneme Reference])

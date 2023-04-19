@@ -8,7 +8,7 @@ Parameters offer detailed manual control over various aspects of a vocal sequenc
 : A layer of pitch shifts added to the base pitch curve. 100 cents is equivalent to 1 semitone.
 
 **Vibrato Envelope**
-: Amplitude modulation of [expression-based vibrato](../note-properties/pitch-transition-and-vibrato.md).
+: Amplitude modulation of vibrato.
 
 **Loudness**
 : Vocal effort/dynamics.

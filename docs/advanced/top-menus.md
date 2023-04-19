@@ -82,9 +82,6 @@ See [Auto Pitch Tuning](../ai-functions/auto-pitch-tuning.md)
 ### Melody
 See [Note Ornamentation](note-ornamentation.md)
 
-### Instant Mode
-See [Instant Mode](../ai-functions/instant-mode.md)
-
 ### AI Retakes
 See [AI Retakes](../ai-functions/ai-retakes.md)
 
