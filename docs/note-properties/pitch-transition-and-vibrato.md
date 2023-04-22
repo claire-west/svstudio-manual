@@ -1,10 +1,12 @@
 # Pitch Transition and Vibrato
 
-Transitions and vibrato are used to create a more natural flow between notes, which does not purely adhere to the notes' exact pitch.
+Transitions and vibrato are used to create a more natural flow between notes which does not adhere to the notes' exact pitch.
 
 ## Pitch Modes
 
-The Pitch Mode setting has three options, which can be selected from the Note Properties panel while at least one note is selected. The chosen mode will determine which tools are available for modifying pitch transitions and vibrato.
+The Pitch Mode setting has three options, which can be selected from the Note Properties panel while at least one note is selected.
+
+The chosen mode will determine which tools are available for modifying pitch transitions and vibrato.
 
 ![Pitch Mode settings](../img/note-properties/pitch-modes.png)
 

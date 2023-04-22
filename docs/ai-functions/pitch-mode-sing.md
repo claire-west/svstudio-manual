@@ -38,11 +38,14 @@ The default value of the vibrato modulation slider is set in the Voice panel.
 
     The Improvise Note Attack and Release setting is only available in Synthesizer V Studio Pro.
 
-If Improvise Note Attack and Release is enabled, Sing Mode will not only generate pitch transitions between notes, but also the initial attack and final release of a sequence, as well as the transitions to and from notes set to Manual Pitch Mode.
+This setting will cause the generated pitch transitions to deviate further from the note's exact pitch. The improvisation will be most evident between notes with larger pitch differences.
 
-This can only be set for the entire track/group in the Voice panel.
+Improvise Note Attack and Release can only be set for the entire track/group in the Voice panel.
 
-![Improvise Note Attack and Release](../img/ai-functions/improvise-attack-release.png)
+<figure markdown>
+  ![Improvise Note Attack and Release](../img/ai-functions/improvise-attack-and-release-crop.png)
+  <figcaption>A sequence with Improvise Note Attack and Release disabled (left) and enabled (right)</figcaption>
+</figure>
 
 ## Disabling Sing Mode
 
