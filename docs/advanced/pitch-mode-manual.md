@@ -70,6 +70,7 @@ The vibrato sliders produce a simple expression-based pattern similar to a sine 
 
 **Depth**
 : The amplitude (in semitones) of the sine-like curve.
+: A depth of zero will result in a flat line (no vibrato).
 
 !!! warning
 
@@ -78,6 +79,9 @@ The vibrato sliders produce a simple expression-based pattern similar to a sine 
     The vibrato depth slider will also be set to zero if the note was formerly set to either [Sing](../ai-functions/pitch-mode-sing.md) or [Rap](../ai-functions/pitch-mode-rap.md) Pitch Mode.
 
     To continue using the vibrato sliders, increase the vibrato depth in the Note Properties panel for the relevant notes.
+
+    ![Vibrato Depth of Zero](../img/advanced/vibrato-depth-zero.png)
+
 
 **Frequency**
 : How fast the vibrato oscillates (cycles per second).
