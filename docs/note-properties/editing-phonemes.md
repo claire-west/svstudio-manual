@@ -4,6 +4,14 @@ Phonemes are the individual components that lyrics and syllables are made up of.
 
 All lyrics entered into notes are automatically converted to phonemes. When rendering the synthesized output, the phonemes are used to determine the appropriate pronunciation and timing.
 
+!!! info
+
+    The default dictionary mappings for each lyric will produce the most likely "correct" pronunciation for the word.
+
+    It is rare that human vocalists sing with perfect enunciation, so to achieve the most natural result it is normal to make phoneme adjustments for a more natural pronunciation.
+
+## Available Phonemes
+
 Each language has its own set of phonemes and notations.
 
 |Language|Lyrical Notation|Phonetic Notation|
