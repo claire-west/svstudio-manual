@@ -8,7 +8,7 @@ All lyrics entered into notes are automatically converted to phonemes. When rend
 
     The default dictionary mappings for each lyric will produce the most likely "correct" pronunciation for the word.
 
-    It is rare that human vocalists sing with perfect enunciation, so to achieve the most natural result it is normal to make phoneme adjustments for a more natural pronunciation.
+    It is rare that human vocalists sing with perfect enunciation, so to achieve the most natural result it is normal to make phoneme adjustments to achieve different pronunciation.
 
 ## Available Phonemes
 
