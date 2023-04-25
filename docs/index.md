@@ -26,6 +26,8 @@ For official instructional content for SynthV Studio, check the Dreamtonics [vid
     * [Manual Pitch Mode](advanced/pitch-mode-manual.md) for descriptions and diagrams relating to slider-based transition and vibrato (formerly on the "Pitch Transition and Vibrato" page).
     * [Phoneme Reference](phonemes.md) for the list of Cantonese phonemes.
 
+    For instructions on updating the software, see [Setup and Activation](setup.md#updating-the-software).
+
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Z6OB3jHiBBk" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 
 ---
