@@ -163,6 +163,15 @@ Simplify freehand drawn curves
 Snap points to zero
 : May need to be disabled if moving points to precise values near zero.
 
+### Select Parameters for Notes
+
+The Select Parameters for Notes option can be found under the "Edit" top menu, as well as by right clicking on selected notes.
+
+This function will select all parameter points for the currently selected notes. The parameter points for all parameter types will be selected, even if they are not visible in the Parameters panel.
+
+See [Editing Notes](../quickstart/editing-notes.md#selecting-notes) for methods of selecting many notes at once using hotkeys and modifier keys.
+
+![type:video](../img/parameters/move-params-with-notes.mp4)
 
 ### Simplify Parameters
 
