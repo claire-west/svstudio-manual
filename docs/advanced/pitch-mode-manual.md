@@ -98,6 +98,11 @@ This diagram illustrates how each of the vibrato sliders affects the pitch curve
 
 ![Vibrato Visualized](../img/note-properties/vibrato-visualized.png)
 
+## Manual Pitch Mode in Conjunction with Sing or Rap Mode
+
+Changing a note's pitch mode to Manual after it has been set to either Sing or Rap pitch mode can be used to "freeze" the pitch for a note in order to prevent the pitch from being recalculated when a note's context is changed.
+
+Find more information about switching pitch modes on the [Sing Pitch Mode](../ai-functions/pitch-mode-sing.md#disabling-sing-mode) and [Rap Pitch Mode](../ai-functions/pitch-mode-rap.md#disabling-rap-mode) pages.
 
 ---
 

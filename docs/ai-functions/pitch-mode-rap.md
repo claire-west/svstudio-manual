@@ -58,7 +58,7 @@ To modify the arrow's vertical position (Tone), click and drag the line portion 
 
 ## Disabling Rap Mode
 
-If you switch to Manual Pitch Mode after Rap Mode has already been active:
+If you switch to [Manual Pitch Mode](../advanced/pitch-mode-manual.md) after Rap Mode has already been active:
 
 * The generated pitch deviations will be moved to the parameters panel for further manual editing
 * The vibrato depth setting will default to zero instead of inheriting its value from the default set in the Voice panel

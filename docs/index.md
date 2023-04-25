@@ -14,19 +14,19 @@ This website serves as an unofficial user manual for Synthesizer V Studio, since
 
 For official instructional content for SynthV Studio, check the Dreamtonics [video tutorial series](https://www.youtube.com/playlist?list=PLmYtpIFKN5iKaUlB6mRGzFJ0SGRJgRIPz).
 
-!!! info "1.9.0 coming soon!"
+!!! info "Update 1.9.0 now available!"
 
-    Dreamtonics has announced that version 1.9.0 will be released soon, introducing a major rework of Instant Mode, the addition of Rap vocals, and Cantonese cross-lingual synthesis.
+    Dreamtonics has released Synthesizer V Studio version 1.9.0, introducing a major rework of Instant Mode, the addition of Rap vocals, and Cantonese cross-lingual synthesis.
 
-    You can refer to this official announcement video for an overview of the changes:
+    The new and updated features are covered on the following pages:
+
+    * [Pitch Transition and Vibrato](note-properties/pitch-transition-and-vibrato.md) for a brief overview of the new Pitch Mode options.
+    * [Pitch Mode: Sing](ai-functions/pitch-mode-sing.md) for information about the new "Sing" mode, the successor feature to Instant Mode.
+    * [Pitch Mode: Rap](ai-functions/pitch-mode-rap.md) for everything relating to the new rap capabilities.
+    * [Manual Pitch Mode](advanced/pitch-mode-manual.md) for descriptions and diagrams relating to slider-based transition and vibrato (formerly on the "Pitch Transition and Vibrato" page).
+    * [Phoneme Reference](phonemes.md) for the list of Cantonese phonemes.
 
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Z6OB3jHiBBk" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
-
-    There will be a beta period during which users can test and try out the new changes. This pre-release version will include bugs and other issues, so it is not recommended to use it with important projects.
-
-    **This website will be updated once the full 1.9.0 update is released**, pending any final adjustments for bugfixes and UI changes that differ from the beta. The Cantonese phoneme list has already been added to the [Phoneme Reference](phonemes.md) page.
-
-    You can find more information and download links for the 1.9.0b1 beta version on the Dreamtonics website: [https://dreamtonics.com/synthesizer-v-studio-1-9-0b1-update-rap-cantonese-and-more/](https://dreamtonics.com/synthesizer-v-studio-1-9-0b1-update-rap-cantonese-and-more/)
 
 ---
 

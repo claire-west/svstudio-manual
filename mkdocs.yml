@@ -5,7 +5,7 @@ site_author: Claire West
 repo_url: https://github.com/claire-west/svstudio-manual
 copyright: <a href="#__consent">Change cookie settings</a>
 nav:
-  - Home: index.md
+  - Welcome: index.md
   - Quickstart Guide:
     - Setup and Activation: setup.md
     - The Workspace: workspace/layout.md
@@ -32,13 +32,13 @@ nav:
     - Editing Parameters: parameters/editing-parameters.md
     - Direct Pitch Editing: parameters/direct-pitch-editing.md
     - Tone Shift: parameters/tone-shift.md
+    - Vocal Modes: ai-functions/vocal-modes.md
   - AI Functions:
     - "Pitch Mode: Sing": ai-functions/pitch-mode-sing.md
     - "Pitch Mode: Rap": ai-functions/pitch-mode-rap.md
     # - Instant Mode: ai-functions/instant-mode.md
     - AI Retakes: ai-functions/ai-retakes.md
     - Auto Pitch Tuning: ai-functions/auto-pitch-tuning.md
-    - Vocal Modes: ai-functions/vocal-modes.md
   - Intermediate and Advanced Usage:
     - Manual Pitch Mode: advanced/pitch-mode-manual.md
     - Batch Lyric Input: advanced/batch-lyrics.md
