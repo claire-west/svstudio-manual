@@ -48,7 +48,7 @@ By selecting different takes from the list you can see the pitch line change acc
 
 Timbre retakes can be generated in the same manner as pitch retakes, but are also available in Manual Pitch Mode.
 
-These takes will modify the dynamics of the selected notes, but will not change the pitch. This can be helpful for fine-tuning glottal sounds such as vocal fry, or adjusting the harshness of sibilant phonemes.
+These takes will modify the various qualities of a sound which are unrelated to pitch, such as tone color, dynamics, enunciation, and more. This can be helpful for fine-tuning glottal sounds such as vocal fry, creating a smoother transition between notes, or adjusting the harshness of sibilant phonemes.
 
 ![Timbre Retakes](../img/ai-functions/retakes-timbre.png)
 
