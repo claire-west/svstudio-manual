@@ -50,6 +50,7 @@ nav:
     - VSTi/AU Plugin: daw-integration/plugin.md
     - The Top Menus in Detail: advanced/top-menus.md
     - The Side Panels in Detail: advanced/side-panels.md
+    - The Context Menus in Detail: advanced/right-click-menus.md
     - Scripting: advanced/scripting.md
   - Other Topics:
     - FAQs: faq.md

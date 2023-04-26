@@ -60,6 +60,24 @@ When no notes are selected, this slider will affect the default expressiveness v
 
 ![Side-by-side of Expressiveness Values](../img/ai-functions/retakes-expressiveness-crop.png)
 
+## Randomness and Probability
+
+Generating new AI Retakes is comparable to rolling a die multiple times; the probability distribution and set of possible results does not change, but you gain the ability to cycle through and select from many possibilites based on the same input or situation.
+
+The possible results for AI Retakes will vary based on multiple factors:
+
+* The selected voice database
+* The note's context (pitch, duration, phonemes, and those properties of the neighboring notes)
+* [Vocal Mode](vocal-modes.md) settings (only affects timbre retakes)
+
+If any of these factors change, the resulting AI Retakes may also be different – even if they have already been generated.
+
+### Bias in Machine Learning Models
+
+Each voice database (and vocal mode) contains certain biases based on the original voice provider's singing style.
+
+For voice databases that are inclined to use vocal fry, you may need to generate more timbre retakes to find one without that behavior. Similarly, some voice databases will have little to no bias toward that behavior, and therefore may not produce that result in any situations.
+
 ## Video Demonstration
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/VyvXI3jEyRo" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
