@@ -32,7 +32,7 @@ Lite voice databases are subject to the following terms:
 
 - You may not use the Lite version for commercial purposes
 - You may not publish your work using the Lite version on behalf of an organization
-- If you wish to publish a work creating using the Lite version, you must clearly state the name of the voice database used and the fact that a Lite version is used
+- If you wish to publish a work created using the Lite version, you must clearly state the name of the voice database used and the fact that a Lite version is used
 - You should acknowledge that the Lite version does not represent the quality of the full version of the same voice database. Dreamtonics makes no quality or quantity guarantee on the Lite version of a voice database.
 
 ### What are "FLT" voice databases?
