@@ -6,7 +6,7 @@ Tracks are displayed in the [arrangement](../workspace/arrangement.md) panel.
 
 There are multiple ways to add a new track:
 
-- Click the three-line icon to the left of the time axis
+- Click the three-bars (:fontawesome-solid-bars:) icon to the left of the time axis
 - Right click empty space below the existing tracks
 - From the "Project" menu at the top of the application window
 - Drag an instrumental (.wav or .flac) file into the arrangement
