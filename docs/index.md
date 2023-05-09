@@ -24,7 +24,7 @@ For official instructional content for SynthV Studio, check the Dreamtonics [vid
     * [Pitch Mode: Sing](ai-functions/pitch-mode-sing.md) for information about the new "Sing" mode, the successor feature to Instant Mode.
     * [Pitch Mode: Rap](ai-functions/pitch-mode-rap.md) for everything relating to the new rap capabilities.
     * [Manual Pitch Mode](advanced/pitch-mode-manual.md) for descriptions and diagrams relating to slider-based transition and vibrato (formerly on the "Pitch Transition and Vibrato" page).
-    * [Phoneme Reference](phonemes.md) for the list of Cantonese phonemes.
+    * [Phoneme Reference](phonemes.md) for the list of Cantonese phonemes and a fancy new phoneme chart by TiredBee.
 
     For instructions on updating the software, see [Setup and Activation](setup.md#updating-the-software).
 

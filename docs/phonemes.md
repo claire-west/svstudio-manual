@@ -1,5 +1,9 @@
 # Phoneme Reference
 
+=== "All Languages"
+
+    ![TiredBee's Phoneme Chart](../img/Synthesizer_V_Studio_Phoneme_Refsheet_by_TiredBee.png)
+
 === "English"
 
     ```
