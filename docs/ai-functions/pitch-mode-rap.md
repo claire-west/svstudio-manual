@@ -34,7 +34,7 @@ Causes the pitch of the note to rise or fall over its duration.
 
 The value of this slider is directly linked to the upward or downward curve of the Rap Intonation parameter for the note.
 
-![type:video](../img/ai-functions/rap-intonation-slider.mp4)
+![type:video](../img/ai-functions/rap-intonation-slider-2.mp4)
 
 ### Tone
 
@@ -42,7 +42,7 @@ Modifies the overall pitch of the note to be higher or lower, without affecting 
 
 The value of this slider is directly linked to the vertical position of the Rap Intonation parameter for the note.
 
-![type:video](../img/ai-functions/rap-tone-slider.mp4)
+![type:video](../img/ai-functions/rap-tone-slider-2.mp4)
 
 ## The Rap Intonation Parameter
 
@@ -54,7 +54,7 @@ Each arrow represents the pitch movement over the duration of the associated not
 
 To modify the arrow's vertical position (Tone), click and drag the line portion of the arrow. To change the curve (Intonation), click and drag the head of the arrow instead.
 
-![type:video](../img/parameters/rap-intonation.mp4)
+![type:video](../img/parameters/rap-intonation-2.mp4)
 
 ## Disabling Rap Mode
 

@@ -49,16 +49,24 @@ Improvise Note Attack and Release can only be set for the entire track/group in 
 
 ## Disabling Sing Mode
 
-If you switch to Manual Pitch Mode after Sing Mode has already been active:
+If you enable Manual Pitch Mode after Sing Mode has already been active:
 
 * The generated pitch deviations will be moved to the parameters panel for further manual editing
 * The vibrato depth setting will default to zero instead of inheriting its value from the default set in the Voice panel
 
-This means the pitch curve for the note(s) will be the same as before switching to Manual Pitch Mode. Disabling Sing Mode can be helpful if you want to make the generated pitch deviations persistent, such that they are not recalculated if the note's context changes.
+This means the pitch curve for the note(s) will be the same as before switching to Manual Pitch Mode. Disabling Sing Mode can be helpful if you want to "freeze" the generated pitch deviations, such that they are not recalculated if the note's context changes.
+
+This behavior can be changed by disabling the "From Sing to Manual mode" option in the settings panel.
+
+![Preserve Manual Pitch Deviations](../img/ai-functions/preserve-sing-to-manual.png)
 
 ## Switching from Manual Pitch Mode to Sing Mode
 
 Changing a note from Manual Pitch Mode to Sing Pitch Mode will overwrite any existing pitch deviations in the parameters panel. Switching back to Manual Pitch Mode will not restore the overwritten pitch deviations.
+
+This behavior can be changed by enabling the "From Manual to Sing mode" option in the settings panel.
+
+![Preserve Manual Pitch Deviations](../img/ai-functions/preserve-manual-to-sing.png)
 
 ## Video Demonstration
 

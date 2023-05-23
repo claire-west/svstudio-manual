@@ -59,9 +59,9 @@ Glottal effects have not yet been implemented for Synthesizer V Studio.
 
 Mac has a slightly different keyboard layout than other devices. Generally where you see ++ctrl++ Mac users will want to press ++cmd++ instead, and where you see ++alt++ it's usually ++opt++ on Mac.
 
-### Why do some examples show notes in Manual Pitch Mode that are green instead of blue?
+### Why do some examples show notes in Manual Pitch Mode, but they don't have an indicator in the corner?
 
-Pitch modes were handled differently prior to version 1.9.0, and at that point in time all notes were green. The examples in this manual will be gradually updated over time to reflect the new colors.
+Pitch modes were handled differently prior to version 1.9.0, and there was no note-level indicator because the AI-generated pitch deviations ("Instant Mode") were a project-wide setting.
 
 ### How can I access the manual offline?
 

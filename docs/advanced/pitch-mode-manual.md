@@ -2,9 +2,14 @@
 
 Experienced users will often want the most manual control over the vocals, without influence from AI-generated behaviors.
 
-Notes with a Manual pitch mode are blue in the Piano Roll and will have a flattened pitch line by default.
+Notes in Manual pitch mode have a triangle indicator in their upper right corner, and have a flattened pitch line by default.
 
-![Manual Pitch Mode setting](../img/advanced/pitch-mode-manual.png)
+The color of the note will be based on whether the Sing or Rap pitch mode was selected before swiching to Manual pitch mode, or will default to green if the note is created in Manual mode.
+
+<figure markdown>
+  ![Manual Pitch Mode setting](../img/advanced/pitch-mode-manual.png)
+  <figcaption>A note with Manual Pitch Mode enabled</figcaption>
+</figure>
 
 ## Manual Pitch Settings
 
@@ -98,9 +103,20 @@ This diagram illustrates how each of the vibrato sliders affects the pitch curve
 
 ![Vibrato Visualized](../img/note-properties/vibrato-visualized.png)
 
+## Creating Notes in Manual Pitch Mode
+
+To make new notes default to Manual Pitch Mode, change the "Note Default Pitch Mode" option in the Settings panel.
+
+![Default Pitch Mode](../img/advanced/default-pitch-mode-setting.png)
+
 ## Manual Pitch Mode in Conjunction with Sing or Rap Mode
 
-Changing a note's pitch mode to Manual after it has been set to either Sing or Rap pitch mode can be used to "freeze" the pitch for a note in order to prevent the pitch from being recalculated when a note's context is changed.
+Enabling Manual Pitch Mode for a note previously set to either Sing or Rap pitch mode can be used to "freeze" the pitch for a note in order to prevent the pitch from being recalculated when a note's context is changed.
+
+<figure markdown>
+  ![Rap Note Changed to Manual Mode](../img/advanced/pitch-mode-rap-to-manual.png)
+  <figcaption>A note in Manual Pitch Mode which was formerly in Rap mode. The generated pitch curve has been "locked" to prevent accidental future changes.</figcaption>
+</figure>
 
 Find more information about switching pitch modes on the [Sing Pitch Mode](../ai-functions/pitch-mode-sing.md#disabling-sing-mode) and [Rap Pitch Mode](../ai-functions/pitch-mode-rap.md#disabling-rap-mode) pages.
 

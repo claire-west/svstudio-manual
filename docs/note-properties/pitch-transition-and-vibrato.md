@@ -12,14 +12,15 @@ See [Editing Notes](../quickstart/editing-notes.md#selecting-notes) for methods 
 
 ![Pitch Mode settings](../img/note-properties/pitch-modes.png)
 
-**Manual**
-: Gives full manual control over the pitch. Notes will have no pitch deviation by default, so it is up to the user to enter the desired patterns from scratch. [More about Manual Pitch Mode](../advanced/pitch-mode-manual.md).
-
 **Sing**
 : Adds AI-generated pitch deviations to your notes which are modeled to produce realistic transitions, sustains, and vibrato. [More about Sing Pitch Mode](../ai-functions/pitch-mode-sing.md).
 
 **Rap**
 : Adds AI-generated pitch deviations to your notes which are modeled to mimic human rap techniques, and allows the use of the Rap Intonation parameter. [More about Rap Pitch Mode](../ai-functions/pitch-mode-rap.md).
+
+**Manual**
+: Gives full manual control over the pitch. Notes will have no pitch deviation by default, so it is up to the user to enter the desired patterns from scratch.
+: When the button is darkened, Manual mode is disabled. When it is light, Manual mode is enabled. [More about Manual Pitch Mode](../advanced/pitch-mode-manual.md).
 
 ---
 
