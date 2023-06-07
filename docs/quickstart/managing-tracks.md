@@ -49,6 +49,27 @@ You can use these functions to load a MIDI file containing the vocal melody for 
 
 Supported file types are MIDI, UST, VSQx, VPR, and CCS.
 
+The "Import as Tracks" function also supports SVP and S5P files to allow merging of Synthesizer V projects.
+
+### Importing Tempo and Time Signature Markers
+
+The "Import" function will also apply tempo and time signature markers based on the original file.
+
+"Import as Tracks" will not modify the tempo or time signature markers of the current project.
+
+To apply a MIDI tempo map to an existing project:
+
+1. Save your work if you have any unsaved changes.
+2. Use "Import" to create a new project based on your MIDI file. The new project's tempo and time signature markers will reflect those of the MIDI file.
+3. Use "Import as Tracks" to merge your existing SVP file into the new project.
+4. Save the new project under a new name.
+
+!!! info "Some DAWs and music notation programs do not include tempo or time signature information when exporting a MIDI file."
+
+!!! warning
+
+    Neither Synthesizer V Studio nor the MIDI format support gradual ("ramp") tempo changes. Ensure all tempo changes are applied in an instantaneous or stepwise manner, and that all tempo changes occur at the start of a quarter.
+
 ## Video Demonstration
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/sz1TwwXmMJA" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
