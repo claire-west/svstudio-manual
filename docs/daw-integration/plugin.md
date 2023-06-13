@@ -18,6 +18,10 @@ To save an external SVP file separate from your DAW project, select "Save to Ext
 
 ![Save Inside Host option](../img/daw-integration/save-inside-host.png)
 
+!!! warning "Saving to an External File"
+
+    Synthesizer V Studio cannot differentiate between a user-initiated save and an autosave performed by the host DAW. When saving to an external SVP, the SVP file will be updated any time the host performs a save of any kind. This is a limitation of the VST plugin standard.
+
 ## Synchronize Tempo with Host
 
 An additional setting is added under the "Project" top menu.

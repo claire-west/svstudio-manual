@@ -2,6 +2,8 @@
 
 Auto pitch tuning is a function found under the "Auto-Process" top menu. The "(Customized Style)" option offers additional vibrato and overshoot sliders when using the Pro edition.
 
+This function adds AI-generated pitch deviations similar to [Sing pitch mode](pitch-mode-sing.md), however in a more controlled and customizable manner.
+
 ![Auto-Process Menu](../img/ai-functions/auto-pitch-tuning-option.png)
 
 ![Auto Pitch Tuning Dialog](../img/ai-functions/auto-pitch-tuning-dialog.png)
