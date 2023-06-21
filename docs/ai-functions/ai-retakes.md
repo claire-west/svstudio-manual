@@ -26,7 +26,7 @@ Mark preferred takes.
 
 To generate new takes, select one or more notes and click "Generate Take" from the AI Retakes panel.
 
-!!! info "Pitch retakes can only be generated while [Instant Mode](instant-mode.md) is enabled."
+!!! info "Pitch retakes can only be generated for notes using "Sing" or "Rap" Pitch Modes."
 
 ![Generating New Takes](../img/ai-functions/retakes-new.png)
 
@@ -36,7 +36,7 @@ By selecting different takes from the list you can see the pitch line change acc
 
 !!! note
 
-    The pitch deviations introduced by Instant Mode are context-specific, and therefore so are the generated takes. It is recommended that you ensure all notes are correctly placed with the appropriate timings, and all adjacent breaths have been inserted before generating retakes.
+    The pitch deviations introduced by the "Sing" and "Rap" Pitch Modes are context-specific, and therefore so are the generated takes. It is recommended that you ensure all notes are correctly placed with the appropriate timings, and all adjacent breaths have been inserted before generating retakes.
 
 
 <figure markdown>
@@ -46,9 +46,9 @@ By selecting different takes from the list you can see the pitch line change acc
 
 ## Timbre
 
-Timbre retakes can be generated in the same manner as pitch retakes, but do not require Instant Mode to be enabled.
+Timbre retakes can be generated in the same manner as pitch retakes, but are also available in Manual Pitch Mode.
 
-These takes will modify the dynamics of the selected notes, but will not change the pitch. This can be helpful for fine-tuning glottal sounds such as vocal fry, or adjusting the harshness of sibilant phonemes.
+These takes will modify the various qualities of a sound which are unrelated to pitch, such as tone color, dynamics, enunciation, and more. This can be helpful for fine-tuning glottal sounds such as vocal fry, creating a smoother transition between notes, or adjusting the harshness of sibilant phonemes.
 
 ![Timbre Retakes](../img/ai-functions/retakes-timbre.png)
 
@@ -59,6 +59,30 @@ The expressiveness slider can be used to reduce the amplitude of pitch or timbre
 When no notes are selected, this slider will affect the default expressiveness value for all notes in the track or group that have not had their expressiveness values set individually.
 
 ![Side-by-side of Expressiveness Values](../img/ai-functions/retakes-expressiveness-crop.png)
+
+## Randomness and Probability
+
+Generating new AI Retakes is comparable to rolling a die multiple times; the probability distribution and set of possible results does not change when a new "take" is generated, but you gain the ability to cycle through and select from many possibilites based on the same input or situation.
+
+In programming terms, generating new retakes executes the same process multiple times, with a different [random seed](https://en.wikipedia.org/wiki/Random_seed) for each execution.
+
+### Influencing the Possible Results
+
+The possible results for AI Retakes will vary based on multiple factors:
+
+* The selected voice database
+* The note's context (pitch, duration, phonemes, and those properties of the neighboring notes)
+* [Vocal Mode](vocal-modes.md) settings (only affects timbre retakes)
+
+If any of these factors change, the resulting AI Retakes may also be different – even if they have already been generated.
+
+### Bias in Machine Learning Models
+
+Each voice database (and vocal mode) contains certain biases based on the original recordings of the voice provider's singing.
+
+For voice databases that are inclined to use vocal fry, you may need to generate more timbre retakes to find one without that behavior. Similarly, some voice databases will have little to no bias toward that behavior, and therefore may not produce that result in any situation.
+
+This same concept also applies to other aspects of the vocals, such as transitions, vibrato, dynamics, and more.
 
 ## Video Demonstration
 

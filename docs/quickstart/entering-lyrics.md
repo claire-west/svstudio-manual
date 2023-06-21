@@ -39,6 +39,12 @@ Glottal stops can be added between notes by prefixing the following lyric with a
 
 ![Glottal Stops](../img/quickstart/glottal-stop.png)
 
+## Adjusting Pronunciation
+
+It is rare for human vocalists to sing every lyric with perfect enunciation, so the default pronunciation of the entered lyrics will not always produce the desired result.
+
+After completing the Quickstart section it is recommended to familiarize yourself with [Phoneme Editing](../note-properties/editing-phonemes.md) in order to achieve your desired pronunciation where necessary.
+
 ## Video Demonstration
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Gj7UipbHBdw" title="YouTube video player" frameborder="0" allowfullscreen></iframe>

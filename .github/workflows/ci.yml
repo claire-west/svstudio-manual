@@ -18,7 +18,7 @@ jobs:
         with:
           python-version: 3.x
       - run: sudo apt-get install libcairo2-dev libfreetype6-dev libffi-dev libjpeg-dev libpng-dev libz-dev
-      - run: pip install mkdocs mkdocs-material mkdocs-material-extensions mkdocs-git-revision-date-localized-plugin mkdocs-glightbox mkdocs-macros-plugin mkdocs-video pillow cairosvg mkdocs-with-pdf
+      - run: pip install mkdocs mkdocs-material mkdocs-material-extensions mkdocs-git-revision-date-localized-plugin mkdocs-glightbox mkdocs-macros-plugin mkdocs-video mkdocs-exclude-search pillow cairosvg mkdocs-with-pdf
       - name: deploy-pages
         run: mkdocs gh-deploy --force
       - name: build-offline-light

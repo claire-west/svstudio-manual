@@ -5,7 +5,7 @@
     The features described below require Synthesizer V Studio Pro.
 
 ## Using Vocal Modes
-Vocal modes can be found in the Voice panel. Each AI voice database has a number of presets which can be used to customize vocal timbre. The presets available vary between each AI voice database.
+Vocal modes can be found in the Voice panel. Each AI voice database has a number of presets which can be used to customize vocal timbre, articulation, and dynamics. The presets available vary between each AI voice database.
 
 Vocal modes can be used individually or in combination, and different settings can be used for each track or group.
 

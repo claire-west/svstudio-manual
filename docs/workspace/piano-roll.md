@@ -2,7 +2,7 @@
 
 ## Piano Roll Toolbar
 
-![The Piano Roll](../img/workspace/piano-roll-controls.png)
+![The Piano Roll](../img/workspace/piano-roll-controls-2.png)
 
 ### 1. Tool Selection
 Allows changing between the pointer and pencil tools. The pointer is suited to selecting and modifying notes, while the pencil allows for quicker note creation and freehand pitch drawing.
@@ -28,11 +28,8 @@ Toggles between note editing and pitch editing modes.
 ### 6. Snap Setting
 Sets the grid snap interval for the piano roll.
 
-### 7. Instant Mode Toggle
-Enables or disables [Instant Mode](../ai-functions/instant-mode.md), which applies AI-generated pitch deviations to the notes as changes are made.
-
 ### Tool/Mode Link
-The chain-link icon can be toggled on to toggle both the selected tool and current editing mode when either option is changed.
+The chain-link (:material-link:) icon can be toggled on to toggle both the selected tool and current editing mode when either option is changed.
 
 ![Tool/Mode Link](../img/workspace/tool-mode-link.png)
 
@@ -41,7 +38,7 @@ The chain-link icon can be toggled on to toggle both the selected tool and curre
 ![The Piano Roll](../img/workspace/piano-roll.png)
 
 ### 1. Notes
-Notes are displayed in the piano roll as green rectangles, with their vertical position (pitch) corresponding to the piano key on the left and their horizontal position (timing) corresponding to the time axis above.
+Notes are displayed in the piano roll as colored rectangles, with their vertical position (pitch) corresponding to the piano key on the left and their horizontal position (timing) corresponding to the time axis above.
 
 ### 2. Phonemes
 Phonemes represent the actual sounds produced by a singer. Each lyric entered in a note will automatically be converted to phonemes.

@@ -14,7 +14,11 @@ New markers of either type can be added by right clicking along the time axis. T
 
 Tempo markers can only be created at quarter-measure intervals, and time signature changes can only occur at the start of a measure.
 
-!!! info "There is currently no support for gradual tempo changes."
+!!! warning
+
+    Neither Synthesizer V Studio nor the MIDI file format support gradual ("ramp") tempo changes.
+
+    When synchronizing with an accompanying instrumental, ensure all tempo changes are applied in an instantaneous or stepwise manner in both programs, and that all tempo changes occur at the start of a quarter.
 
 ![Add Time Change](../img/quickstart/time-axis-add-marker.png)
 

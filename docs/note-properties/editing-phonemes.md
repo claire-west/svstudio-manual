@@ -4,13 +4,22 @@ Phonemes are the individual components that lyrics and syllables are made up of.
 
 All lyrics entered into notes are automatically converted to phonemes. When rendering the synthesized output, the phonemes are used to determine the appropriate pronunciation and timing.
 
+!!! info
+
+    The default dictionary mappings for each lyric will produce the most likely "correct" pronunciation for the word.
+
+    It is rare that human vocalists sing with perfect enunciation, so to achieve the most natural result it is normal to make phoneme adjustments to achieve different pronunciation.
+
+## Available Phonemes
+
 Each language has its own set of phonemes and notations.
 
 |Language|Lyrical Notation|Phonetic Notation|
 |---|---|---|
 |English|Words|Modified Arpabet|
-|Mandarin Chinese|Chinese characters (simplified/traditional), Pinyin|X-SAMPA|
 |Japanese|Hiragana, Katakana, Romaji|Romaji-derived symbols|
+|Mandarin Chinese|Chinese characters (simplified/traditional), Pinyin|X-SAMPA|
+|Cantonese Chinese|Chinese characters (simplified/traditional), Jyutping|X-SAMPA|
 
 A full list of phonemes for each language can be found on the [Phoneme Reference](../phonemes.md) page, as well as in Synthesizer V Studio's installation directory.
 
@@ -41,7 +50,7 @@ To revert the phoneme sequence to the automatic lyric-based conversion, set the 
 
 ![Reseting a Note's Phonemes](../img/note-properties/phoneme-reset.png)
 
-A phoneme sequence can also be entered within a note by prefixing it with a `.` character.
+A phoneme sequence can also be entered within a note by prefixing it with a `.` character. This format is primarily used for backwards compatibility with .s5p project files, and it is recommended to enter phonemes above the note when using Synthesizer V Studio.
 
 ![Phonemes in the Note Body](../img/note-properties/phonemes-in-note.png)
 
@@ -54,7 +63,7 @@ If there are many instances of the same word in your project, you may want to ov
 
     Cross-lingual Synthesis requires Synthesizer V Studio Pro.
 
-Cross-lingual synthesis allows AI voice databases to access the phoneme lists for English, Mandarin Chinese, and Japanese regardless of their default language. While AI voice databases still have a "native" language, this allows them to sing lyrics in other languages with near-fluency.
+Cross-lingual synthesis allows AI voice databases to access the phoneme lists for English, Japanese, Mandarin Chinese, and Cantonese Chinese regardless of their default language. While AI voice databases still have a "native" language, this allows them to sing lyrics in other languages with near-fluency.
 
 Language settings can be found under the Voice and Note Properties panel, for the track/group and individual notes respectively.
 

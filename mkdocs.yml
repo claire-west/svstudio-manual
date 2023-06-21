@@ -5,7 +5,7 @@ site_author: Claire West
 repo_url: https://github.com/claire-west/svstudio-manual
 copyright: <a href="#__consent">Change cookie settings</a>
 nav:
-  - Home: index.md
+  - Welcome: index.md
   - Quickstart Guide:
     - Setup and Activation: setup.md
     - The Workspace: workspace/layout.md
@@ -17,7 +17,7 @@ nav:
     - Adding Notes: quickstart/creating-notes.md
     - Editing Notes: quickstart/editing-notes.md
     - Entering Lyrics: quickstart/entering-lyrics.md
-    - Introduction to Instant Mode: quickstart/instant-mode.md
+    # - Introduction to Instant Mode: quickstart/instant-mode.md
     - Playback: quickstart/playback.md
     - Managing Tracks: quickstart/managing-tracks.md
     - Saving the Audio: quickstart/saving-the-audio.md
@@ -32,12 +32,15 @@ nav:
     - Editing Parameters: parameters/editing-parameters.md
     - Direct Pitch Editing: parameters/direct-pitch-editing.md
     - Tone Shift: parameters/tone-shift.md
-  - AI Functions:
-    - Auto Pitch Tuning: ai-functions/auto-pitch-tuning.md
-    - Instant Mode: ai-functions/instant-mode.md
-    - AI Retakes: ai-functions/ai-retakes.md
     - Vocal Modes: ai-functions/vocal-modes.md
+  - AI Functions:
+    - "Pitch Mode: Sing": ai-functions/pitch-mode-sing.md
+    - "Pitch Mode: Rap": ai-functions/pitch-mode-rap.md
+    # - Instant Mode: ai-functions/instant-mode.md
+    - AI Retakes: ai-functions/ai-retakes.md
+    - Auto Pitch Tuning: ai-functions/auto-pitch-tuning.md
   - Intermediate and Advanced Usage:
+    - Manual Pitch Mode: advanced/pitch-mode-manual.md
     - Batch Lyric Input: advanced/batch-lyrics.md
     - User Dictionaries: advanced/user-dictionaries.md
     - Groups: advanced/groups.md
@@ -47,6 +50,7 @@ nav:
     - VSTi/AU Plugin: daw-integration/plugin.md
     - The Top Menus in Detail: advanced/top-menus.md
     - The Side Panels in Detail: advanced/side-panels.md
+    - The Context Menus in Detail: advanced/right-click-menus.md
     - Scripting: advanced/scripting.md
   - Other Topics:
     - FAQs: faq.md
@@ -81,6 +85,10 @@ extra_css:
 plugins:
   - search:
       lang: en
+  - exclude-search:
+      exclude:
+        - ai-functions/instant-mode.md
+        - quickstart/instant-mode.md
   - social:
       cards_color:
         fill: "#2A2A2A"

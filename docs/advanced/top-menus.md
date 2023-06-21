@@ -23,7 +23,7 @@ When run as a VST/AU plugin, contains options for saving within the DAW project 
 Allows selection of all notes or parameters for the current track/group.
 
 **Select Parameters for Notes**
-: Selects any parameter points within the duration of the selected notes.
+: See [Editing Parameters → Select Parameters for Notes](../parameters/editing-parameters.md#select-parameters-for-notes)
 
 **Delete Selection**
 : Deletes all selected notes and parameter points.
@@ -81,9 +81,6 @@ See [Auto Pitch Tuning](../ai-functions/auto-pitch-tuning.md)
 
 ### Melody
 See [Note Ornamentation](note-ornamentation.md)
-
-### Instant Mode
-See [Instant Mode](../ai-functions/instant-mode.md)
 
 ### AI Retakes
 See [AI Retakes](../ai-functions/ai-retakes.md)

@@ -8,7 +8,7 @@ Parameters offer detailed manual control over various aspects of a vocal sequenc
 : A layer of pitch shifts added to the base pitch curve. 100 cents is equivalent to 1 semitone.
 
 **Vibrato Envelope**
-: Amplitude modulation of [expression-based vibrato](../note-properties/pitch-transition-and-vibrato.md).
+: Amplitude modulation of vibrato.
 
 **Loudness**
 : Vocal effort/dynamics.
@@ -42,23 +42,25 @@ The base value of most parameters can be set in the Voice panel. The curves in t
 
 ![Base Parameter Sliders](../img/parameters/voice-parameters.png)
 
-### Vibrato Envelope
-
-The Vibrato Envelope parameter affects the amplitude (depth) of expression-based vibrato in its duration.
-
-Rather than a base value set in the Voice panel, the curve modifies the vibrato depth setting of the note as defined in the Note Properties panel.
-
-!!! note
-
-    The Vibrato Envelope parameter only applies a multiplier to the vibrato depth value for the note(s) as defined by the slider in the Note Properties panel. It has no effect on any other pitch deviations introduced in the parameters panel or by Instant Mode.
-
-![Vibrato Envelope](../img/parameters/vibrato-envelope.png)
-
 ### Base Value Indicator
 
 When the base value is set for the parameter currently being edited, a green horizontal line will indicate the the base value relative to the default (indicated by the light grey horizontal line).
 
 ![Parameters Base Value](../img/parameters/parameter-base-value.png)
+
+### Vibrato Envelope
+
+The Vibrato Envelope parameter affects the amplitude (depth) vibrato in its duration.
+
+Rather than a base value set in the Voice panel, the curve modifies the vibrato depth setting of the note as defined in the Note Properties panel when using Manual Pitch Mode (Basic and Pro editions), or the note's Vibrato Modulation setting when using "Sing" Pitch Mode (Pro edition only).
+
+![Vibrato Envelope](../img/parameters/vibrato-envelope.png)
+
+### Rap Intonation
+
+The Rap Intonation parameter offers a graphical tool for editing the mode-specific settings for notes using [Rap Pitch Mode](../ai-functions/pitch-mode-rap.md#the-rap-intonation-parameter).
+
+This parameter is always set on a per-note basis, so there are no associated default values in the Voice panel.
 
 ## Editing Parameter Curves
 
@@ -161,6 +163,15 @@ Simplify freehand drawn curves
 Snap points to zero
 : May need to be disabled if moving points to precise values near zero.
 
+### Select Parameters for Notes
+
+The Select Parameters for Notes option can be found under the "Edit" top menu, as well as by right clicking on selected notes.
+
+This function will select all parameter points for the currently selected notes. The parameter points for all parameter types will be selected, even if they are not visible in the Parameters panel.
+
+See [Editing Notes](../quickstart/editing-notes.md#selecting-notes) for methods of selecting many notes at once using hotkeys and modifier keys.
+
+![type:video](../img/parameters/move-params-with-notes.mp4)
 
 ### Simplify Parameters
 

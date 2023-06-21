@@ -2,6 +2,8 @@
 
 Auto pitch tuning is a function found under the "Auto-Process" top menu. The "(Customized Style)" option offers additional vibrato and overshoot sliders when using the Pro edition.
 
+This function adds AI-generated pitch deviations similar to [Sing pitch mode](pitch-mode-sing.md), however in a more controlled and customizable manner.
+
 ![Auto-Process Menu](../img/ai-functions/auto-pitch-tuning-option.png)
 
 ![Auto Pitch Tuning Dialog](../img/ai-functions/auto-pitch-tuning-dialog.png)
@@ -10,7 +12,9 @@ Auto pitch tuning is a function found under the "Auto-Process" top menu. The "(C
 
 Executing auto pitch tuning will add pitch deviations to the parameters panel for the currently-selected notes. These pitch deviations will be different based on the currently selected voice database, and are based on machine learning analysis of the original voice provider's singing style.
 
-!!! info "Auto Pitch Tuning can only be executed manually if [Instant Mode](instant-mode.md) is disabled and notes are selected."
+See [Editing Notes](../quickstart/editing-notes.md#selecting-notes) for methods of selecting many notes at once using hotkeys and modifier keys.
+
+!!! info "Auto Pitch Tuning can only be executed for notes that are set to [Manual Pitch Mode](../advanced/pitch-mode-manual.md)."
 
 ![Auto Pitch Tuning](../img/ai-functions/auto-pitch-tuning.png)
 
