@@ -71,12 +71,14 @@ theme:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
+      primary: custom
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
+      primary: custom
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
@@ -90,9 +92,9 @@ plugins:
         - ai-functions/instant-mode.md
         - quickstart/instant-mode.md
   - social:
-      cards_color:
-        fill: "#2A2A2A"
-        text: "#7DB235"
+      cards_layout_options:
+        background_color: "#2A2A2A"
+        color: "#7DB235"
   - glightbox
   - git-revision-date-localized:
       type: timeago
