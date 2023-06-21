@@ -10,7 +10,11 @@ hide:
 
 Synthesizer V Studio is a singing synthesizer released in July 2020, with AI synthesis functions added in December of 2020.
 
-This website serves as an unofficial user manual for Synthesizer V Studio, since the [official manual](https://synthesizerv.com/manual/) by Dreamtonics refers to the legacy version of the software from 2018.
+The software is developed by Dreamtonics in association with AH-Software, with compatible voice databases ("virtual singers") also created by licensed third-party developers such as Eclipsed Sounds.
+
+---
+
+This website serves as an unofficial user manual for Synthesizer V Studio, since the [official manual](https://synthesizerv.com/manual/) refers to the legacy version of the software from 2018.
 
 For official instructional content for SynthV Studio, check the Dreamtonics [video tutorial series](https://www.youtube.com/playlist?list=PLmYtpIFKN5iKaUlB6mRGzFJ0SGRJgRIPz).
 
@@ -29,6 +33,10 @@ For official instructional content for SynthV Studio, check the Dreamtonics [vid
     For instructions on updating the software, see [Setup and Activation](setup.md#updating-the-software).
 
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Z6OB3jHiBBk" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
+    Update notes from Dreamtonics:
+
+    * [Synthesizer V Studio 1.9.0 Final Update](https://dreamtonics.com/synthesizer-v-studio-1-9-0-final-update/)
 
 ---
 
