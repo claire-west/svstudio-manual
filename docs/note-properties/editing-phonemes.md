@@ -14,6 +14,8 @@ All lyrics entered into notes are automatically converted to phonemes. When rend
 
 Each language has its own set of phonemes and notations.
 
+A full list of phonemes for each language can be found on the [Phoneme Reference](../phonemes.md) page, as well as in Synthesizer V Studio's installation directory.
+
 |Language|Lyrical Notation|Phonetic Notation|
 |---|---|---|
 |English|Words|Modified Arpabet|
@@ -21,9 +23,8 @@ Each language has its own set of phonemes and notations.
 |Mandarin Chinese|Chinese characters (simplified/traditional), Pinyin|X-SAMPA|
 |Cantonese Chinese|Chinese characters (simplified/traditional), Jyutping|X-SAMPA|
 
-A full list of phonemes for each language can be found on the [Phoneme Reference](../phonemes.md) page, as well as in Synthesizer V Studio's installation directory.
-
 ## Changing a Note's Phonemes
+
 Phonemes are displayed above a note, as well as in the Note Properties panel when the note is selected.
 
 If the text above the note is white, this means the phoneme sequence for the note is automatically being converted from the lyric entered inside the note (either from the active [dictionary](../advanced/user-dictionaries.md) or by default phoneme conversion).
@@ -54,7 +55,22 @@ A phoneme sequence can also be entered within a note by prefixing it with a `.` 
 
 ![Phonemes in the Note Body](../img/note-properties/phonemes-in-note.png)
 
+## Separating Words in Unique Ways
+
+While the `+` and `-` characters [allow words to span multiple notes](../quickstart/entering-lyrics.md) on their vowels and  syllable boundaries, there may be situations in which you want to separate a note in a more precise manner.
+
+Manually allocating a word's phonemes in different ways can be a useful method of [adjusting timing](note-and-phoneme-timing.md#more-precise-timing-adjustments) or articulation. Since human vocalists most often perform transitions at vowel and syllable breaks, care should be taken not to create a halting or unnatural sound using this technique.
+
+This example demonstrates the same lyric as above – "hello" – allocated to notes in a variety of ways using manual phoneme entry.
+
+Notice that in the last example, the `hh` phoneme is no longer treated as a [preutterance](note-and-phoneme-timing.md#note-offset) (which normally occurs before the start of the note) because it is the only phoneme allocated to its respective note.
+
+Keep in mind that if a phoneme sequence has been manually set, the lyric inside the note no longer has any effect on the output.
+
+![Phoneme allocation](../img/note-properties/phoneme-allocation.png)
+
 ## Custom Lyric-to-Phoneme Conversion
+
 If there are many instances of the same word in your project, you may want to override the default phoneme conversion for all instances of that lyric. This can be accomplished by creating a [User Dictionary](../advanced/user-dictionaries.md).
 
 ## Cross-lingual Synthesis

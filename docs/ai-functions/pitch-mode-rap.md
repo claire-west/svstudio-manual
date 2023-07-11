@@ -10,6 +10,8 @@
 
 Rap mode can be enabled for notes from the Note Properties menu. Notes using Rap mode will be red in the Piano Roll.
 
+Notice that the "Manual" button is dark, indicating that Manual Pitch Mode is disabled and that pitch curves will be generated automatically.
+
 ![Rap Mode](../img/ai-functions/pitch-mode-rap.png)
 
 !!! info

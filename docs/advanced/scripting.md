@@ -22,6 +22,14 @@ Drag any new scripts into this "scripts" folder and then select "Rescan" or rest
 
 ![Scripts Folder](../img/advanced/scripts-open-folder.png)
 
+This folder will be in the following locations based on your operating system:
+
+|Operating System|Folder Location|
+|---|---|
+|Windows|`Documents\Dreamtonics\Synthesizer V Studio\scripts`|
+|MacOS|`/Library/Application Support/Dreamtonics/scripts`|
+|Linux|`<your installation directory>/scripts`<br/>For example:<br/>`/opt/Synthesizer V Studio Pro/scripts`|
+
 ### Assigning Keybinds to Scripts
 
 Scripts can be assigned a hotkey from the Keybinds section at the bottom of the Settings panel.

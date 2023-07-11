@@ -4,11 +4,13 @@
 
 Sing Mode is comparable to the preset libraries included with traditional software synthesizers and effects plugins; it can help new users get results quickly, acts as a starting point for further modification, and can help users learn what realistic pitch curves might look and sound like.
 
-Experienced users may prefer to use [Manual Pitch Mode](../advanced/pitch-mode-manual.md) for full control over the vocals.
+Experienced users may prefer to use [Manual Pitch Mode](../advanced/pitch-mode-manual.md) for full control over the vocals, or in order to manually execute [Auto Pitch Tuning](auto-pitch-tuning.md) for greater customization of the AI-generated pitch curves.
 
 ## Enabling Sing Mode
 
 Sing mode can be enabled for notes from the Note Properties menu. Notes using Sing mode will be green in the Piano Roll.
+
+Notice that the "Manual" button is dark, indicating that Manual Pitch Mode is disabled and that pitch curves will be generated automatically.
 
 ![Sing Mode](../img/ai-functions/pitch-mode-sing.png)
 

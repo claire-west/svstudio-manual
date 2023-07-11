@@ -46,6 +46,18 @@ Lite voice databases are subject to the following terms:
 - Use in the standalone editor only.
 - Non-commercial usage only.
 
+### Where are my settings saved?
+
+Settings are saved in a file called `settings.xml`. You can find this in the following locations based on your operating system:
+
+|Operating System|File Location|
+|---|---|
+|Windows|`Documents\Dreamtonics\Synthesizer V Studio\settings`|
+|MacOS|`/Library/Application Support/Dreamtonics/settings`|
+|Linux|`<your installation directory>/settings`<br/>For example:<br/>`/opt/Synthesizer V Studio Pro/settings/settings.xml`|
+
+If the software settings are not being saved successfully, or are reset each time the software launches, this is usually because the application does not have suitable permissions to access this folder. This can be resolved by either reinstalling the software, or granting the appropriate file permissions.
+
 ### Where is the "Track Manager"?
 
 The original version of Synthesizer V had a separate window for managing tracks. In Synthesizer V Studio, all [track management](quickstart/managing-tracks.md) is done via the Arrangement panel.
