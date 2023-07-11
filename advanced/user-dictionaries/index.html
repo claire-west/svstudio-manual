@@ -21,7 +21,7 @@
         <link rel="next" href="../groups/">
       
       <link rel="icon" href="../../img/icon.ico">
-      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.16">
+      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.18">
     
     
       
@@ -1280,18 +1280,24 @@
 
 <div><h1 id="user-dictionaries">User Dictionaries</h1>
 <p>Dictionaries can be used to customize word-to-phoneme conversion.</p>
-<p>When a note's lyric is being converted to phonemes, it will first check for an entry in the currently selected dictionary. If there is no custom entry or no dictionary is selected, the default conversion will be used. This can be useful if the same word appears many times in a project and you want all instances of that word to use a modified phoneme sequence.</p>
+<p>When a note's lyric is being converted to phonemes, it will first check for an entry in the currently selected dictionary. If there is no custom entry or no dictionary is selected, the default conversion will be used. This can be useful if the same word appears many times in a project and you want all instances of that word to use a <a href="../../note-properties/editing-phonemes/#changing-a-notes-phonemes">modified phoneme sequence</a>.</p>
 <p>The Dictionary panel can be accessed from the launch bar.</p>
 <p><a class="glightbox" href="../../img/advanced/dictionary-panel.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="The Dictionary Panel" src="../../img/advanced/dictionary-panel.png"></a></p>
 <h2 id="creating-a-dictionary">Creating a Dictionary</h2>
 <p>To create a dictionary, open the Dictionary panel and click "New".</p>
-<p>Each track/group can have a different active dictionary.</p>
+<p>Upon creating a dictionary, the currently active track will have the new dictionary selected. Other tracks will still be using the software defaults and must have their dictionary selected via the dropdown.</p>
+<p>Each track/group can have a different active dictionary to suit different pronunciations or accents for each vocal layer or singer.</p>
 <p><a class="glightbox" href="../../img/advanced/dictionary-new.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Creating a Dictionary" src="../../img/advanced/dictionary-new.png"></a></p>
 <h2 id="adding-dictionary-entries">Adding Dictionary Entries</h2>
 <p>Add dictionary entries by entering the word and the desired phoneme sequence to be used.</p>
 <p><a class="glightbox" href="../../img/advanced/dictionary-new-entry.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Adding a Dictionary Entry" src="../../img/advanced/dictionary-new-entry.png"></a></p>
 <p>Once a word is present in the active dictionary, all instances of that word in the track/group will use the new phoneme sequence unless their phonemes have been set manually.</p>
-<p>Notice that the phoneme text above the note is white to indicate that it is based on lyric-to-phoneme conversion rather than manual entry.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The dictionary will only override word-to-phoneme conversion. For example, the entry above maps "hello" to <code>hh eh l ow</code> instead of the default <code>hh ax l ow</code>, since these are both common pronunciations of the word based on the speaker's accent.</p>
+<p>Attempting to enter the original phoneme sequence (<code>hh ax l ow</code>) in the first text box will not result in those phonemes being replaced for a note that has "hello" entered as the lyric.</p>
+</div>
+<p>Notice that the phoneme text above the note is white to indicate that it is based on lyric-to-phoneme conversion rather than manual entry. Dictionary entries will not overwrite phonemes for notes that have had their phonemes manually set (green text).</p>
 <p><a class="glightbox" href="../../img/advanced/dictionary-conversion.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Dictionary Phoneme Conversion" src="../../img/advanced/dictionary-conversion.png"></a></p>
 <h3 id="removing-dictionary-entries">Removing Dictionary Entries</h3>
 <p>To remove a dictionary entry, select it from the list and select "Remove".</p>
@@ -1303,7 +1309,30 @@
 </div>
 <p>The dictionary list will always be loaded based on the current voice database's native language, even if that does not match the current language selected for cross-lingual synthesis.</p>
 <p>For example, to use an English dictionary with a native-Japanese voice database you would first need to move or copy the dictionary file into the <code>dicts/japanese-romaji</code> folder, even though the phoneme notation being used via cross-lingual synthesis is arpabet.</p>
-<p>The dictionaries folder is located in the same location as the <a href="">scripts</a> folder, and can therefore be located in the same manner by selecting "Open Scripts Folder" from the "Scripts" top menu.</p>
+<p>The <code>dicts</code> folder can be found in the following locations for each operating system:</p>
+<table>
+<thead>
+<tr>
+<th>Operating System</th>
+<th>Folder Location</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows</td>
+<td><code>Documents\Dreamtonics\Synthesizer V Studio\dicts</code></td>
+</tr>
+<tr>
+<td>MacOS</td>
+<td><code>/Library/Application Support/Dreamtonics/dicts</code></td>
+</tr>
+<tr>
+<td>Linux</td>
+<td><code>&lt;your installation directory&gt;/dicts</code><br>For example:<br><code>/opt/Synthesizer V Studio Pro/dicts</code></td>
+</tr>
+</tbody>
+</table>
+<p>For easy access, the dictionaries folder is located in the same location as the <a href="">scripts</a> folder, and can therefore be located in the same manner by selecting "Open Scripts Folder" from the "Scripts" top menu.</p>
 <p><a class="glightbox" href="../../img/advanced/scripts-open-folder.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Scripts Folder" src="../../img/advanced/scripts-open-folder.png"></a></p>
 <p><a class="glightbox" href="../../img/advanced/dicts-folder.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Dictionaries Folder" src="../../img/advanced/dicts-folder.png"></a></p>
 <hr>
@@ -1314,7 +1343,7 @@
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-02-28T22:05:48+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-02-28</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-07-11T17:26:22+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-07-11</span>
       
         <br>
         Created:
@@ -1515,10 +1544,10 @@
       </div>
       <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout(function(){document.querySelector("[data-md-component=consent]").hidden=!1},250);var action,form=document.forms.consent;for(action of["submit","reset"])form.addEventListener(action,function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map(function(e){return[e,!0]}))),location.hash="",location.reload()})</script>
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tracking", "navigation.expand", "navigation.path", "navigation.top", "content.tabs.link"], "search": "../../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tracking", "navigation.expand", "navigation.path", "navigation.top", "content.tabs.link"], "search": "../../assets/javascripts/workers/search.74e28a9f.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.a51614de.min.js"></script>
+      <script src="../../assets/javascripts/bundle.220ee61c.min.js"></script>
       
         
           <script src="../../js/timeago.min.js"></script>

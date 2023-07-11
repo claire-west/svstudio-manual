@@ -21,7 +21,7 @@
         <link rel="next" href="../note-and-phoneme-timing/">
       
       <link rel="icon" href="../../img/icon.ico">
-      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.16">
+      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.18">
     
     
       
@@ -621,6 +621,13 @@
         <li class="md-nav__item">
   <a href="#changing-a-notes-phonemes" class="md-nav__link">
     Changing a Note's Phonemes
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#separating-words-in-unique-ways" class="md-nav__link">
+    Separating Words in Unique Ways
   </a>
   
 </li>
@@ -1235,6 +1242,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#separating-words-in-unique-ways" class="md-nav__link">
+    Separating Words in Unique Ways
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#custom-lyric-to-phoneme-conversion" class="md-nav__link">
     Custom Lyric-to-Phoneme Conversion
   </a>
@@ -1276,6 +1290,7 @@
 </div>
 <h2 id="available-phonemes">Available Phonemes</h2>
 <p>Each language has its own set of phonemes and notations.</p>
+<p>A full list of phonemes for each language can be found on the <a href="../../phonemes/">Phoneme Reference</a> page, as well as in Synthesizer V Studio's installation directory.</p>
 <table>
 <thead>
 <tr>
@@ -1307,7 +1322,6 @@
 </tr>
 </tbody>
 </table>
-<p>A full list of phonemes for each language can be found on the <a href="../../phonemes/">Phoneme Reference</a> page, as well as in Synthesizer V Studio's installation directory.</p>
 <h2 id="changing-a-notes-phonemes">Changing a Note's Phonemes</h2>
 <p>Phonemes are displayed above a note, as well as in the Note Properties panel when the note is selected.</p>
 <p>If the text above the note is white, this means the phoneme sequence for the note is automatically being converted from the lyric entered inside the note (either from the active <a href="../../advanced/user-dictionaries/">dictionary</a> or by default phoneme conversion).</p>
@@ -1324,6 +1338,13 @@
 <p><a class="glightbox" href="../../img/note-properties/phoneme-reset.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Reseting a Note's Phonemes" src="../../img/note-properties/phoneme-reset.png"></a></p>
 <p>A phoneme sequence can also be entered within a note by prefixing it with a <code>.</code> character. This format is primarily used for backwards compatibility with .s5p project files, and it is recommended to enter phonemes above the note when using Synthesizer V Studio.</p>
 <p><a class="glightbox" href="../../img/note-properties/phonemes-in-note.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Phonemes in the Note Body" src="../../img/note-properties/phonemes-in-note.png"></a></p>
+<h2 id="separating-words-in-unique-ways">Separating Words in Unique Ways</h2>
+<p>While the <code>+</code> and <code>-</code> characters <a href="../../quickstart/entering-lyrics/">allow words to span multiple notes</a> on their vowels and  syllable boundaries, there may be situations in which you want to separate a note in a more precise manner.</p>
+<p>Manually allocating a word's phonemes in different ways can be a useful method of <a href="../note-and-phoneme-timing/#more-precise-timing-adjustments">adjusting timing</a> or articulation. Since human vocalists most often perform transitions at vowel and syllable breaks, care should be taken not to create a halting or unnatural sound using this technique.</p>
+<p>This example demonstrates the same lyric as above – "hello" – allocated to notes in a variety of ways using manual phoneme entry.</p>
+<p>Notice that in the last example, the <code>hh</code> phoneme is no longer treated as a <a href="../note-and-phoneme-timing/#note-offset">preutterance</a> (which normally occurs before the start of the note) because it is the only phoneme allocated to its respective note.</p>
+<p>Keep in mind that if a phoneme sequence has been manually set, the lyric inside the note no longer has any effect on the output.</p>
+<p><a class="glightbox" href="../../img/note-properties/phoneme-allocation.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Phoneme allocation" src="../../img/note-properties/phoneme-allocation.png"></a></p>
 <h2 id="custom-lyric-to-phoneme-conversion">Custom Lyric-to-Phoneme Conversion</h2>
 <p>If there are many instances of the same word in your project, you may want to override the default phoneme conversion for all instances of that lyric. This can be accomplished by creating a <a href="../../advanced/user-dictionaries/">User Dictionary</a>.</p>
 <h2 id="cross-lingual-synthesis">Cross-lingual Synthesis</h2>
@@ -1342,7 +1363,7 @@
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-06-21T11:48:44+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-06-21</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-07-11T17:26:22+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-07-11</span>
       
         <br>
         Created:
@@ -1543,10 +1564,10 @@
       </div>
       <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout(function(){document.querySelector("[data-md-component=consent]").hidden=!1},250);var action,form=document.forms.consent;for(action of["submit","reset"])form.addEventListener(action,function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map(function(e){return[e,!0]}))),location.hash="",location.reload()})</script>
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tracking", "navigation.expand", "navigation.path", "navigation.top", "content.tabs.link"], "search": "../../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tracking", "navigation.expand", "navigation.path", "navigation.top", "content.tabs.link"], "search": "../../assets/javascripts/workers/search.74e28a9f.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.a51614de.min.js"></script>
+      <script src="../../assets/javascripts/bundle.220ee61c.min.js"></script>
       
         
           <script src="../../js/timeago.min.js"></script>
