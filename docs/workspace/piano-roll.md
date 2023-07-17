@@ -40,6 +40,16 @@ The chain-link (:material-link:) icon can be toggled on to toggle both the selec
 ### 1. Notes
 Notes are displayed in the piano roll as colored rectangles, with their vertical position (pitch) corresponding to the piano key on the left and their horizontal position (timing) corresponding to the time axis above.
 
+Green notes represent [singing](../ai-functions/pitch-mode-sing.md), while red notes are for [rap](../ai-functions/pitch-mode-rap.md). A solid green or red note as shown below will have its pitch curve generated automatically based on the selected pitch mode ("Sing" or "Rap").
+
+![Notes in Sing and Rap mode](../img/quickstart/pitch-mode-colors.png)
+
+If a small triangle is present in the upper-right corner of a note, this indicates that it has been set to [Manual Mode](../advanced/pitch-mode-manual.md), which allows the user full control over the note's pitch curve.
+
+When a note is set to Manual Mode, its color represents the mode it was assigned *prior to* the user taking manual control, however the pitch curve will no longer be generated automatically. The color of a note set to Manual Mode has no effect on the output, and is only used to visually delineate song and rap sequences within a project.
+
+![Notes in Manual Mode](../img/quickstart/pitch-mode-indicator.png)
+
 ### 2. Phonemes
 Phonemes represent the actual sounds produced by a singer. Each lyric entered in a note will automatically be converted to phonemes.
 

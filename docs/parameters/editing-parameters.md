@@ -36,6 +36,14 @@ Parameters offer detailed manual control over various aspects of a vocal sequenc
 
 !!! note "Pro Feature - Vocal Modes are only available in Synthesizer V Studio Pro."
 
+### A Simple Example
+
+In this example, SOLARIA's "Light" Vocal Mode and the Breathiness parameter are modified over the duration of a phrase.
+
+The vertical position of a curve at a given point in time dictates the value of its respective parameter or vocal mode at that moment. For example, the "Light" Vocal Mode curve shown in the foreground is at approximately 105% at the start of the phrase, then slowly falls to around 30%, building to approximately 135% near the end of the phrase.
+
+![Base Parameter Sliders](../img/parameters/parameter-curve-example.png)
+
 ## Base Values
 
 The base value of most parameters can be set in the Voice panel. The curves in the parameters panel will modify the value from this base setting.

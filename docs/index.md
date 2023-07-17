@@ -18,7 +18,7 @@ This website serves as an unofficial user manual for Synthesizer V Studio, since
 
 For official instructional content for SynthV Studio, check the Dreamtonics [video tutorial series](https://www.youtube.com/playlist?list=PLmYtpIFKN5iKaUlB6mRGzFJ0SGRJgRIPz).
 
-!!! info "Update 1.9.0 now available!"
+??? info "Update 1.9.0 now available! (click here for more information)"
 
     Dreamtonics has released Synthesizer V Studio version 1.9.0, introducing a major rework of Instant Mode, the addition of Rap vocals, and Cantonese cross-lingual synthesis.
 

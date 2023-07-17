@@ -4,7 +4,7 @@ Experienced users will often want the most manual control over the vocals, witho
 
 Notes in Manual pitch mode have a triangle indicator in their upper right corner, and have a flattened pitch line by default.
 
-The color of the note will be based on whether the Sing or Rap pitch mode was selected before swiching to Manual pitch mode, or will default to green if the note is created in Manual mode.
+The color of the note will be based on whether the Sing or Rap pitch mode was selected before swiching to Manual pitch mode, or will default to green if the note is created in Manual mode. This can be used to visually delineate song and rap sequences within the project, but has no effect on the rendered output.
 
 <figure markdown>
   ![Manual Pitch Mode setting](../img/advanced/pitch-mode-manual.png)
