@@ -1499,6 +1499,11 @@
 <p><a class="glightbox" href="../../img/workspace/piano-roll.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="The Piano Roll" src="../../img/workspace/piano-roll.png"></a></p>
 <h3 id="1-notes">1. Notes</h3>
 <p>Notes are displayed in the piano roll as colored rectangles, with their vertical position (pitch) corresponding to the piano key on the left and their horizontal position (timing) corresponding to the time axis above.</p>
+<p>Green notes represent <a href="../../ai-functions/pitch-mode-sing/">singing</a>, while red notes are for <a href="../../ai-functions/pitch-mode-rap/">rap</a>. A solid green or red note as shown below will have its pitch curve generated automatically based on the selected pitch mode ("Sing" or "Rap").</p>
+<p><a class="glightbox" href="../../img/quickstart/pitch-mode-colors.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Notes in Sing and Rap mode" src="../../img/quickstart/pitch-mode-colors.png"></a></p>
+<p>If a small triangle is present in the upper-right corner of a note, this indicates that it has been set to <a href="../../advanced/pitch-mode-manual/">Manual Mode</a>, which allows the user full control over the note's pitch curve.</p>
+<p>When a note is set to Manual Mode, its color represents the mode it was assigned <em>prior to</em> the user taking manual control, however the pitch curve will no longer be generated automatically. The color of a note set to Manual Mode has no effect on the output, and is only used to visually delineate song and rap sequences within a project.</p>
+<p><a class="glightbox" href="../../img/quickstart/pitch-mode-indicator.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Notes in Manual Mode" src="../../img/quickstart/pitch-mode-indicator.png"></a></p>
 <h3 id="2-phonemes">2. Phonemes</h3>
 <p>Phonemes represent the actual sounds produced by a singer. Each lyric entered in a note will automatically be converted to phonemes.</p>
 <h3 id="3-selected-note">3. Selected Note</h3>
@@ -1522,7 +1527,7 @@
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-06-21T11:48:44+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-06-21</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-07-17T21:58:21+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-07-17</span>
       
         <br>
         Created:
