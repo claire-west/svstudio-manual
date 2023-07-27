@@ -21,7 +21,7 @@
         <link rel="next" href="../note-and-phoneme-timing/">
       
       <link rel="icon" href="../../img/icon.ico">
-      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.18">
+      <meta name="generator" content="mkdocs-1.5.0, mkdocs-material-9.1.20">
     
     
       
@@ -29,7 +29,7 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.26e3688c.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.eebd395e.min.css">
       
         
         <link rel="stylesheet" href="../../assets/stylesheets/palette.ecc896b0.min.css">
@@ -1173,6 +1173,20 @@
   
   
     <li class="md-nav__item">
+      <a href="../../keybinds/" class="md-nav__link">
+        Default Keybinds
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../support/" class="md-nav__link">
         Help & Support
       </a>
@@ -1325,19 +1339,20 @@
 <h2 id="changing-a-notes-phonemes">Changing a Note's Phonemes</h2>
 <p>Phonemes are displayed above a note, as well as in the Note Properties panel when the note is selected.</p>
 <p>If the text above the note is white, this means the phoneme sequence for the note is automatically being converted from the lyric entered inside the note (either from the active <a href="../../advanced/user-dictionaries/">dictionary</a> or by default phoneme conversion).</p>
-<p><a class="glightbox" href="../../img/note-properties/phonemes.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Phonemes for a Note" src="../../img/note-properties/phonemes.png"></a></p>
+<p><a class="glightbox" href="../../img/note-properties/phonemes-b.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Phonemes for a Note" src="../../img/note-properties/phonemes-b.png"></a></p>
 <p>There are times where the default pronunciation does not match your song. For example, <code>hh ax l ow</code> and <code>hh eh l ow</code> are both common pronunciations for the word "hello" depending on the speaker's accent.</p>
 <p>Double click on the phoneme text above a note to enter a modified phoneme sequence. Press <span class="keys"><kbd class="key-enter">Enter</kbd></span> or click outside the note to confirm, or press <span class="keys"><kbd class="key-escape">Esc</kbd></span> to cancel the change.</p>
 <p>Pressing <span class="keys"><kbd class="key-tab">Tab</kbd></span> will confirm the change and advance to the next note, while <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-tab">Tab</kbd></span> will move to the previous note.</p>
-<p><a class="glightbox" href="../../img/note-properties/phoneme-editing.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Editing a Note's Phonemes" src="../../img/note-properties/phoneme-editing.png"></a></p>
+<p><a class="glightbox" href="../../img/note-properties/phoneme-editing-b.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Editing a Note's Phonemes" src="../../img/note-properties/phoneme-editing-b.png"></a></p>
 <p>You can also use the text input in the Note Properties panel instead of double-clicking above the note.</p>
-<p><a class="glightbox" href="../../img/note-properties/phoneme-editing-2.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Editing a Note's Phonemes" src="../../img/note-properties/phoneme-editing-2.png"></a></p>
+<p><a class="glightbox" href="../../img/note-properties/phoneme-editing-2-b.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Editing a Note's Phonemes" src="../../img/note-properties/phoneme-editing-2-b.png"></a></p>
 <p>After manually modifying the phoneme sequence the text above the note will be green instead of white. When a note's phonemes have been entered manually in this way, the lyric inside the note will have no effect on the synthesized output.</p>
-<p><a class="glightbox" href="../../img/note-properties/phoneme-edited.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="A Note With Modified Phonemes" src="../../img/note-properties/phoneme-edited.png"></a></p>
+<p><a class="glightbox" href="../../img/note-properties/phoneme-edited-b.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="A Note With Modified Phonemes" src="../../img/note-properties/phoneme-edited-b.png"></a></p>
 <p>To revert the phoneme sequence to the automatic lyric-based conversion, set the phoneme sequence to an empty value.</p>
-<p><a class="glightbox" href="../../img/note-properties/phoneme-reset.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Reseting a Note's Phonemes" src="../../img/note-properties/phoneme-reset.png"></a></p>
+<p><a class="glightbox" href="../../img/note-properties/phoneme-reset-b.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Reseting a Note's Phonemes" src="../../img/note-properties/phoneme-reset-b.png"></a></p>
 <p>A phoneme sequence can also be entered within a note by prefixing it with a <code>.</code> character. This format is primarily used for backwards compatibility with .s5p project files, and it is recommended to enter phonemes above the note when using Synthesizer V Studio.</p>
-<p><a class="glightbox" href="../../img/note-properties/phonemes-in-note.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Phonemes in the Note Body" src="../../img/note-properties/phonemes-in-note.png"></a></p>
+<p>This format may interfere with the software's ability to infer syllable breaks when using <code>+</code>, since there will no longer a word within the note.</p>
+<p><a class="glightbox" href="../../img/note-properties/phonemes-in-note-b.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Phonemes in the Note Body" src="../../img/note-properties/phonemes-in-note-b.png"></a></p>
 <h2 id="separating-words-in-unique-ways">Separating Words in Unique Ways</h2>
 <p>While the <code>+</code> and <code>-</code> characters <a href="../../quickstart/entering-lyrics/">allow words to span multiple notes</a> on their vowels and  syllable boundaries, there may be situations in which you want to separate a note in a more precise manner.</p>
 <p>Manually allocating a word's phonemes in different ways can be a useful method of <a href="../note-and-phoneme-timing/#more-precise-timing-adjustments">adjusting timing</a> or articulation. Since human vocalists most often perform transitions at vowel and syllable breaks, care should be taken not to create a halting or unnatural sound using this technique.</p>
@@ -1363,7 +1378,7 @@
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-07-11T17:26:22+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-07-11</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-07-27T14:40:15+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-07-27</span>
       
         <br>
         Created:
