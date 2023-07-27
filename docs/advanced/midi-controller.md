@@ -12,7 +12,7 @@ Select your MIDI controller in the "Audio" section of the Settings panel.
 ![MIDI Controller Selection](../img/advanced/midi-controller.png)
 
 ## MIDI Recording
-To begin recording, click the record button in the transport controls located at the top of the piano roll or arrangement panel (whichever is focused by user input).
+To begin recording, click the record button in the transport controls located at the top of the piano roll or arrangement panel (whichever is focused by user input), or press the associated hotkey (default ++num-asterisk++).
 
 You may also want to enable the metronome option to the left of the Play button.
 

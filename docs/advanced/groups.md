@@ -4,7 +4,7 @@ When your song has multiple phrases that are the same, groups can help avoid rep
 
 ## Grouping Notes
 
-Select the notes and select "Merge Into Group" from the right click menu or "Modify" top menu.
+Select the notes and select "Merge Into Group" from the right click menu or "Modify" top menu (default ++alt+g++).
 
 ![Merge Into Group](../img/advanced/merge-into-group.png)
 
@@ -28,6 +28,8 @@ To remove a group from the arrangement, select it and press ++delete++, or delet
 
 Even if a group is not present in the arrangement, it will still remain in the Library. To delete a group entirely, right click it and select "Delete Group".
 
+Disbanding a group (++alt+d++) will cause the notes to be ungrouped, but will not remove the group from the Library. The ungrouped notes can be modified freely without influencing the version of the group still present in the Library, even if that group no longer exists within any tracks. If the group is later dragged back into the arrangement, it will resemble the state of the notes from before their grouping was disbanded.
+
 ![Deleting an Unused Group](../img/advanced/unused-group.png)
 
 ### Modifying a Group
@@ -44,7 +46,7 @@ You can also navigate between groups by right clicking on unoccupied space in th
 
 ![Navigating Groups by Right Click](../img/advanced/group-enter-rightclick.png)
 
-## Multiple Instances
+## Multiple Instances of the Same Group
 
 The same group can exist at multiple points within the arrangement. Each time a group is present is called an "instance" of that group, and all instances are listed in the Library panel along with the respective measures they start in.
 
@@ -60,9 +62,11 @@ Once the instance has been dissociated, it will be an instance of a new, separat
 
 ![type:video](../img/advanced/modify-group.mp4)
 
+If you select "Disband Group" instead of "Dissociate Group", the selected group instance will revert to ungrouped notes, while other instances of the same group will not be affected.
+
 Group instances are treated as separate phrases and therefore do not smoothly transition between one another, even when directly adjacent to notes from another group or the parent track.
 
-## Pitch Offset
+### Pitch Offset
 
 If your song has a key change but multiple phrases before and after that point are otherwise identical, you can add a pitch offset to individual instances of the group.
 

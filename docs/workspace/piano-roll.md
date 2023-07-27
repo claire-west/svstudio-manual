@@ -5,7 +5,7 @@
 ![The Piano Roll](../img/workspace/piano-roll-controls-2.png)
 
 ### 1. Tool Selection
-Allows changing between the pointer and pencil tools. The pointer is suited to selecting and modifying notes, while the pencil allows for quicker note creation and freehand pitch drawing.
+Allows changing between the pointer and pencil tools. The pointer (++alt+1++) is suited to selecting and modifying notes, while the pencil (++alt+2++) allows for quicker note creation and freehand pitch drawing.
 
 ### 2. Visibility Toggles
 Toggles the visibility of various elements of the piano roll:

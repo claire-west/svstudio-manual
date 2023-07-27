@@ -16,6 +16,10 @@ The note offset slider will move the beginning of the selected note(s) earlier o
 
 Default phoneme timing is determined based on the phoneme's type (vowel, stop, fricative, etc). The timing distribution of phonemes within a note (and relative to its neighbors) can be modified between 20% and 180% of this default.
 
+!!! note
+
+    It will generally be easier to accomplish a desirable timing if you do not include multiple syllables within the same note. Use the `+` character to [allocate a lyric's syllables](../quickstart/entering-lyrics.md) across multiple notes, or [manually allocate](editing-phonemes.md#separating-words-in-unique-ways) the phonemes to multiple notes.
+
 ![Phoneme Timing Side-by-side](../img/note-properties/phoneme-timing-crop.png)
 
 ### More Precise Timing Adjustments

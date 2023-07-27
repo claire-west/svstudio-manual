@@ -59,11 +59,11 @@ Selects the previous/next note in the current track/group.
 **Sing in the following language**
 : See [Editing Phonemes → Cross-lingual Synthesis](../note-properties/editing-phonemes.md#cross-lingual-synthesis)
 
-### Pitch Transition
-See [Manual Pitch Mode](../advanced/pitch-mode-manual.md)
+### Pitch Mode
 
-### Vibrato
-See [Manual Pitch Mode](../advanced/pitch-mode-manual.md)
+See [Pitch Mode: Sing](../ai-functions/pitch-mode-sing.md), [Pitch Mode: Rap](../ai-functions/pitch-mode-rap.md), and [Manual Pitch Mode](../advanced/pitch-mode-manual.md)
+
+Additional options will be displayed based on the pitch mode selected.
 
 ### Timing and Phonemes
 **Note Offset**
