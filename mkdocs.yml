@@ -55,6 +55,7 @@ nav:
   - Other Topics:
     - FAQs: faq.md
     - Phoneme Reference: phonemes.md
+    - Default Keybinds: keybinds.md
     - Help & Support: support.md
     - About: about.md
 theme:

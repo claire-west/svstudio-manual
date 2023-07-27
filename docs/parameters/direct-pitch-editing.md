@@ -20,7 +20,7 @@ Selecting the pointer tool allows creating and dragging of points, just like in 
 
 ### Simplify Parameters
 
-The Simplify Parameters option can be found under the "Modify" top menu.
+The Simplify Parameters option can be found under the "Modify" top menu (default ++alt+s++).
 
 This function reduces the number of points in a selection to smooth a curve, at the cost of precision. The resulting curve may not match the original exactly.
 

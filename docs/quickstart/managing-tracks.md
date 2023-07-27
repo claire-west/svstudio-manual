@@ -43,7 +43,7 @@ There are two options in the "File" menu at the top of the application that allo
 
 ![Import Options](../img/quickstart/import.png)
 
-"Import" will open the selected file as a new project in Synthesizer V Studio. "Import as Tracks" will create new tracks in the current project based on the selected file.
+"Import" (++ctrl+shift+i++) will open the selected file as a new project in Synthesizer V Studio. "Import as Tracks" will create new tracks in the current project based on the selected file.
 
 You can use these functions to load a MIDI file containing the vocal melody for your song, or to import a project file from a different singing synthesizer.
 

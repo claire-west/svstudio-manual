@@ -11,13 +11,13 @@ AI Retakes can be accessed via the [launch bar](../workspace/side-panels.md), an
 ![AI Retake Controls](../img/ai-functions/retakes-controls.png)
 
 ### 1. New Take
-Generate new takes for the selected notes.
+Generate new takes for the selected notes (default ++alt+t++).
 
 ### 2. Delete
 Remove the take.
 
 ### 3. Multi Delete
-Options to delete unselected takes ("Crop to Active Takes") or only delete non-marked takes ("Crop to Active/Liked Takes").
+Options to delete unselected takes ("Crop to Active Takes") or only delete non-marked takes ("Crop to Active/Liked Takes", default ++shift+alt+t++).
 
 ### 4. Like
 Mark preferred takes.

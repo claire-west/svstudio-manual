@@ -60,7 +60,7 @@ See [Editing Parameters → Simplify Parameters](../parameters/editing-parameter
 
 ### Score Making
 **Snap to Grid**
-: Aligns all selected notes to the nearest grid marker based on the piano roll's current grid snap setting.
+: Aligns all selected notes to the nearest grid marker based on the piano roll's current grid snap setting (default ++ctrl+g++).
 
 **Smart Quantization**
 : See [MIDI Controller Support → MIDI Recording](midi-controller.md#midi-recording)

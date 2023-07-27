@@ -29,7 +29,7 @@ Phonemes are displayed above a note, as well as in the Note Properties panel whe
 
 If the text above the note is white, this means the phoneme sequence for the note is automatically being converted from the lyric entered inside the note (either from the active [dictionary](../advanced/user-dictionaries.md) or by default phoneme conversion).
 
-![Phonemes for a Note](../img/note-properties/phonemes.png)
+![Phonemes for a Note](../img/note-properties/phonemes-b.png)
 
 There are times where the default pronunciation does not match your song. For example, `hh ax l ow` and `hh eh l ow` are both common pronunciations for the word "hello" depending on the speaker's accent.
 
@@ -37,23 +37,25 @@ Double click on the phoneme text above a note to enter a modified phoneme sequen
 
 Pressing ++tab++ will confirm the change and advance to the next note, while ++ctrl+tab++ will move to the previous note.
 
-![Editing a Note's Phonemes](../img/note-properties/phoneme-editing.png)
+![Editing a Note's Phonemes](../img/note-properties/phoneme-editing-b.png)
 
 You can also use the text input in the Note Properties panel instead of double-clicking above the note.
 
-![Editing a Note's Phonemes](../img/note-properties/phoneme-editing-2.png)
+![Editing a Note's Phonemes](../img/note-properties/phoneme-editing-2-b.png)
 
 After manually modifying the phoneme sequence the text above the note will be green instead of white. When a note's phonemes have been entered manually in this way, the lyric inside the note will have no effect on the synthesized output.
 
-![A Note With Modified Phonemes](../img/note-properties/phoneme-edited.png)
+![A Note With Modified Phonemes](../img/note-properties/phoneme-edited-b.png)
 
 To revert the phoneme sequence to the automatic lyric-based conversion, set the phoneme sequence to an empty value.
 
-![Reseting a Note's Phonemes](../img/note-properties/phoneme-reset.png)
+![Reseting a Note's Phonemes](../img/note-properties/phoneme-reset-b.png)
 
 A phoneme sequence can also be entered within a note by prefixing it with a `.` character. This format is primarily used for backwards compatibility with .s5p project files, and it is recommended to enter phonemes above the note when using Synthesizer V Studio.
 
-![Phonemes in the Note Body](../img/note-properties/phonemes-in-note.png)
+This format may interfere with the software's ability to infer syllable breaks when using `+`, since there will no longer a word within the note.
+
+![Phonemes in the Note Body](../img/note-properties/phonemes-in-note-b.png)
 
 ## Separating Words in Unique Ways
 

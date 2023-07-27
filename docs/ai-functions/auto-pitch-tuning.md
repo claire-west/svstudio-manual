@@ -53,7 +53,7 @@ This video shows a comparison of the same sequence without (before) and with (af
 
 ### Rerun with New Random Seed
 
-The "Rerun with New Random Seed" option will generate a different pitch curve, even if the note's context has not changed. This can be used to cycle through different "takes".
+The "Rerun with New Random Seed" option (++alt+r++) will generate a different pitch curve, even if the note's context has not changed. This can be used to cycle through different "takes".
 
 ## Customized Style Options
 
