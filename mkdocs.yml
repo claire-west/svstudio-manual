@@ -61,6 +61,7 @@ nav:
 theme:
   name: material
   favicon: img/icon.ico
+  language: en
   features:
     - navigation.instant
     - navigation.tracking
@@ -124,6 +125,13 @@ markdown_extensions:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
 extra:
+  alternate:
+    - name: English
+      link: /
+      lang: en
+    - name: 中文
+      link: https://zh.synthv.info
+      lang: zh
   social:
     - icon: fontawesome/regular/comments
       link: https://forum.synthesizerv.com/t/topic/7524

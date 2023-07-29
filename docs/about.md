@@ -42,6 +42,7 @@ If you would like to help improve or maintain this website, feel free to create 
 - Susko ([GitHub](https://github.com/Susko3)) - formatting assistance
 - Jesse James - revised transition & vibrato visualization diagrams
 - TiredBee ([GitHub](https://github.com/TiredPcholka/Synthesizer-V-Studio-Phoneme-Reference-Sheet/blob/main/Synthesizer%20V%20Studio%20Phoneme%20Refsheet.png)) - phoneme reference sheet
+- Blathroat - Chinese translation (https://zh.synthv.info)
 
 ## Support The Project
 

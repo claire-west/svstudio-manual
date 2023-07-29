@@ -1,8 +1,8 @@
 # Default Keybinds
 
-Most keybinds in Synthesizer V Studio map directly to one of the functions accessible via the menus at the top of the application, and are labelled according to their location. Since user scripts also appear in the top menus, this means many custom functions can also be assigned a hotkey.
+Most keybinds in Synthesizer V Studio map directly to one of the functions accessible via the menus at the top of the application, and are labelled according to their location. Since [user scripts](advanced/scripting.md) also appear in the top menus, this means many custom functions can also be assigned a hotkey.
 
-A function's associated keybind will be displayed to its right in any dropdown or right-click menus it appears in.
+A function's associated keybind will be displayed to its right in dropdown and right-click menus.
 
 Keyboard shortcuts can be modified at the bottom of the Settings panel.
 
