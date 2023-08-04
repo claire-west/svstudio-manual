@@ -32,6 +32,8 @@ While all options under the top menus can be assigned a hotkey, only those that 
 |View - Line Tool (Parameters panel)      |++alt+3++              |++opt+3++       |
 |View - Note Properties Panel             |++ctrl+b++             |++cmd+b++       |
 |Modify - Insert Lyrics (batch entry)     |++ctrl+l++             |++cmd+l++       |
+|Modify - Shift Lyric Forward             |++ctrl+shift+right++   |++cmd+shift+right++|
+|Modify - Shift Lyric Backward            |++ctrl+shift+left++    |++cmd+shift+left++ |
 |Modify - Simplify Parameters             |++alt+s++              |++opt+s++       |
 |Modify - Create Anchor Points            |++alt+a++              |++opt+a++       |
 |Modify - Snap to Grid                    |++ctrl+g++             |++cmd+g++       |

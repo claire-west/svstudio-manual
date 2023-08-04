@@ -12,7 +12,7 @@ See [The Arrangement Panel](../workspace/arrangement.md) for an overview of UI e
 
 ### Existing Track
 
-Delete or duplicate the track (see [Managing Tracks](../quickstart/managing-tracks.md)).
+Delete, duplicate, or change the color for the track (see [Managing Tracks](../quickstart/managing-tracks.md)).
 
 ### Blank Space Below Tracks
 
@@ -58,6 +58,7 @@ Multiple options are displayed for interacting with the selected note(s) in vari
 * Split the note at the current mouse position
 * Merge the selected notes
 * Open the [Insert Lyrics](batch-lyrics.md) dialog for the selection
+* Shift the lyrics forward or backward for the selection
 * Reset various aspects of the notes
 * Generate or crop [AI Retakes](../ai-functions/ai-retakes.md)
 * Recompute pitch for the selection (force re-rendering when using [Sing](../ai-functions/pitch-mode-sing.md) or [Rap](../ai-functions/pitch-mode-rap.md) pitch mode)

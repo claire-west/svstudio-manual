@@ -42,6 +42,14 @@ In this example, SOLARIA's "Light" Vocal Mode and the Breathiness parameter are 
 
 The vertical position of a curve at a given point in time dictates the value of its respective parameter or vocal mode at that moment. For example, the "Light" Vocal Mode curve shown in the foreground is at approximately 105% at the start of the phrase, then slowly falls to around 30%, building to approximately 135% near the end of the phrase.
 
+!!! note
+
+    Parameter curves are associated with their horizontal location along the time axis, not the notes that occur at that same point in time.
+
+    This means that moving, copying, or grouping a sequence of notes will not include the parameter values during the duration of that sequence unless you use the [Select Parameters for Notes](#select-parameters-for-notes) function to select them.
+
+    Some parameters such as Pitch Deviation will be specific to the notes they line up with, and so should be moved/copied/grouped along with their respective notes. Other parameters like Vocal Modes are generally applied to entire phrases, so moving those curves along with a specific note might not make sense in all situations.
+
 ![Base Parameter Sliders](../img/parameters/parameter-curve-example.png)
 
 ## Base Values
@@ -176,6 +184,8 @@ Snap points to zero
 The Select Parameters for Notes option can be found under the "Edit" top menu, as well as by right clicking on selected notes.
 
 This function will select all parameter points for the currently selected notes. The parameter points for all parameter types will be selected, even if they are not visible in the Parameters panel.
+
+This is especially helpful when copying or grouping a sequence while retaining the associated parameter curves.
 
 See [Editing Notes](../quickstart/editing-notes.md#selecting-notes) for methods of selecting many notes at once using hotkeys and modifier keys.
 

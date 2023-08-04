@@ -12,6 +12,12 @@ If the "Pattern Fill" option is selected and there are more notes selected than 
 
 ![Pattern Fill Across Six Notes](../img/quickstart/lyric-pattern-fill-2.png)
 
+## Shift Lyrics Forward/Backward
+
+When entering lyrics for many notes at once, you may miscount the number of notes and end up with lyrics which are slightly offset from their intended destination. This can be quickly rectified by selecting the offset notes and choosing "Shift Lyrics Forward" (++ctrl+shift+right++) or "Shift Lyrics Backward" (++ctrl+shift+left++) from the right click menu.
+
+![Shift Lyrics Forward](../img/advanced/shift-lyrics-forward.png)
+
 ## Video Demonstration
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Gj7UipbHBdw?start=100" title="YouTube video player" frameborder="0" allowfullscreen></iframe>

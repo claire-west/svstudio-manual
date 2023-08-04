@@ -37,6 +37,14 @@ Notes from other tracks will be shown in the piano roll as colored lines. This c
 
 ![Create a Track](../img/quickstart/show-other-tracks.png)
 
+### Changing a Track's Color
+
+A track's color can be changed from the right click menu.
+
+The track color is used in the Arrangement panel, as well as for the horizontal lines used to show non-current tracks in the Piano Roll. The color of the current track's notes in the Piano Roll is based on each note's pitch mode ("Sing" or "Rap"), not the track's assigned color.
+
+![Changing the Track Color](../img/quickstart/change-track-color.png)
+
 ## Importing Tracks
 
 There are two options in the "File" menu at the top of the application that allow importing of tracks.

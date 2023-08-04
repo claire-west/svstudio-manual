@@ -92,6 +92,28 @@ Once you have successfully installed a voice database (and activated it, if nece
 
 ![Singer Selection Dropdown](img/quickstart/singer-dropdown-arrangement.png)
 
+## Telemetry Consent
+
+Upon launching the software for the first time, you will be presented with the Telemetry Consent dialog.
+
+These options can always be changed via the "Configure usage data collection" button near the top of the Settings panel.
+
+![Telemetry Consent dialog](img/quickstart/telemetry-consent.png)
+
+### Application usage data
+
+If checked, information about how you use the software will be sent to Dreamtonics. This includes how often each feature is used, render times, crash reports, and other anonymous data.
+
+This information can help the development team identify which features might be confusing to users, which features are considered most useful, any hardware configurations that cause poor performance, etc.
+
+### AI Retakes feedback data
+
+If checked, information about [AI Retakes](ai-functions/ai-retakes.md) you "Like" (those marked with the heart icon) will be sent to Dreamtonics.
+
+These preferred takes can be used by the development team to refine the AI pitch models to improve the reliability, consistency, and realism of the synthesized voices in future updates.
+
+The transmitted retakes include minimal snippets of project data required to reconstruct your preferred retake, such as note duration and pitch, phoneme data, the selected voice database, etc. This collected data is strictly controlled by Dreamtonics and is used exclusively for research and development purposes.
+
 ## Updating the Software
 
 Open the License and Updates panel and click "Check for Updates" to search for updates.
