@@ -111,8 +111,8 @@ See [Setup and Activation](../setup.md)
 **Automatically check for updates**
 : Will check for updates to Synthesizer V Studio and any installed voice databases on startup.
 
-**Allow telementry data collection**
-: Sends anonymized usage information to Dreamtonics to improve the software, such as which features are used most often.
+**Configure usage data collection**
+: Displays the [Telemetry Consent](../setup.md#telemetry-consent) dialog.
 
 ### Audio
 When standalone, contains options relating to your device's audio hardware.

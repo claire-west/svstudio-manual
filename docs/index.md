@@ -20,25 +20,17 @@ For official instructional content for SynthV Studio, check the Dreamtonics [vid
 
 This website is not affiliated with Dreamtonics.
 
-??? info "Update 1.9.0 now available! (click here for more information)"
+??? info "Update 1.10.0 now available! (click here for more information)"
 
-    Dreamtonics has released Synthesizer V Studio version 1.9.0, introducing a major rework of Instant Mode, the addition of Rap vocals, and Cantonese cross-lingual synthesis.
-
-    The new and updated features are covered on the following pages:
-
-    * [Pitch Transition and Vibrato](note-properties/pitch-transition-and-vibrato.md) for a brief overview of the new Pitch Mode options.
-    * [Pitch Mode: Sing](ai-functions/pitch-mode-sing.md) for information about the new "Sing" mode, the successor feature to Instant Mode.
-    * [Pitch Mode: Rap](ai-functions/pitch-mode-rap.md) for everything relating to the new rap capabilities.
-    * [Manual Pitch Mode](advanced/pitch-mode-manual.md) for descriptions and diagrams relating to slider-based transition and vibrato (formerly on the "Pitch Transition and Vibrato" page).
-    * [Phoneme Reference](phonemes.md) for the list of Cantonese phonemes and a fancy new phoneme chart by TiredBee.
+    Dreamtonics has released Synthesizer V Studio version 1.10.0, with pitch model improvements based on human feedback and a selection of UX improvements.
 
     For instructions on updating the software, see [Setup and Activation](setup.md#updating-the-software).
 
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Z6OB3jHiBBk" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ZKwGR08kCSk" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 
     Update notes from Dreamtonics:
 
-    * [Synthesizer V Studio 1.9.0 Final Update](https://dreamtonics.com/synthesizer-v-studio-1-9-0-final-update/)
+    * [Synthesizer V Studio 1.10.0 Final Update](https://dreamtonics.com/synthesizer-v-studio-1-10-0-final-update/)
 
 ---
 

@@ -22,6 +22,16 @@ Default phoneme timing is determined based on the phoneme's type (vowel, stop, f
 
 ![Phoneme Timing Side-by-side](../img/note-properties/phoneme-timing-crop.png)
 
+### Evenly Split Note Into Syllables
+
+A multi-syllable lyric entered in a single note will be treated as a series of equal-length notes with syllable breaks while the "Evenly split note into syllables" checkbox is enabled.
+
+This is suitable for multi-syllable words that do not change pitch over the entire duration, and which have equal timing for each syllable. Lyrics that do not meet this critera should have their syllables split across multiple notes with syllable breaks (`+`).
+
+Notice how in this example, the phoneme timings are exactly the same for each instance of the word "synthesizer".
+
+![Evenly slit note into syllables](../img/note-properties/evenly-split-syllables.png)
+
 ### More Precise Timing Adjustments
 
 If the phoneme timing sliders do not offer enough precision, or the timing needs to be adjusted beyond the 20-180% range, it can be helpful to separate each phoneme into its own note.

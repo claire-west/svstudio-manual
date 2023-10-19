@@ -11,16 +11,30 @@ AI Retakes can be accessed via the [launch bar](../workspace/side-panels.md), an
 ![AI Retake Controls](../img/ai-functions/retakes-controls.png)
 
 ### 1. New Take
+
 Generate new takes for the selected notes (default ++alt+t++).
 
 ### 2. Delete
+
 Remove the take.
 
-### 3. Multi Delete
+### 3. Global Settings
+
+The base Expressiveness and Enhancement values for all takes created for the current track/group.
+
+Changing these values will retroactively affect existing takes. To "lock" the pitch curve of a note and prevent any retroactive changes, change its pitch mode to [Manual](../advanced/pitch-mode-manual.md).
+
+### 4. Multi Delete
+
 Options to delete unselected takes ("Crop to Active Takes") or only delete non-marked takes ("Crop to Active/Liked Takes", default ++shift+alt+t++).
 
-### 4. Like
+### 5. Like
+
 Mark preferred takes.
+
+If you have [opted in](../setup.md#ai-retakes-feedback-data), your feedback will be sent to Dreamtonics along with a minimal snippet of project data required to reconstruct your preferred retake. This information will be used to improve the generated pitch models in future software updates.
+
+If not opted in, or after opting out of feedback collection, this functions only as a bookmark for your preferences, and no project data will be transmitted to Dreamtonics.
 
 ## Pitch
 
@@ -30,7 +44,7 @@ To generate new takes, select one or more notes and click "Generate Take" from t
 
 ![Generating New Takes](../img/ai-functions/retakes-new.png)
 
-Pitch retakes will produce varying pitch curves, and can be used to fine tune note transitions and vibrato.
+Pitch retakes will produce varying pitch curves, and can be used to fine-tune note transitions and vibrato.
 
 By selecting different takes from the list you can see the pitch line change according to the selection.
 
@@ -54,11 +68,15 @@ These takes will modify the various qualities of a sound which are unrelated to 
 
 ## Expressiveness
 
-The expressiveness slider can be used to reduce the amplitude of pitch or timbre deviations.
-
-When no notes are selected, this slider will affect the default expressiveness value for all notes in the track or group that have not had their expressiveness values set individually.
+The expressiveness slider can be used to adjust the amplitude/intensity of pitch or timbre deviations.
 
 ![Side-by-side of Expressiveness Values](../img/ai-functions/retakes-expressiveness-crop.png)
+
+## Enhancement
+
+The enhancement slider determines how much the generated pitch patterns will be influenced by feedback collected from other users and surveys conducted by Dreamtonics.
+
+Feedback-based enhancement is only available for Pitch retakes.
 
 ## Randomness and Probability
 

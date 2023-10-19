@@ -20,6 +20,8 @@ Notice that the "Manual" button is dark, indicating that Manual Pitch Mode is di
 
     A note's "context" is based on its pitch, duration, and phonemes, as well as those same properties of the notes before and after it. If any of these things change, the pitch deviations for the note will be recalculated.
 
+    If you like the generated pitch pattern for a note or sequence, consider enabling [Manual Mode](../advanced/pitch-mode-manual.md) for it to avoid accidentally triggering the automated pitch recalculation.
+
 Enabling Rap Mode also allows the use of pitch [AI Retakes](ai-retakes.md).
 
 ### Rap Accent

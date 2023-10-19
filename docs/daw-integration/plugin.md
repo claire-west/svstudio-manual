@@ -14,7 +14,7 @@ When Synthesizer V Studio is used as an instrument in a DAW, an additional setti
 
 If "Save Inside Host" is selected, the Synthesizer V Studio project (SVP) file will be embedded within the DAW project.
 
-To save an external SVP file separate from your DAW project, select "Save to External File" instead.
+To save an external SVP file separate from your DAW project, select "Save to External File" instead. If your intention is to create an SVP backup of your project, ensure you switch back to "Save Inside Host" after saving the external file.
 
 ![Save Inside Host option](../img/daw-integration/save-inside-host.png)
 
@@ -40,13 +40,17 @@ Master Combined
 : A single channel is used for all audio output.
 
 Master Aspiration Isolated
-: Two channels are used, one for the main output of all tracks and a second for the isolated aspiration of all tracks.
+: Two channels are used, one for the phonation of all tracks and a second for the isolated aspiration of all tracks.
 
 Track Combined
 : One channel is used for each track.
 
 Track Aspiration Isolated
-: Two output channels are used for each track, one for the main output and the other for the isolated aspiration.
+: Two output channels are used for each track, one for the phonation and the other for the isolated aspiration.
+
+!!! note
+
+    Selecting an "Aspiration Isolated" option will remove the aspirant sounds from the main output, resulting in a base that only contains phonation. In this case the outputs must be recombined in the mixing process to have a complete result.
 
 ## Video Demonstration
 
