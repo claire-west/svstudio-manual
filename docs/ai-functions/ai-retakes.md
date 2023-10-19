@@ -20,7 +20,9 @@ Remove the take.
 
 ### 3. Global Settings
 
-The default Expressiveness and Enhancement values for all notes in the current track/group.
+The base Expressiveness and Enhancement values for all takes created for the current track/group.
+
+Changing these values will retroactively affect existing takes. To "lock" the pitch curve of a note and prevent any retroactive changes, change its pitch mode to [Manual](../advanced/pitch-mode-manual.md).
 
 ### 4. Multi Delete
 
