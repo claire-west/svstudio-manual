@@ -1092,16 +1092,22 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#disabling-rap-mode" class="md-nav__link">
-    Disabling Rap Mode
+  <a href="#disabling-automatic-pitch-generation" class="md-nav__link">
+    Disabling Automatic Pitch Generation
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
+    <nav class="md-nav" aria-label="Disabling Automatic Pitch Generation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#switching-from-manual-pitch-mode-to-rap-mode" class="md-nav__link">
     Switching from Manual Pitch Mode to Rap Mode
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1666,16 +1672,22 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#disabling-rap-mode" class="md-nav__link">
-    Disabling Rap Mode
+  <a href="#disabling-automatic-pitch-generation" class="md-nav__link">
+    Disabling Automatic Pitch Generation
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
+    <nav class="md-nav" aria-label="Disabling Automatic Pitch Generation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#switching-from-manual-pitch-mode-to-rap-mode" class="md-nav__link">
     Switching from Manual Pitch Mode to Rap Mode
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1708,10 +1720,10 @@
 <p>"Rap" Pitch Mode will add AI-generated pitch deviations to your notes which are modeled to mimic human rap techniques, and allows the use of the Rap Intonation parameter.</p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<p>Rap Mode is only available for English and Mandarin Chinese. Japanese support is currently in development.</p>
+<p>Rap Mode is not yet available for Cantonese Chinese.</p>
 </div>
 <h2 id="enabling-rap-mode">Enabling Rap Mode</h2>
-<p>Rap mode can be enabled for notes from the Note Properties menu. Notes using Rap mode will be red in the Piano Roll.</p>
+<p>Rap mode can be enabled for notes via the Note Properties menu. Notes using Rap mode will be red in the Piano Roll.</p>
 <p>Notice that the "Manual" button is dark, indicating that Manual Pitch Mode is disabled and that pitch curves will be generated automatically.</p>
 <p><a class="glightbox" href="../../img/ai-functions/pitch-mode-rap.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Rap Mode" src="../../img/ai-functions/pitch-mode-rap.png"></a></p>
 <div class="admonition info">
@@ -1739,16 +1751,16 @@
 <p>Each arrow represents the pitch movement over the duration of the associated note. The position of each arrow is directly linked to the sliders in the Note Properties panel.</p>
 <p>To modify the arrow's vertical position (Tone), click and drag the line portion of the arrow. To change the curve (Intonation), click and drag the head of the arrow instead.</p>
 <p><a class="glightbox" href="../../img/parameters/rap-intonation-2.mp4" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><div class="video-container"><video style="width:initial;height:initial" controls alt="type:video"><source src="../../img/parameters/rap-intonation-2.mp4" type="video/mp4"></source></video></div></a></p>
-<h2 id="disabling-rap-mode">Disabling Rap Mode</h2>
-<p>If you switch to <a href="../../advanced/pitch-mode-manual/">Manual Pitch Mode</a> after Rap Mode has already been active:</p>
+<h2 id="disabling-automatic-pitch-generation">Disabling Automatic Pitch Generation</h2>
+<p>If you enable <a href="../../advanced/pitch-mode-manual/">Manual Pitch Mode</a> after Rap Mode has already been active:</p>
 <ul>
 <li>The generated pitch deviations will be moved to the parameters panel for further manual editing</li>
 <li>The vibrato depth setting will default to zero instead of inheriting its value from the default set in the Voice panel</li>
 <li>The Rap Intonation parameter will no longer be available for the note, but the setting will not be lost and intonation editing can be restored by re-enabling Rap Mode</li>
 </ul>
-<p>This means the pitch curve for the note(s) will be the same as before switching to Manual Pitch Mode. Disabling Rap Mode can be helpful if you want to make the generated pitch deviations persistent, such that they are not recalculated if the note's context changes.</p>
-<h2 id="switching-from-manual-pitch-mode-to-rap-mode">Switching from Manual Pitch Mode to Rap Mode</h2>
-<p>Changing a note from Manual Pitch Mode to Rap Pitch Mode will overwrite any existing pitch deviations in the parameters panel. Switching back to Manual Pitch Mode will not restore the overwritten pitch deviations.</p>
+<p>This means the pitch curve for the note(s) will be the same as before enabling Manual Pitch Mode. Disabling Rap Mode can be helpful if you want to "freeze" the generated pitch deviations, so that they are not recalculated if the note's context changes.</p>
+<h3 id="switching-from-manual-pitch-mode-to-rap-mode">Switching from Manual Pitch Mode to Rap Mode</h3>
+<p>Changing a note from Manual Pitch Mode to Rap Pitch Mode will overwrite any existing pitch deviations in the parameters panel. Re-enabling Manual Pitch Mode will not restore the overwritten pitch deviations.</p>
 <h2 id="video-demonstration">Video Demonstration</h2>
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Z6OB3jHiBBk" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 
@@ -1760,7 +1772,7 @@
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-10-19T12:12:49+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-10-19</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-10-26T21:37:15+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-10-26</span>
       
         <br>
         Created:
