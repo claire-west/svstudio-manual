@@ -4,11 +4,11 @@
 
 !!! warning
 
-    Rap Mode is only available for English and Mandarin Chinese. Japanese support is currently in development.
+    Rap Mode is not yet available for Cantonese Chinese.
 
 ## Enabling Rap Mode
 
-Rap mode can be enabled for notes from the Note Properties menu. Notes using Rap mode will be red in the Piano Roll.
+Rap mode can be enabled for notes via the Note Properties menu. Notes using Rap mode will be red in the Piano Roll.
 
 Notice that the "Manual" button is dark, indicating that Manual Pitch Mode is disabled and that pitch curves will be generated automatically.
 
@@ -60,19 +60,19 @@ To modify the arrow's vertical position (Tone), click and drag the line portion 
 
 ![type:video](../img/parameters/rap-intonation-2.mp4)
 
-## Disabling Rap Mode
+## Disabling Automatic Pitch Generation
 
-If you switch to [Manual Pitch Mode](../advanced/pitch-mode-manual.md) after Rap Mode has already been active:
+If you enable [Manual Pitch Mode](../advanced/pitch-mode-manual.md) after Rap Mode has already been active:
 
 * The generated pitch deviations will be moved to the parameters panel for further manual editing
 * The vibrato depth setting will default to zero instead of inheriting its value from the default set in the Voice panel
 * The Rap Intonation parameter will no longer be available for the note, but the setting will not be lost and intonation editing can be restored by re-enabling Rap Mode
 
-This means the pitch curve for the note(s) will be the same as before switching to Manual Pitch Mode. Disabling Rap Mode can be helpful if you want to make the generated pitch deviations persistent, such that they are not recalculated if the note's context changes.
+This means the pitch curve for the note(s) will be the same as before enabling Manual Pitch Mode. Disabling Rap Mode can be helpful if you want to "freeze" the generated pitch deviations, so that they are not recalculated if the note's context changes.
 
-## Switching from Manual Pitch Mode to Rap Mode
+### Switching from Manual Pitch Mode to Rap Mode
 
-Changing a note from Manual Pitch Mode to Rap Pitch Mode will overwrite any existing pitch deviations in the parameters panel. Switching back to Manual Pitch Mode will not restore the overwritten pitch deviations.
+Changing a note from Manual Pitch Mode to Rap Pitch Mode will overwrite any existing pitch deviations in the parameters panel. Re-enabling Manual Pitch Mode will not restore the overwritten pitch deviations.
 
 ## Video Demonstration
 

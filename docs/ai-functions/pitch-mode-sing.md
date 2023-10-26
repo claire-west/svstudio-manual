@@ -8,7 +8,7 @@ Experienced users may prefer to use [Manual Pitch Mode](../advanced/pitch-mode-m
 
 ## Enabling Sing Mode
 
-Sing mode can be enabled for notes from the Note Properties menu. Notes using Sing mode will be green in the Piano Roll.
+Sing mode can be enabled for notes via the Note Properties menu. Notes using Sing mode will be green in the Piano Roll.
 
 Notice that the "Manual" button is dark, indicating that Manual Pitch Mode is disabled and that pitch curves will be generated automatically.
 
@@ -32,7 +32,7 @@ Enabling Sing mode also allows the use of pitch [AI Retakes](ai-retakes.md).
 
 The vibrato modulation setting affects the depth (amplitude) of the vibrato portion of the generated pitch deviations. This can be further modulated over the duration of the note using the [Vibrato Envelope](../parameters/editing-parameters.md#vibrato-envelope) parameter.
 
-The default value of the vibrato modulation slider is set in the Voice panel.
+The default value of the vibrato modulation slider for the track or group is set in the Voice panel.
 
 ![Sing Mode Default Settings](../img/ai-functions/sing-mode-defaults.png)
 
@@ -51,22 +51,22 @@ Improvise Note Attack and Release can only be set for the entire track/group in 
   <figcaption>A sequence with Improvise Note Attack and Release disabled (left) and enabled (right)</figcaption>
 </figure>
 
-## Disabling Sing Mode
+## Disabling Automatic Pitch Generation
 
-If you enable Manual Pitch Mode after Sing Mode has already been active:
+If you enable [Manual Pitch Mode](../advanced/pitch-mode-manual.md) after Sing Mode has already been active:
 
 * The generated pitch deviations will be moved to the parameters panel for further manual editing
 * The vibrato depth setting will default to zero instead of inheriting its value from the default set in the Voice panel
 
-This means the pitch curve for the note(s) will be the same as before switching to Manual Pitch Mode. Disabling Sing Mode can be helpful if you want to "freeze" the generated pitch deviations, such that they are not recalculated if the note's context changes.
+This means the pitch curve for the note(s) will be the same as before enabling Manual Pitch Mode. Disabling Sing Mode can be helpful if you want to "freeze" the generated pitch deviations, so that they are not recalculated if the note's context changes.
 
 This behavior can be changed by disabling the "From Sing to Manual mode" option in the settings panel.
 
 ![Preserve Manual Pitch Deviations](../img/ai-functions/preserve-sing-to-manual.png)
 
-## Switching from Manual Pitch Mode to Sing Mode
+### Switching from Manual Pitch Mode to Sing Mode
 
-Changing a note from Manual Pitch Mode to Sing Pitch Mode will overwrite any existing pitch deviations in the parameters panel. Switching back to Manual Pitch Mode will not restore the overwritten pitch deviations.
+Changing a note from Manual Pitch Mode to Sing Pitch Mode will overwrite any existing pitch deviations in the parameters panel. Re-enabling Manual Pitch Mode will not restore the overwritten pitch deviations.
 
 This behavior can be changed by enabling the "From Manual to Sing mode" option in the settings panel.
 
