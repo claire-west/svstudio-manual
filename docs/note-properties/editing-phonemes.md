@@ -105,11 +105,14 @@ One of the most common examples of this in English is the use of the [alveolar t
 
 It is also common in many languages to substitute a variety of vowel sounds with a [schwa](https://en.wikipedia.org/wiki/Schwa) (`ax`), or omit a vowel entirely. This can often reduce understandability if applied too liberally, but when used appropriately can result in more natural-sounding vocals.
 
+English speakers will also often drop the final consonant of a word (usually the `t` from a word ending in "n't") and use a [glottal stop](https://en.wikipedia.org/wiki/Glottal_stop) ("ʔ", represented in Synthesizer V Studio as `cl`) to cut off the sound abruptly. This is most common with phrases like "donʔ do it" or "wouldnʔ you?" (though "wouldn't you" can sometimes also be shortened to "wouldn-tyu" or "wouldn-chu", which are all examples of connected speech as mentioned in the next section).
+
 These are some examples of words that might sound overly formal or unusual if enunciated "properly":
 
 |Word|Default Phoneme Sequence|"Lazy" Pronunciation|
 |---|---|---|
 |Camera|k ae m er ax|k ae m **r** ax|
+|Don't → Don'|d ow n t|d ow n **cl**|
 |Party|p aa r t iy|p aa r **dx** iy|
 |Want To → "Wanna"|w aa n t / t uw|w aa n ax|
 |"Wanna"|w aa n ax|w **ax** n ax|
