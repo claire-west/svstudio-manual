@@ -131,7 +131,7 @@ These are some voiceless/voiced pairs used in Synthesizer V Studio's English pho
 |Unvoiced|Voiced|
 |---|---|
 |t|d|
-|th|dh|
+|th ("**th**ing")|dh ("**th**is")|
 |k|g|
 |s|z|
 |p|b|
