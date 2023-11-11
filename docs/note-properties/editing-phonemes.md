@@ -53,7 +53,7 @@ To revert the phoneme sequence to the automatic lyric-based conversion, set the 
 
 A phoneme sequence can also be entered within a note by prefixing it with a `.` character. This format is primarily used for backwards compatibility with .s5p project files, and it is recommended to enter phonemes above the note when using Synthesizer V Studio.
 
-This format may interfere with the software's ability to infer syllable breaks when using `+`, since there will no longer a word within the note.
+This format may interfere with the software's ability to infer syllable breaks when using `+`, since there will no longer be a word within the note.
 
 ![Phonemes in the Note Body](../img/note-properties/phonemes-in-note-b.png)
 
@@ -74,6 +74,81 @@ Keep in mind that if a phoneme sequence has been manually set, the lyric inside 
 ## Custom Lyric-to-Phoneme Conversion
 
 If there are many instances of the same word in your project, you may want to override the default phoneme conversion for all instances of that lyric. This can be accomplished by creating a [User Dictionary](../advanced/user-dictionaries.md).
+
+## Homographs (different words with identical spelling)
+
+Some English words are spelled the same, but have multiple different pronunciations, even within the same accent or dialect. For example, you might **separate** (verb) two objects in order to keep them **separate** (adjective).
+
+In some cases, there will be another word that can be easily subsituted. For example, the default phoneme mapping will interperet "tears" as the ripping of paper, rather than the water that comes from your eyes when you cry. For this scenario, you can easily produce the other phoneme sequence with the word "tiers", which has a different meaning but the desired pronunciation.
+
+In other cases, where there is no simple substitution to be made, it can be helpful to add a [dictionary entry](../advanced/user-dictionaries.md) for the word with the other pronunciation, or a second phoneme mapping if both pronunciations are needed.
+
+For example, if you need both versions of the word "separate" in your track, you can keep the default verb pronunciation as "separate", while adding the adjective pronunciation as a dictionary entry with a different label like "separate2".
+
+![The verb and adjective versions of "separate"](../img/advanced/dictionary-homograph.png)
+
+### The Word "The"
+
+In Synthesizer V Studio, "the" is a special case. When using the default English phoneme mapping, the phoneme sequence will depend on whether it comes before a consonant or a vowel sound.
+
+![Contextual phoneme mapping of "the"](../img/note-properties/phonemes-the.png)
+
+When no word follows, the phoneme sequence will be as though it preceded a consonant. To force the other pronunciation, you can use "thee" as the lyric instead, or modify the phoneme sequence directly.
+
+!["the" vs "thee"](../img/note-properties/phonemes-thee.png)
+
+## "Lazy" Pronunciation
+
+People often do not enunciate clearly when singing, using what might be considered "incorrect" pronunciations. Some of the most common phonetic changes to make in Synthesizer V Studio involve replacing over-enunciated words with "lazier" counterparts.
+
+One of the most common examples of this in English is the use of the [alveolar tap](https://en.wikipedia.org/wiki/Voiced_dental_and_alveolar_taps_and_flaps) (`dx`) instead of a clear `t` sound, such as in the word "better", "party", and "water". The exact words that fit this pattern (or other similar patterns) will vary based on regional accent or dialect.
+
+It is also common in many languages to substitute a variety of vowel sounds with a [schwa](https://en.wikipedia.org/wiki/Schwa) (`ax`), or omit a vowel entirely. This can often reduce understandability if applied too liberally, but when used appropriately can result in more natural-sounding vocals.
+
+These are some examples of words that might sound overly formal or unusual if enunciated "properly":
+
+|Word|Default Phoneme Sequence|"Lazy" Pronunciation|
+|---|---|---|
+|Camera|k ae m er ax|k ae m **r** ax|
+|Party|p aa r t iy|p aa r **dx** iy|
+|Want To → "Wanna"|w aa n t / t uw|w aa n ax|
+|"Wanna"|w aa n ax|w **ax** n ax|
+
+### Connected Speech
+
+Connected speech behaviors, such as in the "want to" example above, are a major part of spoken (and sung) English. Understanding connected speech patterns can be very helpful in achieving your desired pronunciations.
+
+Further reading: [leonardoenglish.com](https://www.leonardoenglish.com/blog/connected-speech)
+
+## Disambiguating Similar Sounds
+
+### Unvoiced/Voiced Pairs
+
+Most phonemes with similar mouth shapes are distinguished based on [voicing](https://en.wikipedia.org/wiki/Voice_(phonetics)) (ie whether or not the vocal cords are engaged). For example, a `k` sound is just a `g` with no voicing. Often adjusting the [voicing parameter](../parameters/editing-parameters.md) can disambiguate similar sounds if they are not enunciated clearly, though this is rarely necessary.
+
+These are some voiceless/voiced pairs used in Synthesizer V Studio's English phoneme set. Try making these sounds yourself and take note of the shape of your mouth, the airflow, and whether or not you engage the vocal cords when making each sound.
+
+|Unvoiced|Voiced|
+|---|---|
+|t|d|
+|th|dh|
+|k|g|
+|s|z|
+|p|b|
+|f|v|
+
+### Pitch-affected Phonemes
+
+Some phonemes can also sound different based on the pitch change over their duration. This is not common in English, however one example is with leading `p` and `b` sounds.
+
+In addition to the difference in voicing, `p` is more often associated with a rising pitch, while a falling pitch can sound more like a `b` even if the sound is unvoiced.
+
+Experiment with the pitch curve over the duration of the phoneme to make ambiguous sounds more clear. The exact result will likely vary based on the voice database used.
+
+<figure markdown>
+  ![Rising vs falling pitch during "p"](../img/note-properties/phonemes-p-b.png)
+  <figcaption>The left note has a clear "p" sound, while the right is somewhat ambiguous between "p" and "b".</figcaption>
+</figure>
 
 ## Cross-lingual Synthesis
 

@@ -36,6 +36,12 @@ Notice that the phoneme text above the note is white to indicate that it is base
 
 ![Dictionary Phoneme Conversion](../img/advanced/dictionary-conversion.png)
 
+### Assigning Phonemes to Arbitrary Text
+
+The word entered does not need to be a real word; it can be any text you want to map to the specified phoneme sequence. This can be helpful for differentiating [homographs](../note-properties/editing-phonemes.md#homographs-different-words-with-identical-spelling) (different words that are spelled the same, but pronounced differently), such as the verb and adjective versions of the word "separate".
+
+![The verb and adjective versions of "separate"](../img/advanced/dictionary-homograph.png)
+
 ### Removing Dictionary Entries
 
 To remove a dictionary entry, select it from the list and select "Remove".
