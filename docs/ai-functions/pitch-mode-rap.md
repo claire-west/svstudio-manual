@@ -4,7 +4,7 @@
 
 !!! warning
 
-    Rap Mode is not yet available for Cantonese Chinese.
+    Rap Mode is not yet available for Cantonese Chinese or Spanish.
 
 ## Enabling Rap Mode
 

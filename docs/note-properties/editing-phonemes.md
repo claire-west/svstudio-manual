@@ -22,6 +22,7 @@ A full list of phonemes for each language can be found on the [Phoneme Reference
 |Japanese|Hiragana, Katakana, Romaji|Romaji-derived symbols|
 |Mandarin Chinese|Chinese characters (simplified/traditional), Pinyin|X-SAMPA|
 |Cantonese Chinese|Chinese characters (simplified/traditional), Jyutping|X-SAMPA|
+|Spanish|Words|X-SAMPA|
 
 ## Changing a Note's Phonemes
 
@@ -159,7 +160,7 @@ Experiment with the pitch curve over the duration of the phoneme to make ambiguo
 
     Cross-lingual Synthesis requires Synthesizer V Studio Pro.
 
-Cross-lingual synthesis allows AI voice databases to access the phoneme lists for English, Japanese, Mandarin Chinese, and Cantonese Chinese regardless of their default language. While AI voice databases still have a "native" language, this allows them to sing lyrics in other languages with near-fluency.
+Cross-lingual synthesis allows AI voice databases to access the phoneme lists for any supported language regardless of the voice database's default language. While AI voice databases still have a "native" language, this allows them to sing lyrics in other languages with near-fluency.
 
 Language settings can be found under the Voice and Note Properties panel, for the track/group and individual notes respectively.
 

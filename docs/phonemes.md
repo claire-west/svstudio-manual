@@ -215,6 +215,47 @@
     br   breath
     ```
 
+=== "Spanish"
+
+    ```
+    a    vowel
+    e    vowel
+    i    vowel
+    o    vowel
+    u    vowel
+    U    semivowel
+    I    semivowel
+    y    semivowel
+    ll   semivowel
+    b    stop
+    B    stop
+    d    stop
+    D    stop
+    g    stop
+    k    stop
+    p    stop
+    t    stop
+    l    liquid
+    rr   liquid    The rr phoneme (rolled R) is somewhat reliant on a rapidly
+                   fluctuating pitch pattern, like a very fast vibrato. This
+                   must be added manually by the user.
+    r    liquid
+    m    nasal
+    n    nasal
+    N    nasal
+    J    nasal
+    f    fricative
+    s    fricative
+    C    fricative
+    sh   fricative
+    ch   affricate
+    x    fricative
+    cl   stop
+    pau  silence
+    sil  silence
+    br   breath
+    ```
+
 ---
 
 [Report an Issue](https://github.com/claire-west/svstudio-manual/issues/new?template=report-a-problem.md&title=[Page: Phoneme Reference])

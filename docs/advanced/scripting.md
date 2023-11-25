@@ -85,7 +85,7 @@ In version 1.9.0b2 some additional bindings were added to the `Note` class to en
 
 `note.setPitchAutoMode(integer)`
 
-`note.getLanguageOverride()` returns a string representing the note's selected language ("japanese", "english", "mandarin", "cantonese").
+`note.getLanguageOverride()` returns a string representing the note's selected language ("japanese", "english", "mandarin", "cantonese", "spanish").
 
 `note.setLanguageOverride(string)`
 

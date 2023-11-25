@@ -19,6 +19,14 @@ Vocal Modes can be selected in the [parameters panel](../parameters/editing-para
 
 ![Vocal Modes as Parameters](../img/ai-functions/vocal-modes-as-parameters.png)
 
+## Removing Unused Vocal Mode Parameters
+
+If a Vocal Mode parameter is initialized and then the singer is changed to a voice database that does not support the same vocal mode, the incompatible vocal mode will be marked as inactive.
+
+The parameter curve will remain in the project in case you decide to switch back to the original voice database, but you can also remove any inactive vocal modes by selecting the trash can icon from the parameter selection menu.
+
+![An Inactive Vocal Mode](../img/parameters/vocal-mode-inactive.png)
+
 ## Video Demonstration
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Yb8m_HmBEt4" title="YouTube video player" frameborder="0" allowfullscreen></iframe>

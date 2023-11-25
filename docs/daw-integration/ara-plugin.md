@@ -1,0 +1,44 @@
+# Deep ARA Integration and ARA Bridge
+
+!!! note "Pro Feature"
+
+    The features described below require Synthesizer V Studio Pro.
+
+## DAW Compatibility
+
+Not all DAWs offer the same level of ARA support. Some hosts will offer significantly enhanced integration with the plugin, while others will only support the ARA plugin in Bridge mode, primarily providing improved playback and tempo synchronization without the deeper project structure synchronization.
+
+||Deep ARA Integration|ARA Bridge|
+|---|---|---|
+|Studio One 5/6|Yes|Yes|
+|Cubase 12/13|Yes|Yes|
+|Reaper 6|Yes|Yes|
+|Logic Pro (Rosetta/x86)|No|Yes|
+|Logic Pro (Apple Silicon)|No|No|
+|[Other ARA2-compatible DAWs](https://en.wikipedia.org/wiki/Audio_Random_Access#Digital_audio_workstations)|No|Yes* (not verified by Dreamtonics)|
+
+## Setup and Core Functionality
+
+For setup and usage information about the Synthesizer V Studio ARA plugin, refer to the official guidance from Dreamtonics: [Synthesizer V Studio ARA Plugin Guide](https://docs.google.com/document/d/e/2PACX-1vTx9WXhLQT9UIhMaN9OCLhAF36-vEi7c9syl54DKKJ-BBkaHBSbQTXzyC2F5Rnm-E1EkRWF8pA7I9UI/pub).
+
+## Importing MIDI with ARA Functions
+
+While the ARA plugin only maintains synchronization with audio clips rather than MIDI sequences, deep ARA integration can be used to quickly move MIDI from the DAW to the plugin without exporting and importing a MIDI file.
+
+Assign a simple instrument (such as a sine tone) to the MIDI sequence and bounce the audio clip. Most DAWs will offer a quick method of doing this, usually labelled "render in place", "quick bounce", "consolidate/freeze track", or similar.
+
+Once you have the audio clip of your MIDI sequence, execute [Voice-to-MIDI Conversion](../ai-functions/voice-to-midi.md) to transcribe it into Syntesizer V Studio and optionally execute "Smart Quantization" from the "Modify" top menu.
+
+## Video Demonstration
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/0ijQ9nLPGe0" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
+## Troubleshooting
+
+If you encounter technical issues with the plugin, try removing the software and reinstalling to the default installation directory.
+
+If the problems persist, search for similar issues on the [official forums](https://forum.synthesizerv.com/search) or contact [Dreamtonics support](../support.md).
+
+---
+
+[Report an Issue](https://github.com/claire-west/svstudio-manual/issues/new?template=report-a-problem.md&title=[Page: Deep ARA Integration])

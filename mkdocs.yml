@@ -39,6 +39,7 @@ nav:
     # - Instant Mode: ai-functions/instant-mode.md
     - AI Retakes: ai-functions/ai-retakes.md
     - Auto Pitch Tuning: ai-functions/auto-pitch-tuning.md
+    - Voice-to-MIDI Conversion: ai-functions/voice-to-midi.md
   - Intermediate and Advanced Usage:
     - Manual Pitch Mode: advanced/pitch-mode-manual.md
     - Batch Lyric Input: advanced/batch-lyrics.md
@@ -48,14 +49,15 @@ nav:
     - Note Detuning: advanced/note-detuning.md
     - MIDI Controller Support: advanced/midi-controller.md
     - VSTi/AU Plugin: daw-integration/plugin.md
-    - The Top Menus in Detail: advanced/top-menus.md
-    - The Side Panels in Detail: advanced/side-panels.md
-    - The Context Menus in Detail: advanced/right-click-menus.md
+    - ARA DAW Integration: daw-integration/ara-plugin.md
     - Scripting: advanced/scripting.md
   - Other Topics:
     - FAQs: faq.md
     - Phoneme Reference: phonemes.md
     - Default Keybinds: keybinds.md
+    - The Top Menus in Detail: advanced/top-menus.md
+    - The Side Panels in Detail: advanced/side-panels.md
+    - The Context Menus in Detail: advanced/right-click-menus.md
     - Help & Support: support.md
     - About: about.md
 theme:

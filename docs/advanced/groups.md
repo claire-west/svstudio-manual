@@ -93,6 +93,14 @@ These inherited parameters will only apply to the group instance at the same poi
   <figcaption>Pitch deviation outside the group affecting one instance's notes.</figcaption>
 </figure>
 
+## Expanding a Group
+
+A group can be made longer by adding new notes to the end of it, or by dragging the last note in the group to the right.
+
+To add empty space to the start or end of a group, click and drag the left or right borders of the group in the Arrangement Panel to resize it.
+
+![type:video](../img/advanced/group-resize.mp4)
+
 ## Video Demonstration
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/kIn3CRfI4xs" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
