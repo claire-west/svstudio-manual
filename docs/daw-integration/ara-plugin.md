@@ -27,7 +27,7 @@ While the ARA plugin only maintains synchronization with audio clips rather than
 
 Assign a simple instrument (such as a sine tone) to the MIDI sequence and bounce the audio clip. Most DAWs will offer a quick method of doing this, usually labelled "render in place", "quick bounce", "consolidate/freeze track", or similar.
 
-Once you have the audio clip of your MIDI sequence, execute [Voice-to-MIDI Conversion](../ai-functions/voice-to-midi.md) to transcribe it into Syntesizer V Studio and optionally execute "Smart Quantization" from the "Modify" top menu.
+Once you have the audio clip of your MIDI sequence, execute [Voice-to-MIDI Conversion](../ai-functions/voice-to-midi.md) to transcribe it into Synthesizer V Studio and optionally execute "Smart Quantization" from the "Modify" top menu.
 
 ## Video Demonstration
 
