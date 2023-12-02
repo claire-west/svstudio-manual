@@ -6,7 +6,7 @@
 
 ## DAW Compatibility
 
-Not all DAWs offer the same level of ARA support. Some hosts will offer significantly enhanced integration with the plugin, while others will only support the ARA plugin in Bridge mode, primarily providing improved playback and tempo synchronization without the deeper project structure synchronization.
+Not all DAWs offer the same level of ARA support. Some hosts will offer significantly enhanced integration with the plugin, while others will only support the plugin in ARA Bridge mode, primarily providing improved playback and tempo synchronization without the deeper project structure synchronization.
 
 ||Deep ARA Integration|ARA Bridge|
 |---|---|---|
@@ -16,6 +16,16 @@ Not all DAWs offer the same level of ARA support. Some hosts will offer signific
 |Logic Pro (Rosetta/x86)|No|Yes|
 |Logic Pro (Apple Silicon)|No|No|
 |[Other ARA2-compatible DAWs](https://en.wikipedia.org/wiki/Audio_Random_Access#Digital_audio_workstations)|No|Yes* (not verified by Dreamtonics)|
+
+!!! info
+
+    The ARA plugin does not fully replace the regular VSTi/AU instrument plugin. Each plugin will be better suited to different scenarios.
+
+    ARA plugins are not used as instruments; they are applied to individual tracks as effects or track extensions, depending on the DAW. They primarily modify or replace the original audio clips in the DAW track they are assigned to, and it is assumed that an ARA plugin will have access to an audio clip as its input.
+
+    The VSTi/AU instrument still benefits from the improved playback and tempo synchronization of the ARA bridge, and will be better suited to situations where you are creating the vocals entirely within Synthsizer V Studio, without using an audio clip in the DAW as a starting point.
+
+    If your project contains some Synthesizer V Studio tracks based on audio clips, and others that are not, you may want to utilize both plugins within the same DAW project.
 
 ## Setup and Core Functionality
 
