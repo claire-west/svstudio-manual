@@ -9,7 +9,7 @@ Vocal modes can be found in the Voice panel. Each AI voice database has a number
 
 Vocal modes can be used individually or in combination, and different settings can be used for each track or group.
 
-The slider for each vocal mode can be set to values from 0% to 150%.
+The slider for each vocal mode can be set to values from 0% to 150%. Vocal mode settings over 100% involve extrapolation beyond the original machine learning analysis, and may result in more noticeable synthesis artifacts.
 
 ![SOLARIA Vocal Modes](../img/ai-functions/vocal-modes.png)
 

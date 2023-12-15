@@ -31,6 +31,12 @@ Not all DAWs offer the same level of ARA support. Some hosts will offer signific
 
 For setup and usage information about the Synthesizer V Studio ARA plugin, refer to the official guidance from Dreamtonics: [Synthesizer V Studio ARA Plugin Guide](https://docs.google.com/document/d/e/2PACX-1vTx9WXhLQT9UIhMaN9OCLhAF36-vEi7c9syl54DKKJ-BBkaHBSbQTXzyC2F5Rnm-E1EkRWF8pA7I9UI/pub).
 
+## Saving the Project
+
+Unlike the VSTi/AU instrument, the ARA plugin's project data is always saved within the DAW project. To export project data, select "Save As" from the "File" top menu to save an SVP file.
+
+This SVP file can then be opened in the standalone or VSTi/AU instrument versions of Synthesizer V Studio, or merged into an existing project with the "Import as Tracks" option, also under the "File" menu.
+
 ## Importing MIDI with ARA Functions
 
 While the ARA plugin only maintains synchronization with audio clips rather than MIDI sequences, deep ARA integration can be used to quickly move MIDI from the DAW to the plugin without exporting and importing a MIDI file.

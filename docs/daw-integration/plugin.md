@@ -14,7 +14,7 @@ DAWs that support the ARA2 protocol will have [enhanced integration with Synthes
 
     The AudioUnit version of the plugin is made specifically for Logic Pro. Other Mac-based DAWs will likely see better compatibility with the VST3 version of the plugin.
 
-## Project Saving
+## Saving the Project
 
 When Synthesizer V Studio is used as an instrument in a DAW, an additional setting is added under the "File" top menu.
 
