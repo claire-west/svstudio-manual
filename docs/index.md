@@ -20,17 +20,22 @@ For official instructional content for SynthV Studio, check the Dreamtonics [vid
 
 This website is not affiliated with Dreamtonics.
 
-??? info "Update 1.10.0 now available! (click here for more information)"
+??? info "Update 1.11.0 now available! (click here for more information)"
 
-    Dreamtonics has released Synthesizer V Studio version 1.10.0, with pitch model improvements based on human feedback and a selection of UX improvements.
+    Dreamtonics has released Synthesizer V Studio version 1.11.0, with voice-to-MIDI conversion and improved DAW integration using the ARA2 protocol.
 
     For instructions on updating the software, see [Setup and Activation](setup.md#updating-the-software).
 
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ZKwGR08kCSk" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/0ijQ9nLPGe0" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 
     Update notes from Dreamtonics:
 
-    * [Synthesizer V Studio 1.10.0 Final Update](https://dreamtonics.com/synthesizer-v-studio-1-10-0-final-update/)
+    * [Synthesizer V Studio 1.10.0 Final Update](https://dreamtonics.com/synthesizer-v-studio-1-11-0-final-update/)
+
+    Official documentation for the new ARA plugin:
+
+    * [Synthesizer V Studio ARA Plugin Guide](https://dreamtonics.com/synthv/help-ara-en)
+
 
 ---
 

@@ -1,10 +1,10 @@
-# Scripting
+# User Scripts
 
 !!! note "Pro Feature"
 
     The features described below require Synthesizer V Studio Pro.
 
-Synthesizer V Studio Pro supports scripting with JavaScript and LUA. Users can augment the features of the editor with their own scripts.
+Synthesizer V Studio Pro supports scripting with JavaScript and LUA. User scripts are capable of augmenting the core functions of the editor and automating complex or tedious tasks.
 
 ## Using Scripts
 

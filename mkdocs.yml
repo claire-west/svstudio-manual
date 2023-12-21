@@ -50,7 +50,7 @@ nav:
     - MIDI Controller Support: advanced/midi-controller.md
     - VSTi/AU Plugin: daw-integration/plugin.md
     - ARA DAW Integration: daw-integration/ara-plugin.md
-    - Scripting: advanced/scripting.md
+    - User Scripts: advanced/scripting.md
   - Other Topics:
     - FAQs: faq.md
     - Phoneme Reference: phonemes.md

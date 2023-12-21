@@ -10,9 +10,11 @@ Not all DAWs offer the same level of ARA support. Some hosts will offer signific
 
 ||Deep ARA Integration|ARA Bridge|
 |---|---|---|
-|Studio One 5/6|Yes|Yes|
-|Cubase 12/13|Yes|Yes|
+|Studio One 5/6 (Artist/Pro)|Yes|Yes|
+|Cubase 12/13 (Artist/Pro)|Yes|Yes|
 |Reaper 6|Yes|Yes|
+|Cakewalk|Yes|Yes|
+|Ability 5 Pro|Yes|Yes|
 |Logic Pro (Rosetta/x86)|No|Yes|
 |Logic Pro (Apple Silicon)|No|No|
 |[Other ARA2-compatible DAWs](https://en.wikipedia.org/wiki/Audio_Random_Access#Digital_audio_workstations)|No|Yes* (not verified by Dreamtonics)|
