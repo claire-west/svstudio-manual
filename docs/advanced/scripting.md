@@ -92,6 +92,8 @@ In version 1.9.0b2 some additional bindings were added to the `Note` class to en
 
 Additionally, the following new properties are present on the attributes object:
 
+`strength`: array of numbers for phoneme strength scaling (0.2 to 1.8)
+
 `rIntonation`: `number` rap intonation (-0.5 to 0.5)
 
 `rTone`: `number` rap tone (semitones, from -5 to 1)

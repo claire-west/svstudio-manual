@@ -1,5 +1,7 @@
 # Phoneme Reference
 
+An official phoneme reference with examples can also be found on the [Dreamtonics Website](https://dreamtonics.com/svstudio-resources/).
+
 === "All Languages"
 
     ![TiredBee's Phoneme Chart](./img/Synthesizer_V_Studio_Phoneme_Refsheet_by_TiredBee.png)
@@ -236,9 +238,7 @@
     p    stop
     t    stop
     l    liquid
-    rr   liquid    The rr phoneme (rolled R) is somewhat reliant on a rapidly
-                   fluctuating pitch pattern, like a very fast vibrato. This
-                   must be added manually by the user.
+    rr   liquid
     r    liquid
     m    nasal
     n    nasal
@@ -255,6 +255,8 @@
     sil  silence
     br   breath
     ```
+
+
 
 ---
 
