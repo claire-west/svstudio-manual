@@ -50,6 +50,10 @@ Track Aspiration Isolated
 
     Selecting an "Aspiration Isolated" option will remove the aspirant sounds from the main output, resulting in a base that only contains phonation. In this case the outputs must be recombined in the mixing process to have a complete result.
 
+    While mixing vocals created in Synthesizer V Studio is largely the same as working with human vocals, the ability to work with aspiration separately from phonation allows for some unique possibilities.
+
+    Using an isolated aspiration track allows de-essing without any risk of affecting the phonation component, or applying less reverb to the aspiration component to place more spacial emphasis on vowel sounds than potentialy harsh consonant sounds. When combining the two components, the vocals can also be made to sound more crisp or mellow by adjusting the gain of the aspiration relative to the phonation. Care should be taken not to reduce the aspiration too much, or the result can easily lose clarity.
+
 ## VSTi/AU Limitations
 
 Some forms of DAW integration are not possible with a VST/AU plugin on its own. ARA-compatible DAWs will offer improved integration, simplifying things like playback and tempo synchronization.

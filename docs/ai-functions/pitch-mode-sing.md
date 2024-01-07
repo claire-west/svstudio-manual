@@ -32,6 +32,8 @@ Enabling Sing mode also allows the use of pitch [AI Retakes](ai-retakes.md).
 
 The vibrato modulation setting affects the depth (amplitude) of the vibrato portion of the generated pitch deviations. This can be further modulated over the duration of the note using the [Vibrato Envelope](../parameters/editing-parameters.md#vibrato-envelope) parameter.
 
+For even more control over vibrato and other automatically generated pitch patterns, adjust the [Expressiveness](ai-retakes.md#expressiveness) setting in the AI Retakes panel in conjunction with Vibrato Modulation.
+
 The default value of the vibrato modulation slider for the track or group is set in the Voice panel.
 
 ![Sing Mode Default Settings](../img/ai-functions/sing-mode-defaults.png)

@@ -7,14 +7,18 @@ Double click on a note to enter a lyric. Press ++enter++ or click outside the no
 
 Pressing ++tab++ will confirm the change and advance to the next note, while ++ctrl+tab++ will move to the previous note.
 
+!!! note
+
+    When entering Japanese or Chinese lyrics, it is recommended to only include one mora or character per note.
+
 ### 2. Syllable Break
 Use the plus sign (`+`) to distribute a multi-syllable word across multiple notes.
 
 !!! note
 
-    It is generally best practice to not include more than one syllable per note. When working in English, use of the syllable break character is often critical to accomplishing the desired lyrical timing.
+    It is generally best practice to not include more than one syllable per note. When working in English or Spanish, use of syllable breaks is often critical to accomplishing the desired lyrical timing.
 
-    When working in Japanese or Chinese there will generally only be one character per note, so syllable breaks are typically not necessary.
+    When working in Japanese or Chinese there will typically only be one mora/syllable per note, rendering the need for explicit syllable breaks unnecessary.
 
 ### 3. Legato
 Use the minus sign (`-`) to continue the last sung vowel into the following note.
