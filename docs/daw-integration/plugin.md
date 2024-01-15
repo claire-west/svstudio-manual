@@ -28,6 +28,8 @@ To save an external SVP file separate from your DAW project, select "Save to Ext
 
     Synthesizer V Studio cannot differentiate between a user-initiated save and an autosave performed by the host DAW. When saving to an external SVP, the SVP file will be updated any time the host performs a save of any kind. This is a limitation of the VST plugin standard.
 
+    Additionally, if you duplicate the Synthesizer V Studio instrument in your DAW, take care not to have two different instruments overwriting the same external SVP file, or you will likely lose some progress.
+
 ## Output Channels
 
 The output of Synthesizer V Studio can be routed to one or many channels based on the option chosen in the Settings Panel. This allows you to apply different effects to each track while using Synthesizer V Studio as a plugin.

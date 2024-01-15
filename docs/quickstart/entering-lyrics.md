@@ -40,14 +40,20 @@ In this example the word "amazing" has its three syllables extended across six n
 ![Multi-syllable Lyrics](../img/quickstart/multi-syllable-lyrics.png)
 
 ## Adding Breaths
+
 Breath notes can be added by entering `br` as the note's lyric (AI singers only).
 
 ![A Breath Note](../img/quickstart/breath-note.png)
 
 ## Adding Glottal Stops
+
 Glottal stops can be added between notes by prefixing the following lyric with a single quote (`'`). A note containing just a single quote can be used to add a glottal stop at the end of a phrase.
 
 ![Glottal Stops](../img/quickstart/glottal-stop.png)
+
+### Hard Onsets
+
+While a "glottal stop" is, strictly speaking, the sudden termination of airflow (and the resulting sound), the same symbol can be used in Synthesizer V Studio to create hard onsets, by using the single quote (`'`) notation at the start of a phrase.
 
 ## Adjusting Pronunciation
 

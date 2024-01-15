@@ -23,7 +23,7 @@ Not all DAWs offer the same level of ARA support. Some hosts will offer signific
 
     The ARA plugin does not fully replace the regular VSTi/AU instrument plugin. Each plugin will be better suited to different scenarios.
 
-    ARA plugins are not used as instruments; they are applied to individual tracks as effects or track extensions, depending on the DAW. They primarily modify or replace the original audio clips in the DAW track they are assigned to, and it is assumed that an ARA plugin will have access to an audio clip as its input.
+    Even though they can produce audio output, ARA plugins are not added to the DAW as instruments; they are applied to individual tracks as effects or track extensions, depending on the DAW. They primarily modify or replace the original audio clips in the DAW track they are assigned to, and it is assumed that an ARA plugin will have access to an audio clip as its input.
 
     The VSTi/AU instrument still benefits from the improved playback and tempo synchronization of the ARA bridge, and will be better suited to situations where you are creating the vocals entirely within Synthsizer V Studio, without using an audio clip in the DAW as a starting point.
 
@@ -32,6 +32,8 @@ Not all DAWs offer the same level of ARA support. Some hosts will offer signific
 ## Setup and Core Functionality
 
 For setup and usage information about the Synthesizer V Studio ARA plugin, refer to the official guidance from Dreamtonics: [Synthesizer V Studio ARA Plugin Guide](https://docs.google.com/document/d/e/2PACX-1vTx9WXhLQT9UIhMaN9OCLhAF36-vEi7c9syl54DKKJ-BBkaHBSbQTXzyC2F5Rnm-E1EkRWF8pA7I9UI/pub).
+
+It is recommended to add the ARA plugin to your project before adding any instances of the VSTi/AU instrument.
 
 ## Saving the Project
 

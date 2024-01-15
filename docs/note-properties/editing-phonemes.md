@@ -72,6 +72,40 @@ Keep in mind that if a phoneme sequence has been manually set, the lyric inside 
 
 ![Phoneme allocation](../img/note-properties/phoneme-allocation.png)
 
+## Special Phoneme Symbols
+
+### `br` (Breath)
+
+Breath notes can be added by entering `br` as the note's lyric (AI singers only).
+
+It is generally recommended to include breaths as their own notes, however the `br` symbol can also be used as part of a note's phoneme sequence.
+
+![A Breath Note](../img/quickstart/breath-note.png)
+
+### `cl` (Glottal Stops)
+
+Glottal stops can be added between notes by prefixing the following lyric with a single quote (`'`) or using the `cl` phoneme. A note containing just a single quote can be used to add a glottal stop at the end of a phrase.
+
+![Glottal Stops](../img/quickstart/glottal-stop.png)
+
+#### Hard Onsets
+
+While a "glottal stop" is, strictly speaking, the sudden termination of airflow (and the resulting sound), the same symbol can be used in Synthesizer V Studio to create hard onsets, by using the single quote (`'`) notation or `cl` phoneme at the start of a phrase.
+
+### `sil` (Silence)
+
+The `sil` symbol will force silence for its duration. In contrast to the glottal stop, which mimics the way humans might suddenly stop or start the airflow, adding silence in this manner can sound more artificial than the default onsets and offsets.
+
+### `pau` (Pause)
+
+The pause symbol allows for smooth transitions between certain phonemes. The exact behavior is highly situational, and will vary based on the selected voice database, as well as which phonemes surround it.
+
+In the example, the phrase "there is (pau) no (pau) freedom" has very specific phoneme edits made to fine-tune the pronunciation of each lyric, including two small `pau` notes. These pauses help transition smoothly between the surrounding words without any jarring interruptions that might be caused by a glottal stop, forced silence, or a gap between the notes.
+
+While [catenation](#connected-speech) can be a valuable tool in creating natural sounding pronunciation, in this case `pau` is used to prevent the words from blending together, such as where "no freedom" could easily sound like "nof / reedom".
+
+![The pause phoneme in use](../img/note-properties/phoneme-pau.png)
+
 ## Custom Lyric-to-Phoneme Conversion
 
 If there are many instances of the same word in your project, you may want to override the default phoneme conversion for all instances of that lyric. This can be accomplished by creating a [User Dictionary](../advanced/user-dictionaries.md).
@@ -106,7 +140,7 @@ One of the most common examples of this in English is the use of the [alveolar t
 
 It is also common in many languages to substitute a variety of vowel sounds with a [schwa](https://en.wikipedia.org/wiki/Schwa) (`ax`), or omit a vowel entirely. This can often reduce understandability if applied too liberally, but when used appropriately can result in more natural-sounding vocals.
 
-English speakers will also often drop the final consonant of a word (usually the `t` from a word ending in "n't") and use a [glottal stop](https://en.wikipedia.org/wiki/Glottal_stop) ("ʔ", represented in Synthesizer V Studio as `cl`) to cut off the sound abruptly. This is most common with phrases like "donʔ do it" or "wouldnʔ you?" (though "wouldn't you" can sometimes also be shortened to "wouldn-tyu" or "wouldn-chu", which are all examples of connected speech as mentioned in the next section).
+English speakers will also often drop the final consonant of a word (usually the `t` from a word ending in "n't") and use a [glottal stop](https://en.wikipedia.org/wiki/Glottal_stop) ("ʔ", represented in Synthesizer V Studio as `cl`) to cut off the sound abruptly. This is most common with phrases like "donʔ do it" or "wouldnʔ you?" (though "wouldn't you" can sometimes also be shortened to "wouldn-tyu" or "wouldn-chu", which are all examples of [connected speech](#connected-speech) as mentioned in the next section).
 
 These are some examples of words that might sound overly formal or unusual if enunciated "properly":
 
