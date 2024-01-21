@@ -29,7 +29,7 @@ The parameter curve will remain in the project in case you decide to switch back
 
 ## Video Demonstration
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Yb8m_HmBEt4" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/LWgNp56hvqQ" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 
 ---
 

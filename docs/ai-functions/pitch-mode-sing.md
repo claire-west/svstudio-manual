@@ -1,4 +1,4 @@
-# Pitch Mode: Sing
+# Sing Pitch Mode
 
 "Sing" Pitch Mode (formerly "Instant Mode" or "Simple Pitch Mode") will add AI-generated pitch deviations to your notes which are modeled to produce realistic transitions, sustains, and vibrato.
 

@@ -45,6 +45,10 @@ The track color is used in the Arrangement panel, as well as for the horizontal 
 
 ![Changing the Track Color](../img/quickstart/change-track-color.png)
 
+### Copying and Pasting Notes Between Tracks
+
+When copying or moving notes from one track to another, remember to click the Piano Roll before pressing the paste keys. If you have just switched tracks, then the track list in the Arrangement panel still has focus, and the Piano Roll panel will not receive the paste action.
+
 ## Importing Tracks
 
 There are two options in the "File" menu at the top of the application that allow importing of tracks.

@@ -1,4 +1,4 @@
-# Pitch Mode: Rap
+# Rap Pitch Mode
 
 "Rap" Pitch Mode will add AI-generated pitch deviations to your notes which are modeled to mimic human rap techniques, and allows the use of the Rap Intonation parameter.
 
