@@ -65,7 +65,7 @@ When using a non-AI singer, a blue line will closely follow the target pitch lin
 ### 5. Retake Indicator
 !!! note "Pro Feature - AI Retakes"
 
-    If using AI Retakes, indicates which take is being used for the note.
+If using AI Retakes, indicates which take is being used for the note.
 
 ### 6. Waveform Preview and Phoneme Timing
 A preview of the waveform for the note, as well as timing indicators for the individual phonemes associated with it.

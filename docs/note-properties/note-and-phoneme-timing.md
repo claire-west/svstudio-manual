@@ -14,7 +14,9 @@ The note offset slider will move the beginning of the selected note(s) earlier o
 
 ## Phoneme Timing
 
-Default phoneme timing is determined based on the phoneme's type (vowel, stop, fricative, etc). The timing distribution of phonemes within a note (and relative to its neighbors) can be modified between 20% and 180% of this default.
+Default phoneme timing is determined based on the phoneme's type (vowel, stop, fricative, etc), as well as the pronunciation used by the original vocalist that the voice database is based on.
+
+The timing distribution of phonemes within a note (and relative to its neighbors) can be modified between 20% and 180% of this default.
 
 !!! note
 
@@ -31,6 +33,10 @@ This is suitable for multi-syllable words that do not change pitch over the enti
 Notice how in this example, the phoneme timings are exactly the same for each instance of the word "synthesizer".
 
 ![Evenly slit note into syllables](../img/note-properties/evenly-split-syllables.png)
+
+### Words With Ambiguous Syllable Boundaries
+
+Some words, such as "fire", can be either one or two syllables based on the desired pronunciation or accent, or may not have clearly defined syllable boundaries. In these cases, it may be appropriate to include the entire word in a single note and disable the "Evenly split note into syllables" checkbox to treat the entire word as a single syllable.
 
 ### More Precise Timing Adjustments
 

@@ -65,6 +65,10 @@ The "Import as Tracks" function also supports SVP and S5P files to allow merging
 
 ### Importing Tempo and Time Signature Markers
 
+!!! note
+
+    This section primarily pertains to the standalone version of the software. When running the software as a plugin in an [ARA-compatible DAW](../daw-integration/ara-plugin.md), the tempo and playhead synchronization will be greatly improved, removing the need for manual tempo management within Synthesizer V Studio.
+
 The "Import" function will also apply tempo and time signature markers based on the original file.
 
 "Import as Tracks" will not modify the tempo or time signature markers of the current project.

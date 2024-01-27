@@ -4,7 +4,7 @@
 
 Download links for Synthesizer V Studio Basic Edition and purchase links for the Pro Edition can be found on the official [Dreamtonics website](https://dreamtonics.com/en/synthesizerv/).
 
-After purchasing the Pro edition your order confirmation email will include download instructions which may vary based on the vendor you purchased from.
+After purchasing the Pro edition, your order confirmation email will include download instructions which may vary based on the vendor you purchased from.
 
 !!! warning
 
@@ -128,7 +128,7 @@ When an available update is shown under the product name, select the product and
 
 When you need to transfer your license to a new device, perform hardware/firmware upgrades, or reinstall your operating system, you must first revoke the license by deactivating the product.
 
-To deactivate a product select it in the "License and Updates" panel and click the "Deactivate" button below. The activation on the current device will be revoked, and can be safely reactivated on the new or upgraded device.
+To deactivate a product, select it in the "License and Updates" panel and click the "Deactivate" button below. The activation on the current device will be revoked, and can be safely reactivated on the new or upgraded device.
 
 !!! note
 
