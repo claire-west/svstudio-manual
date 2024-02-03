@@ -20,7 +20,9 @@ Selecting an "isolated" aspiration option will remove the aspirant sounds from t
 
 While mixing vocals created in Synthesizer V Studio is largely the same as working with human vocals, the ability to work with aspiration separately from phonation allows for some unique possibilities.
 
-Using an isolated aspiration track allows de-essing without any risk of affecting the phonation component, or applying less reverb to the aspiration component. When combining the two components, the vocals can also be made to sound more crisp or mellow by adjusting the gain of the aspiration relative to the phonation. Care should be taken not to reduce the aspiration too much, or the result can easily lose clarity.
+Using an isolated aspiration track allows de-essing without any risk of affecting the phonation component, or applying less reverb to the aspiration component to reduce unwanted reflections. When combining the two components, the vocals can also be made to sound more crisp or mellow by adjusting the gain of the aspiration relative to the phonation. Care should be taken not to reduce the aspiration too much, or the final combined result can easily lose clarity.
+
+The default option is "None", meaning that there is no dedicated aspiration channel/file. The aspiration will only be removed from the main output if an "isolated" option is chosen.
 
 
 ## Video Demonstration
