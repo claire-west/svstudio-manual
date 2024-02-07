@@ -6,6 +6,12 @@ When your song has multiple phrases that are the same, groups can help avoid rep
 
 Select the notes and select "Merge Into Group" from the right click menu or "Modify" top menu (default ++alt+g++).
 
+!!! note
+
+    Parameters will only be included in the group if they are selected when the group is created.
+    
+    To include parameters in a group, use the "[Select Parameters for Notes](../parameters/editing-parameters.md#select-parameters-for-notes)" option from the right click menu or "Edit" top menu (default ++ctrl+alt+a++).
+
 ![Merge Into Group](../img/advanced/merge-into-group.png)
 
 Once a group has been created, it will be indicated in the Arrangement panel, listed in the Library panel, and have an associated handle in the piano roll indicating the start and end of the group. The color of the handle will match the color assigned to the track in the Arrangement panel.
