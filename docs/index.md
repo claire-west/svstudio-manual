@@ -20,9 +20,9 @@ For official instructional content for SynthV Studio, check the Dreamtonics [vid
 
 This website is not affiliated with Dreamtonics.
 
-??? info "Update 1.11.0 now available! (click here for more information)"
+??? info "Update 1.11.0 now available! (click for more information)"
 
-    Dreamtonics has released Synthesizer V Studio version 1.11.0, with voice-to-MIDI conversion and improved DAW integration using the ARA2 protocol.
+    Dreamtonics has released Synthesizer V Studio version 1.11.0, with voice-to-MIDI conversion, improved DAW integration using the ARA2 protocol, and Spanish language support.
 
     For instructions on updating the software, see [Setup and Activation](setup.md#updating-the-software).
 
