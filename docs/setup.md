@@ -1,6 +1,6 @@
 # Setup and Activation
 
-To begin using Synthesizer V Studio, you must install both the editor (Basic or Pro edition) and at least one voice database. For a list of feature differences, check the store page for [Synthesizer V Studio Pro](https://store.dreamtonics.com/product/editor-svstudio-pro/){ target=_blank } on the Dreamtonics Store.
+To begin using Synthesizer V Studio, you must install both the application (Basic or Pro edition) and at least one voice database. For a list of feature differences between editions, check the store page for [Synthesizer V Studio Pro](https://store.dreamtonics.com/product/editor-svstudio-pro/){ target=_blank } on the Dreamtonics Store.
 
 ## Purchase & Download
 
@@ -22,6 +22,7 @@ Approved vendors include, but are not limited to:
 
 * [The Dreamtonics Store](https://store.dreamtonics.com/){ target=_blank }
 * [AH-Software](https://www.ah-soft.com/product/download.html#synth-v){ target=_blank }
+    * AHS is the primary distributor of Dreamtonics products in Japan, however their web store can be used by international buyers as well.
 * [Eclipsed Sounds](https://www.eclipsedsounds.com/shop){ target=_blank }
 * [Audiologie](https://audiologie.us/collections/voice-databases){ target=_blank }
 * [ANiCUTE](https://www.anicute.com/){ target=_blank }
