@@ -33,6 +33,11 @@ The chain-link (:material-link:) icon can be toggled on to toggle both the selec
 
 ![Tool/Mode Link](../img/workspace/tool-mode-link.png)
 
+### Recenter View
+The Recenter View Button in the upper right corner of the Piano Roll can be used to quickly scroll to the nearest note in the current track or group.
+
+![Recenter View Button](../img/workspace/recenter-view.png)
+
 ## Piano Roll Main Window
 
 ![The Piano Roll](../img/workspace/piano-roll.png)

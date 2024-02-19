@@ -42,17 +42,13 @@ A group can have different voice settings (in the Voice panel) from its parent t
 
 ![Entering a Group](../img/advanced/group-entered.png)
 
-You can also navigate between groups by right clicking on unoccupied space in the piano roll.
-
-![Navigating Groups by Right Click](../img/advanced/group-enter-rightclick.png)
-
 ## Multiple Instances of the Same Group
 
 The same group can exist at multiple points within the arrangement. Each time a group is present is called an "instance" of that group, and all instances are listed in the Library panel along with the respective measures they start in.
 
 Group instances remain linked so that changes to one will affect all the others. This includes changes to the notes as well as parameter curves.
 
-![type:video](../img/advanced/group-link.mp4)
+![type:video](../img/advanced/group-link-b.mp4)
 
 To remove this linked behavior, right click on one of the group instances and select "Dissociate Group".
 
@@ -60,7 +56,7 @@ To remove this linked behavior, right click on one of the group instances and se
 
 Once the instance has been dissociated, it will be an instance of a new, separate group and can be modified without influencing the other instances of the original group.
 
-![type:video](../img/advanced/modify-group.mp4)
+![type:video](../img/advanced/modify-group-b.mp4)
 
 If you select "Disband Group" instead of "Dissociate Group", the selected group instance will revert to ungrouped notes, while other instances of the same group will not be affected.
 
@@ -72,7 +68,7 @@ If your song has a key change, but multiple phrases before and after that point 
 
 Without entering the group to edit its contents, click and drag any of the notes up or down. The instance will remain linked to the group it is a part of, but will be a certain pitch higher or lower than the other instances.
 
-![type:video](../img/advanced/group-pitch-offset.mp4)
+![type:video](../img/advanced/group-pitch-offset-b.mp4)
 
 ## Overlapping Groups
 
@@ -89,15 +85,15 @@ The main exception to the above rule is that group instances will inherit any pa
 These inherited parameters will only apply to the group instance at the same point on the time axis and will have no effect on instances of the same group elsewhere in the track or project.
 
 <figure markdown>
-  ![Inherited Pitch Deviation](../img/advanced/inherited-parameters.png)
+  ![Inherited Pitch Deviation](../img/advanced/inherited-parameters-b.png)
   <figcaption>Pitch deviation outside the group affecting one instance's notes.</figcaption>
 </figure>
 
-## Expanding a Group
+## Expanding or Cropping a Group
 
 A group can be made longer by adding new notes to the end of it, or by dragging the last note in the group to the right.
 
-To add empty space to the start or end of a group, click and drag the left or right borders of the group in the Arrangement Panel to resize it.
+The boundaries of a group instance can be adjusted manually by dragging the left or right borders of it, however once this is done its duration will not longer be kept in sync with other instances of the same group. This allows partial or cropped groups to be used without first dissociating them, for example if a repeating phrase is used but only the first instance should start with a breath.
 
 ![type:video](../img/advanced/group-resize.mp4)
 

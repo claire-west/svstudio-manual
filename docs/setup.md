@@ -1,14 +1,35 @@
 # Setup and Activation
 
-## Download
+To begin using Synthesizer V Studio, you must install both the editor (Basic or Pro edition) and at least one voice database. For a list of feature differences, check the store page for [Synthesizer V Studio Pro](https://store.dreamtonics.com/product/editor-svstudio-pro/){ target=_blank } on the Dreamtonics Store.
 
-Download links for Synthesizer V Studio Basic Edition and purchase links for the Pro Edition can be found on the official [Dreamtonics website](https://dreamtonics.com/en/synthesizerv/).
+## Purchase & Download
 
-After purchasing the Pro edition, your order confirmation email will include download instructions which may vary based on the vendor you purchased from.
+If you are just getting started, you may want to try out the software with the free Basic edition and a lite voice database. Be aware that lite voice databases are lower quality than their paid counterparts and offer significantly reduced functionality.
+
+[Get Synthesizer V Studio Basic (free)](https://resource.dreamtonics.com/download/English/Synthesizer%20V%20Studio%20Basic/){ .md-button target=_blank }&nbsp;&nbsp;&nbsp;&nbsp;[Try SOLARIA lite (free)](https://www.eclipsedsounds.com/solaria#comp-lhza0rpi){ .md-button target=_blank }
+
+After purchasing the Pro edition or a paid voice database product, your order confirmation email will include download instructions which may vary based on the vendor you purchased from. To download purchases from the Dreamtonics Store, enter your product activation code on the [Dreamtonics website](https://auth.dreamtonics.com/store/download){ target=_blank }.
+
+If you have purchased the Pro edition of the software, you can download and use the voice database [Mai](https://resource.dreamtonics.com/download/English/Voice%20Databases/Free%20Voice%20Databases%20for%20Synthesizer%20V%20Studio%20Pro/){ target=_blank } at no extra charge.
 
 !!! warning
 
     Always save your order confirmation emails and keep your product activation codes in a safe place. The vendor you purchase from will not always be able to help recover lost or compromised activation codes.
+
+### Vendors
+
+Approved vendors include, but are not limited to:
+
+* [The Dreamtonics Store](https://store.dreamtonics.com/){ target=_blank }
+* [AH-Software](https://www.ah-soft.com/product/download.html#synth-v){ target=_blank }
+* [Eclipsed Sounds](https://www.eclipsedsounds.com/shop){ target=_blank }
+* [Audiologie](https://audiologie.us/collections/voice-databases){ target=_blank }
+* [ANiCUTE](https://www.anicute.com/){ target=_blank }
+* [Voicemith](https://www.voicemith.com/overseasstore/){ target=_blank }
+* DLsite ([AH-Software](https://www.dlsite.com/soft/fsr/=/language/jp/keyword/VG01804+%22Synthesizer+V%22){ target=_blank } | [Internet Co.](https://www.dlsite.com/soft/fsr/=/language/jp/keyword/VG02985+%22Synthesizer+V%22){ target=_blank } | [Bushiroad Music](https://www.dlsite.com/soft/fsr/=/language/jp/keyword/VG03040+%22Synthesizer+V%22){ target=_blank })
+* Amazon Japan ([AH-Software](https://www.amazon.co.jp/s?k=AHS+%22Synthesizer+V%22){ target=_blank } | [Bushiroad Music](https://www.amazon.co.jp/s?k=%E3%83%96%E3%82%B7%E3%83%AD%E3%83%BC%E3%83%89%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%83%83%E3%82%AF+%22Synthesizer+V%22){ target=_blank })
+* Taobao ([Dreamtonics](https://shop390836001.taobao.com/){ target=_blank } | [Quadimension](https://shop109464960.taobao.com/){ target=_blank })
+
 
 ## Installation (Windows & Mac)
 

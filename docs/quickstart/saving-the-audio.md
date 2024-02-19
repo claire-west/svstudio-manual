@@ -8,7 +8,7 @@ Give your files a name, select the tracks to render, and press "Bounce to Files"
 
 Additional format settings are also available, such as bit depth and sample rate.
 
-![Create a Track](../img/quickstart/render.png)
+![The file rendering options](../img/quickstart/render.png)
 
 ## Aspiration Output
 
