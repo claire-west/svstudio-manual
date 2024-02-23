@@ -12,7 +12,7 @@ DAWs that support the ARA2 protocol will have [enhanced integration with Synthes
 
 !!! warning
 
-    The AudioUnit version of the plugin is made specifically for Logic Pro. Other Mac-based DAWs will likely see better compatibility with the VST3 version of the plugin.
+    The AudioUnit version of the plugin is made specifically for Logic Pro. Other Mac-based DAWs will likely have better compatibility with the VST3 version of the plugin.
 
 ## Saving the Project
 
@@ -86,4 +86,4 @@ If the problems persist, search for similar issues on the [official forums](http
 
 ---
 
-[Report an Issue](https://github.com/claire-west/svstudio-manual/issues/new?template=report-a-problem.md&title=[Page: VSTi/AU DAW Integration])
+[Report an Issue](https://github.com/claire-west/svstudio-manual/issues/new?template=report-a-problem.md&title=[Page: VSTi/AU Plugin])

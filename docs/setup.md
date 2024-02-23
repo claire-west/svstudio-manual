@@ -38,23 +38,23 @@ Execute the installer (.exe format on Windows, .pkg format on Mac) by double-cli
 
 If installing the Pro edition you will be prompted for your product activation code upon launching the application.
 
-Once you have successfully installed the software (and activated it, if necessary) you will be presented with the following application window.
+Once you have successfully installed the software (and activated it, if necessary), you will be presented with the following application window.
 
 ![Synthesizer V Studio](img/synthv-studio.png)
 
 ### Installing a Voice Database
 
-To install a voice database, double-click the .svpk file or drag-and-drop it from your file browser into the Synthesizer V Studio window. A voice database installation dialog will be displayed. Follow the on-screen instructions.
+To install a voice database, double-click the .svpk file or drag-and-drop it from your file browser into the Synthesizer V Studio window. An installation dialog will be displayed. Follow the on-screen instructions, and take note of the terms of use when they are displayed. The license agreement may vary between voice databases.
 
-If installing a paid voice database product you will be prompted for your product activation code.
+If installing a paid voice database product, you will be prompted for your product activation code.
 
-Once you have successfully installed a voice database (and activated it, if necessary) it will be listed in the singer selection dropdown.
+Once you have successfully installed a voice database (and activated it, if necessary), it will be listed in the singer selection dropdown.
 
 ![Singer Selection Dropdown](img/quickstart/singer-dropdown-arrangement.png)
 
 ## Installation (Linux)
 
-Navigate to your desired install directory and unzip the downloaded archive. If you are extracting to a location outside your home directory (`~`), you may need to run `unzip` as root (ie with `sudo`) such as in this example where Synthesizer V Studio is being extracted to `/opt`:
+Navigate to your desired install directory and unzip the downloaded archive. If you are extracting to a location outside your home directory (`~`), you may need to run `unzip` as root (ie with `sudo`), such as in this example where Synthesizer V Studio is being extracted to `/opt`:
 
 === "Pro Edition"
     ```
@@ -68,7 +68,7 @@ Navigate to your desired install directory and unzip the downloaded archive. If 
     sudo unzip ~/Downloads/svstudio-basic-linux64.zip
     ```
 
-If extracting to a location outside your home directory you may also need to modify the ownership or permissions of the files. This example will work for most situations:
+If extracting to a location outside your home directory, you may also need to modify the ownership or permissions of the files. This example will work for most situations:
 
 === "Pro Edition"
     ```
@@ -96,7 +96,7 @@ Launch the application by running the synthv-studio executable from the terminal
 
 If installing the Pro edition you will be prompted for your product activation code.
 
-Once you have successfully installed the software (and activated it, if necessary) you will be presented with the following application window.
+Once you have successfully installed the software (and activated it, if necessary), you will be presented with the following application window.
 
 ![Synthesizer V Studio](img/synthv-studio.png)
 
@@ -106,11 +106,11 @@ To install a voice database, run the synthv-studio executable from the terminal 
 
 `./synthv-studio ~/Downloads/saki-ai-lite-install-101.svpk`
 
-The application will launch and a voice database installation dialog will be displayed. Follow the on-screen instructions.
+The application will launch and an installation dialog will be displayed. Follow the on-screen instructions, and take note of the terms of use when they are displayed. The license agreement may vary between voice databases.
 
-If installing a paid voice database product you will be prompted for your product activation code.
+If installing a paid voice database product, you will be prompted for your product activation code.
 
-Once you have successfully installed a voice database (and activated it, if necessary) it will be listed in the singer selection dropdown.
+Once you have successfully installed a voice database (and activated it, if necessary), it will be listed in the singer selection dropdown.
 
 ![Singer Selection Dropdown](img/quickstart/singer-dropdown-arrangement.png)
 

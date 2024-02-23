@@ -21,7 +21,7 @@ Not all DAWs offer the same level of ARA support. Some hosts will offer signific
 
 !!! info
 
-    The ARA plugin does not fully replace the regular VSTi/AU instrument plugin. Each plugin will be better suited to different scenarios.
+    The ARA plugin does not fully replace the regular VSTi/AU instrument plugin. Each plugin will be suited to different scenarios.
 
     Even though they can produce audio output, ARA plugins are not added to the DAW as instruments; they are applied to individual tracks as effects or track extensions, depending on the DAW. They primarily modify or replace the original audio clips in the DAW track they are assigned to, and it is assumed that an ARA plugin will have access to an audio clip as its input.
 
@@ -61,4 +61,4 @@ If the problems persist, search for similar issues on the [official forums](http
 
 ---
 
-[Report an Issue](https://github.com/claire-west/svstudio-manual/issues/new?template=report-a-problem.md&title=[Page: Deep ARA Integration])
+[Report an Issue](https://github.com/claire-west/svstudio-manual/issues/new?template=report-a-problem.md&title=[Page: ARA Integration])
