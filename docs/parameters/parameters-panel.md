@@ -33,7 +33,7 @@ Swap the editing (foreground) and display (background) parameters.
 
 ## Multiple Parameter Panels
 
-Additional parameter panels can be added to the workspace with the three-bars icon in the upper right of the Piano Roll.
+Additional parameter panels can be added to the workspace with the three-bars (:fontawesome-solid-bars:) icon in the upper right of the Piano Roll.
 
 ![Add Parameter Panel](../img/parameters/add-parameter-panel.png)
 

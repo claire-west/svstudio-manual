@@ -2,13 +2,13 @@
 
 Phonemes are the individual components that lyrics and syllables are made up of. Each phoneme represents a specific sound that Synthesizer V Studio is capable of producing (along with transition sounds between each phoneme).
 
-All lyrics entered into notes are automatically converted to phonemes. When rendering the synthesized output, the phonemes are used to determine the appropriate pronunciation and timing.
+All lyrics entered into notes are automatically converted to phonemes. When rendering the synthesized output, the phonemes ultimately determine the pronunciation and timing.
 
 !!! info
 
-    The default dictionary mappings for each lyric will produce the most likely "correct" pronunciation for the word.
+    The default dictionary mappings for each lyric will produce the most likely "correct" pronunciation for the word, however it is rare that human vocalists sing with perfect enunciation, or even that different human vocalists will sing the same lyrics in the same way.
 
-    It is rare that human vocalists sing with perfect enunciation, so to achieve the most natural result it is normal to make phoneme adjustments to achieve different pronunciation.
+    Adjusting phoneme sequences to achieve a desired pronunciation is a normal and expected part of the Synthesizer V Studio workflow.
 
 ## Available Phonemes
 
@@ -22,6 +22,7 @@ A full list of phonemes for each language can be found on the [Phoneme Reference
 |Japanese|Hiragana, Katakana, Romaji|Romaji-derived symbols|
 |Mandarin Chinese|Chinese characters (simplified/traditional), Pinyin|X-SAMPA|
 |Cantonese Chinese|Chinese characters (simplified/traditional), Jyutping|X-SAMPA|
+|Spanish|Words|X-SAMPA|
 
 ## Changing a Note's Phonemes
 
@@ -31,7 +32,7 @@ If the text above the note is white, this means the phoneme sequence for the not
 
 ![Phonemes for a Note](../img/note-properties/phonemes-b.png)
 
-There are times where the default pronunciation does not match your song. For example, `hh ax l ow` and `hh eh l ow` are both common pronunciations for the word "hello" depending on the speaker's accent.
+There will be times where the default pronunciation does not match what is desired for your song. For example, `hh ax l ow` and `hh eh l ow` are both common pronunciations for the word "hello" depending on the speaker's accent, so the default sequence will inevitably be "incorrect" in some situations.
 
 Double click on the phoneme text above a note to enter a modified phoneme sequence. Press ++enter++ or click outside the note to confirm, or press ++esc++ to cancel the change.
 
@@ -43,7 +44,7 @@ You can also use the text input in the Note Properties panel instead of double-c
 
 ![Editing a Note's Phonemes](../img/note-properties/phoneme-editing-2-b.png)
 
-After manually modifying the phoneme sequence the text above the note will be green instead of white. When a note's phonemes have been entered manually in this way, the lyric inside the note will have no effect on the synthesized output.
+After manually modifying the phoneme sequence, the text above the note will be green instead of white. When a note's phonemes have been entered manually in this way, the lyric inside the note will have no effect on the synthesized output.
 
 ![A Note With Modified Phonemes](../img/note-properties/phoneme-edited-b.png)
 
@@ -51,11 +52,15 @@ To revert the phoneme sequence to the automatic lyric-based conversion, set the 
 
 ![Reseting a Note's Phonemes](../img/note-properties/phoneme-reset-b.png)
 
-A phoneme sequence can also be entered within a note by prefixing it with a `.` character. This format is primarily used for backwards compatibility with .s5p project files, and it is recommended to enter phonemes above the note when using Synthesizer V Studio.
+A phoneme sequence can also be entered within a note by prefixing it with a `.` character. This format is primarily used for backwards compatibility with .s5p project files, but can also be useful when a note only contains a single phoneme.
 
-This format may interfere with the software's ability to infer syllable breaks when using `+`, since there will no longer be a word within the note.
+It is generally best to avoid entering lyrics (or dot-prefixed phoneme sequences) with spaces in them, as this can interfere with the ability to use the [Batch Lyric Input](../advanced/batch-lyrics.md) dialog, which allocates lyrics to notes based on the spaces between words.
 
 ![Phonemes in the Note Body](../img/note-properties/phonemes-in-note-b.png)
+
+## Custom Lyric-to-Phoneme Conversion
+
+If there are many instances of the same word in your project, you may want to override the default phoneme conversion for all instances of that lyric. This can be accomplished by creating a [User Dictionary](../advanced/user-dictionaries.md).
 
 ## Separating Words in Unique Ways
 
@@ -71,9 +76,45 @@ Keep in mind that if a phoneme sequence has been manually set, the lyric inside 
 
 ![Phoneme allocation](../img/note-properties/phoneme-allocation.png)
 
-## Custom Lyric-to-Phoneme Conversion
+## Special Phoneme Symbols
 
-If there are many instances of the same word in your project, you may want to override the default phoneme conversion for all instances of that lyric. This can be accomplished by creating a [User Dictionary](../advanced/user-dictionaries.md).
+### `br` (Breath)
+
+Breath notes can be added by entering `br` as the note's lyric (AI singers only).
+
+It is generally recommended to include breaths as their own notes, however the `br` symbol can also be used as part of a note's phoneme sequence.
+
+![A Breath Note](../img/quickstart/breath-note.png)
+
+### `cl` (Glottal Stop)
+
+Glottal stops can be added between notes by prefixing the following lyric with a single quote (`'`) or using the `cl` phoneme. A note containing just a single quote can be used to add a glottal stop at the end of a phrase.
+
+![Glottal Stops](../img/quickstart/glottal-stop.png)
+
+#### Hard Onsets
+
+While a "glottal stop" is, strictly speaking, the sudden termination of airflow (and the resulting sound), the same symbol can be used in Synthesizer V Studio to create hard onsets, either by using the single quote (`'`) lyric prefix or the `cl` phoneme at the start of a phrase.
+
+### `sil` (Silence)
+
+The `sil` symbol will force silence for its duration. In contrast to the glottal stop, which mimics the way humans might suddenly stop or start the airflow, adding silence in this manner can sound more artificial than the default onsets and offsets, because adding it manually restricts the neighboring phoneme duration rather than mimicking a human behavior.
+
+In this example, a small silence note is added to forcibly shorten the preutterance in a case where the leading consonant may be more drawn out than is desired. A similar result can also be achieved by assigning the leading consonant to its own note, which forces the phoneme boundaries to adhere to the note boundaries rather than being considered a preutterance.
+
+![The silence phoneme in use](../img/note-properties/phoneme-sil.png)
+
+You may also notice `sil` symbols overlaid on the waveform preview in places where you did not explicitly add them. These silence indicators show the boundaries of the rendered phonemes.
+
+### `pau` (Pause)
+
+The pause symbol allows for smooth transitions between certain phonemes. The exact behavior is highly situational, and will vary based on the selected voice database, as well as which phonemes surround it.
+
+In the example, the phrase "there is (pau) no (pau) freedom" contains a number of phoneme edits to fine-tune the pronunciation and timing, including two small `pau` notes. These pauses help transition smoothly between the surrounding words without the jarring interruptions that might be caused by a glottal stop, forced silence, or a gap between the notes.
+
+While [connected speech](#connected-speech) can be a valuable tool in creating natural sounding pronunciation, in this case `pau` is used to prevent the words from blending together, such as where "no freedom" could easily sound like "nof / reedom".
+
+![The pause phoneme in use](../img/note-properties/phoneme-pau.png)
 
 ## Homographs (different words with identical spelling)
 
@@ -105,7 +146,7 @@ One of the most common examples of this in English is the use of the [alveolar t
 
 It is also common in many languages to substitute a variety of vowel sounds with a [schwa](https://en.wikipedia.org/wiki/Schwa) (`ax`), or omit a vowel entirely. This can often reduce understandability if applied too liberally, but when used appropriately can result in more natural-sounding vocals.
 
-English speakers will also often drop the final consonant of a word (usually the `t` from a word ending in "n't") and use a [glottal stop](https://en.wikipedia.org/wiki/Glottal_stop) ("ʔ", represented in Synthesizer V Studio as `cl`) to cut off the sound abruptly. This is most common with phrases like "donʔ do it" or "wouldnʔ you?" (though "wouldn't you" can sometimes also be shortened to "wouldn-tyu" or "wouldn-chu", which are all examples of connected speech as mentioned in the next section).
+English speakers will also often drop the final consonant of a word (usually the `t` from a word ending in "n't") and use a [glottal stop](https://en.wikipedia.org/wiki/Glottal_stop) ("ʔ", represented in Synthesizer V Studio as `cl`) to cut off the sound abruptly. This is most common with phrases like "donʔ do it" or "wouldnʔ you?" (though "wouldn't you" can sometimes also be shortened to "wouldn-tyu" or "wouldn-chu", which are all examples of [connected speech](#connected-speech) as mentioned in the next section).
 
 These are some examples of words that might sound overly formal or unusual if enunciated "properly":
 
@@ -159,7 +200,7 @@ Experiment with the pitch curve over the duration of the phoneme to make ambiguo
 
     Cross-lingual Synthesis requires Synthesizer V Studio Pro.
 
-Cross-lingual synthesis allows AI voice databases to access the phoneme lists for English, Japanese, Mandarin Chinese, and Cantonese Chinese regardless of their default language. While AI voice databases still have a "native" language, this allows them to sing lyrics in other languages with near-fluency.
+Cross-lingual synthesis allows AI voice databases to access the phoneme lists for any supported language, regardless of the voice database's default language. While AI voice databases still have a "native" language, this allows them to sing lyrics in other languages with near-fluency.
 
 Language settings can be found under the Voice and Note Properties panel, for the track/group and individual notes respectively.
 

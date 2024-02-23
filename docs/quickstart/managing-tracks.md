@@ -45,6 +45,10 @@ The track color is used in the Arrangement panel, as well as for the horizontal 
 
 ![Changing the Track Color](../img/quickstart/change-track-color.png)
 
+### Copying and Pasting Notes Between Tracks
+
+When copying or moving notes from one track to another, remember to click the Piano Roll before pressing the paste keys. If you have just switched tracks, then the track list in the Arrangement panel still has focus, and the Piano Roll panel will not receive the paste action.
+
 ## Importing Tracks
 
 There are two options in the "File" menu at the top of the application that allow importing of tracks.
@@ -60,6 +64,10 @@ Supported file types are MIDI, UST, VSQx, VPR, and CCS.
 The "Import as Tracks" function also supports SVP and S5P files to allow merging of Synthesizer V projects.
 
 ### Importing Tempo and Time Signature Markers
+
+!!! note
+
+    This section primarily pertains to the standalone version of the software. When running the software as a plugin in an [ARA-compatible DAW](../daw-integration/ara-plugin.md), the tempo and playhead synchronization will be greatly improved, removing the need for manual tempo management within Synthesizer V Studio.
 
 The "Import" function will also apply tempo and time signature markers based on the original file.
 

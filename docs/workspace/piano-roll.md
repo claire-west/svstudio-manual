@@ -33,6 +33,11 @@ The chain-link (:material-link:) icon can be toggled on to toggle both the selec
 
 ![Tool/Mode Link](../img/workspace/tool-mode-link.png)
 
+### Recenter View
+The Recenter View Button in the upper right corner of the Piano Roll can be used to quickly scroll to the nearest note in the current track or group.
+
+![Recenter View Button](../img/workspace/recenter-view.png)
+
 ## Piano Roll Main Window
 
 ![The Piano Roll](../img/workspace/piano-roll.png)
@@ -65,7 +70,7 @@ When using a non-AI singer, a blue line will closely follow the target pitch lin
 ### 5. Retake Indicator
 !!! note "Pro Feature - AI Retakes"
 
-    If using AI Retakes, indicates which take is being used for the note.
+If using AI Retakes, indicates which take is being used for the note.
 
 ### 6. Waveform Preview and Phoneme Timing
 A preview of the waveform for the note, as well as timing indicators for the individual phonemes associated with it.

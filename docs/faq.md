@@ -82,9 +82,9 @@ You can download an offline version of the manual by following the download link
 
 Keep in mind that unlike the online version, the offline manual will need to be redownloaded to see any updates or corrections. This can be done by extracting the latest zip download to the same location (overwriting the older files).
 
-A PDF version is also available, however due to the format it does not include video examples or have the benefit of an improved navigation/serach system.
+A PDF version is also available, however due to the format it does not include video examples or have the benefit of an improved navigation/search system.
 
-[Download](https://github.com/claire-west/svstudio-manual/releases/tag/latest){ .md-button }
+[Download](https://github.com/claire-west/svstudio-manual/releases/tag/latest){ .md-button target=_blank }
 
 ---
 

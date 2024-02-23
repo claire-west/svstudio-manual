@@ -39,6 +39,10 @@ There are multiple options which will affect the selected instance of a group (s
 
 The same options will appear when right-clicking an instrumental preview, but only the "delete selection" option will have any effect.
 
+### Note Preview Area (instrumental preview or ARA-synced note group)
+
+[Voice-to-MIDI Conversion](../ai-functions/voice-to-midi.md) can be accessed by right-clicking on an instrumental preview or a group that is synchronized with an audio clip in the DAW via [ARA integration](../daw-integration/ara-plugin.md).
+
 ### Note Preview Area (anywhere else)
 
 Paste a copied group to this point in the arrangement (see [Groups](groups.md)).

@@ -1,5 +1,7 @@
 # Phoneme Reference
 
+An official phoneme reference with examples can also be found on the [Dreamtonics Website](https://dreamtonics.com/svstudio-resources/).
+
 === "All Languages"
 
     ![TiredBee's Phoneme Chart](./img/Synthesizer_V_Studio_Phoneme_Refsheet_by_TiredBee.png)
@@ -214,6 +216,47 @@
     sil  silence
     br   breath
     ```
+
+=== "Spanish"
+
+    ```
+    a    vowel
+    e    vowel
+    i    vowel
+    o    vowel
+    u    vowel
+    U    semivowel
+    I    semivowel
+    y    semivowel
+    ll   semivowel
+    b    stop
+    B    stop
+    d    stop
+    D    stop
+    g    stop
+    k    stop
+    p    stop
+    t    stop
+    l    liquid
+    rr   liquid
+    r    liquid
+    m    nasal
+    n    nasal
+    N    nasal
+    J    nasal
+    f    fricative
+    s    fricative
+    C    fricative
+    sh   fricative
+    ch   affricate
+    x    fricative
+    cl   stop
+    pau  silence
+    sil  silence
+    br   breath
+    ```
+
+
 
 ---
 
