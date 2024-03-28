@@ -14,7 +14,7 @@ When Synthesizer V Studio is used as an instrument in a DAW, an additional setti
 
 If "Save Inside Host" is selected, the Synthesizer V Studio project (SVP) file will be embedded within the DAW project.
 
-To save an external SVP file separate from your DAW project, select "Save to External File" instead. If your intention is to create an SVP backup of your project, ensure you switch back to "Save Inside Host" after saving the external file.
+To save an external SVP file separate from your DAW project, select "Save to External File" instead. However, "Save Inside Host" for some reason automatically gets deactivated, and you will have to manually reactivate "Save Inside Host".
 
 ![Save Inside Host option](../img/daw-integration/save-inside-host.png)
 
