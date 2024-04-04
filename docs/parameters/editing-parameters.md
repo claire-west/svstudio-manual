@@ -90,6 +90,12 @@ Select a parameter or [vocal mode](../ai-functions/vocal-modes.md) to set it as 
 
 ![Parameter Selection](../img/parameters/parameter-selection.png)
 
+!!! warning
+
+    It is recommended to enable [Manual Pitch Mode](../advanced/pitch-mode-manual.md) for notes before adding manual changes via the Pitch Deviation parameter.
+
+    Notes that are in [Sing](../ai-functions/pitch-mode-sing.md) or [Rap](../ai-functions/pitch-mode-rap.md) pitch modes will have their base pitch re-generated if the note's context changes, which can cause your manual pitch deviations to become meaningless; the parameter curve will remain, however the base curve it was being combined with will have changed.
+
 ### Pointer Tool (point-based)
 
 All parameter curves are composed of points (sometimes referred to as "nodes") and the interpolated lines joining them.

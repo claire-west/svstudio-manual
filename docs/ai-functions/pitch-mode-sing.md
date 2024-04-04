@@ -1,4 +1,4 @@
-# Pitch Mode: Sing
+# Sing Pitch Mode
 
 "Sing" Pitch Mode (formerly "Instant Mode" or "Simple Pitch Mode") will add AI-generated pitch deviations to your notes which are modeled to produce realistic transitions, sustains, and vibrato.
 
@@ -31,6 +31,8 @@ Enabling Sing mode also allows the use of pitch [AI Retakes](ai-retakes.md).
     The Vibrato Modulation setting is only available in Synthesizer V Studio Pro.
 
 The vibrato modulation setting affects the depth (amplitude) of the vibrato portion of the generated pitch deviations. This can be further modulated over the duration of the note using the [Vibrato Envelope](../parameters/editing-parameters.md#vibrato-envelope) parameter.
+
+For even more control over vibrato and other automatically generated pitch patterns, adjust the [Expressiveness](ai-retakes.md#expressiveness) setting in the AI Retakes panel in conjunction with Vibrato Modulation.
 
 The default value of the vibrato modulation slider for the track or group is set in the Voice panel.
 

@@ -15,10 +15,10 @@ General settings that apply to the entire track or group, such as which singer t
 
 !!! note "Pro Feature - AI Retakes"
 
-    Allows the creation and selection of alternate "takes", both for pitch and timbre.
+Allows the creation and selection of alternate "takes", both for pitch and timbre.
 
 ### 3. Note Properties
-Individual settings to customize the selected note(s), such as modifying pitch transitions, vibrato, or phoneme timing.
+Individual settings to customize the selected note(s), such as toggling pitch modes or adjusting phoneme timing.
 
 ### 4. Library
 Management of note groups.

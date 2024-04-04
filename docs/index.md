@@ -14,23 +14,33 @@ The software is developed by Dreamtonics in association with AH-Software, with c
 
 ---
 
-This website serves as an unofficial user manual for Synthesizer V Studio, since the [official manual](https://synthesizerv.com/manual/) refers to the legacy version of the software from 2018.
+??? abstract "Notice"
 
-For official instructional content for SynthV Studio, check the Dreamtonics [video tutorial series](https://www.youtube.com/playlist?list=PLmYtpIFKN5iKaUlB6mRGzFJ0SGRJgRIPz).
+    Dreamtonics has released a comprehensive official user manual along with version 1.11.0 of Synthesizer V Studio. This unofficial manual has been updated to reflect version 1.11.0, but will no longer be maintained for future updates.
 
-This website is not affiliated with Dreamtonics.
+    Other unofficial resources, such as a [voice database buyer's guide](https://synthv.info/resource-voices#voices/ai) with purchase links for the various storefronts, will still be available at [synthv.info](https://synthv.info/).
 
-??? info "Update 1.10.0 now available! (click here for more information)"
+    Please visit the [Official User Manual](https://svdocs.dreamtonics.com/en/home) for all future updates and information.
 
-    Dreamtonics has released Synthesizer V Studio version 1.10.0, with pitch model improvements based on human feedback and a selection of UX improvements.
+    Thank you for your support over the 16 months that I have worked on this project. I am happy that it is no longer needed.
+
+??? info "Update 1.11.0 now available! (click for more information)"
+
+    Dreamtonics has released Synthesizer V Studio version 1.11.0, with voice-to-MIDI conversion, improved DAW integration using the ARA2 protocol, and Spanish language support.
 
     For instructions on updating the software, see [Setup and Activation](setup.md#updating-the-software).
 
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ZKwGR08kCSk" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/0ijQ9nLPGe0" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 
     Update notes from Dreamtonics:
 
-    * [Synthesizer V Studio 1.10.0 Final Update](https://dreamtonics.com/synthesizer-v-studio-1-10-0-final-update/)
+    * [Synthesizer V Studio 1.10.0 Final Update](https://dreamtonics.com/synthesizer-v-studio-1-11-0-final-update/)
+
+    Official documentation for the new ARA plugin:
+
+    * [Synthesizer V Studio ARA Plugin Guide](https://dreamtonics.com/synthv/help-ara-en)
+
+This website is not affiliated with Dreamtonics.
 
 ---
 

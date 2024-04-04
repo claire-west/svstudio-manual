@@ -1,10 +1,10 @@
-# Scripting
+# User Scripts
 
 !!! note "Pro Feature"
 
     The features described below require Synthesizer V Studio Pro.
 
-Synthesizer V Studio Pro supports scripting with JavaScript and LUA. Users can augment the features of the editor with their own scripts.
+Synthesizer V Studio Pro supports scripting with JavaScript and LUA. User scripts are capable of augmenting the core functions of the editor and automating complex or tedious tasks.
 
 ## Using Scripts
 
@@ -85,12 +85,14 @@ In version 1.9.0b2 some additional bindings were added to the `Note` class to en
 
 `note.setPitchAutoMode(integer)`
 
-`note.getLanguageOverride()` returns a string representing the note's selected language ("japanese", "english", "mandarin", "cantonese").
+`note.getLanguageOverride()` returns a string representing the note's selected language ("japanese", "english", "mandarin", "cantonese", "spanish").
 
 `note.setLanguageOverride(string)`
 
 
 Additionally, the following new properties are present on the attributes object:
+
+`strength`: array of numbers for phoneme strength scaling (0.2 to 1.8)
 
 `rIntonation`: `number` rap intonation (-0.5 to 0.5)
 

@@ -35,9 +35,9 @@ When enabled (light) uses "pause" behavior, where the playhead will remain at th
 ### 6. Metronome
 !!! note "Pro Feature - MIDI Recording"
 
-    Enables or disables a metronome to be played during MIDI recording.
+Enables or disables a metronome to be played during MIDI recording.
 
-    Normally the metronome sound will only play during MIDI recording, but it can be made audible during regular playback with the "Disable metronome during playback" option in the Settings panel.
+By default, the metronome sound will only play during MIDI recording, but it can be made audible during regular playback with the "Disable metronome during playback" option in the Settings panel.
 
 ---
 
