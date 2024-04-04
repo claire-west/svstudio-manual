@@ -14,7 +14,7 @@ The software is developed by Dreamtonics in association with AH-Software, with c
 
 ---
 
-??? abstract "Notice"
+!!! abstract "Notice"
 
     Dreamtonics has released a comprehensive official user manual along with version 1.11.0 of Synthesizer V Studio. This unofficial manual has been updated to reflect version 1.11.0, but will no longer be maintained for future updates.
 
