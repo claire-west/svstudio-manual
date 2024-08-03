@@ -1,3 +1,7 @@
+--8<--
+notice.md
+--8<--
+
 # Deep ARA Integration and ARA Bridge
 
 !!! note "Pro Feature"

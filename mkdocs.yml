@@ -118,6 +118,7 @@ markdown_extensions:
   - md_in_html
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.snippets
   - pymdownx.keys:
       key_map:
         mouse-wheel: "Mouse wheel"

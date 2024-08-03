@@ -1,3 +1,7 @@
+--8<--
+notice.md
+--8<--
+
 # Saving the Audio
 
 The audio output can be exported to a wav file via the Render panel, accessible from the launch bar.

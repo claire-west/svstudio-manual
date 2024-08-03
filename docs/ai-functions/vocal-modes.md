@@ -1,3 +1,7 @@
+--8<--
+notice.md
+--8<--
+
 # Vocal Modes
 
 !!! note "Pro Feature"

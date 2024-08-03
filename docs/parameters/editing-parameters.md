@@ -1,3 +1,7 @@
+--8<--
+notice.md
+--8<--
+
 # Editing Parameters
 
 Parameters offer detailed manual control over various aspects of a vocal sequence.

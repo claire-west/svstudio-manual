@@ -1,3 +1,7 @@
+--8<--
+notice.md
+--8<--
+
 # Batch Lyric Input
 
 Enter lyrics for multiple notes at once by selecting them and using the "Insert Lyrics..." option under the "Modify" top menu, or pressing ++ctrl+l++.

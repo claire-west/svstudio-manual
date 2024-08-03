@@ -1,3 +1,7 @@
+--8<--
+notice.md
+--8<--
+
 # Alternate Phonemes and Phoneme Strength
 
 !!! note "Pro Feature"

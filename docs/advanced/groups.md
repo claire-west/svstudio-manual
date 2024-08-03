@@ -1,3 +1,7 @@
+--8<--
+notice.md
+--8<--
+
 # Groups
 
 When your song has multiple phrases that are the same, groups can help avoid repeating the same work multiple times.

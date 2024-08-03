@@ -1,3 +1,7 @@
+--8<--
+notice.md
+--8<--
+
 # The Parameters Panel
 
 ![Parameters Panel](../img/parameters/parameters-panel.png)

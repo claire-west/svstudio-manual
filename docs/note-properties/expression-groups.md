@@ -1,3 +1,7 @@
+--8<--
+notice.md
+--8<--
+
 # Expression Groups
 
 The Expression Group dropdown can be found at the bottom of the Note Properties panel.

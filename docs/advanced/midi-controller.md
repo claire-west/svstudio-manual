@@ -1,3 +1,7 @@
+--8<--
+notice.md
+--8<--
+
 # MIDI Controller Support
 
 !!! note "Pro Feature"

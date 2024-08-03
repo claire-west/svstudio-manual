@@ -1,3 +1,7 @@
+--8<--
+notice.md
+--8<--
+
 # User Dictionaries
 
 Dictionaries can be used to customize word-to-phoneme conversion.

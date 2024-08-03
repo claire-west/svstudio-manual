@@ -1,3 +1,7 @@
+--8<--
+notice.md
+--8<--
+
 # The Piano Roll
 
 ## Piano Roll Toolbar

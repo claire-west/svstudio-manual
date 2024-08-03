@@ -1,3 +1,7 @@
+--8<--
+notice.md
+--8<--
+
 # Pitch Transition and Vibrato
 
 Transitions and vibrato are used to create a more natural flow between notes which does not adhere to the notes' exact pitch.

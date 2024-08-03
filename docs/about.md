@@ -3,6 +3,10 @@ hide:
   - feedback
 ---
 
+--8<--
+notice.md
+--8<--
+
 # About
 
 This unofficial user manual was created to provide an up-to-date set of documentation for Synthesizer V Studio. It was created voluntarily and without compensation by users of the software and is not affiliated with or officially endorsed by Dreamtonics.

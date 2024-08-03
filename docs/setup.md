@@ -1,3 +1,7 @@
+--8<--
+notice.md
+--8<--
+
 # Setup and Activation
 
 To begin using Synthesizer V Studio, you must install the application (Basic or Pro edition) and at least one voice database. For a list of feature differences between editions, check the store page for [Synthesizer V Studio Pro](https://store.dreamtonics.com/product/editor-svstudio-pro/){ target=_blank } on the Dreamtonics Store.

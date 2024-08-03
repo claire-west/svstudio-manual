@@ -1,3 +1,7 @@
+--8<--
+notice.md
+--8<--
+
 # The Top Menus in Detail
 
 This page covers any information about the top menus that does not fit on a different page, or links to the appropriate page for the relevant feature.

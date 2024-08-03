@@ -1,3 +1,7 @@
+--8<--
+notice.md
+--8<--
+
 # User Scripts
 
 !!! note "Pro Feature"

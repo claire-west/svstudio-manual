@@ -4,6 +4,10 @@ hide:
   - feedback
 ---
 
+--8<--
+notice.md
+--8<--
+
 # Synthesizer V Studio
 
 <!-- ![Synthesizer V Logo](/img/synthesizer-v.png) -->
@@ -18,11 +22,11 @@ The software is developed by Dreamtonics in association with AH-Software, with c
 
     Dreamtonics has released a comprehensive official user manual along with version 1.11.0 of Synthesizer V Studio. This unofficial manual has been updated to reflect version 1.11.0, but will no longer be maintained for future updates.
 
-    Other unofficial resources, such as a [voice database buyer's guide](https://synthv.info/resource-voices#voices/ai) with purchase links for the various storefronts, will still be available at [synthv.info](https://synthv.info/).
+    Other unofficial resources, such as a [voice database buyer's guide](https://synthv.info/resource-voices#voices/ai){ target=_blank } with purchase links for the various storefronts, will still be available at [synthv.info](https://synthv.info/){ target=_blank }.
 
-    Please visit the [Official User Manual](https://svdocs.dreamtonics.com/en/home) for all future updates and information.
+    Please visit the [Official User Manual](https://svdocs.dreamtonics.com/en/home){ target=_blank } for all future updates and information.
 
-    Thank you for your support over the 16 months that I have worked on this project. I am happy that it is no longer needed.
+    Thank you for your support over the 16 months that I have worked on this project.
 
 ??? info "Update 1.11.0 now available! (click for more information)"
 
@@ -34,11 +38,11 @@ The software is developed by Dreamtonics in association with AH-Software, with c
 
     Update notes from Dreamtonics:
 
-    * [Synthesizer V Studio 1.10.0 Final Update](https://dreamtonics.com/synthesizer-v-studio-1-11-0-final-update/)
+    * [Synthesizer V Studio 1.10.0 Final Update](https://dreamtonics.com/synthesizer-v-studio-1-11-0-final-update/){ target=_blank }
 
     Official documentation for the new ARA plugin:
 
-    * [Synthesizer V Studio ARA Plugin Guide](https://dreamtonics.com/synthv/help-ara-en)
+    * [Synthesizer V Studio ARA Plugin Guide](https://dreamtonics.com/synthv/help-ara-en){ target=_blank }
 
 This website is not affiliated with Dreamtonics.
 

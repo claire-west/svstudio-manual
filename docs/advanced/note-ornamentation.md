@@ -1,3 +1,7 @@
+--8<--
+notice.md
+--8<--
+
 # Note Ornamentation
 
 !!! note "Pro Feature"

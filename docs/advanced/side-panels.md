@@ -1,3 +1,7 @@
+--8<--
+notice.md
+--8<--
+
 # The Side Panels in Detail
 
 This page covers any information about the side panels that does not fit on a different page, or links to the appropriate page for the relevant feature.

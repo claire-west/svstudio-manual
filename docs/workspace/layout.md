@@ -1,3 +1,7 @@
+--8<--
+notice.md
+--8<--
+
 # The Workspace
 
 Shown below is the workspace for a typical project with an instrumental track.

@@ -1,3 +1,7 @@
+--8<--
+notice.md
+--8<--
+
 # Direct Pitch Editing
 
 The [Pitch Deviation](editing-parameters.md) parameter can be edited directly in the Piano Roll.

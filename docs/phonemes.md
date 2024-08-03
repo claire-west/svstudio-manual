@@ -1,3 +1,7 @@
+--8<--
+notice.md
+--8<--
+
 # Phoneme Reference
 
 An official phoneme reference with examples can also be found on the [Dreamtonics Website](https://dreamtonics.com/svstudio-resources/).

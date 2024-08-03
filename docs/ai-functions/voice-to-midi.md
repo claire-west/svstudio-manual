@@ -1,3 +1,7 @@
+--8<--
+notice.md
+--8<--
+
 # Voice-to-MIDI Conversion
 
 !!! note "Pro Feature"

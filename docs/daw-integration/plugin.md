@@ -1,3 +1,7 @@
+--8<--
+notice.md
+--8<--
+
 # VSTi/AU DAW Integration
 
 !!! note "Pro Feature"
@@ -8,7 +12,7 @@ You can use Synthesizer V Studio Pro in a DAW (digital audio workstation) softwa
 
 Refer to your DAW's user manual for instructions on adding a plugin to your DAW and routing plugin output to the mixer. The plugin will be listed in your DAW as "Synthesizer V Studio Plugin" by Dreamtonics Co., Ltd.
 
-DAWs that support the ARA2 protocol will have [enhanced integration with Synthesizer V Studio](ara-plugin.md).
+DAWs that support the ARA2 protocol will have access to [enhanced integration with Synthesizer V Studio](ara-plugin.md).
 
 !!! warning
 

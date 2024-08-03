@@ -1,3 +1,7 @@
+--8<--
+notice.md
+--8<--
+
 # The Side Panels
 
 Many different panels can be accessed from the menu at the side of the application window. This panel can be moved to either the left or right side of the layout by clicking and dragging the logo at the top.

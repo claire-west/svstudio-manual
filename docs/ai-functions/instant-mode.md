@@ -1,3 +1,7 @@
+--8<--
+notice.md
+--8<--
+
 # Instant Mode
 
 !!! danger "Outdated Information"

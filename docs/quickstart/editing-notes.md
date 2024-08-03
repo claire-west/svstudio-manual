@@ -1,3 +1,7 @@
+--8<--
+notice.md
+--8<--
+
 # Editing Notes
 
 Note editing varies based on the selected tool. Ensure you are in Note Edit Mode before trying to modify notes.

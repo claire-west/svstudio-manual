@@ -1,3 +1,7 @@
+--8<--
+notice.md
+--8<--
+
 # AI Retakes
 
 !!! note "Pro Feature"

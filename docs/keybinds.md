@@ -1,3 +1,7 @@
+--8<--
+notice.md
+--8<--
+
 # Default Keybinds
 
 Most keybinds in Synthesizer V Studio map directly to one of the functions accessible via the menus at the top of the application, and are labelled according to their location. Since [user scripts](advanced/scripting.md) also appear in the top menus, this means many custom functions can also be assigned a hotkey.

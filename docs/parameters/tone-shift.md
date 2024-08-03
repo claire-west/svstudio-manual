@@ -1,3 +1,7 @@
+--8<--
+notice.md
+--8<--
+
 # Tone Shift
 
 !!! note "Pro Feature"

@@ -1,3 +1,7 @@
+--8<--
+notice.md
+--8<--
+
 # Managing Tracks
 
 Tracks are displayed in the [arrangement](../workspace/arrangement.md) panel.

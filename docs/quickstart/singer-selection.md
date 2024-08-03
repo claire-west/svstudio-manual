@@ -1,3 +1,7 @@
+--8<--
+notice.md
+--8<--
+
 # Singer Selection
 
 By default no singer will be selected for new tracks.

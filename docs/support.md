@@ -1,3 +1,7 @@
+--8<--
+notice.md
+--8<--
+
 # Help & Support
 
 For questions about operation of the software, use the search tool at the top of this website or check the [official forums](https://forum.synthesizerv.com/search) for existing information. If you cannot find an answer, consider creating a new forum topic.

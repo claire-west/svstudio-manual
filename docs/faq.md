@@ -1,3 +1,7 @@
+--8<--
+notice.md
+--8<--
+
 # Frequently Asked Questions
 
 Below are common questions not answered elsewhere in the documentation.

@@ -1,3 +1,7 @@
+--8<--
+notice.md
+--8<--
+
 # Manual Pitch Mode
 
 Experienced users will often want the most manual control over the vocals, without influence from AI-generated behaviors.

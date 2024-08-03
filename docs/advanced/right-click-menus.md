@@ -1,3 +1,7 @@
+--8<--
+notice.md
+--8<--
+
 # The Context (Right-Click) Menus in Detail
 
 Contextual menus will appear when right clicking various elements of the user interface. The options will be different based on the type of UI element being clicked.

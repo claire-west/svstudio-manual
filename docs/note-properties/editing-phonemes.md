@@ -1,3 +1,7 @@
+--8<--
+notice.md
+--8<--
+
 # Editing Phonemes
 
 Phonemes are the individual components that lyrics and syllables are made up of. Each phoneme represents a specific sound that Synthesizer V Studio is capable of producing (along with transition sounds between each phoneme).

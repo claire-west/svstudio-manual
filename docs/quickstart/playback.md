@@ -1,3 +1,7 @@
+--8<--
+notice.md
+--8<--
+
 # Playback
 
 ![Playback Controls](../img/quickstart/playback-controls.png)

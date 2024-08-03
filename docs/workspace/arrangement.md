@@ -1,3 +1,7 @@
+--8<--
+notice.md
+--8<--
+
 # The Arrangement Panel
 
 ![The Arrangement Panel](../img/workspace/arrangement.png)

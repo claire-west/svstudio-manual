@@ -1,3 +1,7 @@
+--8<--
+notice.md
+--8<--
+
 # Entering Lyrics
 
 ![Note Lyrics and Special Symbols](../img/quickstart/note-lyrics.png)

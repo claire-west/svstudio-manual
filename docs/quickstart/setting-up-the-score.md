@@ -1,3 +1,7 @@
+--8<--
+notice.md
+--8<--
+
 # Setting Up the Score
 
 The time axis displays time signature and tempo markers above the arrangement and piano roll.

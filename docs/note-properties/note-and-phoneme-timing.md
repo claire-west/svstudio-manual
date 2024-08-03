@@ -1,3 +1,7 @@
+--8<--
+notice.md
+--8<--
+
 # Note and Phoneme Timing
 
 Note Timing properties allow you to adjust the distribution or duration of phonemes within a note, or entire notes relative to their neighbors.

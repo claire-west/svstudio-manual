@@ -1,3 +1,7 @@
+--8<--
+notice.md
+--8<--
+
 # Auto Pitch Tuning
 
 Auto pitch tuning is a function found under the "Auto-Process" top menu. The "(Customized Style)" option offers additional vibrato and overshoot sliders when using the Pro edition.
